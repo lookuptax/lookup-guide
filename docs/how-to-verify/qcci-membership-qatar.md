@@ -12,7 +12,7 @@ tags :
 
 ## QCCI Membership number check on Qatar Commercial and Industrial Directory
 
-QCCI Membership search option is available for free on the Qatar Commercial and Industrial Directory. You can access the QCCI Membership search [here](https://qatarcid.com/?lang=en). You can also search a business by its name or CR number, Geolocation or merbership number in this registry. 
+QCCI Membership search option is available for free on the Qatar Commercial and Industrial Directory. You can access the QCCI Membership search [here](https://qatarcid.com/?lang=en). You can also search a business by its name, CR number, Geolocation or merbership number in this registry. 
 
 
 Example QCCI Membership no:  00-162, 01-06057-00

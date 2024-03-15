@@ -14,7 +14,7 @@ tags :
 
 ## CR number check on Qatar Commercial and Industrial Directory
 
-CR number search option is available for free on the Qatar Commercial and Industrial Directory. You can access the CR search [here](https://qatarcid.com/?lang=en). You can also search a business by its name or CR number, Geolocation or merbership number in this registry. 
+CR number search option is available for free on the Qatar Commercial and Industrial Directory. You can access the CR search [here](https://qatarcid.com/?lang=en). You can also search a business by its name, CR number, Geolocation or merbership number in this registry. 
 
 
 Example CR no:  00011990, 00024169
