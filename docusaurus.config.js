@@ -84,7 +84,6 @@ const config = {
           content: "VAT APIs, Tax guide, Tax invoice, Sales tax",
         },
       ],
-      metaRobotsNoindex: "/docs/tags/",
       navbar: {
         title: "Lookup Tax",
         logo: {
