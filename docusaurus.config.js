@@ -76,6 +76,7 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+   
     ({
       metadata: [
         {
@@ -83,6 +84,7 @@ const config = {
           content: "VAT APIs, Tax guide, Tax invoice, Sales tax",
         },
       ],
+      metaRobotsNoindex: "/docs/tags/",
       navbar: {
         title: "Lookup Tax",
         logo: {
