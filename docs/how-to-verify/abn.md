@@ -3,7 +3,6 @@ id: abn-verification
 title: How to verify Australia Business Number?
 keywords: [Verify ABN, Australia, find ABN, Check ABN]
 sidebar_label: Australia Business Number
-sidebar_class_name: hidden
 description: Find out how to verify Australia Business Number. Use Lookuptax for hassle-free validation of Australia Business Number in Austalia.
 tags : 
   - Australia
