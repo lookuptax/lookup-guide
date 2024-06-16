@@ -3,7 +3,6 @@ id: curp-verification-mexico
 title: How to verify CURP Number in Mexico?
 keywords: [Verify CURP Mexico, Mexico, find CURP Mexico, Check CURP Mexico, GST number]
 sidebar_label: Mexico CURP Number
-sidebar_class_name: hidden
 description: Find out how to verify CURP Number in Mexico. Use Lookuptax for hassle-free validation of CURP Number in Mexico.
 tags : 
   - CURP
