@@ -11,7 +11,7 @@ tags :
 
 ## CURP check on gob.mx website
 
-CURP number search option is available for free on the Mexican government website gob.mx . You can access the CURP search [here]https://www.gob.mx/curp/). You can search an person using CURP or using the personal details. 
+CURP number search option is available for free on the Mexican government website gob.mx . You can access the CURP search [here](https://www.gob.mx/curp/). You can search an person using CURP or using the personal details. 
 
 Example:LOGJ070423HDFPTSA0 , GUMB690113MDFTLT08
 
