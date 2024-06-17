@@ -3,7 +3,6 @@ id: australia-company-number-format
 title: Australia Company Number Format
 keywords: [format, ACN, Australia, Find ACN]
 sidebar_label: Australia Company Number
-sidebar_class_name: hidden
 description: Find about Australia Company Number format. Use Lookuptax for hassle-free validation of Australia Company Number in Austalia.
 tags : 
   - Australia
