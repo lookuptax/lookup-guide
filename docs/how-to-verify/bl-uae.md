@@ -3,7 +3,6 @@ id: business-license-verification-uae
 title: How to verify BL Number in UAE?
 keywords: [Verify BL UAE, UAE, find BL UAE, Check BL UAE, BL number, Business License, UAE, Dubai]
 sidebar_label: UAE BL Number
-sidebar_class_name: hidden
 description: Find out how to verify BL Number in UAE. Use Lookuptax for hassle-free validation of BL Number in UAE.
 tags : 
   - BL
