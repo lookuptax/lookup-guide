@@ -11,7 +11,7 @@ tags :
 
 ## DIC verification on MOJE DANĚ website 
 
-You can check the validity of DIC on the Czech MOJE DANĚ website for free. You can access the DIC lookup service [here](https://adisspr.mfcr.cz/adis/jepo/epo/dpr/apl_ramce.htm?R=/cgi-bin/adis/idph/int_dp_prij.cgi?ZPRAC=FDPHI2&poc_dic=2&OK=Zobraz). Using this tool you can search for a company by the DIC number. You also have an option to serch multiple DIC's at a time
+You can check the validity of DIC on the Czech MOJE DANĚ website for free. You can access the DIC lookup service [here](https://adisspr.mfcr.cz/adis/jepo/epo/dpr/apl_ramce.htm?R=/cgi-bin/adis/idph/int_dp_prij.cgi?ZPRAC=FDPHI2&poc_dic=2&OK=Zobraz). Using this tool you can search for a company by the DIC number. You also have an option to search multiple DIC's at a time
 
 
 
