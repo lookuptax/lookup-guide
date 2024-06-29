@@ -3,7 +3,6 @@ id: gst-verification-canada
 title: How to verify GST in Canada?
 keywords: [Verify GST, Canada, find GST, Check GST, HST]
 sidebar_label: GST/HST Canada
-sidebar_class_name: hidden
 description: Find out how to verify GST & HST in Canada. Use Lookuptax for hassle-free validation of GST in Canada.
 tags : 
   - Canada

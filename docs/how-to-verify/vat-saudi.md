@@ -3,7 +3,6 @@ id: vat-number-verification-saudi-arabia
 title: How to verify VAT number in Saudi Arabia?
 keywords: [Verify VAT number Saudi Arabia, Saudi Arabia, find VAT number Saudi Arabia, Check VAT number Saudi Arabia, VAT number number, Business License, Saudi Arabia, Dubai]
 sidebar_label: Saudi Arabia VAT Number
-sidebar_class_name: hidden
 description: Find out how to verify VAT number Number in Saudi Arabia. Use Lookuptax for hassle-free validation of VAT number Number in Saudi Arabia.
 tags : 
   - VAT number

@@ -3,7 +3,6 @@ id: nif-verification-spain
 title: How to verify NIF Number in Spain?
 keywords: [Verify NIF Spain, Spain, find NIF Spain, Check NIF Spain, NIF number]
 sidebar_label: Spain NIF Number
-sidebar_class_name: hidden
 description: Find out how to verify NIF Number in Spain. Use Lookuptax for hassle-free validation of NIF Number in Spain.
 tags : 
   - NIF

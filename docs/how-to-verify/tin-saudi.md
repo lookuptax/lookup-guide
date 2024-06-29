@@ -3,7 +3,6 @@ id: tin-zakat-verification-saudi-arabia
 title: How to verify TIN (zakat) in Saudi Arabia?
 keywords: [Verify TIN Saudi Arabia, Saudi Arabia, find TIN Saudi Arabia, Check TIN Saudi Arabia, TIN number, Business License, Saudi Arabia, Dubai]
 sidebar_label: Saudi Arabia TIN Number
-sidebar_class_name: hidden
 description: Find out how to verify TIN Number in Saudi Arabia. Use Lookuptax for hassle-free validation of TIN Number in Saudi Arabia.
 tags : 
   - TIN

@@ -3,7 +3,6 @@ id: SIRET-verification-france
 title: How to verify SIRET in France?
 keywords: [Verify SIRET, France, find SIRET, Check SIRET]
 sidebar_label: SIRET France
-sidebar_class_name: hidden
 description: Find out how to verify SIRET in France. Use Lookuptax for hassle-free validation of SIRET in France.
 tags : 
   - France

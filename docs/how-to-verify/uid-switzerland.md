@@ -3,7 +3,6 @@ id: uid-verification-switzerland
 title: How to verify UID Number in Switzerland?
 keywords: [Verify UID Switzerland, Switzerland, find UID Switzerland, Check UID Switzerland, GST number]
 sidebar_label: Switzerland UID Number
-sidebar_class_name: hidden
 description: Find out how to verify UID Number in Switzerland. Use Lookuptax for hassle-free validation of UID Number in Switzerland.
 tags : 
   - UID

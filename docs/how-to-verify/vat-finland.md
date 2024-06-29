@@ -3,7 +3,6 @@ id: vat-verification-finland
 title: How to verify VAT number in Finland?
 keywords: [Verify VAT, Finland, find VAT, Check VAT]
 sidebar_label: VAT Finland
-sidebar_class_name: hidden
 description: Find out how to verify VAT in Finland. Use Lookuptax for hassle-free validation of VAT in Finland.
 tags : 
   - Finland

@@ -3,7 +3,6 @@ id: vatin-verification-onam
 title: How to verify VATIN in Oman?
 keywords: [Verify VATIN, Oman, find VATIN, Check VATIN]
 sidebar_label: VATIN Oman
-sidebar_class_name: hidden
 description: Find out how to verify VATIN in Oman. Use Lookuptax for hassle-free validation of VATIN in Oman.
 tags : 
   - Oman

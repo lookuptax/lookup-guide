@@ -3,7 +3,6 @@ id: dic-verification-czech
 title: How to verify DIC in Czech?
 keywords: [Verify DIC, Czech, find DIC, Check DIC]
 sidebar_label: DIC Czech
-sidebar_class_name: hidden
 description: Find out how to verify DIC in Czech. Use Lookuptax for hassle-free validation of DIC in Czech.
 tags : 
   - Czech

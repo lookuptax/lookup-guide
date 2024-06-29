@@ -3,7 +3,6 @@ id: australia-drivers-License-format
 title: Australia Drivers License Format
 keywords: [format, Drivers License, Australia, Find Drivers License]
 sidebar_label: Australia Drivers License
-sidebar_class_name: hidden
 description: Find about Australia Drivers License format. Use Lookuptax for hassle-free validation of Australia Drivers License in Austalia.
 tags : 
   - Australia

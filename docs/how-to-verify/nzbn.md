@@ -3,7 +3,6 @@ id: nzbn-verification
 title: How to verify New Zealand Business Number(NZBN)?
 keywords: [Verify NZBN, New Zealand, find NZBN, Check ABN]
 sidebar_label: New Zealand Business Number
-sidebar_class_name: hidden
 description: Find out how to verify NZBN. Use Lookuptax for hassle-free validation of NZBN in New Zealand.
 tags : 
   - New Zealand

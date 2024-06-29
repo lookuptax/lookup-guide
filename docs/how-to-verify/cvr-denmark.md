@@ -3,7 +3,6 @@ id: find-cvr-denmark
 title: How to verify CVR in Denmark?
 keywords: [Verify CVR Denmark, Denmark, find CVR Denmark, Check CVR Denmark, CVR number,virkcvr ]
 sidebar_label: Denmark CVR Number
-sidebar_class_name: hidden
 description: Find out how to verify CVR Number in Denmark. Use Lookuptax for hassle-free validation of CVR Number in Denmark.
 tags : 
   - CVR

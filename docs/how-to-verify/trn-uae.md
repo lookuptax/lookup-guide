@@ -3,7 +3,6 @@ id: trn-verification-uae
 title: How to verify TRN Number in UAE?
 keywords: [Verify TRN UAE, UAE, find TRN UAE, Check TRN UAE, TRN number, TRN, UAE, Dubai]
 sidebar_label: UAE TRN 
-sidebar_class_name: hidden
 description: Find out how to verify TRN Number in UAE. Use Lookuptax for hassle-free validation of TRN Number in UAE.
 tags : 
   - TRN

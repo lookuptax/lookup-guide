@@ -3,7 +3,6 @@ id: PST-verification-canada
 title: How to verify PST in Canada?
 keywords: [Verify PST, Canada, find PST, Check PST]
 sidebar_label: PST Canada
-sidebar_class_name: hidden
 description: Find out how to verify PST in Canada. Use Lookuptax for hassle-free validation of PST in Canada.
 tags : 
   - Canada

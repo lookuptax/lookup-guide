@@ -3,7 +3,6 @@ id: tax-card-verification-onam
 title: How to verify tax card in Oman?
 keywords: [Verify VATIN, Oman, find VATIN, Check VATIN]
 sidebar_label: Tax Card Number -  Oman
-sidebar_class_name: hidden
 description: Find out how to verify Tax card number in Oman. Use Lookuptax for hassle-free validation of tax card number in Oman.
 tags : 
   - Oman

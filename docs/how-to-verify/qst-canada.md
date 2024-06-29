@@ -3,7 +3,6 @@ id: qst-verification-canada
 title: How to verify QST in Canada?
 keywords: [Verify QST, Canada, find QST, Check QST]
 sidebar_label: QST Canada
-sidebar_class_name: hidden
 description: Find out how to verify QST in Canada. Use Lookuptax for hassle-free validation of QST in Canada.
 tags : 
   - Canada

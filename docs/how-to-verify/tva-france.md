@@ -3,7 +3,6 @@ id: tva-verification-france
 title: How to verify TVA(VAT) in France?
 keywords: [Verify TVA, France, find TVA, Check TVA, VAT]
 sidebar_label: TVA France
-sidebar_class_name: hidden
 description: Find out how to verify TVA in France. Use Lookuptax for hassle-free validation of TVA in France.
 tags : 
   - France

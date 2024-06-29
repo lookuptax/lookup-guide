@@ -3,7 +3,6 @@ id: siren-verification-france
 title: How to verify SIREN in France?
 keywords: [Verify SIREN, France, find SIREN, Check SIREN]
 sidebar_label: SIREN France
-sidebar_class_name: hidden
 description: Find out how to verify SIREN in France. Use Lookuptax for hassle-free validation of SIREN in France.
 tags : 
   - France

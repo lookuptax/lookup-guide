@@ -3,7 +3,6 @@ id: vat-verification-belgium
 title: How to verify VAT number in Belgium?
 keywords: [Verify VAT, Belgium, find VAT, Check VAT]
 sidebar_label: VAT Belgium
-sidebar_class_name: hidden
 description: Find out how to verify VAT in Belgium. Use Lookuptax for hassle-free validation of VAT in Belgium.
 tags : 
   - Belgium

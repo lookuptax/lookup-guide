@@ -3,7 +3,6 @@ id: cr-verification-qatar
 title: How to verify CR Number in Qatar?
 keywords: [Verify CR Qatar, Qatar, find CR Qatar, Check CR Qatar, CR number, Business License, Qatar, Dubai]
 sidebar_label: Qatar CR Number
-sidebar_class_name: hidden
 description: Find out how to verify CR Number in Qatar. Use Lookuptax for hassle-free validation of CR Number in Qatar.
 tags : 
   - CR

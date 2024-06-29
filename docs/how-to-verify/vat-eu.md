@@ -3,7 +3,6 @@ id: vat-verification-eu-vies
 title: How to verify VAT Number in EU?
 keywords: [Verify VAT EU, EU, find VAT EU, Check VAT EU]
 sidebar_label: EU VAT Number
-sidebar_class_name: hidden
 description: Find out how to verify VAT Number in EU. Use Lookuptax for hassle-free validation of VAT Number in EU.
 tags : 
   - VIES

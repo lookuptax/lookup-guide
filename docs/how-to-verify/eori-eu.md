@@ -3,7 +3,6 @@ id: eori-verification-eu-vies
 title: How to verify EORI Number in EU?
 keywords: [Verify EORI EU, EU, find EORI EU, Check EORI EU]
 sidebar_label: EU EORI Number
-sidebar_class_name: hidden
 description: Find out how to verify EORI Number in EU. Use Lookuptax for hassle-free validation of VAT Number in EU.
 tags : 
   - VIES

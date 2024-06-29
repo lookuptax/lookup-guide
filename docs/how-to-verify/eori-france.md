@@ -3,7 +3,6 @@ id: eori-verification-france
 title: How to verify EORI Number in France?
 keywords: [Verify EORI France, France, find EORI France, Check EORI France]
 sidebar_label: France EORI Number
-sidebar_class_name: hidden
 description: Find out how to verify EORI Number in France. Use Lookuptax for hassle-free validation of VAT Number in France.
 tags : 
   - EORI

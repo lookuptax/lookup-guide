@@ -3,7 +3,6 @@ id: cnpj-verification-brazil
 title: How to verify CNPJ in Brazil?
 keywords: [Verify CNPJ, Brazil, find CNPJ, Check CNPJ]
 sidebar_label: CNPJ Brazil
-sidebar_class_name: hidden
 description: Find out how to verify CNPJ in Brazil. Use Lookuptax for hassle-free validation of CNPJ in Brazil.
 tags : 
   - Brazil

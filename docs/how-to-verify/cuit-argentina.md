@@ -3,7 +3,6 @@ id: cuit-verification-argentina
 title: How to verify CUIT Number in Argentina?
 keywords: [Verify CUIT Argentina, Argentina, find CUIT Argentina, Check CUIT Argentina, CUIT number]
 sidebar_label: Argentina CUIT Number
-sidebar_class_name: hidden
 description: Find out how to verify CUIT Number in Argentina. Use Lookuptax for hassle-free validation of CUIT Number in Argentina.
 tags : 
   - CUIT

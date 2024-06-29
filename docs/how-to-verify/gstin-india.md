@@ -3,7 +3,6 @@ id: gstin-verification-india
 title: How to verify GSTIN Number in India?
 keywords: [Verify GSTIN India, India, find GSTIN India, Check GSTIN India, GST number]
 sidebar_label: India GSTIN Number
-sidebar_class_name: hidden
 description: Find out how to verify GSTIN Number in India. Use Lookuptax for hassle-free validation of GSTIN Number in India.
 tags : 
   - GSTIN

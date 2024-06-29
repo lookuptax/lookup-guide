@@ -3,7 +3,6 @@ id: find-uen-singapore
 title: How to verify UEN in Singapore?
 keywords: [Verify UEN Singapore, Singapore, find UEN Singapore, Check UEN Singapore, UEN number,virkUEN ]
 sidebar_label: Singapore UEN Number
-sidebar_class_name: hidden
 description: Find out how to verify UEN Number in Singapore. Use Lookuptax for hassle-free validation of UEN Number in Singapore.
 tags : 
   - UEN

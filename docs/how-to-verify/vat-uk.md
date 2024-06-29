@@ -3,7 +3,6 @@ id: vat-verification-uk
 title: How to verify VAT Number in UK?
 keywords: [Verify VAT UK, UK, find VAT UK, Check VAT UK, United Kingdom]
 sidebar_label: UK VAT Number
-sidebar_class_name: hidden
 description: Find out how to verify VAT Number in UK. Use Lookuptax for hassle-free validation of VAT Number in UK.
 tags : 
   - United Kingdom

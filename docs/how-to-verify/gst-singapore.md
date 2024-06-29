@@ -3,7 +3,6 @@ id: find-gst-singapore
 title: How to verify GST Reg No in Singapore?
 keywords: [Verify GST Reg No Singapore, Singapore, find GST Reg No Singapore, Check GST Reg No Singapore, GST Reg number,GST Reg No ]
 sidebar_label: Singapore GST Reg No Number
-sidebar_class_name: hidden
 description: Find out how to verify GST Reg Number in Singapore. Use Lookuptax for hassle-free validation of GST Reg Number in Singapore.
 tags : 
   - GST Reg No

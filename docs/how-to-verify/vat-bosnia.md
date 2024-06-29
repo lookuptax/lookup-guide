@@ -3,7 +3,6 @@ id: vat-verification-Bosnia
 title: How to verify VAT in Bosnia?
 keywords: [Verify VAT, Bosnia, find VAT, Check VAT, JIB]
 sidebar_label: VAT Bosnia
-sidebar_class_name: hidden
 description: Find out how to verify VAT in Bosnia. Use Lookuptax for hassle-free validation of VAT in Bosnia.
 tags : 
   - Bosnia

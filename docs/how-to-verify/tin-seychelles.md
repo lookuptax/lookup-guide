@@ -3,7 +3,6 @@ id: tin-verification-seychelles
 title: How to verify TIN Number in Seychelles?
 keywords: [Verify TIN Seychelles, Seychelles, find TIN Seychelles, Check TIN Seychelles, TIN number]
 sidebar_label: Seychelles TIN Number
-sidebar_class_name: hidden
 description: Find out how to verify TIN Number in Seychelles. Use Lookuptax for hassle-free validation of TIN Number in Seychelles.
 tags : 
   - TIN
