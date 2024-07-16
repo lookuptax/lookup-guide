@@ -1,5 +1,5 @@
 ---
-id: bin-verification-Bangladesh
+id: bin-verification-bangladesh
 title: How to verify BIN Number in Bangladesh?
 keywords: [Verify BIN Bangladesh, Bangladesh, find BIN Bangladesh, Check BIN Bangladesh, BIN number]
 sidebar_label: Bangladesh BIN Number
