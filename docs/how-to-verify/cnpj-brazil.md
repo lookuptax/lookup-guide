@@ -22,7 +22,7 @@ This Search acts as the Proof of Registration and give the Registration Status o
   <tr><td align="center">CNPJ Verification</td></tr>
 </table>
 
-Example : 06.990.590/0001-23 , 05.866.415/0001-66
+Example : 06.990.590/0001-23 , 05.866.415/0001-66, 07.650.459/0001-80
 
 A successful verification of the CNPJ on the CNPJ lookup tool on REDESIM website will return the following details
 
