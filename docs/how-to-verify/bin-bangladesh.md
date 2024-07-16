@@ -11,7 +11,7 @@ tags :
 
 ## BIN verification on NBR website
 
-BIN (Business Identification Number) search option is available for free on the Bangladesh Nation Board of Revenue(NBR) website. You can access the BIN search [here](https://nbr.gov.bd/fourteen-digit-bin-search/eng). This search allow you to serach for all companies in Bnagladesh. This tools allows you to search for the old 13 digit BIN numbers as well as the new 9 digit e-BIN numbers
+BIN (Business Identification Number) search option is available for free on the Bangladesh Nation Board of Revenue(NBR) website. You can access the BIN search [here](https://nbr.gov.bd/fourteen-digit-bin-search/eng). This search allows you to search for all companies in Bnagladesh. This tools allows you to search for the old 13 digit BIN numbers as well as the new 9 digit e-BIN numbers
 
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
