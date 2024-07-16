@@ -11,7 +11,7 @@ tags :
 
 ## TIN verification on e-taxes website
 
-TIN (VÖEN) search option is available for free on the Azerbaijan e-taxes website. You can access the TIN search [here](https://www.e-taxes.gov.az/ebyn/payerOrVoenChecker.jsp). This search allow you to serach for companies as well as individuals. You also have an option to search by the name of the individual or the company in this tool. While search by the company name the name of the organizational legal form should not be written after the name of the institution and the name must be written in capital letters.
+TIN (VÖEN) search option is available for free on the Azerbaijan e-taxes website. You can access the TIN search [here](https://www.e-taxes.gov.az/ebyn/payerOrVoenChecker.jsp). This search allow you to search for companies as well as individuals. You also have an option to search by the name of the individual or the company in this tool. While search by the company name the name of the organizational legal form should not be written after the name of the institution and the name must be written in capital letters.
 
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
