@@ -3,7 +3,7 @@ id: rnc-verification-dominican-republic
 title: How to verify RNC in Dominican Republic?
 keywords: [Verify RNC, Dominican Republic, find RNC, Check RNC]
 sidebar_label: RNC Dominican Republic
-description: Find out how to verify CNPJ in Brazil. Use Lookuptax for hassle-free validation of CNPJ in Dominican Republic.
+description: Find out how to verify RNC in Dominican Republic. Use Lookuptax for hassle-free validation of RNC in Dominican Republic.
 tags : 
   - Dominican Republic
   - RNC
