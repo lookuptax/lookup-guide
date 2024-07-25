@@ -10,7 +10,7 @@ tags :
 ---
 ## Registration number Search on SSM website
 
-Registration number search option is available for free on the SSM(Suruhanjaya Syarikat Malaysia) website under esearch option. Suruhanjaya Syarikat Malaysia(SSM) is the website of the Companies Commission of Malaysia. You can find the EIN search [here](https://www.ssm.com.my/Pages/e-Search.aspx). This tool allows you to search for a company by its Business or Company  Registration number. This search allows you to search by both old and new numbers. Though this tool does not allow you to search for a company by its GST number, the succesful serach of a registration number also returns  
+Registration number search option is available for free on the SSM(Suruhanjaya Syarikat Malaysia) website under esearch option. Suruhanjaya Syarikat Malaysia(SSM) is the website of the Companies Commission of Malaysia. You can find the Registration Number search [here](https://www.ssm.com.my/Pages/e-Search.aspx). This tool allows you to search for a company by its Business or Company  Registration number. This search allows you to search by both old and new numbers. Though this tool does not allow you to search for a company by its GST number, the succesful serach of a registration number also returns  
 
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
