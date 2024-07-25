@@ -54,13 +54,13 @@ This search option allows you to search by the following options
 
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/docs/img/verify/estore-search-bulgaria.png" alt="Estore Search in Bulgaria" title="Estore Searchin Bulgaria"/>
+  <img src="/docs/img/verify/estores-search-bulgaria.png" alt="Estore Search in Bulgaria" title="Estore Searchin Bulgaria"/>
   </td></tr>
   <tr><td align="center">Estore Search</td></tr>
 </table>
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/docs/img/verify/estore-search-results-bulgaria.png" alt="Estore Search Results in Bulgaria" title="Estore search results in Bulgaria"/>
+  <img src="/docs/img/verify/estores-search-results-bulgaria.png" alt="Estore Search Results in Bulgaria" title="Estore search results in Bulgaria"/>
   </td></tr>
   <tr><td align="center">Successful Estore search</td></tr>
 </table>
