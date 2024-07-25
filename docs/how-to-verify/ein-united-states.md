@@ -14,7 +14,7 @@ EIN(Federal Employer's Identification Number) number search option is available 
 
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/docs/img/verify/ein-search-united-states.png" alt="EIN Search" title="EIn Search"/>
+  <img src="/docs/img/verify/ein-search-united-states.png" alt="EIN Search" title="EIN Search"/>
   </td></tr>
   <tr><td align="center">EIN Search</td></tr>
 </table>
