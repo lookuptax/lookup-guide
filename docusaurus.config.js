@@ -55,7 +55,7 @@ const config = {
           anonymizeIP: false,
         },*/
         gtag: {
-          trackingID: "G-D5YNWHF9Q3",
+          trackingID: "GTM-KLGV623",
           anonymizeIP: false,
         },
         sitemap: {
