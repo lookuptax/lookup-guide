@@ -92,6 +92,10 @@ const config = {
           async: true,
         },
         {
+          src: 'https://www.googletagmanager.com/gtm.js?id=GTM-KLGV623',
+          async: true,
+        },
+        {
           content: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -222,6 +226,12 @@ const config = {
           trackingID: 'GTM-KLGV623', // Replace with your Google Analytics tracking ID
           anonymizeIP: false, // Optional: Enables IP anonymization
         },
+
+        '@docusaurus/@docusaurus/plugin-google-tag-manager',
+        {
+          containerId: 'GTM-KLGV623',
+        },
+
       ],
     ],
     // End of plugin export code
