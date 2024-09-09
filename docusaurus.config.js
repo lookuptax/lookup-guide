@@ -59,6 +59,11 @@ const config = {
           anonymizeIP: false,
         },
 
+        
+          googleTagManager: {
+            containerId: 'GTM-KLGV623',
+          },
+
         sitemap: {
           changefreq: 'weekly',
         priority: 0.5,
