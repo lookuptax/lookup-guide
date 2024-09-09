@@ -54,11 +54,11 @@ const config = {
           trackingID: "G-D5YNWHF9Q3",
           anonymizeIP: false,
         },*/
-    /*     gtag: {
+        gtag: {
           trackingID: "GTM-KLGV623",
           anonymizeIP: false,
-        }, */
-        
+        },
+
         sitemap: {
           changefreq: 'weekly',
         priority: 0.5,
@@ -75,26 +75,34 @@ const config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=GTM-KLGV623',
+      },
+    },
+    {
+      tagName: 'script',
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GTM-KLGV623');
+      `,
+    },
+  ],
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
    
     ({
-      scripts: [
-        {
-          src: 'https://www.googletagmanager.com/gtm.js?id=GTM-KLGV623',
-          async: true,
-        },
-        {
-          content: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KLGV623');
-          `,
-          type: 'text/javascript',
-        },
-      ],
+      gtag: {
+        trackingID: 'GTM-KLGV623',
+        anonymizeIP: false,
+      },
 
       metadata: [
         {
