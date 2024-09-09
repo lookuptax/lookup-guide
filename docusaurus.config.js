@@ -54,11 +54,11 @@ const config = {
           trackingID: "G-D5YNWHF9Q3",
           anonymizeIP: false,
         },*/
-        gtag: {
+      /*  gtag: {
           trackingID: "GTM-KLGV623",
           anonymizeIP: false,
         },
-
+*/
         sitemap: {
           changefreq: 'weekly',
         priority: 0.5,
