@@ -75,25 +75,7 @@ const config = {
     ],
   ],
 
-  headTags: [
-    {
-      tagName: 'script',
-      attributes: {
-        async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=GTM-KLGV623',
-      },
-    },
-    {
-      tagName: 'script',
-      innerHTML: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'GTM-KLGV623');
-      `,
-    },
-  ],
-
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -103,6 +85,21 @@ const config = {
         trackingID: 'GTM-KLGV623',
         anonymizeIP: false,
       },
+      scripts: [
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=GTM-KLGV623',
+          async: true,
+        },
+        {
+          content: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-KLGV623');
+          `,
+          type: 'text/javascript',
+        },
+      ],
 
       metadata: [
         {
