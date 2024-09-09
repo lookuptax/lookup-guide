@@ -209,6 +209,15 @@ const config = {
           },
         },
       ],
+
+      
+      [
+        '@docusaurus/plugin-google-gtag',
+        {
+          trackingID: 'GTM-KLGV623', // Replace with your Google Analytics tracking ID
+          anonymizeIP: false, // Optional: Enables IP anonymization
+        },
+      ],
     ],
     // End of plugin export code
       staticWebsites: {
