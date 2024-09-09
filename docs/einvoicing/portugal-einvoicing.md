@@ -9,7 +9,7 @@ tags:
   - Einvoicing
 ---
 
-<table  >
+<table>
     <tr>
       <td align="left"><b>Country</b></td>
         <td align="left">Portugal</td>
@@ -201,8 +201,7 @@ The list of entities already exchanging electronic invoices with suppliers throu
 While submission of scans or PDF invoices attached to emails can suffice for contracts below threshold, these are not considered full electronic invoices under the EU standard.
 </details>
 <details>
-  <summary>Can buyers retrieve electronic invoices without logging into the system?
-  </summary>
+  <summary>Can buyers retrieve electronic invoices without logging into the system?</summary>
   Yes, the National Public Procurement Portal allows buyers to look up an invoice by providing key details like seller tax ID, invoice number, date and value without having to log in. This facilitates occasional access.
 </details>
 <details>
@@ -210,8 +209,7 @@ While submission of scans or PDF invoices attached to emails can suffice for con
 This error indicates that a user is trying to enter the system with credentials that either do not exist in the system or are incorrect. The password and user ID should be checked and tried again.
 </details>
 <details>
-  <summary>How can someone without access get information or request access to the e-Invoicing system? 
-</summary>
+  <summary>How can someone without access get information or request access to the e-Invoicing system? </summary>
   To request information or access to the National Public Procurement Portal, prospective users should fill out the supplier registration questionnaire form available on the ESPAP website. Access requests will be evaluated per entity onboarding rules.
 </details>
 <details>

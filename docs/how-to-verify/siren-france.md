@@ -118,7 +118,7 @@ A successful verification of the SIREN Search on Infogreffe Website will return 
   <img src="/docs/img/verify/infogreffe-details-france.PNG" alt="Successful SIREN Verification on Infogreffe website" title="Successful SIREN Verification on Infogreffe website"/>
   </td></tr>
   <tr><td align="center">Successful SIREN Verification</td></tr>
-</table>
+  </table>
 
 
 ## SIREN Search on Annuaire Entreprises Website

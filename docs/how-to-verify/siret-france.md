@@ -48,7 +48,7 @@ A successful verification of the SIRET Search on Infogreffe Website will return 
   <img src="/docs/img/verify/infogreffe-details-france.PNG" alt="Successful SIRET Verification on Infogreffe website" title="Successful SIRET Verification on Infogreffe website"/>
   </td></tr>
   <tr><td align="center">Successful SIRET Verification</td></tr>
-</table>
+  </table>
 
 
 ## SIRET Search on INPI data portal
