@@ -7,13 +7,14 @@ description: Learn about TIN number in Oman. Use Lookuptax for hassle-free tax i
 tags : 
   - Oman
   - TIN
+
 ---
 
 ## TIN
 
 The Tax Authority in Oman issues Tax Identification Numbers (TINs) to facilitate Companies Income Tax, Value Added Tax (VAT), and Excise Tax requirements. Notably, Oman does not impose personal tax. The TIN structure may vary based on the type of taxes involved. For VAT and Excise Tax, the TIN comprises 12 alphanumeric characters, while entities receive a TIN in a numeric sequence, currently up to a seven-digit sequence. The Authority provides a tax card for entities during the incorporation procedures, obtaining licenses, or entry into official registers, in compliance with applicable laws and regulations. This process also extends to professionals acquiring licenses for their activities or entry into records overseen by the competent Ministry
 
-Format: Numeric sequence for TIN in Oman comprises up to a seven-digit number, represented as {xxxxxxx}.
+Format: Numeric sequence for TIN in Oman comprises up to a seven-digit number, represented as \{xxxxxxx\}.
 
 
 
