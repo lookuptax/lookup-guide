@@ -16,6 +16,7 @@ The Tax Authority in Oman issues Tax Identification Numbers (TINs) to facilitate
 Format: Numeric sequence for TIN in Oman comprises up to a seven-digit number, represented as {xxxxxxx}.
 
 
+
 ## VAT Identification number(VATIN)
 A VAT Identification Number in Oman is a tax identifier issued by the tax authorities, comprising an 'OM' prefix followed by 10 digits
 
