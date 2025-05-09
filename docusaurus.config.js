@@ -223,7 +223,10 @@ const config = {
           },
         },
       ],
-
+      [
+        "@gracefullight/docusaurus-plugin-google-adsense",
+        { adClient: "ca-pub-9381464195828471" },
+      ],
       
       [
         '@docusaurus/plugin-google-gtag',
