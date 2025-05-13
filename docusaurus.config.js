@@ -105,10 +105,10 @@ const config = {
           type: 'text/javascript',
         },
         {
-          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9381464195828471',
-          async: true,
-          crossorigin: 'anonymous',
-        },
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9381464195828471',
+      async: true,
+      crossorigin: 'anonymous',
+    },
       ],
 
       metadata: [
@@ -224,10 +224,22 @@ const config = {
         },
       ],
       [
-        '@docusaurus/plugin-google-tag-manager',
+        "@gracefullight/docusaurus-plugin-google-adsense",
+        { adClient: "ca-pub-9381464195828471" },
+      ],
+      
+      [
+        '@docusaurus/plugin-google-gtag',
+        {
+          trackingID: 'GTM-KLGV623', // Replace with your Google Analytics tracking ID
+          anonymizeIP: false, // Optional: Enables IP anonymization
+        },
+
+        '@docusaurus/@docusaurus/plugin-google-tag-manager',
         {
           containerId: 'GTM-KLGV623',
         },
+
       ],
     ],
     // End of plugin export code
