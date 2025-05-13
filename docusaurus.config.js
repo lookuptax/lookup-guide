@@ -39,12 +39,8 @@ const config = {
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
           exclude: ['/tags/*'],
-        },
-        blog: {
+        },        blog: {
           showReadingTime: true,
-        },
-        googleTagManager: {
-          containerId: 'GTM-KLGV623',
         },
         sitemap: {
           changefreq: 'weekly',
