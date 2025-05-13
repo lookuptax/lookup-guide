@@ -51,10 +51,16 @@ const config = {
         },
       }),
     ],
-  ],
-  themeConfig:
+  ],  themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */    ({
       headTags: [
+        {
+          tagName: 'meta',
+          attributes: {
+            name: 'google-adsense-account',
+            content: 'ca-pub-9381464195828471',
+          },
+        },
         {
           tagName: 'script',
           attributes: {
@@ -62,6 +68,15 @@ const config = {
             async: true,
             crossorigin: 'anonymous',
           },
+        },
+        {
+          tagName: 'script',
+          attributes: {
+            async: true,
+          },
+          innerHTML: `
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          `,
         },
       ],
 
@@ -160,6 +175,9 @@ const config = {
         containerId: 'GTM-KLGV623',
       },
     ],
+  ],
+  clientModules: [
+    require.resolve('./src/clientModules/adsense.js'),
   ],
 };
 
