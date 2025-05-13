@@ -9,6 +9,8 @@ description: VAT VIES is a mandatory platform for businesses operating in the EU
 ---
 As a business owner in Europe, VAT compliance is likely on your mind. It can be a complex and time-consuming process, but VIES is here to simplify things. VIES, or VAT Information Exchange System, is a system created by the European Union to facilitate the exchange of information on Value Added Tax (VAT) between member states. 
 
+<!-- truncate -->
+
 VIES (VAT Information Exchange System) is a search engine owned by the European Commission. It is important to note that it is not a database. The data is retrieved from national VAT databases when a search is made from the VIES tool.
 
 ## How VIES Works ? 
