@@ -87,6 +87,12 @@ const config = {
    
     ({
       scripts: [
+        
+          {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9381464195828471',
+      async: true,
+      crossorigin: 'anonymous',
+    },
         {
           src: 'https://www.googletagmanager.com/gtag/js?id=GTM-KLGV623',
           async: true,
@@ -104,11 +110,7 @@ const config = {
           `,
           type: 'text/javascript',
         },
-        {
-      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9381464195828471',
-      async: true,
-      crossorigin: 'anonymous',
-    },
+      
       ],
 
       metadata: [
