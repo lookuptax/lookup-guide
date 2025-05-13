@@ -39,78 +39,34 @@ const config = {
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
           exclude: ['/tags/*'],
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl: "https://github.com/abhilashjp/lookupapp/blob/main/",
         },
         blog: {
           showReadingTime: true,
-
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-         // editUrl: "https://github.com/abhilashjp/lookupapp/blob/main/",
         },
-      /**  googleAnalytics: {
-          trackingID: "G-D5YNWHF9Q3",
-          anonymizeIP: false,
-        },*/
-       gtag: {
-          trackingID: "GTM-KLGV623",
-          anonymizeIP: false,
+        googleTagManager: {
+          containerId: 'GTM-KLGV623',
         },
-
-        
-          googleTagManager: {
-            containerId: 'GTM-KLGV623',
-          },
-
         sitemap: {
           changefreq: 'weekly',
-        priority: 0.5,
-        
-        
-
+          priority: 0.5,
         },
-
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-         
       }),
     ],
   ],
-
-  
-
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-   
-    ({
-      scripts: [
-        
-          {
-      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9381464195828471',
-      async: true,
-      crossorigin: 'anonymous',
-    },
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */    ({
+      headTags: [
         {
-          src: 'https://www.googletagmanager.com/gtag/js?id=GTM-KLGV623',
-          async: true,
+          tagName: 'script',
+          attributes: {
+            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9381464195828471',
+            async: true,
+            crossorigin: 'anonymous',
+          },
         },
-        {
-          src: 'https://www.googletagmanager.com/gtm.js?id=GTM-KLGV623',
-          async: true,
-        },
-        {
-          content: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'GTM-KLGV623');
-          `,
-          type: 'text/javascript',
-        },
-      
       ],
 
       metadata: [
@@ -128,28 +84,16 @@ const config = {
           target: '_self',
         },
         items: [
-         /** {
-            type: "doc",
-            docId: "intro",
-            position: "right",
-            label: "Country guide",
-          },*/
           { to: "category/tax-identification-number", label: "Country guides", position: "right" },
           { to: "/category/explainers", label: "Explainers", position: "right" },
           { to: "/category/einvoicing-guides", label: "Einvoicing", position: "right" },
-
           { to: "/blog", label: "Blog", position: "right" },
-           {
+          {
             to: "https://lookuptax.com",
             label: "Signup for Free Trial",
             position: "right",
             className: "button button--secondary button--lg",
           },
-         /**  {
-            href: "https://github.com/abhilashjp/lookupapp",
-            label: "GitHub",
-            position: "right",
-          },*/
         ],
       },
       footer: {
@@ -169,9 +113,7 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                /**href: "https://stackoverflow.com/questions/tagged/lookuptax",
-                **/
-                 href: "#",
+                href: "#",
               },
               {
                 label: "Discord",
@@ -190,103 +132,50 @@ const config = {
                 label: "Blog",
                 to: "/blog",
               },
-             /** {
-                label: "GitHub",
-                href: "https://github.com/abhilashjp/lookupapp/",
-              },*/
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Lookup, Inc. Built with Docusaurus.`,
       },
-      
-      // Add the plugin export code here
-    plugins: [
-      [
-        '@docusaurus/plugin-client-redirects',
-        {
-          fromExtensions: ['html', 'htm'],
-          toExtensions: ['exe', 'zip'],
-          redirects: [
-            {
-              to: '/docs/',
-              from: '/docs/country/intro/',
-            },
-           
-          ],
-          createRedirects(existingPath) {
-            if (existingPath.includes('/community')) {
-              return [
-                existingPath.replace('/community', '/docs/team'),
-                existingPath.replace('/community', '/docs/support'),
-              ];
-            }
-            return undefined;
-          },
-        },
-      ],
-      [
-        "@gracefullight/docusaurus-plugin-google-adsense",
-        { adClient: "ca-pub-9381464195828471" },
-      ],
-      
-      [
-        '@docusaurus/plugin-google-gtag',
-        {
-          trackingID: 'GTM-KLGV623', // Replace with your Google Analytics tracking ID
-          anonymizeIP: false, // Optional: Enables IP anonymization
-        },
-
-        '@docusaurus/@docusaurus/plugin-google-tag-manager',
-        {
-          containerId: 'GTM-KLGV623',
-        },
-
-      ],
-    ],
-    // End of plugin export code
       staticWebsites: {
-    excludePatterns: ['/tags/**'],
-  },
+        excludePatterns: ['/tags/**'],
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-
-      
- //   
-// algolia: {
-      // The application ID provided by Algolia
-     // appId: 'K9ZHSRY4ZV',
-
-      // Public API key: it is safe to commit it
-     // apiKey: '779e74fdc3513898e45fe9d1a8b3ac37',
-
-/// indexName: 'Lookuptax',
-
-      // Optional: see doc section below
-     // contextualSearch: true,
-
-      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      //externalUrlRegex: 'external\\.com|domain\\.com',
-
-      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-     // replaceSearchResultPathname: {
-      //  from: '/docs/', // or as RegExp: /\/docs\//
-     //   to: '/',
-      //},
-
-      // Optional: Algolia search parameters
-     // searchParameters: {},
-
-      // Optional: path for search page that enabled by default (`false` to disable it)
-     // searchPagePath: 'search',
-
-      //... other Algolia params
-   // },
-//
-
     }),
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html', 'htm'],
+        toExtensions: ['exe', 'zip'],
+        redirects: [
+          {
+            to: '/docs/',
+            from: '/docs/country/intro/',
+          },
+        ],
+        createRedirects(existingPath) {
+          if (existingPath.includes('/community')) {
+            return [
+              existingPath.replace('/community', '/docs/team'),
+              existingPath.replace('/community', '/docs/support'),
+            ];
+          }
+          return undefined;
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-google-tag-manager',
+      {
+        containerId: 'GTM-KLGV623',
+      },
+    ],
+  ],
 };
 
 module.exports = config;
