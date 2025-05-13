@@ -142,27 +142,16 @@ const config = {
       },
     }),
 
-  plugins: [
-    [
+  plugins: [    [
       '@docusaurus/plugin-client-redirects',
       {
         fromExtensions: ['html', 'htm'],
-        toExtensions: ['exe', 'zip'],
         redirects: [
           {
-            to: '/docs/',
-            from: '/docs/country/intro/',
+            from: '/docs/country/intro',
+            to: '/',
           },
         ],
-        createRedirects(existingPath) {
-          if (existingPath.includes('/community')) {
-            return [
-              existingPath.replace('/community', '/docs/team'),
-              existingPath.replace('/community', '/docs/support'),
-            ];
-          }
-          return undefined;
-        },
       },
     ],
     [
