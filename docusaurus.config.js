@@ -228,13 +228,6 @@ const config = {
         { adClient: "ca-pub-9381464195828471" },
       ],
       [
-        '@docusaurus/plugin-google-gtag',
-        {
-          trackingID: 'GTM-KLGV623', // Replace with your Google Analytics tracking ID
-          anonymizeIP: false, // Optional: Enables IP anonymization
-        },
-      ],
-      [
         '@docusaurus/plugin-google-tag-manager',
         {
           containerId: 'GTM-KLGV623',
