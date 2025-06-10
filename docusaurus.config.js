@@ -100,7 +100,7 @@ const config = {
           { to: "/category/einvoicing-guides", label: "Einvoicing", position: "right" },
           { to: "/blog", label: "Blog", position: "right" },
           {
-            to: "https://lookuptax.com",
+            to: "https://platform.lookuptax.com/auth?page=register",
             label: "Signup for Free Trial",
             position: "right",
             className: "button button--secondary button--lg",
