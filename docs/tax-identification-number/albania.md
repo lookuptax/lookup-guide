@@ -57,4 +57,4 @@ The individual Tax Identification Number (TIN), also known as the National ID nu
 
 **Lookuptax VAT validation**  revolutionizes VAT number validation with its robust platform, empowering businesses to seamlessly verify VAT numbers across over 100 countries. Our cutting-edge technology ensures accurate and efficient validation, reducing errors and enhancing compliance.
 
-[<img src="/docs/img/posters/signup-taxid-validation.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
+[<img src="/docs/img/posters/signup-taxid-validation.png" alt="Sign up on Lookuptax for taxid validation"/>](https://platform.lookuptax.com/auth?page=register)
