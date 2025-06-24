@@ -11,22 +11,22 @@ const PROMO_CONFIG = {
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
   '/how-to-verify/': {
-    image: '/docs/img/lookuptax_signup_banner.gif',
+    image: '/docs/img/lookuptax_signup.gif',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
   '/country/': {
-    image: '/docs/img/lookuptax_signup_banner.gif',
+    image: '/docs/img/lookuptax_signup_1.png',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
   '/explainers/': {
-    image: '/docs/img/lookuptax_signup_banner.gif',
+    image: '/docs/img/lookuptax_signup_2.gif',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
   '/einvoicing/': {
-    image: '/docs/img/lookuptax_signup_now.png',
+    image: '/docs/img/lookuptax_signup_1.png',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
