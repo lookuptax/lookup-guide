@@ -1,5 +1,5 @@
 ---
-id: tax-card-verification-onam
+id: tax-card-verification-oman
 title: How to verify tax card in Oman?
 keywords: [Verify VATIN, Oman, find VATIN, Check VATIN]
 sidebar_label: Tax Card Number -  Oman
