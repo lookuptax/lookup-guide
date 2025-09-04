@@ -60,3 +60,9 @@ Below is the list of National Databases for seachring Tax IDs. You can check VAT
 |Czechia|[VAT search](https://adisspr.mfcr.cz/adis/jepo/epo/dpr/apl_ramce.htm?R=/cgi-bin/adis/idph/int_dp_prij.cgi?ZPRAC=FDPHI2&poc_dic=2&OK=Zobraz)|
 |Spain|[NIF Search](https://face.gob.es/es/directorio/relaciones) [intra-community VAT numbers](https://www2.agenciatributaria.gob.es/wlpl/GROI-JDIT/ConsultaOperadorSedeGroiServlet)|
 
+----
+**How [Lookuptax](https://lookuptax.com/) can help you ?**
+
+**Lookuptax VAT validation**  revolutionizes Tax ID validation with its global platform, empowering businesses to seamlessly verify Tax IDs across over 100 countries. Our widest coverage ensures accurate and efficient validation, reducing errors and enhancing compliance. Start validating tax IDs for free.
+
+[<img src="/docs/img/posters/signup-taxid-validation.png" alt="Sign up on Lookuptax for taxid validation"/>](https://platform.lookuptax.com/auth?page=register)
