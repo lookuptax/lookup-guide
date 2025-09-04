@@ -11,7 +11,7 @@ tags:
   - VAT Number Lookup
 ---
 
-Below is the list of National Databases for seachring Tax IDs. You can check VAT IDs for free on these websites. 
+Below is the list of National Databases for seachring Tax IDs. You can check VAT IDs for free on these websites. Alternatively you can validate all the Tax IDs on [lookuptax.com](https://platform.lookuptax.com/auth?page=register) for free.
 
 |Country/Region|Official Website|
 |--|--|
