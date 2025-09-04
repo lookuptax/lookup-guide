@@ -63,6 +63,6 @@ Below is the list of National Databases for seachring Tax IDs. You can check VAT
 ----
 **How [Lookuptax](https://lookuptax.com/) can help you ?**
 
-**Lookuptax VAT validation**  revolutionizes Tax ID validation with its global platform, empowering businesses to seamlessly verify Tax IDs across over 100 countries. Our widest coverage ensures accurate and efficient validation, reducing errors and enhancing compliance. Start validating tax IDs for free.
+**Lookuptax VAT validation**  revolutionizes Tax ID validation with its global platform, empowering businesses to seamlessly verify Tax IDs across over 100 countries. Our widest coverage ensures accurate and efficient validation, reducing errors and enhancing compliance. [Start validating tax IDs for free]([https://lookuptax.com/](https://platform.lookuptax.com/auth?page=register).
 
 [<img src="/docs/img/posters/signup-taxid-validation.png" alt="Sign up on Lookuptax for taxid validation"/>](https://platform.lookuptax.com/auth?page=register)
