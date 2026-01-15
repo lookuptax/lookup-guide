@@ -5,7 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
- /* :root {
+/* :root {
   
  
   --ifm-color-primary: #2e8555;
@@ -104,8 +104,14 @@
   --ifm-color-primary-lightest: #75bcff;
   --ifm-footer-background-color: #fff;
   --ifm-code-font-size: 75%;
-  --ifm-heading-family-base: 'Helvetica Neue', Helvetica, -apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  --ifm-font-family-base: 'Helvetica Neue', Helvetica, -apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  --ifm-heading-family-base: "Helvetica Neue", Helvetica, -apple-system,
+    Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif,
+    BlinkMacSystemFont, "Segoe UI", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --ifm-font-family-base: "Helvetica Neue", Helvetica, -apple-system, Segoe UI,
+    Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+    "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   --doc-sidebar-width: 248px !important;
   --ifm-menu-link-padding-horizontal: 0.5rem;
   --ifm-menu-link-padding-vertical: 0.25rem;
@@ -144,12 +150,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--ifm-heading-family-base);
   font-weight: 600;
 }
 
-.navbar__title, .navbar__item {
+.navbar__title,
+.navbar__item {
   font-family: var(--ifm-heading-family-base);
 }
 
@@ -173,7 +185,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2.4rem !important;
   }
 }
-
 
 .menu__link:hover {
   color: var(--ifm-color-primary);
@@ -218,7 +229,6 @@ html[data-theme="light"] .navbar__link {
   font-family: var(--ifm-font-family-base);
   color: rgb(80, 102, 144);
 }
-
 
 .table-of-contents {
   font-size: 1rem;
@@ -265,9 +275,8 @@ html[data-theme="light"] .navbar__link--active {
 
 .image-caption {
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: lightgrey;
-
 }
 
 @media screen and (max-width: 997px) {
@@ -275,16 +284,37 @@ html[data-theme="light"] .navbar__link--active {
     flex-direction: column;
   }
 
-  div[class^='announcementBar_'] {
+  div[class^="announcementBar_"] {
     height: 4rem;
   }
 }
 
-div[class^='announcementBar_'] {
+div[class^="announcementBar_"] {
   background-color: var(--ifm-color-primary);
   color: #fff;
 }
 
 .hidden {
-display: none !important;
+  display: none !important;
+}
+
+/* ===== CLS Prevention Styles ===== */
+
+/* Prevent CLS from images without explicit dimensions */
+.markdown img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reserve space for images without width/height attributes */
+.markdown img:not([width]):not([height]) {
+  min-height: 100px;
+  background-color: var(--ifm-color-secondary-lightest);
+}
+
+/* Ensure consistent announcement bar height on mobile */
+@media screen and (max-width: 997px) {
+  :root {
+    --docusaurus-announcement-bar-height: 4rem !important;
+  }
 }

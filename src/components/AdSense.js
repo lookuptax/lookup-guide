@@ -12,13 +12,21 @@ export default function AdSense() {
   }, []);
 
   return (
-    <ins
-      className="adsbygoogle"
-      style={{ display: 'block' }}
-      data-ad-client="ca-pub-9381464195828471"
-      data-ad-slot="auto"
-      data-ad-format="auto"
-      data-full-width-responsive="true"
-    />
+    <div style={{ 
+      minHeight: '250px', 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'center',
+      backgroundColor: 'transparent'
+    }}>
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block', minWidth: '300px', minHeight: '250px' }}
+        data-ad-client="ca-pub-9381464195828471"
+        data-ad-slot="auto"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+    </div>
   );
 }
