@@ -100,9 +100,10 @@ const config = {
           target: '_self',
         },
         items: [
+         { to: "https://demo.lookuptax.com/api/", label: "API Docs", position: "right" },
           { to: "category/tax-identification-number", label: "Country guides", position: "right" },
           { to: "/category/explainers", label: "Explainers", position: "right" },
-          { to: "/category/einvoicing-guides", label: "Einvoicing", position: "right" },
+          { to: "/category/how-to-guides", label: "How to verify", position: "right" },
           { to: "/blog", label: "Blog", position: "right" },
           {
             to: "https://platform.lookuptax.com/auth?page=register",
@@ -118,9 +119,17 @@ const config = {
           {
             title: "Docs",
             items: [
+               {
+                label: "Sign In",
+                to: "https://platform.lookuptax.com/auth?page=login",
+              },
               {
                 label: "Tutorial",
                 to: "/docs/category/tax-identification-number",
+              },
+               {
+                label: "API docs",
+                to: "https://demo.lookuptax.com/api/",
               },
             ],
           },
@@ -144,6 +153,10 @@ const config = {
           {
             title: "More",
             items: [
+               {
+                label: "About us",
+                to: "https://lookuptax.com/about",
+              },
               {
                 label: "Blog",
                 to: "/blog",
@@ -151,7 +164,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Lookup, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://lookuptax.com" target="_blank" rel="noopener noreferrer">Lookup</a>, Inc. Built with Docusaurus.`,
       },
       staticWebsites: {
         excludePatterns: ['/tags/**'],
