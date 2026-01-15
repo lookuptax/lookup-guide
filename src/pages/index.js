@@ -16,8 +16,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/category/tax-identification-number">
-           Read about VAT Number and its formats in different countries.
+            to="https://platform.lookuptax.com/auth?page=register">
+           Signup for free
           </Link>
         </div>
       </div>
@@ -29,7 +29,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} | VAT Validation APIs`}
+      title={`${siteConfig.title} | VAT Validation APIs & Guides`}
       description="Validate VAT number, ABN, GSTIN and more using our free, secure and refreshingly easy to use APIs.">
       <HomepageHeader />
       <main>

@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Lookup Tax",
+  title: "LookupTax",
   tagline: "Global API for VAT validation",
   url: "https://lookuptax.com",
   baseUrl: "/docs/",
@@ -92,7 +92,7 @@ const config = {
         },
       ],
       navbar: {
-        title: "Lookup Tax",
+        title: "LookupTax",
         logo: {
           alt: "Global API for VAT Validation",
           src: "img/lookuptax-icon.svg",
@@ -132,8 +132,8 @@ const config = {
                 href: "#",
               },
               {
-                label: "Discord",
-                href: "#",
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/company/lookuptax/",
               },
               {
                 label: "Twitter",

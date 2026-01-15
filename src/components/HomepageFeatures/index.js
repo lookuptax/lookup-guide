@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/docs.svg').default,
     description: (
       <>
-        Integrate our Global Vad validation APIs and validated TAX IDs accross the world with just one API.
+        Integrate our Global Vad validation APIs and validated TAX IDs accross the world with just one API. <a href="https://demo.lookuptax.com/api/">Go to API docs</a>
       </>
     ),
   },
