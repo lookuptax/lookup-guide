@@ -103,7 +103,7 @@ const config = {
          { to: "https://demo.lookuptax.com/api/", label: "API Docs", position: "right" },
           { to: "category/tax-identification-number", label: "Country guides", position: "right" },
           { to: "/category/explainers", label: "Explainers", position: "right" },
-          { to: "/category/how-to-guides", label: "How to verify", position: "right" },
+          { to: "/category/verify-tax-ids", label: "How to Verify Tax IDs", position: "right" },
           { to: "/blog", label: "Blog", position: "right" },
           {
             to: "https://platform.lookuptax.com/auth?page=register",
