@@ -325,5 +325,33 @@
   "theme.tags.tagsPageTitle": {
     "message": "Etiquetas",
     "description": "The title of the tag list page"
+  },
+  "notFound.title.nonDefault": {
+    "message": "🌐 Página No Disponible en Español",
+    "description": "Title for 404 page in non-default locales"
+  },
+  "notFound.message.notTranslated": {
+    "message": "Esta página aún no ha sido traducida al español.",
+    "description": "Message explaining page is not translated"
+  },
+  "notFound.message.viewEnglish": {
+    "message": "📖 Mientras tanto, puede consultar la versión en inglés:",
+    "description": "Prompt to view English version"
+  },
+  "notFound.button.viewEnglish": {
+    "message": "Ver en Inglés →",
+    "description": "Button text to view English version"
+  },
+  "notFound.message.workingOnIt": {
+    "message": "Estamos trabajando para traducir más contenido. Vuelva pronto para ver las actualizaciones.",
+    "description": "Message about ongoing translation work"
+  },
+  "notFound.link.home": {
+    "message": "← Ir al inicio",
+    "description": "Link to go home"
+  },
+  "notFound.link.availableGuides": {
+    "message": "Ver guías disponibles",
+    "description": "Link to view available guides"
   }
 }
