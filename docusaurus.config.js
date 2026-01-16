@@ -140,7 +140,7 @@ const config = {
               },
               {
                 label: "Tutorial",
-                to: "/docs/category/tax-identification-number",
+                to: "/category/tax-identification-number",
               },
                {
                 label: "API docs",
