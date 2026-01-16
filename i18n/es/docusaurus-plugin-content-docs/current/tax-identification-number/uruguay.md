@@ -18,7 +18,12 @@ tags:
   - Uruguay
   - RUT
   - DGI
+
 ---
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="en" />
+
 
 ## RUT - Registro Único Tributario
 

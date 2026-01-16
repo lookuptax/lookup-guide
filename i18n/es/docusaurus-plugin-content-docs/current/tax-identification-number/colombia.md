@@ -19,7 +19,12 @@ tags:
   - NIT
   - DIAN
   - RUT
+
 ---
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="en" />
+
 
 ## NIT - Número de Identificación Tributaria
 

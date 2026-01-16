@@ -4,12 +4,18 @@ title: Colombia NIT number guide
 keywords: [TIN, NIT, Tax ID, Colombia, Find NIT]
 sidebar_label: Colombia
 description: Learn about NIT number in Colombia. Use Lookuptax for hassle-free tax id validation in Colombia and other 100+ countries
-tags : 
+tags:
   - Colombia
   - TIN
   - NIT
 ---
+
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="es" />
+
 ## Número de identificación tributaria (NIT)
+
 As per Article 555-1 of the Tax Statute, the tax identification number (NIT) is assigned by the National Directorate of Taxes and Customs to taxpayers, responsible entities, withholding agents, and declarants for tax purposes. It is mandatory when specified by the entity. The NIT assignment occurs through registration in the Unique Tax Registry (RUT), a vital mechanism for identifying, locating, and categorizing subjects of obligations managed by the Special Administrative Unit National Directorate of Taxes and Customs (DIAN). This process aligns with legal and regulatory standards outlined in Article 1.6.1.2.2 of Decree 1625 of 2016.
 
 **Format**
@@ -28,9 +34,8 @@ Colombians with identification numbers starting from 1,000,000,000 have an NIT c
 
 In all cases, the NIT additionally has a verification digit assigned by the information system, which is not considered part of the NIT. Its function is to uniquely identify the customer and ensure the accuracy of its issuance and exclusivity for the assigned taxpayer.
 
+---
 
-
-----
 **How [Lookuptax](https://lookuptax.com/) can help you ?**
 
 **Lookuptax VAT validation** revolutionizes VAT number validation with its robust platform, empowering businesses to seamlessly verify VAT numbers across over 100 countries. Our cutting-edge technology ensures accurate and efficient validation, reducing errors and enhancing compliance.

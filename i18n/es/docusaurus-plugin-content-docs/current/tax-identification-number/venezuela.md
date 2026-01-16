@@ -17,7 +17,12 @@ tags:
   - Venezuela
   - RIF
   - SENIAT
+
 ---
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="en" />
+
 
 ## RIF - Registro de Información Fiscal
 

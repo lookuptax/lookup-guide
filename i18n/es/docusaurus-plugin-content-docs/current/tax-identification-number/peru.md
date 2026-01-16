@@ -18,7 +18,12 @@ tags:
   - Perú
   - RUC
   - SUNAT
+
 ---
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="en" />
+
 
 ## RUC - Registro Único de Contribuyentes
 

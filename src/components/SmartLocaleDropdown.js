@@ -22,21 +22,24 @@ export default function SmartLocaleDropdown({mobile, ...props}) {
     return defaultLocale;
   };
 
+  // Use Docusaurus's locale for label/active state (accurate for valid pages)
+  const currentLocale = i18n.currentLocale;
+  
+  // Use URL detection for path construction (handles 404s and edge cases)
   const detectedLocale = detectLocaleFromPath();
-  const currentLocale = detectedLocale;
 
   let cleanPath = location.pathname;
-  // Strip locale using strict prefixes
-  if (currentLocale !== defaultLocale) {
-    const localePrefix = `${baseUrl}${currentLocale}/`;
-    const altLocalePrefix = `/${currentLocale}/`;
+  // Strip locale using strict prefixes based on detected locale
+  if (detectedLocale !== defaultLocale) {
+    const localePrefix = `${baseUrl}${detectedLocale}/`;
+    const altLocalePrefix = `/${detectedLocale}/`;
     if (cleanPath.startsWith(localePrefix)) {
       cleanPath = cleanPath.replace(localePrefix, baseUrl);
     } else if (cleanPath.startsWith(altLocalePrefix)) {
       cleanPath = cleanPath.replace(altLocalePrefix, '/');
-    } else if (cleanPath === `${baseUrl}${currentLocale}`) {
+    } else if (cleanPath === `${baseUrl}${detectedLocale}`) {
       cleanPath = baseUrl;
-    } else if (cleanPath === `/${currentLocale}`) {
+    } else if (cleanPath === `/${detectedLocale}`) {
       cleanPath = '/';
     }
   }

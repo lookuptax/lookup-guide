@@ -8,7 +8,12 @@ tags:
   - Brasil
   - CNPJ
   - CPF
+
 ---
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="en" />
+
 
 ## Cadastro Nacional da Pessoa Jurídica – CNPJ
 

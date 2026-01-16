@@ -19,7 +19,12 @@ tags:
   - Argentina
   - CUIT
   - AFIP
+
 ---
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="en" />
+
 
 ## CUIT - Clave Única de Identificación Tributaria
 

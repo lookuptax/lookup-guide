@@ -4,10 +4,14 @@ title: Mexico TIN number guide
 keywords: [TIN, Find RFC, Tax ID, Mexico]
 sidebar_label: Mexico
 description: Learn about TIN number in Mexico. Use Lookuptax for hassle-free tax id validation in Mexico and other 100+ countries
-tags : 
+tags:
   - Mexico
   - TIN
 ---
+
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="es" />
 
 ## Clave en el Registro Federal de Contribuyentes - RFC
 
@@ -16,7 +20,6 @@ The Mexican Tax Administration Service issues a distinct identifier, known as Cl
 Furthermore, legal entities and individuals falling under the requirement to open a financial account in Mexican financial institutions must also register for a TIN. Additionally, individuals of legal age (18 years old) are obligated to register in the Federal Taxpayer Registry, irrespective of their engagement in business activities.
 
 Entities further have the responsibility to submit notifications, as specified in the Federal Fiscal Code, regarding their legal representatives, partners, and shareholders.
-
 
 **RFC Format**
 
@@ -30,9 +33,8 @@ For entities, the identifier is 12 characters long, consisting of 3 letters foll
   <tr><td align="center">TAX IDENTIFICATION CARD</td></tr>
 </table>
 
+---
 
-
-----
 **How [Lookuptax](https://lookuptax.com/) can help you in VAT validation?**
 
 **Lookuptax VAT validation** revolutionizes VAT number validation with its robust platform, empowering businesses to seamlessly verify VAT numbers across over 100 countries. Our cutting-edge technology ensures accurate and efficient validation, reducing errors and enhancing compliance.

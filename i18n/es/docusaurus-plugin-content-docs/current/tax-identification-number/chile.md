@@ -18,7 +18,12 @@ tags:
   - Chile
   - RUT
   - SII
+
 ---
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="en" />
+
 
 ## RUT - Rol Único Tributario
 

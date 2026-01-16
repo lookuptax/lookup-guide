@@ -20,6 +20,10 @@ tags:
   - SAT
 ---
 
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable lang="en" />
+
 ## RFC - Registro Federal de Contribuyentes
 
 El **Registro Federal de Contribuyentes (RFC)** es la clave de identificación fiscal que el Servicio de Administración Tributaria (SAT) asigna a todas las personas físicas y morales que realizan actividades económicas en México.
