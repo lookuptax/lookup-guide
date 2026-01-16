@@ -1,0 +1,4 @@
+---
+id: seychelles
+draft: true
+---

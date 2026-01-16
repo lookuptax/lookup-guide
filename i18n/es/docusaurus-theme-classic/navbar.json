@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "LookupTax",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "API global para validación de IVA",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.API Docs": {
+    "message": "Documentación API",
+    "description": "Navbar item with label API Docs"
+  },
+  "item.label.Country guides": {
+    "message": "Guías por país",
+    "description": "Navbar item with label Country guides"
+  },
+  "item.label.Explainers": {
+    "message": "Explicadores",
+    "description": "Navbar item with label Explainers"
+  },
+  "item.label.How to Verify Tax IDs": {
+    "message": "Cómo verificar IDs fiscales",
+    "description": "Navbar item with label How to Verify Tax IDs"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Signup for Free Trial": {
+    "message": "Prueba gratuita",
+    "description": "Navbar item with label Signup for Free Trial"
+  }
+}

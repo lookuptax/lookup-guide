@@ -1,0 +1,4 @@
+---
+id: gobd
+draft: true
+---

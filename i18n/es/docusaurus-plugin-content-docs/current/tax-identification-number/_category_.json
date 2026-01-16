@@ -1,0 +1,16 @@
+{
+  "label": "Número de identificación fiscal",
+  "position": 0,
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Números de identificación fiscal por país",
+    "keywords": "RFC, CUIT, RUT, RUC, NIT, NIE, número fiscal, ID fiscal, IVA, validar número fiscal",
+    "description": "Guías completas sobre números de identificación fiscal (RFC, CUIT, RUT, RUC, NIT) en cada país. Usa LookupTax para validar IDs fiscales automáticamente en más de 100 países."
+  },
+  "customProps": {
+    "description": "Conoce los números de identificación fiscal utilizados en cada país del mundo. Guías detalladas sobre formato, validación y trámites ante autoridades fiscales locales."
+  }
+}

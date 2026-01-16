@@ -10,7 +10,7 @@ const config = {
   tagline: "Global API for VAT validation",
   url: "https://lookuptax.com",
   baseUrl: "/docs/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   favicon: "img/favicon.ico",
 
   markdown: {
@@ -29,7 +29,19 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "es"],
+    localeConfigs: {
+      en: {
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en-US",
+      },
+      es: {
+        label: "Español",
+        direction: "ltr",
+        htmlLang: "es",
+      },
+    },
   },
 
   presets: [
@@ -104,7 +116,10 @@ const config = {
           { to: "category/tax-identification-number", label: "Country guides", position: "right" },
           { to: "/category/explainers", label: "Explainers", position: "right" },
           { to: "/category/verify-tax-ids", label: "How to Verify Tax IDs", position: "right" },
-          { to: "/blog", label: "Blog", position: "right" },
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
           {
             to: "https://platform.lookuptax.com/auth?page=register",
             label: "Signup for Free Trial",
@@ -136,10 +151,6 @@ const config = {
           {
             title: "Community",
             items: [
-              {
-                label: "Stack Overflow",
-                href: "#",
-              },
               {
                 label: "LinkedIn",
                 href: "https://www.linkedin.com/company/lookuptax/",

@@ -2,31 +2,33 @@
 import React from 'react';
 import TOC from '@theme-original/TOC';
 import { useLocation } from '@docusaurus/router';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 // Configuration object for different sections and their promotional images
+// Note: paths should NOT include /docs/ prefix - useBaseUrl will add the correct base
 const PROMO_CONFIG = {
   '/tax-identification-number/': {
-    image: '/docs/img/lookuptax_signup.gif',
+    image: '/img/lookuptax_signup.gif',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
   '/how-to-verify/': {
-    image: '/docs/img/lookuptax_signup.gif',
+    image: '/img/lookuptax_signup.gif',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
   '/country/': {
-    image: '/docs/img/lookuptax_signup_1.png',
+    image: '/img/lookuptax_signup_1.png',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
   '/explainers/': {
-    image: '/docs/img/lookuptax_signup_2.gif',
+    image: '/img/lookuptax_signup_2.gif',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
   '/einvoicing/': {
-    image: '/docs/img/lookuptax_signup_1.png',
+    image: '/img/lookuptax_signup_1.png',
     alt: 'LookupTax Signup',
     link: 'https://platform.lookuptax.com/auth?page=register'
   },
@@ -34,6 +36,9 @@ const PROMO_CONFIG = {
 
 // Custom component for the promotional image
 function PromoImage({ config }) {
+  // useBaseUrl handles the locale prefix automatically
+  const imageSrc = useBaseUrl(config?.image);
+  
   if (!config) return null;
 
   return (
@@ -51,7 +56,7 @@ function PromoImage({ config }) {
         style={{ textDecoration: 'none' }}
       >
         <img 
-          src={config.image} 
+          src={imageSrc} 
           alt={config.alt}
           style={{
             width: '100%',
@@ -66,6 +71,7 @@ function PromoImage({ config }) {
     </div>
   );
 }
+
 
 export default function TOCWrapper(props) {
   const location = useLocation();

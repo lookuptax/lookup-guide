@@ -1,0 +1,4 @@
+---
+id: vietnam
+draft: true
+---

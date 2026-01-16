@@ -1,0 +1,4 @@
+---
+id: singapore
+draft: true
+---
