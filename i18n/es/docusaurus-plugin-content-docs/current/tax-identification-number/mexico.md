@@ -1,5 +1,6 @@
 ---
 id: mexico-tax-id-guide
+slug: /numero-identificacion-fiscal/guia-rfc-mexico
 title: Guía del RFC en México - Clave de Identificación Fiscal
 keywords:
   [
@@ -22,7 +23,7 @@ tags:
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" />
+<AlsoAvailable lang="en" href="/docs/tax-identification-number/mexico-tax-id-guide" />
 
 ## RFC - Registro Federal de Contribuyentes
 

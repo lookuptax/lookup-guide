@@ -61,8 +61,16 @@ export default function DocTagDocListPage(props) {
   const {url: siteUrl} = siteConfig;
   const baseUrl = useBaseUrl('/');
 
-  const title = `Documentation on ${tag.label}`;
-  const description = `Find all documentation related to ${tag.label}. Explore our guides and articles on ${tag.label}.`;
+  // Use locale-aware title and description
+  const { i18n } = useDocusaurusContext();
+  const isSpanish = i18n.currentLocale === 'es';
+  
+  const title = isSpanish 
+    ? `Guías de ${tag.label} - Número de identificación fiscal`
+    : `Documentation on ${tag.label}`;
+  const description = isSpanish
+    ? `Encuentra toda la documentación relacionada con ${tag.label}. Explora nuestras guías y artículos sobre ${tag.label}.`
+    : `Find all documentation related to ${tag.label}. Explore our guides and articles on ${tag.label}.`;
   const keywords = tag.label;
 
   const jsonLd = {

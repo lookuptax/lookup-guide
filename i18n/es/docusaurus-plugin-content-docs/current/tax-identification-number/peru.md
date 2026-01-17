@@ -1,5 +1,6 @@
 ---
 id: peru-tax-id-guide
+slug: /numero-identificacion-fiscal/guia-ruc-peru
 title: Guía del RUC en Perú - Registro Único de Contribuyentes
 keywords:
   [
@@ -18,12 +19,11 @@ tags:
   - Perú
   - RUC
   - SUNAT
-
 ---
+
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" />
-
+<AlsoAvailable lang="en" href="/docs/tax-identification-number/peru-tax-id-guide" />
 
 ## RUC - Registro Único de Contribuyentes
 

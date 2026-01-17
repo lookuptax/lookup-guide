@@ -1,5 +1,6 @@
 ---
 id: venezuela-tax-id-guide
+slug: /numero-identificacion-fiscal/guia-rif-venezuela
 title: Guía del RIF en Venezuela - Registro de Información Fiscal
 keywords:
   [
@@ -17,12 +18,11 @@ tags:
   - Venezuela
   - RIF
   - SENIAT
-
 ---
+
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" />
-
+<AlsoAvailable lang="en" href="/docs/tax-identification-number/venezuela-tax-id-guide" />
 
 ## RIF - Registro de Información Fiscal
 

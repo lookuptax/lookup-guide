@@ -1,0 +1,102 @@
+# Spanish Tags Configuration
+# Provides SEO-optimized descriptions for tag pages in /docs/es/tags/
+
+argentina:
+  label: Argentina
+  description: Guía completa sobre el CUIT (Clave Única de Identificación Tributaria) de Argentina. Cómo obtener, validar y consultar el CUIT ante la AFIP.
+
+mexico:
+  label: México
+  description: Todo sobre el RFC (Registro Federal de Contribuyentes) en México. Guía del SAT para obtener, validar y consultar tu RFC.
+
+rfc:
+  label: RFC
+  description: RFC - Registro Federal de Contribuyentes de México. Formato, validación y consulta del RFC ante el SAT.
+
+sat:
+  label: SAT
+  description: SAT - Servicio de Administración Tributaria de México. Trámites de RFC, factura electrónica y obligaciones fiscales.
+
+cuit:
+  label: CUIT
+  description: CUIT - Clave Única de Identificación Tributaria de Argentina. Formato, validación y consulta del CUIT ante la AFIP.
+
+afip:
+  label: AFIP
+  description: AFIP - Administración Federal de Ingresos Públicos de Argentina. Trámites de CUIT y obligaciones fiscales.
+
+chile:
+  label: Chile
+  description: Guía del RUT (Rol Único Tributario) en Chile. Cómo obtener, validar y consultar el RUT ante el SII.
+
+rut:
+  label: RUT
+  description: RUT - Rol Único Tributario. Número de identificación fiscal utilizado en Chile y Uruguay.
+
+sii:
+  label: SII
+  description: SII - Servicio de Impuestos Internos de Chile. Trámites de RUT y obligaciones fiscales.
+
+colombia:
+  label: Colombia
+  description: Guía del NIT (Número de Identificación Tributaria) en Colombia. Cómo obtener, validar y consultar el NIT ante la DIAN.
+
+nit:
+  label: NIT
+  description: NIT - Número de Identificación Tributaria de Colombia. Formato, validación y consulta del NIT.
+
+dian:
+  label: DIAN
+  description: DIAN - Dirección de Impuestos y Aduanas Nacionales de Colombia. Trámites de NIT y obligaciones fiscales.
+
+peru:
+  label: Perú
+  description: Guía del RUC (Registro Único de Contribuyentes) en Perú. Cómo obtener, validar y consultar el RUC ante la SUNAT.
+
+ruc:
+  label: RUC
+  description: RUC - Registro Único de Contribuyentes. Número de identificación fiscal utilizado en Perú y Ecuador.
+
+sunat:
+  label: SUNAT
+  description: SUNAT - Superintendencia Nacional de Aduanas y de Administración Tributaria de Perú. Trámites de RUC.
+
+ecuador:
+  label: Ecuador
+  description: Guía del RUC en Ecuador. Cómo obtener, validar y consultar el Registro Único de Contribuyentes ante el SRI.
+
+sri:
+  label: SRI
+  description: SRI - Servicio de Rentas Internas de Ecuador. Trámites de RUC y obligaciones fiscales.
+
+venezuela:
+  label: Venezuela
+  description: Guía del RIF (Registro de Información Fiscal) en Venezuela. Cómo obtener y validar el RIF ante el SENIAT.
+
+rif:
+  label: RIF
+  description: RIF - Registro de Información Fiscal de Venezuela. Formato, validación y consulta del RIF.
+
+seniat:
+  label: SENIAT
+  description: SENIAT - Servicio Nacional Integrado de Administración Aduanera y Tributaria de Venezuela.
+
+uruguay:
+  label: Uruguay
+  description: Guía del RUT (Registro Único Tributario) en Uruguay. Cómo obtener y validar el RUT ante la DGI.
+
+dgi:
+  label: DGI
+  description: DGI - Dirección General Impositiva de Uruguay. Trámites de RUT y obligaciones fiscales.
+
+brasil:
+  label: Brasil
+  description: Guía del CNPJ y CPF en Brasil. Cómo obtener, validar y consultar números fiscales brasileños.
+
+cnpj:
+  label: CNPJ
+  description: CNPJ - Cadastro Nacional da Pessoa Jurídica de Brasil. Número de identificación fiscal para empresas.
+
+cpf:
+  label: CPF
+  description: CPF - Cadastro de Pessoas Físicas de Brasil. Número de identificación fiscal para personas físicas.

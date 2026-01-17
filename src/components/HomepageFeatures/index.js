@@ -1,14 +1,47 @@
 import React from 'react';
 import clsx from 'clsx';
-import styles from './styles.module.css';
+import styles from '@site/src/components/HomepageFeatures/styles.module.css';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-const FeatureList = [
+// Spanish feature list
+const FeatureListEs = [
+  {
+    title: 'Guías por País',
+    Svg: require('@site/static/img/guides.svg').default,
+    description: (
+      <>
+        Conozca las directrices fiscales y las próximas regulaciones en los países donde opera. <a href="/docs/es/category/tax-identification-number">Explorar más</a>
+      </>
+    ),
+  },
+  {
+    title: 'Explicadores',
+    Svg: require('@site/static/img/explainer.svg').default,
+    description: (
+      <>
+        ¿Confundido con diferentes terminologías? No se preocupe, hemos simplificado varios conceptos de impuestos para usted. <a href="/docs/es/category/explainers">Explorar ahora</a>
+      </>
+    ),
+  },
+  {
+    title: 'Documentación API',
+    Svg: require('@site/static/img/docs.svg').default,
+    description: (
+      <>
+        Integre nuestras APIs globales de validación de IVA y valide IDs fiscales en todo el mundo con una sola API. <a href="https://demo.lookuptax.com/api/">Ir a documentación API</a>
+      </>
+    ),
+  },
+];
+
+// English feature list
+const FeatureListEn = [
   {
     title: 'Country Guides',
     Svg: require('@site/static/img/guides.svg').default,
     description: (
       <>
-        Learn about the taxation guidelines and upcoming regulations in the countries you operate in. <a href="https://lookuptax.com/docs/category/country-tax-guides">Explore more</a>
+        Learn about the taxation guidelines and upcoming regulations in the countries you operate in. <a href="/docs/category/country-tax-guides">Explore more</a>
       </>
     ),
   },
@@ -17,7 +50,7 @@ const FeatureList = [
     Svg: require('@site/static/img/explainer.svg').default,
     description: (
       <>
-       Confused with different terminologies. Dont worry we have simplified various concepts in Taxation for you. <a href="https://lookuptax.com/docs/category/explainers">Explore now</a>
+       Confused with different terminologies. Don't worry we have simplified various concepts in Taxation for you. <a href="/docs/category/explainers">Explore now</a>
       </>
     ),
   },
@@ -26,7 +59,7 @@ const FeatureList = [
     Svg: require('@site/static/img/docs.svg').default,
     description: (
       <>
-        Integrate our Global Vad validation APIs and validated TAX IDs accross the world with just one API. <a href="https://demo.lookuptax.com/api/">Go to API docs</a>
+        Integrate our Global VAT validation APIs and validate TAX IDs across the world with just one API. <a href="https://demo.lookuptax.com/api/">Go to API docs</a>
       </>
     ),
   },
@@ -47,6 +80,12 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
+  const { i18n } = useDocusaurusContext();
+  const currentLocale = i18n.currentLocale;
+  
+  // Select feature list based on locale
+  const FeatureList = currentLocale === 'es' ? FeatureListEs : FeatureListEn;
+  
   return (
     <section className={styles.features}>
       <div className="container">

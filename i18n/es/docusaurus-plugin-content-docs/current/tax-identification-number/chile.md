@@ -1,5 +1,6 @@
 ---
 id: chile-tax-id-guide
+slug: /numero-identificacion-fiscal/guia-rut-chile
 title: Guía del RUT en Chile - Rol Único Tributario
 keywords:
   [
@@ -18,12 +19,11 @@ tags:
   - Chile
   - RUT
   - SII
-
 ---
+
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" />
-
+<AlsoAvailable lang="en" href="/docs/tax-identification-number/chile-tax-id-guide" />
 
 ## RUT - Rol Único Tributario
 

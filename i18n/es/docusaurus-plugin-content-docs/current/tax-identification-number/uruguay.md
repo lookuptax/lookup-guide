@@ -1,5 +1,6 @@
 ---
 id: Uruguay-tax-id-guide
+slug: /numero-identificacion-fiscal/guia-rut-uruguay
 title: Guía del RUT en Uruguay - Registro Único Tributario
 keywords:
   [
@@ -18,12 +19,11 @@ tags:
   - Uruguay
   - RUT
   - DGI
-
 ---
+
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" />
-
+<AlsoAvailable lang="en" href="/docs/tax-identification-number/Uruguay-tax-id-guide" />
 
 ## RUT - Registro Único Tributario
 

@@ -1,5 +1,6 @@
 ---
 id: brazil-tax-id-guide
+slug: /numero-identificacion-fiscal/guia-cnpj-cpf-brasil
 title: Guía del CNPJ y CPF en Brasil
 keywords: [TIN, CNPJ, CPF, Brasil, validar CNPJ, número fiscal Brasil]
 sidebar_label: Brasil
@@ -8,12 +9,11 @@ tags:
   - Brasil
   - CNPJ
   - CPF
-
 ---
+
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" />
-
+<AlsoAvailable lang="en" href="/docs/tax-identification-number/brazil-tax-id-guide" />
 
 ## Cadastro Nacional da Pessoa Jurídica – CNPJ
 

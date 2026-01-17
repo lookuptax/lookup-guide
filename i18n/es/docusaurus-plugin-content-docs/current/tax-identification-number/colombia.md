@@ -1,5 +1,6 @@
 ---
 id: colombia-tax-id-guide
+slug: /numero-identificacion-fiscal/guia-nit-colombia
 title: Guía del NIT en Colombia - Número de Identificación Tributaria
 keywords:
   [
@@ -19,12 +20,11 @@ tags:
   - NIT
   - DIAN
   - RUT
-
 ---
+
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" />
-
+<AlsoAvailable lang="en" href="/docs/tax-identification-number/colombia-tax-id-guide" />
 
 ## NIT - Número de Identificación Tributaria
 

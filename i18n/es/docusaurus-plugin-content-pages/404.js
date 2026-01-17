@@ -3,11 +3,11 @@ import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 
 /**
- * English 404 page - shown for missing pages in the default locale
+ * Spanish 404 page - shown for missing pages in the /es/ locale
  */
 export default function NotFound() {
   return (
-    <Layout title="Page Not Found">
+    <Layout title="Página No Encontrada">
       <Head>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
@@ -15,14 +15,14 @@ export default function NotFound() {
         <div className="row">
           <div className="col col--6 col--offset-3">
             <div style={{ textAlign: 'center' }}>
-              <h1 className="hero__title">Page Not Found</h1>
-              <p>We could not find what you were looking for.</p>
+              <h1 className="hero__title">Página No Encontrada</h1>
+              <p>No pudimos encontrar lo que buscaba.</p>
               <p>
-                Please contact the owner of the site that linked you to the original URL and let them know their link is broken.
+                Por favor, contacte al propietario del sitio que lo enlazó a la URL original y hágale saber que el enlace está roto.
               </p>
               <div style={{ marginTop: '2rem' }}>
-                <a href="/docs/" className="button button--primary button--lg">
-                  ← Go to Homepage
+                <a href="/docs/es/" className="button button--primary button--lg">
+                  ← Ir al Inicio
                 </a>
               </div>
             </div>

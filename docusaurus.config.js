@@ -117,7 +117,7 @@ const config = {
           { to: "/category/explainers", label: "Explainers", position: "right" },
           { to: "/category/verify-tax-ids", label: "How to Verify Tax IDs", position: "right" },
           {
-            type: "localeDropdown",
+            type: "custom-SmartLocaleDropdown",
             position: "right",
           },
           {

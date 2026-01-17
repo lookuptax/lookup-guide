@@ -1,5 +1,6 @@
 ---
 id: ecuador-tax-id-guide
+slug: /numero-identificacion-fiscal/guia-ruc-ecuador
 title: Guía del RUC en Ecuador - Registro Único de Contribuyentes
 keywords:
   [
@@ -18,12 +19,11 @@ tags:
   - Ecuador
   - RUC
   - SRI
-
 ---
+
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" />
-
+<AlsoAvailable lang="en" href="/docs/tax-identification-number/ecuador-tax-id-guide" />
 
 ## RUC - Registro Único de Contribuyentes
 

@@ -1,9 +1,11 @@
 import React from 'react';
 import Layout from '@theme-original/Layout';
+import HreflangTags from '@site/src/components/HreflangTags';
 
 export default function LayoutWrapper(props) {
   return (
     <>
+      <HreflangTags />
       <Layout {...props} />
       <noscript>
         <iframe 
