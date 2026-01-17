@@ -40,3 +40,37 @@
   color: var(--ifm-color-primary);
   font-weight: 600;
 }
+
+/* Mobile sidebar styles */
+.smart-locale-mobile {
+  margin: 0;
+}
+
+.smart-locale-mobile .menu__link--sublist {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  padding: var(--ifm-menu-link-padding-vertical) var(--ifm-menu-link-padding-horizontal);
+}
+
+.smart-locale-mobile .menu__link--sublist:hover {
+  background-color: var(--ifm-menu-color-background-hover);
+}
+
+.smart-locale-mobile .menu__list {
+  padding-left: 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+.smart-locale-mobile .menu__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
