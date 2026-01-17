@@ -207,3 +207,79 @@ The `i18n/es/docusaurus-plugin-content-docs/current/tags.yml` file includes SEO 
 - **Countries**: Argentina, México, Chile, Colombia, Perú, Ecuador, Venezuela, Uruguay, Brasil
 - **Tax IDs**: RFC, CUIT, RUT, RUC, NIT, RIF, CNPJ, CPF
 - **Agencies**: SAT, AFIP, SII, DIAN, SUNAT, SRI, SENIAT, DGI
+
+---
+
+## Translating "How to Verify" Pages
+
+### Folder Structure
+
+```
+docs/how-to-verify/gstin-verification-india.md
+  ↓ copy to ↓
+i18n/es/docusaurus-plugin-content-docs/current/how-to-verify/gstin-verification-india.md
+```
+
+### Slug Convention for How to Verify
+
+Use: `/como-verificar/verificacion-[tax-id]-[country]`
+
+Examples:
+
+- GSTIN India: `/como-verificar/verificacion-gstin-india`
+- VAT EU: `/como-verificar/verificacion-iva-union-europea`
+- RFC Mexico: `/como-verificar/verificacion-rfc-mexico`
+
+### Category Translation
+
+Create `i18n/es/docusaurus-plugin-content-docs/current/how-to-verify/_category_.json`:
+
+```json
+{
+  "label": "Cómo verificar IDs fiscales",
+  "position": 5,
+  "className": "category-how-to-verify"
+}
+```
+
+---
+
+## ⚠️ Important Gotchas (Lessons Learned)
+
+### 1. Navbar Links
+
+**Problem:** Using `to` prop for navbar links causes locale path prepending (`/docs/es/docs/...`).  
+**Solution:** Use external `href` with full URL for links that should always go to English:
+
+```javascript
+{ href: "https://lookuptax.com/docs/category/verify-tax-ids", label: "How to Verify Tax IDs" }
+```
+
+### 2. Blog Posts
+
+**Problem:** Untranslated blog posts appear in Spanish locale (bad SEO).  
+**Solution:** Theme overrides (`BlogListPage`, `BlogPostPage`) + cleanup script handle this automatically.
+
+### 3. Tag Pages
+
+**Problem:** Tag page headings showed in English.  
+**Solution:** `DocTagDocListPage` theme override checks locale and shows Spanish titles.
+
+### 4. Tags Must Be Defined
+
+**Warning:** Tags used in Spanish docs must be defined in `tags.yml` or you'll see warnings.  
+Add new tags to `i18n/es/docusaurus-plugin-content-docs/current/tags.yml`.
+
+### 5. Hreflang Mapping
+
+**Reminder:** Every translated page must be added to `src/data/translatedPages.js` for proper hreflang tags.
+
+---
+
+## Build Process
+
+The build script (`npm run build`) automatically:
+
+1. Runs `prepare-i18n.js` - Marks untranslated docs as draft
+2. Runs `docusaurus build` - Builds both locales
+3. Runs `cleanup-es-blog.js` - Removes blog posts from Spanish build

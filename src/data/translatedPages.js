@@ -20,6 +20,21 @@ export const translatedPages = {
   '/tax-identification-number/Uruguay-tax-id-guide': '/numero-identificacion-fiscal/guia-rut-uruguay',
   '/tax-identification-number/brazil-tax-id-guide': '/numero-identificacion-fiscal/guia-cnpj-cpf-brasil',
   
+  // How to Verify - English slug to Spanish slug mapping
+  '/how-to-verify/cuit-verification-argentina': '/como-verificar/verificacion-cuit-argentina',
+  '/how-to-verify/curp-verification-mexico': '/como-verificar/verificacion-curp-mexico',
+  '/how-to-verify/rut-verification-chile': '/como-verificar/verificacion-rut-chile',
+  '/how-to-verify/dni-verification-argentina': '/como-verificar/verificacion-dni-argentina',
+  '/how-to-verify/cnpj-verification-brazil': '/como-verificar/verificacion-cnpj-brasil',
+  '/how-to-verify/cpf-verification-brazil': '/como-verificar/verificacion-cpf-brasil',
+  
+  // Explainers - English slug to Spanish slug mapping
+  '/explainers/import-one-stop-shop-ioss': '/explicadores/guia-ioss-importacion',
+  '/explainers/reverse-charge': '/explicadores/inversion-sujeto-pasivo-iva',
+  '/explainers/dac7-compliance': '/explicadores/directiva-dac7',
+  '/explainers/guide-to-vat-one-stop-shop': '/explicadores/guia-oss-ventanilla-unica',
+  '/explainers/vies-intrastat-detailed-guide-for-traders': '/explicadores/vies-intrastat-guia',
+  
   // Homepage
   '/': '/',
 };
