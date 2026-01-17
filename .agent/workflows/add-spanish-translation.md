@@ -136,30 +136,33 @@ Check for:
 
 ## File Reference
 
-| File                                                      | Purpose                         |
-| --------------------------------------------------------- | ------------------------------- |
-| `src/data/translatedPages.js`                             | Mapping for hreflang generation |
-| `src/components/AlsoAvailable.js`                         | Cross-language link component   |
-| `src/components/HreflangTags.js`                          | Generates hreflang meta tags    |
-| `src/components/SmartLocaleDropdown.js`                   | Custom language switcher        |
-| `src/components/HomepageFeatures/index.js`                | Locale-aware homepage features  |
-| `i18n/es/docusaurus-plugin-content-docs/current/`         | Spanish doc translations        |
-| `i18n/es/docusaurus-plugin-content-docs/current/tags.yml` | Tag SEO descriptions            |
-| `i18n/es/docusaurus-plugin-content-pages/index.js`        | Spanish homepage                |
-| `i18n/es/code.json`                                       | Theme string translations       |
+| File                                                      | Purpose                                                   |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| `src/data/translatedPages.js`                             | Mapping for hreflang generation                           |
+| `src/components/AlsoAvailable.js`                         | Cross-language link component                             |
+| `src/components/HreflangTags.js`                          | Generates hreflang meta tags                              |
+| `src/components/SmartLocaleDropdown.js`                   | Custom language switcher with CSS hover dropdown          |
+| `src/components/HomepageFeatures/index.js`                | Locale-aware homepage features                            |
+| `src/theme/DocTagDocListPage/index.js`                    | Custom tag page with locale-aware titles and descriptions |
+| `src/theme/DocTagsListPage/`                              | Custom tags list page                                     |
+| `i18n/es/docusaurus-plugin-content-docs/current/`         | Spanish doc translations                                  |
+| `i18n/es/docusaurus-plugin-content-docs/current/tags.yml` | Tag SEO descriptions (24 tags)                            |
+| `i18n/es/docusaurus-plugin-content-pages/index.js`        | Spanish homepage                                          |
+| `i18n/es/code.json`                                       | Theme string translations                                 |
 
 ---
 
 ## Architecture Summary
 
-### Components Created
+### Components and Theme Overrides
 
-| Component               | Purpose                                                                                                                                               |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **SmartLocaleDropdown** | Custom language switcher that redirects to locale homepage (`/docs/` or `/docs/es/`). Uses raw `<a>` tags to avoid Docusaurus link processing issues. |
-| **HreflangTags**        | Generates hreflang meta tags only for pages with confirmed translations (uses `translatedPages.js` mapping).                                          |
-| **AlsoAvailable**       | Shows "Also available in [language]" link with explicit URL support for localized slugs.                                                              |
-| **HomepageFeatures**    | Locale-aware component that shows Spanish or English features based on current locale.                                                                |
+| Component/Override      | Purpose                                                                                                                                                                   |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SmartLocaleDropdown** | Custom language switcher using CSS hover dropdown. Redirects to locale homepage (`/docs/` or `/docs/es/`) with hardcoded URLs to avoid Docusaurus link processing issues. |
+| **HreflangTags**        | Generates hreflang meta tags only for pages with confirmed translations (uses `translatedPages.js` mapping).                                                              |
+| **AlsoAvailable**       | Shows "Also available in [language]" link with explicit URL support for localized slugs.                                                                                  |
+| **HomepageFeatures**    | Locale-aware component that shows Spanish or English features based on current locale.                                                                                    |
+| **DocTagDocListPage**   | Theme override for tag pages. Provides locale-aware titles ("Guías de [tag] - Número de identificación fiscal") and descriptions.                                         |
 
 ### SEO Best Practices Applied
 
@@ -168,15 +171,16 @@ Check for:
 3. **x-default** - Points to English version
 4. **Localized metadata** - Spanish title, description, keywords in frontmatter
 5. **Cross-language links** - "Also available in..." for discoverability
-6. **Tag SEO** - `tags.yml` provides meta descriptions for tag pages
-7. **Theme translations** - `code.json` translates all Docusaurus theme strings
+6. **Tag page SEO** - `tags.yml` provides meta descriptions for tag pages
+7. **Tag page titles** - `DocTagDocListPage` override provides Spanish headings and titles
+8. **Theme translations** - `code.json` translates all Docusaurus theme strings
 
 ### URL Structure
 
-| Locale  | Homepage    | Tax ID Guide (Mexico)                                   |
-| ------- | ----------- | ------------------------------------------------------- |
-| English | `/docs/`    | `/docs/tax-identification-number/mexico-tax-id-guide`   |
-| Spanish | `/docs/es/` | `/docs/es/numero-identificacion-fiscal/guia-rfc-mexico` |
+| Locale  | Homepage    | Tax ID Guide (Mexico)                                   | Tag Page (AFIP)      |
+| ------- | ----------- | ------------------------------------------------------- | -------------------- |
+| English | `/docs/`    | `/docs/tax-identification-number/mexico-tax-id-guide`   | `/docs/tags/afip`    |
+| Spanish | `/docs/es/` | `/docs/es/numero-identificacion-fiscal/guia-rfc-mexico` | `/docs/es/tags/afip` |
 
 ---
 
@@ -193,3 +197,13 @@ Check for:
 | Venezuela Tax ID | `/docs/es/numero-identificacion-fiscal/guia-rif-venezuela`   |
 | Uruguay Tax ID   | `/docs/es/numero-identificacion-fiscal/guia-rut-uruguay`     |
 | Brazil Tax ID    | `/docs/es/numero-identificacion-fiscal/guia-cnpj-cpf-brasil` |
+
+---
+
+## Tags with SEO Descriptions (tags.yml)
+
+The `i18n/es/docusaurus-plugin-content-docs/current/tags.yml` file includes SEO descriptions for:
+
+- **Countries**: Argentina, México, Chile, Colombia, Perú, Ecuador, Venezuela, Uruguay, Brasil
+- **Tax IDs**: RFC, CUIT, RUT, RUC, NIT, RIF, CNPJ, CPF
+- **Agencies**: SAT, AFIP, SII, DIAN, SUNAT, SRI, SENIAT, DGI

@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "node scripts/prepare-i18n.js && docusaurus build",
+    "build": "node scripts/prepare-i18n.js && docusaurus build && node scripts/cleanup-es-blog.js",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
