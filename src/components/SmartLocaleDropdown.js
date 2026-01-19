@@ -25,13 +25,13 @@ export default function SmartLocaleDropdown({mobile, ...props}) {
       targetUrl = `${trueBaseUrl}${locale}/`;
     }
 
-    const label = locale === 'en' ? 'English' : (locale === 'es' ? 'Español' : locale);
+    const label = locale === 'en' ? 'English' : (locale === 'es' ? 'Español' : (locale === 'zh-Hans' ? '中文' : locale));
     const isActive = locale === currentLocale;
 
     return { locale, label, targetUrl, isActive };
   });
 
-  const dropdownLabel = currentLocale === 'en' ? 'English' : (currentLocale === 'es' ? 'Español' : currentLocale);
+  const dropdownLabel = currentLocale === 'en' ? 'English' : (currentLocale === 'es' ? 'Español' : (currentLocale === 'zh-Hans' ? '中文' : currentLocale));
 
   // Mobile view - render as expandable menu item in sidebar
   if (mobile) {

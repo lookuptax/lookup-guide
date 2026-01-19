@@ -1,0 +1,34 @@
+{
+  "title": {
+    "message": "LookupTax",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "全球增值税验证API",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.API Docs": {
+    "message": "API文档",
+    "description": "Navbar item with label API Docs"
+  },
+  "item.label.Country guides": {
+    "message": "国家指南",
+    "description": "Navbar item with label Country guides"
+  },
+  "item.label.Explainers": {
+    "message": "解释器",
+    "description": "Navbar item with label Explainers"
+  },
+  "item.label.How to Verify Tax IDs": {
+    "message": "如何验证税号",
+    "description": "Navbar item with label How to Verify Tax IDs"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Signup for Free Trial": {
+    "message": "免费试用",
+    "description": "Navbar item with label Signup for Free Trial"
+  }
+}

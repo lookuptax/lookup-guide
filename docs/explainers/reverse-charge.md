@@ -35,6 +35,7 @@ tags:
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
 <AlsoAvailable lang="es" href="/docs/es/explicadores/inversion-sujeto-pasivo-iva" />
+<AlsoAvailable lang="zh-Hans" href="/docs/zh-Hans/jieshipage/nixiang-zhengshou-jizhi-iva" />
 
 If you are a business selling across the globe you would have likely came across the term “_reverse charge_” frequently. If you are business and happen to buy a product or service from abroad and if you are wondering why VAT is not charged in your invoices, it could be a case of reverse charges.
 

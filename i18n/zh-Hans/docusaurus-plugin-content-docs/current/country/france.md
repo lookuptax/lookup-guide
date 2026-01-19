@@ -1,0 +1,4 @@
+---
+id: france
+draft: true
+---

@@ -22,6 +22,7 @@ tags:
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
 <AlsoAvailable lang="es" href="/docs/es/explicadores/guia-ioss-importacion" />
+<AlsoAvailable lang="zh-Hans" href="/docs/zh-Hans/jieshipage/ioss-ouzhou-jinkou-yizhanshi" />
 
 The Import One Stop Shop (IOSS) is a new scheme introduced as part of the EU’s eCommerce Package that came into effect on July 1, 2021. It allows suppliers selling goods from outside the EU to customers within the EU to collect and remit the VAT due at import through a simplified monthly return, instead of the VAT being collected at the time of importation.
 

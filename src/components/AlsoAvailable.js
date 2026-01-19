@@ -3,14 +3,23 @@ import { useLocation } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 /**
- * Minimal cross-language linking component for SEO interlinking
+ * Cross-language linking component for SEO interlinking
+ * Now supports multiple languages on a single line
  * 
- * Usage (with explicit URL - recommended for custom slugs):
+ * Usage (single language):
  *   <AlsoAvailable lang="es" href="/docs/es/numero-identificacion-fiscal/guia-rfc-mexico" />
  * 
- * Usage (auto-generated URL - only works if both locales have same slug):
- *   <AlsoAvailable lang="es" />
+ * Usage (multiple languages):
+ *   <AlsoAvailable lang="es" href="/docs/es/..." />
+ *   <AlsoAvailable lang="zh-Hans" href="/docs/zh-Hans/..." />
+ * 
+ * This will automatically combine into: "This post is also available in: English | 中文"
  */
+
+// Store for collecting all AlsoAvailable instances on a page
+const availableLanguages = new Map();
+let renderTimer = null;
+
 export default function AlsoAvailable({ lang, href }) {
   const location = useLocation();
   const { siteConfig, i18n } = useDocusaurusContext();
@@ -26,12 +35,14 @@ export default function AlsoAvailable({ lang, href }) {
   const translations = {
     en: 'This post is also available in',
     es: 'Esta página también está disponible en',
+    'zh-Hans': '本文还提供以下语言版本',
   };
 
   // Language names in their native form
   const languageNames = {
     en: 'English',
     es: 'Español',
+    'zh-Hans': '中文',
   };
 
   // Use explicit href if provided, otherwise construct from path
@@ -50,13 +61,13 @@ export default function AlsoAvailable({ lang, href }) {
     targetUrl = location.pathname;
     
     if (currentLocale === defaultLocale) {
-      // Going from default (en) to non-default (es)
+      // Going from default (en) to non-default (es/zh-Hans)
       if (targetUrl.startsWith(baseUrl)) {
         targetUrl = targetUrl.substring(baseUrl.length);
       }
       targetUrl = `${baseUrl}${lang}/${targetUrl}`;
     } else {
-      // Going from non-default locale to default
+      // Going from non-default locale to default or another locale
       const localePrefix = `${baseUrl}${currentLocale}/`;
       if (targetUrl.startsWith(localePrefix)) {
         if (lang === defaultLocale) {
@@ -68,8 +79,44 @@ export default function AlsoAvailable({ lang, href }) {
     }
   }
 
+  // Collect this language for combined rendering
+  const pageKey = location.pathname;
+  if (!availableLanguages.has(pageKey)) {
+    availableLanguages.set(pageKey, []);
+  }
+  
+  const languages = availableLanguages.get(pageKey);
+  const existingLang = languages.find(l => l.lang === lang);
+  
+  if (!existingLang) {
+    languages.push({
+      lang,
+      url: targetUrl,
+      name: languageNames[lang] || lang
+    });
+  }
+
+  // Clear and set new timer to batch render
+  if (renderTimer) {
+    clearTimeout(renderTimer);
+  }
+  
+  // Use state to force re-render after collecting all languages
+  const [, forceUpdate] = React.useReducer(x => x + 1, 0);
+  
+  renderTimer = setTimeout(() => {
+    forceUpdate();
+    renderTimer = null;
+  }, 0);
+
+  // Only render if we're the first instance
+  const isFirst = languages.length > 0 && languages[0].lang === lang;
+  
+  if (!isFirst) {
+    return null;
+  }
+
   const label = translations[currentLocale] || translations.en;
-  const targetLangName = languageNames[lang] || lang;
 
   return (
     <p style={{
@@ -78,7 +125,15 @@ export default function AlsoAvailable({ lang, href }) {
       marginTop: '0.25rem',
       marginBottom: '0.75rem',
     }}>
-      {label}: <a href={targetUrl} style={{ fontWeight: 500 }}>{targetLangName}</a>
+      {label}:{' '}
+      {languages.map((l, index) => (
+        <React.Fragment key={l.lang}>
+          {index > 0 && <span style={{ margin: '0 0.5rem' }}>|</span>}
+          <a href={l.url} style={{ fontWeight: 500 }}>
+            {l.name}
+          </a>
+        </React.Fragment>
+      ))}
     </p>
   );
 }

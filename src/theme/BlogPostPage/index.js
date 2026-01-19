@@ -4,26 +4,32 @@ import { useHistory } from '@docusaurus/router';
 import BlogPostPage from '@theme-original/BlogPostPage';
 
 /**
- * Theme override for BlogPostPage that redirects Spanish users to homepage.
- * Since there are no Spanish blog translations, we redirect to avoid showing English content.
+ * Theme override for BlogPostPage that redirects non-English users to homepage.
+ * Since there are no Spanish/Chinese blog translations, we redirect to avoid showing English content.
  */
 export default function BlogPostPageWrapper(props) {
   const { i18n } = useDocusaurusContext();
   const history = useHistory();
-  const isSpanish = i18n.currentLocale === 'es';
+  const isNonEnglish = i18n.currentLocale !== 'en';
 
   useEffect(() => {
-    if (isSpanish) {
-      // Redirect Spanish users to Spanish homepage
-      history.replace('/docs/es/');
+    if (isNonEnglish) {
+      // Redirect non-English users to their locale homepage
+      history.replace(`/docs/${i18n.currentLocale}/`);
     }
-  }, [isSpanish, history]);
+  }, [isNonEnglish, history, i18n.currentLocale]);
 
-  // For Spanish locale, show a loading message while redirecting
-  if (isSpanish) {
+  // For non-English locale, show a loading message while redirecting
+  if (isNonEnglish) {
+    const redirectMessage = i18n.currentLocale === 'es' 
+      ? 'Redirigiendo a la página principal...'
+      : i18n.currentLocale === 'zh-Hans'
+      ? '正在重定向到首页...'
+      : 'Redirecting to homepage...';
+    
     return (
       <div style={{ padding: '2rem', textAlign: 'center' }}>
-        <p>Redirigiendo a la página principal...</p>
+        <p>{redirectMessage}</p>
       </div>
     );
   }

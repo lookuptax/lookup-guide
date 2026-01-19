@@ -63,13 +63,18 @@ export default function DocTagDocListPage(props) {
 
   // Use locale-aware title and description
   const { i18n } = useDocusaurusContext();
-  const isSpanish = i18n.currentLocale === 'es';
+  const currentLocale = i18n.currentLocale;
   
-  const title = isSpanish 
+  const title = currentLocale === 'es'
     ? `Guías de ${tag.label} - Número de identificación fiscal`
+    : currentLocale === 'zh-Hans'
+    ? `${tag.label}指南 - 税号`
     : `Documentation on ${tag.label}`;
-  const description = isSpanish
+    
+  const description = currentLocale === 'es'
     ? `Encuentra toda la documentación relacionada con ${tag.label}. Explora nuestras guías y artículos sobre ${tag.label}.`
+    : currentLocale === 'zh-Hans'
+    ? `查找有关${tag.label}的所有文档。探索我们的${tag.label}指南和文章。`
     : `Find all documentation related to ${tag.label}. Explore our guides and articles on ${tag.label}.`;
   const keywords = tag.label;
 

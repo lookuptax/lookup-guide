@@ -1,0 +1,4 @@
+---
+id: gaap
+draft: true
+---

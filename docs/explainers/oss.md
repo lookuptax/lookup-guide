@@ -24,6 +24,7 @@ tags:
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
 <AlsoAvailable lang="es" href="/docs/es/explicadores/guia-oss-ventanilla-unica" />
+<AlsoAvailable lang="zh-Hans" href="/docs/zh-Hans/jieshipage/oss-ouzhou-zengzhishui-yizhanshi" />
 
 **The Value Added Tax (VAT)** is an important source of revenue for governments across the European Union (EU). It is levied on the consumption of goods and services and ultimately borne by the final consumer. However, VAT collection happens through a staged process where businesses charge, collect and remit VAT during production and distribution.
 
@@ -90,7 +91,6 @@ The OSS initiative has evolved over multiple stages since its inception:
 - A **Mini One Stop Shop (MOSS)** was launched in January 2015 limited to telecommunications, broadcasting and electronic services sold by EU businesses to non-business customers in other EU countries.
 - The MOSS was seen as successful with over 26,000 businesses registered by 2019. But it was limited only to e-services and EU-based suppliers.
 - Through Council Directive (EU) 2017/2455, the MOSS was expanded substantially starting July 2021 to cover:
-
   - All cross-border B2C services (not just electronic services)
   - Intra-EU distance sales of goods
   - Imported goods sold from outside the EU

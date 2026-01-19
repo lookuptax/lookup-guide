@@ -10,7 +10,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const LOCALES = ['es']; // Add more locales as needed
+const LOCALES = ['es', 'zh-Hans']; // Add more locales as needed
 const DOCS_DIR = 'docs';
 const I18N_DIR = 'i18n';
 

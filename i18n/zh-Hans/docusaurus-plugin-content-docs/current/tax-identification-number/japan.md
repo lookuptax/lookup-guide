@@ -1,0 +1,4 @@
+---
+id: japan
+draft: true
+---

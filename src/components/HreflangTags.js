@@ -2,7 +2,7 @@ import React from 'react';
 import Head from '@docusaurus/Head';
 import { useLocation } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { hasSpanishTranslation, getSpanishPath, translatedPages } from '@site/src/data/translatedPages';
+import { translatedPages, getAllTranslations } from '@site/src/data/translatedPages';
 
 /**
  * HreflangTags Component
@@ -44,29 +44,28 @@ export default function HreflangTags() {
   relativePath = '/' + relativePath.replace(/^\/+/, '').replace(/\/$/, '');
   if (relativePath === '') relativePath = '/';
   
-  // Check if this page is one of the translated pages
-  // For Spanish pages, we need to reverse-lookup the English path
+  // Find the English path and check for translations
   let englishPath = relativePath;
-  let spanishPath = null;
+  let translations = {};
   let hasTranslation = false;
   
   if (currentLocale === defaultLocale) {
-    // On English page - check if Spanish translation exists
-    hasTranslation = hasSpanishTranslation(relativePath);
-    if (hasTranslation) {
-      spanishPath = getSpanishPath(relativePath);
-      englishPath = relativePath;
-    }
+    // On English page - check if translations exist
+    translations = getAllTranslations(relativePath);
+    hasTranslation = Object.keys(translations).length > 0;
+    englishPath = relativePath;
   } else {
-    // On Spanish page - check if this is a translated page
-    // Look up by Spanish path (reverse lookup)
-    for (const [enPath, esPath] of Object.entries(translatedPages)) {
-      if (esPath === relativePath || esPath === relativePath.replace(/^\//, '')) {
-        hasTranslation = true;
-        englishPath = enPath;
-        spanishPath = esPath;
-        break;
+    // On localized page - reverse lookup the English path
+    for (const [enPath, locales] of Object.entries(translatedPages)) {
+      for (const [locale, localePath] of Object.entries(locales)) {
+        if (locale === currentLocale && (localePath === relativePath || localePath === relativePath.replace(/^\//, ''))) {
+          hasTranslation = true;
+          englishPath = enPath;
+          translations = locales;
+          break;
+        }
       }
+      if (hasTranslation) break;
     }
   }
   
@@ -75,15 +74,37 @@ export default function HreflangTags() {
     return null;
   }
   
-  // Build absolute URLs
+  // Build absolute URLs for all available languages
   const englishUrl = `${siteUrl}${baseUrl}${englishPath.replace(/^\//, '')}`.replace(/\/$/, '') || `${siteUrl}${baseUrl}`;
-  const spanishUrl = `${siteUrl}${baseUrl}es/${spanishPath.replace(/^\//, '')}`.replace(/\/$/, '');
+  
+  const hreflangLinks = [
+    <link key="en" rel="alternate" hreflang="en" href={englishUrl} />
+  ];
+  
+  // Add Spanish if available
+  if (translations.es) {
+    const spanishUrl = `${siteUrl}${baseUrl}es/${translations.es.replace(/^\//, '')}`.replace(/\/$/, '');
+    hreflangLinks.push(
+      <link key="es" rel="alternate" hreflang="es" href={spanishUrl} />
+    );
+  }
+  
+  // Add Chinese if available
+  if (translations['zh-Hans']) {
+    const chineseUrl = `${siteUrl}${baseUrl}zh-Hans/${translations['zh-Hans'].replace(/^\//, '')}`.replace(/\/$/, '');
+    hreflangLinks.push(
+      <link key="zh-Hans" rel="alternate" hreflang="zh-Hans" href={chineseUrl} />
+    );
+  }
+  
+  // Add x-default pointing to English
+  hreflangLinks.push(
+    <link key="x-default" rel="alternate" hreflang="x-default" href={englishUrl} />
+  );
   
   return (
     <Head>
-      <link rel="alternate" hreflang="en" href={englishUrl} />
-      <link rel="alternate" hreflang="es" href={spanishUrl} />
-      <link rel="alternate" hreflang="x-default" href={englishUrl} />
+      {hreflangLinks}
     </Head>
   );
 }

@@ -1,0 +1,4 @@
+---
+id: egypt
+draft: true
+---

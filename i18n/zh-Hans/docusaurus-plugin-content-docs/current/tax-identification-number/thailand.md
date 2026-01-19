@@ -1,0 +1,4 @@
+---
+id: thailand
+draft: true
+---
