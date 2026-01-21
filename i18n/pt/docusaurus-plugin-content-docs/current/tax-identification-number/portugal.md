@@ -53,23 +53,23 @@ A estrutura de numeração compreende 9 dígitos consecutivos juntamente com um 
   - 99x xxx xxx
 
   <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/img/taxid/citizen-card-portugal-front.PNG" alt="Cartão de Cidadão Portugal"  title="Cartão de Cidadão Portugal"/>
+  <img src="/docs/img/taxid/citizen-card-portugal-front.PNG" alt="Cartão de Cidadão Portugal"  title="Cartão de Cidadão Portugal"/>
   </td><td>
-  <img src="/img/taxid/citizen-card-portugal-back.PNG" alt="Cartão de Cidadão Portugal"  title="Cartão de Cidadão Portugal"/>
+  <img src="/docs/img/taxid/citizen-card-portugal-back.PNG" alt="Cartão de Cidadão Portugal"  title="Cartão de Cidadão Portugal"/>
   </td></tr>
   <tr><td align="center">Cartão de Cidadão Portugal</td><td align="center">NIF no cartão de cidadão</td></tr>
   </table>
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/img/taxid/tax-payer-card-portugal.PNG" alt="Cartão de Contribuinte" title="Cartão de Contribuinte"/>
+  <img src="/docs/img/taxid/tax-payer-card-portugal.PNG" alt="Cartão de Contribuinte" title="Cartão de Contribuinte"/>
   </td></tr>
   <tr><td align="center">Cartão de Contribuinte</td></tr>
 </table>
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/img/taxid/dl-portugal.PNG" alt="Carta de Condução"  title="Carta de Condução"/>
+  <img src="/docs/img/taxid/dl-portugal.PNG" alt="Carta de Condução"  title="Carta de Condução"/>
   </td><td>
-  <img src="/img/taxid/dl-portugal-back.PNG" alt="Carta de Condução"  title="Carta de Condução"/>
+  <img src="/docs/img/taxid/dl-portugal-back.PNG" alt="Carta de Condução"  title="Carta de Condução"/>
   </td></tr>
   <tr><td align="center" colspan='2'>Carta de Condução</td></tr>
 </table>

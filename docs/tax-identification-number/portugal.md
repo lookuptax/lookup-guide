@@ -52,23 +52,23 @@ The numbering system structure comprises 9 consecutive digits along with a contr
   - 99x xxx xxx
 
   <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/img/taxid/citizen-card-portugal-front.PNG" alt="Citizen card Portugal"  title="Citizen card Portugal"/>
+  <img src="/docs/img/taxid/citizen-card-portugal-front.PNG" alt="Citizen card Portugal"  title="Citizen card Portugal"/>
   </td><td>
-  <img src="/img/taxid/citizen-card-portugal-back.PNG" alt="Citizen card Portugal"  title="Citizen card Portugal"/>
+  <img src="/docs/img/taxid/citizen-card-portugal-back.PNG" alt="Citizen card Portugal"  title="Citizen card Portugal"/>
   </td></tr>
   <tr><td align="center">Citizen card Portugal</td><td align="center">NIF on citizen card</td></tr>
   </table>
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/img/taxid/tax-payer-card-portugal.PNG" alt="Taxpayer Card" title="Taxpayer Card"/>
+  <img src="/docs/img/taxid/tax-payer-card-portugal.PNG" alt="Taxpayer Card" title="Taxpayer Card"/>
   </td></tr>
   <tr><td align="center">Taxpayer Card</td></tr>
 </table>
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/img/taxid/dl-portugal.PNG" alt="Driving License"  title="Driving License"/>
+  <img src="/docs/img/taxid/dl-portugal.PNG" alt="Driving License"  title="Driving License"/>
   </td><td>
-  <img src="/img/taxid/dl-portugal-back.PNG" alt="Driving License"  title="Driving License"/>
+  <img src="/docs/img/taxid/dl-portugal-back.PNG" alt="Driving License"  title="Driving License"/>
   </td></tr>
   <tr><td align="center" colspan='2'>Driving License</td></tr>
 </table>

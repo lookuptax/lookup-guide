@@ -48,7 +48,7 @@ export const translatedPages = {
   '/tax-identification-number/portugal-tax-id-guide': {
     pt: '/numero-identificacao-fiscal/guia-nif-portugal',
   },
-  '/tax-identification-number/united-states-ein-tax-id-guide': {
+  '/tax-identification-number/united-states-tax-id-guide': {
     pt: '/numero-identificacao-fiscal/guia-ein-eua',
   },
   
