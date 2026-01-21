@@ -9,6 +9,10 @@ tags:
   - TIN
 ---
 
+import AlsoAvailable from '@site/src/components/AlsoAvailable';
+
+<AlsoAvailable />
+
 ## NIF (Número de Identificação Fiscal)
 
 The Tax and Customs Authority holds the authority to issue a tax identification number (TIN) for individuals. This TIN is unique and carries legal significance for various purposes. It is imperative to possess an allocated TIN before commencing any activity, as it serves as a prerequisite for registering the start of operations.

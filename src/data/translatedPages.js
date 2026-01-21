@@ -45,6 +45,12 @@ export const translatedPages = {
   '/tax-identification-number/italy-tax-id-guide': {
     es: '/numero-identificacion-fiscal/guia-partita-iva-italia',
   },
+  '/tax-identification-number/portugal-tax-id-guide': {
+    pt: '/numero-identificacao-fiscal/guia-nif-portugal',
+  },
+  '/tax-identification-number/united-states-ein-tax-id-guide': {
+    pt: '/numero-identificacao-fiscal/guia-ein-eua',
+  },
   
   // How to Verify - English slug to localized slug mappings
   '/how-to-verify/eori-verification-eu-vies': {
