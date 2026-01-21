@@ -20,7 +20,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/japan-tax-id-guide" />
+<AlsoAvailable />
 
 日本是中国重要的贸易伙伴，了解日本的税务识别号码系统对于中日贸易和跨境电商至关重要。本指南详细介绍日本的两种主要税务识别号码及其用途。
 

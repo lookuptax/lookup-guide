@@ -15,7 +15,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/eori-verification-eu-vies" />
+<AlsoAvailable />
 
 **EORI号码**（Economic Operators Registration and Identification number，经济经营者注册和识别号码）是在欧盟海关领土内进行海关清关所需的关键标识符。这个强制性的EORI注册号码对于各种海关操作至关重要，包括向欧盟进口商品、从欧盟出口以及跨欧盟成员国的过境运输。
 

@@ -79,12 +79,87 @@ function Feature({Svg, title, description}) {
   );
 }
 
+// Portuguese feature list
+const FeatureListPt = [
+  {
+    title: 'Guias de Países',
+    Svg: require('@site/static/img/guides.svg').default,
+    description: (
+      <>
+        Saiba sobre as diretrizes fiscais e os próximos regulamentos nos países onde você opera. <a href="/docs/pt/category/tax-identification-number">Explorar mais</a>
+      </>
+    ),
+  },
+  {
+    title: 'Explicadores',
+    Svg: require('@site/static/img/explainer.svg').default,
+    description: (
+      <>
+        Confuso com diferentes terminologias? Não se preocupe, simplificamos vários conceitos de tributação para você. <a href="/docs/pt/category/explainers">Explorar agora</a>
+      </>
+    ),
+  },
+  {
+    title: 'Documentação da API',
+    Svg: require('@site/static/img/docs.svg').default,
+    description: (
+      <>
+        Integre nossas APIs globais de validação de IVA e valide IDs fiscais em todo o mundo com apenas uma API. <a href="https://demo.lookuptax.com/api/">Ir para a documentação da API</a>
+      </>
+    ),
+  },
+];
+
+// German feature list
+const FeatureListDe = [
+  {
+    title: 'Länderführer',
+    Svg: require('@site/static/img/guides.svg').default,
+    description: (
+      <>
+        Erfahren Sie mehr über die steuerlichen Richtlinien und kommenden Vorschriften in den Ländern, in denen Sie tätig sind. <a href="/docs/de/category/tax-identification-number">Mehr erfahren</a>
+      </>
+    ),
+  },
+  {
+    title: 'Erklärungen',
+    Svg: require('@site/static/img/explainer.svg').default,
+    description: (
+      <>
+        Verwirrt von verschiedenen Fachbegriffen? Keine Sorge, wir haben verschiedene Steuerkonzepte für Sie vereinfacht. <a href="/docs/de/category/explainers">Jetzt erkunden</a>
+      </>
+    ),
+  },
+  {
+    title: 'API-Dokumentation',
+    Svg: require('@site/static/img/docs.svg').default,
+    description: (
+      <>
+        Integrieren Sie unsere globalen APIs zur Umsatzsteuer-Validierung und validieren Sie Steuer-IDs weltweit mit nur einer API. <a href="https://demo.lookuptax.com/api/">Zur API-Dokumentation</a>
+      </>
+    ),
+  },
+];
+
 export default function HomepageFeatures() {
   const { i18n } = useDocusaurusContext();
   const currentLocale = i18n.currentLocale;
   
   // Select feature list based on locale
-  const FeatureList = currentLocale === 'es' ? FeatureListEs : FeatureListEn;
+  let FeatureList;
+  switch (currentLocale) {
+    case 'es':
+      FeatureList = FeatureListEs;
+      break;
+    case 'pt':
+      FeatureList = FeatureListPt;
+      break;
+    case 'de':
+      FeatureList = FeatureListDe;
+      break;
+    default:
+      FeatureList = FeatureListEn;
+  }
   
   return (
     <section className={styles.features}>

@@ -1,0 +1,4 @@
+---
+id: kazakhstan
+draft: true
+---

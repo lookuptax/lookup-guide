@@ -19,7 +19,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/cnpj-verification-brazil" />
+<AlsoAvailable />
 
 ## Consulta de CNPJ en el sitio web de REDESIM
 

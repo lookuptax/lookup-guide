@@ -1,0 +1,4 @@
+---
+id: nauru
+draft: true
+---

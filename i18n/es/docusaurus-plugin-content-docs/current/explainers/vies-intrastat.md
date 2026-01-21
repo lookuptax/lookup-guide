@@ -22,7 +22,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/explainers/vies-intrastat-detailed-guide-for-traders" />
+<AlsoAvailable />
 
 **VIES** e **INTRASTAT** son dos importantes sistemas de informes aduaneros y estadísticos de la UE que las empresas que participan en el comercio intra-UE necesitan comprender completamente. Esta guía en profundidad explica todo lo que las empresas necesitan saber para cumplir correctamente con los requisitos de VIES e INTRASTAT.
 

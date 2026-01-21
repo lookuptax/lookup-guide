@@ -27,12 +27,16 @@ export default function AlsoAvailable({ lang, href }) {
     en: 'This post is also available in',
     es: 'Esta página también está disponible en',
     'zh-Hans': '本文还提供以下语言版本',
+    de: 'Dieser Beitrag ist auch verfügbar in',
+    pt: 'Esta página também está disponível em',
   };
 
   const languageNames = {
     en: 'English',
     es: 'Español',
     'zh-Hans': '中文',
+    de: 'Deutsch',
+    pt: 'Português',
   };
 
   // Helper: Get the current page's English key

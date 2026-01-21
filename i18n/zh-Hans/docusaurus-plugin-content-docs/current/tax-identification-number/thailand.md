@@ -19,7 +19,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/thailand-tax-id-guide" />
+<AlsoAvailable />
 
 泰国是东盟重要的贸易枢纽，也是中国企业进入东南亚市场的重要节点。了解泰国的税务识别号码系统对于中泰贸易至关重要。
 

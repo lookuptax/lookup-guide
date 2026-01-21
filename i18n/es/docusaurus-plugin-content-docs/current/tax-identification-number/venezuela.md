@@ -22,7 +22,7 @@ tags:
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/venezuela-tax-id-guide" />
+<AlsoAvailable />
 
 ## RIF - Registro de Información Fiscal
 

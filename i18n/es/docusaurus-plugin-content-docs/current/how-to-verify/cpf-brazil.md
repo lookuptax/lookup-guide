@@ -19,7 +19,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/cpf-verification-brazil" />
+<AlsoAvailable />
 
 ## Verificación del CPF en el sitio web de la Receita Federal
 

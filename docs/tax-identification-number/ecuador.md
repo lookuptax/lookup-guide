@@ -11,7 +11,7 @@ tags:
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="es" href="/docs/es/numero-identificacion-fiscal/guia-ruc-ecuador" />
+<AlsoAvailable />
 
 ## Registro Unico de Contribuyentes (RUC)
 

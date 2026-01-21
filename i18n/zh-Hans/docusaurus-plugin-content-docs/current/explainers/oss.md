@@ -23,8 +23,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" />
-<AlsoAvailable lang="es" />
+<AlsoAvailable />
 
 **增值税（VAT）**是欧盟各国政府的重要收入来源。它对商品和服务的消费征税，最终由最终消费者承担。然而，增值税征收是通过企业在生产和分销过程中收取、征收和缴纳增值税的分阶段过程进行的。
 

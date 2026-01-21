@@ -24,7 +24,7 @@ tags:
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/Argentina-tax-id-guide" />
+<AlsoAvailable />
 
 ## CUIT - Clave Única de Identificación Tributaria
 

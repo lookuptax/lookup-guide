@@ -22,8 +22,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" />
-<AlsoAvailable lang="es" />
+<AlsoAvailable />
 
 **VIES**和**INTRASTAT**是从事欧盟内部贸易的公司需要充分了解的两个重要的欧盟海关和统计报告系统。本深入指南解释了企业正确遵守VIES和INTRASTAT要求所需了解的一切。
 

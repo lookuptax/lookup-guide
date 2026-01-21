@@ -1,0 +1,4 @@
+---
+id: korea
+draft: true
+---

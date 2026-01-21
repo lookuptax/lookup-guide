@@ -23,7 +23,7 @@ tags:
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/mexico-tax-id-guide" />
+<AlsoAvailable />
 
 ## RFC - Registro Federal de Contribuyentes
 

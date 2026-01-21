@@ -23,7 +23,7 @@ tags:
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/Uruguay-tax-id-guide" />
+<AlsoAvailable />
 
 ## RUT - Registro Único Tributario
 

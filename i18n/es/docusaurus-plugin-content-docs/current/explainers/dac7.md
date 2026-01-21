@@ -21,7 +21,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/explainers/dac7-compliance" />
+<AlsoAvailable />
 
 La Unión Europea ha introducido una nueva regulación importante de transparencia fiscal llamada DAC7 que impactará significativamente cómo operan las plataformas digitales. Esta legislación de largo alcance busca dar a las autoridades fiscales de la UE mayor visibilidad sobre las actividades de los vendedores en línea que utilizan plataformas como Amazon, Airbnb, Uber, Etsy, Upwork y muchas más.
 

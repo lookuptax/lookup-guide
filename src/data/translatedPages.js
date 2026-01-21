@@ -9,6 +9,14 @@
  */
 
 export const translatedPages = {
+  // Check VAT Number - Core page with all translations
+  '/check-vat-number-free-links-to-official-national-database-search-VAT-number': {
+    de: '/umsatzsteuer-identifikationsnummer-pruefen',
+    es: '/comprobar-numero-iva',
+    pt: '/verificar-numero-iva',
+    'zh-Hans': '/chaxun-zengzhishui-hao',
+  },
+
   // Tax ID Guides - English slug to localized slug mappings
   '/tax-identification-number/mexico-tax-id-guide': {
     es: '/numero-identificacion-fiscal/guia-rfc-mexico',
@@ -34,42 +42,41 @@ export const translatedPages = {
   '/tax-identification-number/Uruguay-tax-id-guide': {
     es: '/numero-identificacion-fiscal/guia-rut-uruguay',
   },
-  '/tax-identification-number/brazil-tax-id-guide': {
-    es: '/numero-identificacion-fiscal/guia-cnpj-cpf-brasil',
+  '/tax-identification-number/italy-tax-id-guide': {
+    es: '/numero-identificacion-fiscal/guia-partita-iva-italia',
   },
   
   // How to Verify - English slug to localized slug mappings
   '/how-to-verify/eori-verification-eu-vies': {
     'zh-Hans': '/ruhe-yanzheng/eori-haiguan-qingguan-hao-ouzhou',
   },
-  '/how-to-verify/cuit-verification-argentina': {
-    es: '/como-verificar/verificacion-cuit-argentina',
-  },
-  '/how-to-verify/curp-verification-mexico': {
-    es: '/como-verificar/verificacion-curp-mexico',
-  },
-  '/how-to-verify/rut-verification-chile': {
-    es: '/como-verificar/verificacion-rut-chile',
-  },
+
+
+
   '/how-to-verify/dni-verification-argentina': {
     es: '/como-verificar/verificacion-dni-argentina',
   },
-  '/how-to-verify/cnpj-verification-brazil': {
-    es: '/como-verificar/verificacion-cnpj-brasil',
-  },
+
   '/how-to-verify/cpf-verification-brazil': {
     es: '/como-verificar/verificacion-cpf-brasil',
+    pt: '/como-verificar/cpf-brasil',
   },
   '/how-to-verify/vat-verification-eu-vies': {
     es: '/como-verificar/verificacion-iva-ue-vies',
     'zh-Hans': '/ruhe-yanzheng/ouzhou-zengzhishui-vies',
+    de: '/wie-man-ueberprueft/eu-mehrwertsteuer-vies',
   },
   '/how-to-verify/vat-verification-uk': {
     'zh-Hans': '/ruhe-yanzheng/yingguo-zengzhishui-vat',
   },
+  '/how-to-verify/uid-verification-switzerland': {
+    de: '/wie-man-ueberprueft/schweiz-uid-nummer',
+  },
   '/how-to-verify/ein-verification-united-states': {
     es: '/como-verificar/verificacion-ein-estados-unidos',
     'zh-Hans': '/ruhe-yanzheng/meiguo-ein-shuihao',
+    de: '/wie-man-ueberprueft/usa-ein-verifizierung',
+    pt: '/como-verificar/ein-estados-unidos',
   },
   '/how-to-verify/nif-verification-spain': {
     es: '/como-verificar/verificacion-nif-espana',
@@ -96,9 +103,51 @@ export const translatedPages = {
     es: '/explicadores/guia-ioss-importacion',
     'zh-Hans': '/jieshipage/ioss-ouzhou-jinkou-yizhanshi',
   },
+  // Portuguese Mappings
+  '/check-vat-number': {
+    pt: '/verificar-numero-iva',
+  },
+
+  '/tax-identification-number/portugal-tax-id-guide': {
+    pt: '/numero-identificacao-fiscal/guia-nif-portugal',
+  },
+
+  '/country/Spain': {
+    pt: '/numero-identificacao-fiscal/guia-nif-espanha',
+  },
+  // Verification Pages
+  '/how-to-verify/cnpj-verification-brazil': {
+    es: '/como-verificar/verificacion-cnpj-brasil',
+    pt: '/como-verificar/cnpj-brasil',
+  },
+
+
+  '/how-to-verify/australia-company-number-format': {
+    pt: '/como-verificar/acn-australia',
+  },
+  '/how-to-verify/cuit-verification-argentina': {
+    es: '/como-verificar/verificacion-cuit-argentina',
+    de: '/wie-man-ueberprueft/cuit-argentina',
+    pt: '/como-verificar/cuit-argentina',
+  },
+  '/how-to-verify/rut-verification-chile': {
+     es: '/como-verificar/verificacion-rut-chile',
+     pt: '/como-verificar/rut-chile',
+  },
+  '/how-to-verify/curp-verification-mexico': {
+      es: '/como-verificar/verificacion-curp-mexico',
+      pt: '/como-verificar/crup-mexico',
+  },
+
+  // Explainers
   '/explainers/reverse-charge': {
     es: '/explicadores/inversion-sujeto-pasivo-iva',
     'zh-Hans': '/jieshipage/nixiang-zhengshou-jizhi-iva',
+    de: '/erklaerung/umkehrung-der-steuerschuldnerschaft',
+    pt: '/explicacao/inversao-sujeito-passivo',
+  },
+  '/explainers/gobd-compliance': {
+    de: '/erklaerung/gobd-konformitaet',
   },
   '/explainers/dac7-compliance': {
     es: '/explicadores/directiva-dac7',
@@ -112,9 +161,28 @@ export const translatedPages = {
     'zh-Hans': '/jieshipage/vies-intrastat-ouzhou-maoyi-zhinan',
   },
   
-  // Tax Identification Number - Country Pages (zh-Hans)
+  // Tax Identification Number - Country Pages
   '/tax-identification-number/germany-tax-id-guide': {
+    es: '/numero-identificacion-fiscal/guia-steuernummer-alemania',
+    de: '/steuerliche-identifikationsnummer/deutschland-steuer-id',
     'zh-Hans': '/shuiwu-shibie-haoma/deguo-shuihao',
+  },
+  '/tax-identification-number/united-states-tax-id-guide': {
+    es: '/numero-identificacion-fiscal/guia-ein-estados-unidos',
+    de: '/steuernummer/usa-steuer-id',
+    pt: '/numero-identificacao-fiscal/guia-impostos-estados-unidos',
+  },
+  '/tax-identification-number/brazil-tax-id-guide': {
+    es: '/numero-identificacion-fiscal/guia-cnpj-cpf-brasil',
+    pt: '/numero-identificacao-fiscal/guia-cnpj-cpf-brasil',
+  },
+  '/tax-identification-number/france-tax-id-guide': {
+    es: '/numero-identificacion-fiscal/guia-siren-siret-francia',
+    de: '/steuerliche-identifikationsnummer/frankreich-siren-siret',
+  },
+  '/tax-identification-number/united-kingdom-tax-id-guide': {
+    es: '/numero-identificacion-fiscal/guia-iva-reino-unido',
+    de: '/steuerliche-identifikationsnummer/uk-vat-guide',
   },
   '/tax-identification-number/japan-tax-id-guide': {
     'zh-Hans': '/shuiwu-shibie-haoma/riben-shuihao',
@@ -139,12 +207,14 @@ export const translatedPages = {
   '/check-vat-number-free-links-to-official-national-database-search-VAT-number': {
     es: '/comprobar-numero-iva',
     'zh-Hans': '/chaxun-zengzhishui-hao',
+    de: '/umsatzsteuer-identifikationsnummer-pruefen',
   },
   
   // Homepage
   '/': {
     es: '/',
     'zh-Hans': '/',
+    de: '/',
   },
 };
 

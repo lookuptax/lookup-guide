@@ -1,0 +1,4 @@
+---
+id: ecuador
+draft: true
+---

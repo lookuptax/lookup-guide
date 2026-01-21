@@ -11,7 +11,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" />
+<AlsoAvailable />
 
 ## NIF check on Agencia Tributaria website
 

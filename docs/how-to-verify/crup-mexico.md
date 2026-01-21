@@ -12,7 +12,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" />
+<AlsoAvailable />
 
 ## CURP check on gob.mx website
 

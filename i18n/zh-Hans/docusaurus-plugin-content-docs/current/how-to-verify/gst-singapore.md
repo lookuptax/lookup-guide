@@ -14,7 +14,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/find-gst-singapore" />
+<AlsoAvailable />
 
 ## 在myTax门户网站上查询GST注册号
 

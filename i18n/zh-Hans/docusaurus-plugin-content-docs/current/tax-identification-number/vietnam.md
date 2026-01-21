@@ -19,7 +19,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/vietnam-tax-id-guide" />
+<AlsoAvailable />
 
 越南是中国"一带一路"倡议的重要节点国家，近年来越来越多的中国企业将生产基地迁移到越南。了解越南的税务识别号码系统对于中越贸易至关重要。
 

@@ -14,7 +14,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" />
+<AlsoAvailable />
 
 ## 使用HMRC服务在线验证英国VAT号码
 

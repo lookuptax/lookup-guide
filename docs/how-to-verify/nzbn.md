@@ -11,7 +11,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="zh-Hans" />
+<AlsoAvailable />
 
 ## NZBN verification on companies register website
 

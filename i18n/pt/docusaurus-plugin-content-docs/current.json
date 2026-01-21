@@ -1,0 +1,102 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Glossary": {
+    "message": "Glossary",
+    "description": "The label for category 'Glossary' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Glossary.link.generated-index.title": {
+    "message": "Glossary",
+    "description": "The generated-index page title for category 'Glossary' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Glossary.link.generated-index.description": {
+    "message": "Learn about tax terms across the world.Use Lookuptax for hassle-free tax id validation in over 100+ countries",
+    "description": "The generated-index page description for category 'Glossary' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Verify tax IDs": {
+    "message": "Verify tax IDs",
+    "description": "The label for category 'Verify tax IDs' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Verify tax IDs.link.generated-index.title": {
+    "message": "Verify tax IDs",
+    "description": "The generated-index page title for category 'Verify tax IDs' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Verify tax IDs.link.generated-index.description": {
+    "message": "Learn about how to verify Tax IDs across the world.Use Lookuptax for hassle-free tax id validation in over 100+ countries",
+    "description": "The generated-index page description for category 'Verify tax IDs' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Sales Tax Rates in US": {
+    "message": "Sales Tax Rates in US",
+    "description": "The label for category 'Sales Tax Rates in US' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Sales Tax Rates in US.link.generated-index.title": {
+    "message": "Sales Tax Rates in US",
+    "description": "The generated-index page title for category 'Sales Tax Rates in US' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Sales Tax Rates in US.link.generated-index.description": {
+    "message": "Learn about Sales tax rates in countries across the world. Use Lookuptax for hassle-free tax id validation in over 100+ countries",
+    "description": "The generated-index page description for category 'Sales Tax Rates in US' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tax identification number": {
+    "message": "Tax identification number",
+    "description": "The label for category 'Tax identification number' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tax identification number.link.generated-index.title": {
+    "message": "Tax identification number",
+    "description": "The generated-index page title for category 'Tax identification number' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Tax identification number.link.generated-index.description": {
+    "message": "Learn about the Tax ID numbers across the world.Use Lookuptax for hassle-free tax id validation in over 100+ countries",
+    "description": "The generated-index page description for category 'Tax identification number' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.VAT in Countries": {
+    "message": "VAT in Countries",
+    "description": "The label for category 'VAT in Countries' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.VAT in Countries.link.generated-index.title": {
+    "message": "VAT rate in countries",
+    "description": "The generated-index page title for category 'VAT in Countries' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.VAT in Countries.link.generated-index.description": {
+    "message": "Learn about VAT rates in countries across the world. Use Lookuptax for hassle-free tax id validation in over 100+ countries",
+    "description": "The generated-index page description for category 'VAT in Countries' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Country Tax Guides": {
+    "message": "Country Tax Guides",
+    "description": "The label for category 'Country Tax Guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Country Tax Guides.link.generated-index.title": {
+    "message": "Country guides",
+    "description": "The generated-index page title for category 'Country Tax Guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Country Tax Guides.link.generated-index.description": {
+    "message": "Learn about the Tax regulations across the world.",
+    "description": "The generated-index page description for category 'Country Tax Guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Explainers": {
+    "message": "Explainers",
+    "description": "The label for category 'Explainers' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Explainers.link.generated-index.title": {
+    "message": "Explainers",
+    "description": "The generated-index page title for category 'Explainers' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Explainers.link.generated-index.description": {
+    "message": "Concepts in Taxation simplified for you",
+    "description": "The generated-index page description for category 'Explainers' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Einvoicing guides": {
+    "message": "Einvoicing guides",
+    "description": "The label for category 'Einvoicing guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Einvoicing guides.link.generated-index.title": {
+    "message": "Einvoicing guides",
+    "description": "The generated-index page title for category 'Einvoicing guides' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Einvoicing guides.link.generated-index.description": {
+    "message": "Learn about the einvoicing regulations across the world",
+    "description": "The generated-index page description for category 'Einvoicing guides' in sidebar 'tutorialSidebar'"
+  }
+}

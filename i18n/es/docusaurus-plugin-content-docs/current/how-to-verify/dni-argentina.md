@@ -20,7 +20,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/dni-verification-argentina" />
+<AlsoAvailable />
 
 ## Verificación del DNI en el sitio web de RENAPER
 

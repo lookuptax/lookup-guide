@@ -1,0 +1,4 @@
+---
+id: morocco
+draft: true
+---

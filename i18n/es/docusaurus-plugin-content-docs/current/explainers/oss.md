@@ -22,7 +22,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/explainers/guide-to-vat-one-stop-shop" />
+<AlsoAvailable />
 
 El **Impuesto sobre el Valor Añadido (IVA)** es una fuente importante de ingresos para los gobiernos de la Unión Europea (UE). Para las empresas, cumplir con las reglas del IVA para ventas transfronterizas directas dentro de la UE ha sido una carga administrativa. Necesitaban registrarse y contabilizar el IVA en cada Estado Miembro donde tenían clientes.
 

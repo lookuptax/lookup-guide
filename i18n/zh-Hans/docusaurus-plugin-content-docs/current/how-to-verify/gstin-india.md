@@ -13,7 +13,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/gstin-verification-india" />
+<AlsoAvailable />
 
 ## 在GST网站上查询GSTIN
 

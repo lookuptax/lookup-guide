@@ -21,7 +21,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/germany-tax-id-guide" />
+<AlsoAvailable />
 
 德国是中国在欧盟最大的贸易伙伴，了解德国的税务识别号码系统对于中德贸易和跨境电商至关重要。本指南详细介绍德国的三种主要税务识别号码及其用途。
 

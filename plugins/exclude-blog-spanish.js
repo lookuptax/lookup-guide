@@ -58,7 +58,7 @@ module.exports = function excludeBlogForSpanish(context, options) {
         fs.writeFileSync(indexPath, noPostsHtml);
         console.log('  Created redirect for /es/blog/ -> /docs/es/');
       } else {
-        console.log('[exclude-blog-for-spanish] No Spanish blog directory found at:', esBlogDir);
+        // Silent - blog directory not ready yet during multi-locale build
       }
     },
   };

@@ -13,7 +13,7 @@ tags:
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/brazil-tax-id-guide" />
+<AlsoAvailable />
 
 ## Cadastro Nacional da Pessoa Jurídica – CNPJ
 

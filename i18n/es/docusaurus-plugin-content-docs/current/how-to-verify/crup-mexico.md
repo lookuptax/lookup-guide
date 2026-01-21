@@ -20,7 +20,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/curp-verification-mexico" />
+<AlsoAvailable />
 
 ## Consulta de CURP en el sitio web gob.mx
 

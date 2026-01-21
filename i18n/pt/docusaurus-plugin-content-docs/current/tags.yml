@@ -1,0 +1,84 @@
+Brasil:
+  label: Brasil
+  permalink: /tags/brasil
+  description: Guias de identificação fiscal e validação para o Brasil (CNPJ, CPF).
+
+Portugal:
+  label: Portugal
+  permalink: /tags/portugal
+  description: Guias de identificação fiscal e IVA para Portugal.
+
+Estados Unidos:
+  label: Estados Unidos
+  permalink: /tags/estados-unidos
+  description: Guias de identificação fiscal (EIN) para os EUA.
+
+Espanha:
+  label: Espanha
+  permalink: /tags/espanha
+  description: Guias de identificação fiscal (NIF, NIE) para Espanha.
+
+China:
+  label: China
+  permalink: /tags/china
+  description: Guias de identificação fiscal (USCI) para a China.
+
+Argentina:
+  label: Argentina
+  permalink: /tags/argentina
+  description: Guias de identificação fiscal (CUIT) para a Argentina.
+
+Chile:
+  label: Chile
+  permalink: /tags/chile
+  description: Guias de identificação fiscal (RUT) para o Chile.
+
+México:
+  label: México
+  permalink: /tags/mexico
+  description: Guias de identificação fiscal (RFC) para o México.
+
+CNPJ:
+  label: CNPJ
+  permalink: /tags/cnpj
+  description: Cadastro Nacional da Pessoa Jurídica (Brasil).
+
+CPF:
+  label: CPF
+  permalink: /tags/cpf
+  description: Cadastro de Pessoas Físicas (Brasil).
+
+NIF:
+  label: NIF
+  permalink: /tags/nif
+  description: Número de Identificação Fiscal.
+
+IVA:
+  label: IVA
+  permalink: /tags/iva
+  description: Imposto sobre Valor Acrescentado.
+
+Validação:
+  label: Validação
+  permalink: /tags/validacao
+  description: Ferramentas e métodos para validar números fiscais.
+
+Ferramentas:
+  label: Ferramentas
+  permalink: /tags/ferramentas
+  description: Ferramentas gratuitas de validação.
+
+Grátis:
+  label: Grátis
+  permalink: /tags/gratis
+  description: Recursos gratuitos.
+
+B2B:
+  label: B2B
+  permalink: /tags/b2b
+  description: Business-to-Business.
+
+Explainer:
+  label: Explainer
+  permalink: /tags/explainer
+  description: Artigos explicativos sobre conceitos fiscais.

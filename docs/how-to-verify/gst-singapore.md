@@ -19,7 +19,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="zh-Hans" />
+<AlsoAvailable />
 
 ## GST Reg number check on myTax Portal
 

@@ -19,7 +19,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" />
+<AlsoAvailable />
 
 ## Comprobación de NIF en la sede electrónica de la Agencia Tributaria
 

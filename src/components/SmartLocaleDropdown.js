@@ -16,6 +16,14 @@ export default function SmartLocaleDropdown({mobile, ...props}) {
   // Hardcoded base URL - this never changes
   const trueBaseUrl = '/docs/';
   
+  const localeLabels = {
+    en: 'English',
+    es: 'Español',
+    'zh-Hans': '中文',
+    de: 'Deutsch',
+    pt: 'Português',
+  };
+
   // Generate items with absolute URLs
   const items = locales.map((locale) => {
     let targetUrl;
@@ -25,13 +33,13 @@ export default function SmartLocaleDropdown({mobile, ...props}) {
       targetUrl = `${trueBaseUrl}${locale}/`;
     }
 
-    const label = locale === 'en' ? 'English' : (locale === 'es' ? 'Español' : (locale === 'zh-Hans' ? '中文' : locale));
+    const label = localeLabels[locale] || locale;
     const isActive = locale === currentLocale;
 
     return { locale, label, targetUrl, isActive };
   });
 
-  const dropdownLabel = currentLocale === 'en' ? 'English' : (currentLocale === 'es' ? 'Español' : (currentLocale === 'zh-Hans' ? '中文' : currentLocale));
+  const dropdownLabel = localeLabels[currentLocale] || currentLocale;
 
   // Mobile view - render as expandable menu item in sidebar
   if (mobile) {

@@ -1,0 +1,71 @@
+Deutschland:
+  label: Deutschland
+  description: Leitfäden und Überprüfung von Steuer-IDs für Deutschland.
+
+TIN:
+  label: TIN
+  description: Steueridentifikationsnummer (Taxpayer Identification Number).
+
+USt-IdNr:
+  label: USt-IdNr
+  description: Umsatzsteuer-Identifikationsnummer für den EU-Handel.
+
+USA:
+  label: USA
+  description: Steuerleitfäden und Überprüfung für die Vereinigten Staaten.
+
+SSN:
+  label: SSN
+  description: Social Security Number (Sozialversicherungsnummer) der USA.
+
+EIN:
+  label: EIN
+  description: Employer Identification Number (Arbeitgeber-Identifikationsnummer) der USA.
+
+ITIN:
+  label: ITIN
+  description: Individual Taxpayer Identification Number (Individuelle Steuerzahler-Identifikationsnummer) der USA.
+
+Reverse Charge:
+  label: Reverse Charge
+  description: Umkehrung der Steuerschuldnerschaft bei grenzüberschreitenden Dienstleistungen.
+
+RCM:
+  label: RCM
+  description: Reverse Charge Mechanism (Umkehrung der Steuerschuldnerschaft).
+
+Umkehrung der Steuerschuldnerschaft:
+  label: Umkehrung der Steuerschuldnerschaft
+  description: Steuerschuldnerschaft des Leistungsempfängers (Reverse Charge).
+
+EU:
+  label: EU
+  description: Europäische Union.
+
+VIES:
+  label: VIES
+  description: VAT Information Exchange System (MwSt-Informationsaustauschsystem).
+
+MIAS:
+  label: MIAS
+  description: Mehrwertsteuer-Informationsaustauschsystem (VIES).
+
+Frankreich:
+  label: Frankreich
+  description: Steuerleitfäden und Überprüfung für Frankreich.
+
+NIF:
+  label: NIF
+  description: Numéro d’identification fiscale (Steueridentifikationsnummer).
+
+SIREN:
+  label: SIREN
+  description: Identifikationsnummer für Unternehmen in Frankreich.
+
+Vereinigtes Königreich:
+  label: Vereinigtes Königreich
+  description: Steuerleitfäden und Überprüfung für das Vereinigte Königreich (UK).
+
+VAT:
+  label: VAT
+  description: Value Added Tax (Umsatzsteuer / Mehrwertsteuer).

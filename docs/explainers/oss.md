@@ -23,8 +23,8 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" href="/docs/es/explicadores/guia-oss-ventanilla-unica" />
-<AlsoAvailable lang="zh-Hans" href="/docs/zh-Hans/jieshipage/oss-ouzhou-zengzhishui-yizhanshi" />
+<AlsoAvailable />
+<AlsoAvailable />
 
 **The Value Added Tax (VAT)** is an important source of revenue for governments across the European Union (EU). It is levied on the consumption of goods and services and ultimately borne by the final consumer. However, VAT collection happens through a staged process where businesses charge, collect and remit VAT during production and distribution.
 

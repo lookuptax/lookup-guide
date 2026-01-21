@@ -20,7 +20,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/korea-tax-id-guide" />
+<AlsoAvailable />
 
 韩国是中国重要的贸易伙伴和技术来源地，了解韩国的税务识别号码系统对于中韩贸易和跨境电商至关重要。本指南详细介绍韩国的三种主要税务识别号码及其用途。
 

@@ -1,0 +1,4 @@
+---
+id: guatemala
+draft: true
+---

@@ -29,22 +29,32 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "es", "zh-Hans"],
+    locales: ['en', 'es', 'zh-Hans', 'de', 'pt'],
     localeConfigs: {
       en: {
-        label: "English",
-        direction: "ltr",
-        htmlLang: "en-US",
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
       },
       es: {
-        label: "Español",
-        direction: "ltr",
-        htmlLang: "es",
+        label: 'Español',
+        direction: 'ltr',
+        htmlLang: 'es-ES',
       },
-      "zh-Hans": {
-        label: "中文",
-        direction: "ltr",
-        htmlLang: "zh-Hans",
+      'zh-Hans': {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-Hans',
+      },
+      de: {
+        label: 'Deutsch',
+        direction: 'ltr',
+        htmlLang: 'de',
+      },
+      pt: {
+        label: 'Português',
+        direction: 'ltr',
+        htmlLang: 'pt',
       },
     },
   },

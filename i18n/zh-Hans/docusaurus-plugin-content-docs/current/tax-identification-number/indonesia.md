@@ -21,7 +21,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/indonesia-tax-id-guide" />
+<AlsoAvailable />
 
 印度尼西亚是东南亚最大的经济体，拥有超过2.7亿人口的巨大市场。了解印尼的税务识别号码系统对于中国企业开拓印尼市场至关重要。
 

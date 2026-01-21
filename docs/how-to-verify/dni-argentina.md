@@ -18,7 +18,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" />
+<AlsoAvailable />
 
 ## DNI verification on RENAPER website
 

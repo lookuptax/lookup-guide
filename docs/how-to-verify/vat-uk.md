@@ -12,7 +12,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="zh-Hans" />
+<AlsoAvailable />
 
 ## Verify VAT number in UK online using HMRC service
 

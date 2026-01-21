@@ -1,0 +1,4 @@
+---
+id: bolivia
+draft: true
+---

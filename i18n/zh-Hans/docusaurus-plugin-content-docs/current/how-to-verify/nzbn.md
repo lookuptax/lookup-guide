@@ -14,7 +14,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/nzbn-verification" />
+<AlsoAvailable />
 
 ## 在公司注册处网站上验证NZBN
 

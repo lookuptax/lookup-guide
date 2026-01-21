@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "LookupTax",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Global API for VAT Validation",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Country guides": {
+    "message": "Länderführer",
+    "description": "Navbar item with label Country guides"
+  },
+  "item.label.API Docs": {
+    "message": "API-Dokumentation",
+    "description": "Navbar item with label API Docs"
+  },
+  "item.label.Explainers": {
+    "message": "Erklärungen",
+    "description": "Navbar item with label Explainers"
+  },
+  "item.label.How to Verify Tax IDs": {
+    "message": "Steuer-IDs überprüfen",
+    "description": "Navbar item with label How to Verify Tax IDs"
+  },
+  "item.label.Signup for Free Trial": {
+    "message": "Kostenlos testen",
+    "description": "Navbar item with label Signup for Free Trial"
+  }
+}

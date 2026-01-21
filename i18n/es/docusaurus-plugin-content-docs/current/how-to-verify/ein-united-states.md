@@ -19,8 +19,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" />
-<AlsoAvailable lang="zh-Hans" />
+<AlsoAvailable />
 
 ## Búsqueda de EIN en el sitio web del Contralor de Texas
 

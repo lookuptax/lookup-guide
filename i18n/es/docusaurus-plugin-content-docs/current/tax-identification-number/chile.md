@@ -23,7 +23,7 @@ tags:
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/chile-tax-id-guide" />
+<AlsoAvailable />
 
 ## RUT - Rol Único Tributario
 

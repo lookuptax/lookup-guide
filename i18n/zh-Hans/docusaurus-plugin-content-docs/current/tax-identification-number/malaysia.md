@@ -21,7 +21,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/tax-identification-number/malaysia-tax-id-guide" />
+<AlsoAvailable />
 
 马来西亚是东盟重要经济体，也是阿里巴巴在东南亚的重要布局地。了解马来西亚的税务识别号码系统对于中马贸易和跨境电商至关重要。
 

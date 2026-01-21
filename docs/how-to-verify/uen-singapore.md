@@ -19,7 +19,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="zh-Hans" />
+<AlsoAvailable />
 
 ## UEN check on UEN website
 

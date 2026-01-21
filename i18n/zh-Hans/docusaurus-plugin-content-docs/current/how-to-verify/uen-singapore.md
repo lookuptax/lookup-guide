@@ -13,7 +13,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/find-uen-singapore" />
+<AlsoAvailable />
 
 ## 在UEN官网上查询UEN
 

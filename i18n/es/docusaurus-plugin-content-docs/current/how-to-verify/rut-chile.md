@@ -20,7 +20,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/rut-verification-chile" />
+<AlsoAvailable />
 
 ## Verificación de RUT en el sitio web del SII
 

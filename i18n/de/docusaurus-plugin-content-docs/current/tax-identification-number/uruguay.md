@@ -1,0 +1,4 @@
+---
+id: uruguay
+draft: true
+---

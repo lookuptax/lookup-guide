@@ -12,8 +12,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" />
-<AlsoAvailable lang="es" />
+<AlsoAvailable />
 
 ## 在德克萨斯州主计长网站上查询EIN
 

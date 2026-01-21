@@ -14,7 +14,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/how-to-verify/abn-verification" />
+<AlsoAvailable />
 
 ## 在澳大利亚商业注册局(ABR)上查询ABN
 
