@@ -22,7 +22,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/explainers/reverse-charge" />
+<AlsoAvailable />
 
 Si eres una empresa que vende en todo el mundo, probablemente habrás encontrado el término "_reverse charge_" o "_inversión del sujeto pasivo_" con frecuencia. Si eres una empresa que compra un producto o servicio del extranjero y te preguntas por qué no se cobra IVA en tus facturas, podría ser un caso de inversión del sujeto pasivo.
 

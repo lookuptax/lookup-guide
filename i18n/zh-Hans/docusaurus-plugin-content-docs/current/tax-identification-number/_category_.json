@@ -1,0 +1,16 @@
+{
+  "label": "税务识别号码",
+  "position": 0,
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "税务识别号码",
+    "keywords": "税号, 增值税号, 税务编号",
+    "description": "了解全球各国的税务识别号码。使用LookupTax轻松验证100多个国家的税号。"
+  },
+  "customProps": {
+    "description": "本指南介绍全球各国使用的税务识别号码。使用LookupTax轻松验证100多个国家的税号。"
+  }
+}

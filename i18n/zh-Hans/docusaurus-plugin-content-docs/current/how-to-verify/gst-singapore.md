@@ -1,7 +1,7 @@
 ---
 id: find-gst-singapore
 title: 如何验证新加坡消费税注册号 (GST Reg No)?
-slug: /ruhe-yanzheng/xinjiapo-xiaofei shui-gst
+slug: /ruhe-yanzheng/xinjiapo-xiaofeishui-gst
 keywords:
   [新加坡GST查询, 新加坡消费税号, 新加坡税号验证, GST注册号查询, 新加坡企业验证]
 sidebar_label: 新加坡消费税号 (GST)

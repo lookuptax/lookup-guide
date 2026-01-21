@@ -34,8 +34,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" />
-<AlsoAvailable lang="zh-Hans" />
+<AlsoAvailable />
 
 If you are a business selling across the globe you would have likely came across the term “_reverse charge_” frequently. If you are business and happen to buy a product or service from abroad and if you are wondering why VAT is not charged in your invoices, it could be a case of reverse charges.
 

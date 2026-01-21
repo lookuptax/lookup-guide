@@ -76,7 +76,7 @@ export const translatedPages = {
   },
   // Tier 3: APAC & Regional Hubs
   '/how-to-verify/find-gst-singapore': {
-    'zh-Hans': '/ruhe-yanzheng/xinjiapo-xiaofei shui-gst',
+    'zh-Hans': '/ruhe-yanzheng/xinjiapo-xiaofeishui-gst',
   },
   '/how-to-verify/abn-verification': {
     'zh-Hans': '/ruhe-yanzheng/aodaliya-abn',
@@ -110,6 +110,29 @@ export const translatedPages = {
   '/explainers/vies-intrastat-detailed-guide-for-traders': {
     es: '/explicadores/vies-intrastat-guia',
     'zh-Hans': '/jieshipage/vies-intrastat-ouzhou-maoyi-zhinan',
+  },
+  
+  // Tax Identification Number - Country Pages (zh-Hans)
+  '/tax-identification-number/germany-tax-id-guide': {
+    'zh-Hans': '/shuiwu-shibie-haoma/deguo-shuihao',
+  },
+  '/tax-identification-number/japan-tax-id-guide': {
+    'zh-Hans': '/shuiwu-shibie-haoma/riben-shuihao',
+  },
+  '/tax-identification-number/korea-tax-id-guide': {
+    'zh-Hans': '/shuiwu-shibie-haoma/hanguo-shuihao',
+  },
+  '/tax-identification-number/vietnam-tax-id-guide': {
+    'zh-Hans': '/shuiwu-shibie-haoma/yuenan-shuihao',
+  },
+  '/tax-identification-number/thailand-tax-id-guide': {
+    'zh-Hans': '/shuiwu-shibie-haoma/taiguo-shuihao',
+  },
+  '/tax-identification-number/malaysia-tax-id-guide': {
+    'zh-Hans': '/shuiwu-shibie-haoma/malaixiya-shuihao',
+  },
+  '/tax-identification-number/indonesia-tax-id-guide': {
+    'zh-Hans': '/shuiwu-shibie-haoma/yinni-shuihao',
   },
   
   // Homepage

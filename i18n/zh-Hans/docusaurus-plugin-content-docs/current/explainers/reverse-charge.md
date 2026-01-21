@@ -23,8 +23,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" />
-<AlsoAvailable lang="es" />
+<AlsoAvailable />
 
 如果您是一家在全球范围内销售的企业，您可能经常遇到"**逆向征税**"（reverse charge）这一术语。如果您是企业并且碰巧从国外购买产品或服务，并且想知道为什么发票中没有收取增值税，这可能就是逆向征税的情况。
 
@@ -87,11 +86,11 @@ import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
 ## 发票格式
 
-发票格式与税务发票相同。除了您需要将税额添加为0%，类似于您指示零税率项目的方式。您还需要添加说明以表明发票上应用了逆向征税，如[英国的情况](/docs/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom#invoice-notes-for-reverse-charges)。发票中所需的确切文本将根据国家法规而有所不同。
+发票格式与税务发票相同。除了您需要将税额添加为0%，类似于您指示零税率项目的方式。您还需要添加说明以表明发票上应用了逆向征税，如[英国的情况](/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom#invoice-notes-for-reverse-charges)。发票中所需的确切文本将根据国家法规而有所不同。
 
 ## 适用范围
 
-逆向征税适用于许多国家，包括但不限于欧盟、[英国](/docs/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom#cross-border-reverse-charges)、挪威、澳大利亚、日本和印度。
+逆向征税适用于许多国家，包括但不限于欧盟、[英国](/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom#cross-border-reverse-charges)、挪威、澳大利亚、日本和印度。
 
 ### 欧盟
 
@@ -117,7 +116,7 @@ import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
 #### 英国的国内逆向征税
 
-在英国，逆向征税适用于特定商品和服务。您可以在[此处](https://www.gov.uk/guidance/the-vat-domestic-reverse-charge-procedure-notice-735)找到这些商品和服务的列表。请参阅我们的[英国国家指南](/docs/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom)以了解更多关于英国逆向征税的信息。
+在英国，逆向征税适用于特定商品和服务。您可以在[此处](https://www.gov.uk/guidance/the-vat-domestic-reverse-charge-procedure-notice-735)找到这些商品和服务的列表。请参阅我们的[英国国家指南](/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom)以了解更多关于英国逆向征税的信息。
 
 #### 英国的跨境逆向征税
 
@@ -146,9 +145,9 @@ import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
 ## 验证税号的重要性
 
-- **在应用逆向征税之前，税务机关建议卖家[验证客户提供的增值税号](/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number)**。客户提供的税号有时可能是错误的，或者在某些情况下，为了以较低的价格购买商品或服务，一些客户故意输入属于另一个实体的税号以避税。在这种情况下未能征税可能导致损失，因为您（卖家）有责任向当局缴税。
+- **在应用逆向征税之前，税务机关建议卖家[验证客户提供的增值税号](../check-vat-number.md)**。客户提供的税号有时可能是错误的，或者在某些情况下，为了以较低的价格购买商品或服务，一些客户故意输入属于另一个实体的税号以避税。在这种情况下未能征税可能导致损失，因为您（卖家）有责任向当局缴税。
 
-- 您可以从税务机关的官方数据库手动验证增值税号。为了让您更轻松，我们整理了国家增值税数据库列表[此处](/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number)。
+- 您可以从税务机关的官方数据库手动验证增值税号。为了让您更轻松，我们整理了国家增值税数据库列表[此处](../check-vat-number.md)。
 
 - 逐个验证增值税号将是一个繁琐且耗时的过程。如果您为客户提供自助注册机制，这种方法也将对您具有挑战性。这就是像[Lookuptax](https://lookuptax.com)这样的增值税验证提供商可以帮助您的地方。
 
