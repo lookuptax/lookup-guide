@@ -18,7 +18,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" href="/docs/es/como-verificar/verificacion-cuit-argentina" />
+<AlsoAvailable lang="es" />
 
 ## CUIT verification on AFIP website
 

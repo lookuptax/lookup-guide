@@ -12,7 +12,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="zh-Hans" href="/docs/zh-Hans/ruhe-yanzheng/eori-haiguan-qingguan-hao-ouzhou" />
+<AlsoAvailable lang="zh-Hans" />
 
 The EORI number, an abbreviation for Economic Operators Registration and Identification number, is a crucial identifier required for customs clearance within the European Union's customs territory. This mandatory EORI registration number is essential for various customs operations, including importing goods to the EU, exporting from the EU, and transit movements across EU member states.
 

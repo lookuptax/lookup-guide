@@ -1,24 +1,18 @@
 import React from 'react';
 import { useLocation } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { translatedPages } from '@site/src/data/translatedPages';
 
 /**
  * Cross-language linking component for SEO interlinking
- * Now supports multiple languages on a single line
+ * Uses translatedPages.js to auto-detect language-specific slugs
  * 
- * Usage (single language):
- *   <AlsoAvailable lang="es" href="/docs/es/numero-identificacion-fiscal/guia-rfc-mexico" />
+ * Usage (auto-detect all translations):
+ *   <AlsoAvailable />
  * 
- * Usage (multiple languages):
+ * Usage (legacy - still supported):
  *   <AlsoAvailable lang="es" href="/docs/es/..." />
- *   <AlsoAvailable lang="zh-Hans" href="/docs/zh-Hans/..." />
- * 
- * This will automatically combine into: "This post is also available in: English | 中文"
  */
-
-// Store for collecting all AlsoAvailable instances on a page
-const availableLanguages = new Map();
-let renderTimer = null;
 
 export default function AlsoAvailable({ lang, href }) {
   const location = useLocation();
@@ -26,97 +20,143 @@ export default function AlsoAvailable({ lang, href }) {
   const currentLocale = i18n.currentLocale;
   const defaultLocale = i18n.defaultLocale;
   
-  // Don't show if we're already on the target locale
-  if (currentLocale === lang) {
-    return null;
-  }
+  // Use fixed base URL (not locale-dependent)
+  const baseUrl = '/docs/';
 
-  // Translation for "This post is also available in" based on current page locale
   const translations = {
     en: 'This post is also available in',
     es: 'Esta página también está disponible en',
     'zh-Hans': '本文还提供以下语言版本',
   };
 
-  // Language names in their native form
   const languageNames = {
     en: 'English',
     es: 'Español',
     'zh-Hans': '中文',
   };
 
-  // Use explicit href if provided, otherwise construct from path
-  let targetUrl = href;
-  
-  if (!targetUrl) {
-    // Auto-generate URL (only works for same-slug translations)
-    let baseUrl = siteConfig.baseUrl;
-    for (const locale of i18n.locales) {
-      if (locale !== defaultLocale && baseUrl.endsWith(`/${locale}/`)) {
-        baseUrl = baseUrl.replace(`/${locale}/`, '/');
-        break;
+  // Helper: Get the current page's English key
+  const getCurrentEnglishKey = () => {
+    let relativePath = location.pathname;
+    
+    // Strip baseUrl (handles both /docs/ and /docs/zh-Hans/ cases)
+    if (relativePath.startsWith(baseUrl)) {
+      relativePath = relativePath.substring(baseUrl.length);
+    }
+    
+    // Strip current locale prefix if present (e.g., "zh-Hans/ruhe-yanzheng/...")
+    if (currentLocale !== defaultLocale) {
+      const localePrefix = `${currentLocale}/`;
+      if (relativePath.startsWith(localePrefix)) {
+        relativePath = relativePath.substring(localePrefix.length);
       }
     }
     
-    targetUrl = location.pathname;
-    
+    // Normalize: ensure leading slash
+    relativePath = '/' + relativePath.replace(/^\/+/, '').replace(/\/$/, '');
+    if (relativePath === '') relativePath = '/';
+
+    // Find English key
     if (currentLocale === defaultLocale) {
-      // Going from default (en) to non-default (es/zh-Hans)
-      if (targetUrl.startsWith(baseUrl)) {
-        targetUrl = targetUrl.substring(baseUrl.length);
-      }
-      targetUrl = `${baseUrl}${lang}/${targetUrl}`;
+      // On English page - key is the current path
+      return translatedPages[relativePath] ? relativePath : null;
     } else {
-      // Going from non-default locale to default or another locale
-      const localePrefix = `${baseUrl}${currentLocale}/`;
-      if (targetUrl.startsWith(localePrefix)) {
-        if (lang === defaultLocale) {
-          targetUrl = targetUrl.replace(localePrefix, baseUrl);
-        } else {
-          targetUrl = targetUrl.replace(localePrefix, `${baseUrl}${lang}/`);
+      // On localized page - reverse lookup to find English key
+      for (const [enPath, locales] of Object.entries(translatedPages)) {
+        for (const [locale, localePath] of Object.entries(locales)) {
+          const normalizedLocalePath = '/' + localePath.replace(/^\/+/, '');
+          if (locale === currentLocale && normalizedLocalePath === relativePath) {
+            return enPath;
+          }
         }
       }
     }
-  }
-
-  // Collect this language for combined rendering
-  const pageKey = location.pathname;
-  if (!availableLanguages.has(pageKey)) {
-    availableLanguages.set(pageKey, []);
-  }
-  
-  const languages = availableLanguages.get(pageKey);
-  const existingLang = languages.find(l => l.lang === lang);
-  
-  if (!existingLang) {
-    languages.push({
-      lang,
-      url: targetUrl,
-      name: languageNames[lang] || lang
-    });
-  }
-
-  // Clear and set new timer to batch render
-  if (renderTimer) {
-    clearTimeout(renderTimer);
-  }
-  
-  // Use state to force re-render after collecting all languages
-  const [, forceUpdate] = React.useReducer(x => x + 1, 0);
-  
-  renderTimer = setTimeout(() => {
-    forceUpdate();
-    renderTimer = null;
-  }, 0);
-
-  // Only render if we're the first instance
-  const isFirst = languages.length > 0 && languages[0].lang === lang;
-  
-  if (!isFirst) {
     return null;
+  };
+
+  // Helper: Build URL for target language
+  const resolveUrlForLanguage = (targetLang, englishKey) => {
+    if (!englishKey) return null;
+
+    let targetSlug = null;
+    
+    if (targetLang === defaultLocale) {
+      // Target is English - use the English key as slug
+      targetSlug = englishKey;
+    } else {
+      // Target is non-English - look up the localized slug
+      const mapping = translatedPages[englishKey];
+      if (mapping && mapping[targetLang]) {
+        targetSlug = mapping[targetLang];
+      }
+    }
+
+    if (!targetSlug) return null;
+
+    // Remove leading slash for URL construction
+    targetSlug = targetSlug.replace(/^\/+/, '');
+    
+    // Build URL: /docs/ + optional(locale/) + slug
+    if (targetLang === defaultLocale) {
+      return `${baseUrl}${targetSlug}`;
+    } else {
+      return `${baseUrl}${targetLang}/${targetSlug}`;
+    }
+  };
+
+  // Get English key for current page
+  const englishKey = getCurrentEnglishKey();
+
+  // NEW MODE: No lang prop = auto-detect all translations
+  if (!lang) {
+    if (!englishKey) return null;
+
+    const availableLocales = i18n.locales || ['en'];
+    const availableTranslations = [];
+    
+    for (const locale of availableLocales) {
+      if (locale === currentLocale) continue;
+      const url = resolveUrlForLanguage(locale, englishKey);
+      if (url) {
+        availableTranslations.push({
+          locale,
+          url,
+          name: languageNames[locale] || locale,
+        });
+      }
+    }
+
+    if (availableTranslations.length === 0) return null;
+
+    const label = translations[currentLocale] || translations.en;
+
+    return (
+      <p style={{
+        fontSize: '0.8rem',
+        color: 'var(--ifm-color-content-secondary)',
+        marginTop: '0.25rem',
+        marginBottom: '0.75rem',
+      }}>
+        {label}:{' '}
+        {availableTranslations.map((t, index) => (
+          <React.Fragment key={t.locale}>
+            {index > 0 && <span style={{ margin: '0 0.5rem' }}>|</span>}
+            <a href={t.url} style={{ fontWeight: 500 }}>{t.name}</a>
+          </React.Fragment>
+        ))}
+      </p>
+    );
   }
+
+  // LEGACY MODE: lang prop provided
+  if (currentLocale === lang) return null;
+
+  // Resolve URL: use explicit href if provided, else auto-detect
+  let targetUrl = href || resolveUrlForLanguage(lang, englishKey);
+  if (!targetUrl) return null;
 
   const label = translations[currentLocale] || translations.en;
+  const langName = languageNames[lang] || lang;
 
   return (
     <p style={{
@@ -126,14 +166,7 @@ export default function AlsoAvailable({ lang, href }) {
       marginBottom: '0.75rem',
     }}>
       {label}:{' '}
-      {languages.map((l, index) => (
-        <React.Fragment key={l.lang}>
-          {index > 0 && <span style={{ margin: '0 0.5rem' }}>|</span>}
-          <a href={l.url} style={{ fontWeight: 500 }}>
-            {l.name}
-          </a>
-        </React.Fragment>
-      ))}
+      <a href={targetUrl} style={{ fontWeight: 500 }}>{langName}</a>
     </p>
   );
 }

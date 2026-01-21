@@ -22,8 +22,8 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/explainers/import-one-stop-shop-ioss" />
-<AlsoAvailable lang="es" href="/docs/es/explicadores/guia-ioss-importacion" />
+<AlsoAvailable lang="en" />
+<AlsoAvailable lang="es" />
 
 欧盟进口一站式服务（IOSS，Import One Stop Shop）是欧盟作为电子商务一揽子计划的一部分于2021年7月1日推出的新制度。该制度允许从欧盟以外向欧盟境内客户销售商品的供应商通过简化的月度申报表来收取和缴纳进口时应缴的增值税，而不是在进口时收取增值税。
 

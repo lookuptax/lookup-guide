@@ -23,8 +23,8 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="en" href="/docs/explainers/reverse-charge" />
-<AlsoAvailable lang="es" href="/docs/es/explicadores/inversion-sujeto-pasivo-iva" />
+<AlsoAvailable lang="en" />
+<AlsoAvailable lang="es" />
 
 如果您是一家在全球范围内销售的企业，您可能经常遇到"**逆向征税**"（reverse charge）这一术语。如果您是企业并且碰巧从国外购买产品或服务，并且想知道为什么发票中没有收取增值税，这可能就是逆向征税的情况。
 

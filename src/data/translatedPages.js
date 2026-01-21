@@ -60,6 +60,36 @@ export const translatedPages = {
   '/how-to-verify/cpf-verification-brazil': {
     es: '/como-verificar/verificacion-cpf-brasil',
   },
+  '/how-to-verify/vat-verification-eu-vies': {
+    es: '/como-verificar/verificacion-iva-ue-vies',
+    'zh-Hans': '/ruhe-yanzheng/ouzhou-zengzhishui-vies',
+  },
+  '/how-to-verify/vat-verification-uk': {
+    'zh-Hans': '/ruhe-yanzheng/yingguo-zengzhishui-vat',
+  },
+  '/how-to-verify/ein-verification-united-states': {
+    es: '/como-verificar/verificacion-ein-estados-unidos',
+    'zh-Hans': '/ruhe-yanzheng/meiguo-ein-shuihao',
+  },
+  '/how-to-verify/nif-verification-spain': {
+    es: '/como-verificar/verificacion-nif-espana',
+  },
+  // Tier 3: APAC & Regional Hubs
+  '/how-to-verify/find-gst-singapore': {
+    'zh-Hans': '/ruhe-yanzheng/xinjiapo-xiaofei shui-gst',
+  },
+  '/how-to-verify/abn-verification': {
+    'zh-Hans': '/ruhe-yanzheng/aodaliya-abn',
+  },
+  '/how-to-verify/gstin-verification-india': {
+    'zh-Hans': '/ruhe-yanzheng/yindu-gstin',
+  },
+  '/how-to-verify/find-uen-singapore': {
+    'zh-Hans': '/ruhe-yanzheng/xinjiapo-uen',
+  },
+  '/how-to-verify/nzbn-verification': {
+    'zh-Hans': '/ruhe-yanzheng/xinxilan-nzbn',
+  },
   
   // Explainers - English slug to localized slug mappings
   '/explainers/import-one-stop-shop-ioss': {

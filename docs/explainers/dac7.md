@@ -21,7 +21,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" href="/docs/es/explicadores/directiva-dac7" />
+<AlsoAvailable lang="es" />
 
 The European Union has introduced a major new tax transparency regulation called DAC7 that will significantly impact how digital platforms operate. This far-reaching legislation aims to give EU tax authorities enhanced visibility into the activities of online sellers using platforms like Amazon, Airbnb, Uber, Etsy, Upwork and many more.
 

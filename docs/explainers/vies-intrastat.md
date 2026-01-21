@@ -23,8 +23,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" href="/docs/es/explicadores/vies-intrastat-guia" />
-<AlsoAvailable lang="zh-Hans" href="/docs/zh-Hans/jieshipage/vies-intrastat-ouzhou-maoyi-zhinan" />
+<AlsoAvailable />
 
 **VIES** and **INTRASTAT** are two important EU customs and statistical reporting systems that companies engaged in intra-EU trade need to fully understand. This in-depth guide explains everything businesses need to know to properly comply with VIES and INTRASTAT requirements.
 

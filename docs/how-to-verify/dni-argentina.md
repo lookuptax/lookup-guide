@@ -18,7 +18,7 @@ tags:
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
-<AlsoAvailable lang="es" href="/docs/es/como-verificar/verificacion-dni-argentina" />
+<AlsoAvailable lang="es" />
 
 ## DNI verification on RENAPER website
 
