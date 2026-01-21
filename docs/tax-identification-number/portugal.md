@@ -4,16 +4,16 @@ title: Portugal TIN number guide
 keywords: [TIN, Find NIF, Tax ID, Portugal]
 sidebar_label: Portugal
 description: Learn about TIN number in Portugal. Use Lookuptax for hassle-free tax id validation in Portugal and other 100+ countries
-tags : 
+tags:
   - Portugal
   - TIN
 ---
 
 ## NIF (Número de Identificação Fiscal)
+
 The Tax and Customs Authority holds the authority to issue a tax identification number (TIN) for individuals. This TIN is unique and carries legal significance for various purposes. It is imperative to possess an allocated TIN before commencing any activity, as it serves as a prerequisite for registering the start of operations.
 
 Legal entities obtain their identification numbers through the Registo Nacional de Pessoas Coletivas (RNPC), which is a service under the Instituto dos Regist.
-
 
 **NIF Format**
 The numbering system structure comprises 9 consecutive digits along with a control digit. The format of fiscal numbers varies based on the taxpayer's type:
@@ -47,30 +47,30 @@ The numbering system structure comprises 9 consecutive digits along with a contr
 - Civil Partnerships:
   - 99x xxx xxx
 
-
   <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/docs/img/taxid/citizen-card-protugal-front.PNG" alt="Citizen card Portugal"  title="Citizen card Portugal"/>
+  <img src="/img/taxid/citizen-card-portugal-front.PNG" alt="Citizen card Portugal"  title="Citizen card Portugal"/>
   </td><td>
-  <img src="/docs/img/taxid/citizen-card-protugal-back.PNG" alt="Citizen card Portugal"  title="Citizen card Portugal"/>
+  <img src="/img/taxid/citizen-card-portugal-back.PNG" alt="Citizen card Portugal"  title="Citizen card Portugal"/>
   </td></tr>
   <tr><td align="center">Citizen card Portugal</td><td align="center">NIF on citizen card</td></tr>
   </table>
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/docs/img/taxid/tax-payer-card-portugal.PNG" alt="Taxpayer Card" title="Taxpayer Card"/>
+  <img src="/img/taxid/tax-payer-card-portugal.PNG" alt="Taxpayer Card" title="Taxpayer Card"/>
   </td></tr>
   <tr><td align="center">Taxpayer Card</td></tr>
 </table>
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
-  <img src="/docs/img/taxid/dl-portugal.PNG" alt="Driving License"  title="Driving License"/>
+  <img src="/img/taxid/dl-portugal.PNG" alt="Driving License"  title="Driving License"/>
   </td><td>
-  <img src="/docs/img/taxid/dl-portugal-back.PNG" alt="Driving License"  title="Driving License"/>
+  <img src="/img/taxid/dl-portugal-back.PNG" alt="Driving License"  title="Driving License"/>
   </td></tr>
   <tr><td align="center" colspan='2'>Driving License</td></tr>
 </table>
 
-----
+---
+
 **How [Lookuptax](https://lookuptax.com/) can help you in VAT validation?**
 
 **Lookuptax VAT validation** revolutionizes VAT number validation with its robust platform, empowering businesses to seamlessly verify VAT numbers across over 100 countries. Our cutting-edge technology ensures accurate and efficient validation, reducing errors and enhancing compliance.
