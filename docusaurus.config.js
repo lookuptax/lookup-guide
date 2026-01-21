@@ -49,28 +49,7 @@ const config = {
     },
   },
 
-  plugins: [
-    './plugins/exclude-blog-spanish.js',
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          // Redirect Spanish blog to Spanish homepage (no translations available)
-          {
-            from: '/es/blog',
-            to: '/es/',
-          },
-        ],
-        createRedirects(existingPath) {
-          // Redirect any /es/blog/* path to Spanish homepage
-          if (existingPath.startsWith('/es/blog/')) {
-            return ['/es/'];
-          }
-          return undefined;
-        },
-      },
-    ],
-  ],
+
 
   presets: [
     [
@@ -214,7 +193,9 @@ const config = {
       },
     }),
 
-  plugins: [    [
+  plugins: [
+    './plugins/exclude-blog-spanish.js',
+    [
       '@docusaurus/plugin-client-redirects',
       {
         fromExtensions: ['html', 'htm'],

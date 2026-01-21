@@ -100,3 +100,41 @@ cnpj:
 cpf:
   label: CPF
   description: CPF - Cadastro de Pessoas Físicas de Brasil. Número de identificación fiscal para personas físicas.
+
+# New Tags for Check VAT Number page
+busqueda-iva:
+  label: Búsqueda ID IVA
+  description: Herramientas para comprobar la validez de números de IVA.
+
+busqueda-gstin:
+  label: Búsqueda GSTIN
+  description: Verificación de números de identificación fiscal GST (India).
+
+busqueda-abn:
+  label: Búsqueda ABN
+  description: Consulta del Registro Comercial Australiano (Australian Business Number).
+
+consulta-numero-iva:
+  label: Consulta número IVA
+  description: Recursos oficiales para consultar números de IVA internacionales.
+
+# Missing Tags from Logs (Common)
+ue:
+  label: UE
+  description: Unión Europea (European Union).
+
+iva:
+  label: IVA
+  description: Impuesto sobre el Valor Añadido (VAT).
+
+plataformas-digitales:
+  label: Plataformas digitales
+  description: Regulaciones fiscales para marketplaces y plataformas en línea.
+
+comercio-electronico:
+  label: Comercio electrónico
+  description: Impuestos y regulaciones para ventas en línea (E-commerce).
+
+inversion-sujeto-pasivo:
+  label: Inversión sujeto pasivo
+  description: Mecanismo de Reverse Charge o inversión del sujeto pasivo en el IVA.

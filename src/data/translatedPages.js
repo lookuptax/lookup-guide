@@ -134,6 +134,12 @@ export const translatedPages = {
   '/tax-identification-number/indonesia-tax-id-guide': {
     'zh-Hans': '/shuiwu-shibie-haoma/yinni-shuihao',
   },
+
+  // Check VAT Number Page
+  '/check-vat-number-free-links-to-official-national-database-search-VAT-number': {
+    es: '/comprobar-numero-iva',
+    'zh-Hans': '/chaxun-zengzhishui-hao',
+  },
   
   // Homepage
   '/': {
