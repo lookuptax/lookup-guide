@@ -109,10 +109,6 @@ export const translatedPages = {
     es: '/explicadores/guia-ioss-importacion',
     'zh-Hans': '/jieshipage/ioss-ouzhou-jinkou-yizhanshi',
   },
-  // Portuguese Mappings
-  '/check-vat-number': {
-    pt: '/verificar-numero-iva',
-  },
 
   '/tax-identification-number/portugal-tax-id-guide': {
     pt: '/numero-identificacao-fiscal/guia-nif-portugal',
@@ -210,11 +206,11 @@ export const translatedPages = {
   },
 
   // Check VAT Number Page
-  '/check-vat-number-free-links-to-official-national-database-search-VAT-number': {
-    es: '/comprobar-numero-iva',
-    'zh-Hans': '/chaxun-zengzhishui-hao',
-    de: '/umsatzsteuer-identifikationsnummer-pruefen',
-  },
+ // '/check-vat-number-free-links-to-official-national-database-search-VAT-number': {
+   // es: '/comprobar-numero-iva',
+   // 'zh-Hans': '/chaxun-zengzhishui-hao',
+   // de: '/umsatzsteuer-identifikationsnummer-pruefen',
+ // },
   
   // Homepage
   '/': {
