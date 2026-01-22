@@ -300,21 +300,148 @@ div[class^="announcementBar_"] {
 
 /* ===== CLS Prevention Styles ===== */
 
+/* 
+ * Fix for CLS issue > 0.1 on mobile
+ * These styles prevent Cumulative Layout Shift caused by:
+ * - Images loading without dimensions
+ * - Ads loading dynamically
+ * - Font loading shifts
+ * - Dynamic content injection
+ */
+
+/* === Image CLS Prevention === */
+
 /* Prevent CLS from images without explicit dimensions */
 .markdown img {
   max-width: 100%;
   height: auto;
+  /* Smooth loading transition to reduce perceived shift */
+  transition: opacity 0.2s ease-in-out;
 }
 
 /* Reserve space for images without width/height attributes */
 .markdown img:not([width]):not([height]) {
+  /* Use aspect-ratio for better space reservation */
+  aspect-ratio: 16 / 9;
   min-height: 100px;
+  max-height: 400px;
+  object-fit: contain;
   background-color: var(--ifm-color-secondary-lightest);
 }
 
-/* Ensure consistent announcement bar height on mobile */
+/* Ensure inline images in content don't cause shifts */
+.markdown p img,
+.markdown figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* === AdSense / Ad Container CLS Prevention === */
+
+/* Reserve space for ad containers to prevent layout shift */
+.adsbygoogle {
+  display: block;
+  min-height: 100px;
+  background-color: transparent;
+}
+
+/* Auto-format responsive ads - reserve typical mobile ad height */
+ins.adsbygoogle[data-ad-format="auto"] {
+  min-height: 250px;
+}
+
+/* Wrapper for ads to ensure consistent space */
+.ad-container,
+div:has(> .adsbygoogle) {
+  min-height: 100px;
+  contain: layout style;
+}
+
+/* Mobile-specific ad space reservation */
+@media screen and (max-width: 768px) {
+  ins.adsbygoogle[data-ad-format="auto"] {
+    min-height: 250px;
+    width: 100%;
+  }
+  
+  .adsbygoogle:empty::before {
+    content: "";
+    display: block;
+    min-height: 250px;
+  }
+}
+
+/* === Announcement Bar CLS Prevention === */
+
+/* Ensure consistent announcement bar height on all devices */
+:root {
+  --docusaurus-announcement-bar-height: 2.4rem;
+}
+
 @media screen and (max-width: 997px) {
   :root {
     --docusaurus-announcement-bar-height: 4rem !important;
   }
+}
+
+/* Lock announcement bar height to prevent shift */
+div[class^="announcementBar_"] {
+  min-height: var(--docusaurus-announcement-bar-height);
+  contain: layout;
+}
+
+/* === Font Loading CLS Prevention === */
+
+/* Ensure fonts don't cause layout shift during loading */
+html {
+  font-display: optional;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reserve consistent line height for text content */
+.markdown p,
+.markdown li {
+  line-height: 1.75;
+}
+
+/* === Sidebar CLS Prevention === */
+
+/* Prevent sidebar from causing shifts */
+.theme-doc-sidebar-container {
+  will-change: width;
+}
+
+@media screen and (max-width: 996px) {
+  .theme-doc-sidebar-container {
+    min-height: auto;
+  }
+}
+
+/* === Navbar CLS Prevention === */
+
+/* Lock navbar height */
+.navbar {
+  min-height: var(--ifm-navbar-height);
+}
+
+/* Prevent navbar items from causing shifts during hydration */
+.navbar__items {
+  min-height: var(--ifm-navbar-height);
+}
+
+/* === Table of Contents CLS Prevention === */
+
+/* Reserve TOC space on desktop */
+@media screen and (min-width: 997px) {
+  .table-of-contents {
+    min-width: 200px;
+  }
+}
+
+/* === General Layout Stability === */
+
+/* Prevent empty elements from collapsing then expanding */
+:empty {
+  min-height: 0;
 }
