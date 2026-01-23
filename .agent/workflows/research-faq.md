@@ -4,7 +4,7 @@ description: Guide for researching and adding relevant FAQs to content pages
 
 # FAQ Research and Implementation Workflow
 
-This workflow outlines the strategies and steps to identify high-intent user questions and add them to documentation pages. This ensures content addresses real user needs like validation, formatting, and legal distinctions.
+This workflow outlines the strategies and steps to **independently identify** high-intent user questions and add them to documentation pages. The goal is to uncover **common and burning problems** faced by users and businesses (e.g., rejections, blockers, penalties) rather than just defining terms.
 
 ## 1. Topic & Keyword Analysis
 
@@ -15,7 +15,7 @@ Identify the core subject of the page (e.g., "Albania Tax ID", "VAT validation")
 
 ## 2. Intent Discovery (Research Phase)
 
-Use the `search_web` or `browser_subagent` tools to find real user questions.
+Use the `search_web` or `browser_subagent` tools to independently discover real user questions. **Do not simply copy generic FAQs from other sites.** You must find the "burning problems" that cause users stress, money, or legal issues.
 
 ### Search Queries to Run:
 
@@ -38,7 +38,10 @@ Investigate platforms where real users discuss their problems to uncover "messy"
 - **Reddit Search**: `site:reddit.com "[Topic]" (scam OR problem OR waiting time OR "how to")`
 - **Expat/Developer Forums**: Look for threads about "business registration", "API integration errors", or "banking issues" related to the ID.
 - **AnswerThePublic Technique**: Search for `who/what/where/when/why/how + [Topic]` to find long-tail questions.
-- **Identify Pain Points**: Look for "chicken and egg" problems (e.g., need ID for bank, need bank for ID) or specific freelancer/nomad concerns.
+- **Identify "Gotchas" & Rejection Reasons**: Search for specific rejection reasons (e.g., "why was my [ID] rejected").
+- **Find "Chicken and Egg" Problems**: Look for blockers (e.g., need ID to open bank account, but need bank account to get ID).
+- **Withholding & Compliance Traps**: Check if there are penalty taxes for _not_ having the ID (e.g., Australia's 47% withholding).
+- **Sham Contracting/Employee vs Contractor**: For business IDs, check if there are legal risks for individuals getting them.
 
 ## 4. Cross-Border & Compliance Check (Advanced)
 
