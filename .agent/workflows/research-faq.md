@@ -31,17 +31,23 @@ Use the `search_web` or `browser_subagent` tools to independently discover real 
 - **Google "People Also Ask"**: Look for questions users frequently click on.
 - Check "Related Searches" at the bottom of Google results.
 
-## 3. UGC & User Intent Discovery (Crucial Step)
+## 3. UGC & User Intent Discovery (Crucial Step - STRICTLY FOLLOW)
 
-Investigate platforms where real users discuss their problems to uncover "messy" real-world issues.
+Investigate diverse platforms where real users and businesses discuss their problems to uncover "messy" real-world issues. **Do not limit research to just one source.**
 
-- **Reddit Search**: `site:reddit.com "[Topic]" (scam OR problem OR waiting time OR "how to")`
-- **Expat/Developer Forums**: Look for threads about "business registration", "API integration errors", or "banking issues" related to the ID.
-- **AnswerThePublic Technique**: Search for `who/what/where/when/why/how + [Topic]` to find long-tail questions.
+- **Broaden Your Search**: Look beyond Reddit. You must consult:
+  - **Specialized Forums**: Expat.com, Internations, or local equivalents (e.g., "LatamExpat", "Toytown Germany").
+  - **Developer/Tech Communities**: StackOverflow, GitHub Issues (search for API integration errors like `"[Tax ID] regex validation failed"`).
+  - **Government/Official Forums**: Look for "Community" or "Help" sections on official tax portals (e.g., HMRC Community, DIAN PQRS public logs).
+  - **Social Media**: Twitter/X (search for recent complaints about platform downtime), LinkedIn (search for professional posts about tax compliance).
+- **Focus on B2B Pain Points**: Prioritize capturing business-to-business struggles over individual ones.
+  - **Invoicing**: "Can I bill a foreign company without this ID?"
+  - **Verification**: "How do I check if my B2B partner's ID is valid?"
+  - **Cross-Border**: "Do I need to register for VAT if I sell SaaS to [Country]?"
+  - **Withholding**: "Why is my client withholding 20% of my invoice?"
 - **Identify "Gotchas" & Rejection Reasons**: Search for specific rejection reasons (e.g., "why was my [ID] rejected").
 - **Find "Chicken and Egg" Problems**: Look for blockers (e.g., need ID to open bank account, but need bank account to get ID).
-- **Withholding & Compliance Traps**: Check if there are penalty taxes for _not_ having the ID (e.g., Australia's 47% withholding).
-- **Sham Contracting/Employee vs Contractor**: For business IDs, check if there are legal risks for individuals getting them.
+- **Withholding & Compliance Traps**: Check if there are penalty taxes for _not_ having the ID.
 
 ## 4. Cross-Border & Compliance Check (Advanced)
 

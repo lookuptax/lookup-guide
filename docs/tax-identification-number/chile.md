@@ -42,6 +42,28 @@ To confirm TIN accuracy, apply the algorithm module 11 formula to the pre-hyphen
 
 Official Database [RUT search](https://zeus.sii.cl/cvc/stc/stc.html)
 
+## Frequently Asked Questions
+
+### Can I open a bank account with a Temporary Investor RUT?
+
+Generally, no. A **Temporary RUT (RUT Provisorio)**—often issued to investors directly by the SII—allows you to pay taxes and buy assets (like property or cars) but **does not grant access to the regular banking system** (e.g., _Cuenta Corriente_). Most banks require a _RUT Definitivo_ (tied to permanent residency) and 1–2 years of local tax history. The main exception is BancoEstado's "CuentaRUT," but it has significant deposit limits (approx. $2,000,000 CLP). <sup>[[1]](https://banco.santander.cl/personas/planes/cuenta-corriente-life)</sup>
+
+### Why am I being charged 19% tax on digital services (Netflix, AWS)?
+
+Since 2020, Chile applies a **19% VAT (IVA)** to foreign digital services. If you are using a foreign credit card in Chile, this tax is often automatically applied by the bank or the service provider. To be exempt, you must register as a VAT taxpayer with a business RUT and provide a valid "Factura" (invoice) to the service provider, proving you are a local business entity rather than a final consumer. <sup>[[2]](https://www.sii.cl/vat/)</sup>
+
+### Do I need a local Chilean sponsor (Mandatario) to get a RUT?
+
+Yes, this is a common "chicken and egg" problem. If you are not a resident, you absolutely **must appoint a legal representative (Mandatario)** who is a Chilean resident or citizen to obtain an Investor RUT. This representative is legally responsible for your tax compliance in Chile. Legal firms typically charge between **$300 to $1,000 USD** per year for this service, which effectively becomes a "maintenance fee" for holding a Chilean Tax ID. <sup>[[3]](https://www.sii.cl/portales/investors/registrese/inscripcion_rut_extranjeros.htm)</sup>
+
+### Why is my passport number rejected on Chilean websites (Lider, Rappi)?
+
+Chilean e-commerce systems are notoriously rigid and often have a hard-coded validation for the 9-digit RUT algorithm (Modulo 11). They frequently reject foreign passport numbers. Foreigners without a RUT often face a "digital blackout" where they cannot order groceries, sign up for gym memberships, or buy bus tickets online. The only official solution is to obtain a Temporary RUT. <sup>[[4]](https://www.reddit.com/r/chile/comments/qz5cfg/buying_online_without_a_rut_or_bank_account/)</sup>
+
+### Is my RUT number private like a Social Security Number?
+
+No. Unlike the US SSN, the Chilean RUT is public information. It is used as a username for everything from supermarket loyalty points to bank logins. Anyone can find a person's name and address using their RUT on public "Rutificador" websites. Because of this, "phishing" using public personal data is a common security risk in Chile. <sup>[[5]](https://digital.gob.cl/biblioteca/regulacion/ley-n-19628-sobre-proteccion-de-la-vida-privada/)</sup>
+
 ---
 
 **How [Lookuptax](https://lookuptax.com/) can help you ?**
@@ -49,3 +71,48 @@ Official Database [RUT search](https://zeus.sii.cl/cvc/stc/stc.html)
 **Lookuptax VAT validation** revolutionizes VAT number validation with its robust platform, empowering businesses to seamlessly verify VAT numbers across over 100 countries. Our cutting-edge technology ensures accurate and efficient validation, reducing errors and enhancing compliance.
 
 [<img src="/docs/img/posters/signup-taxid-validation20.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
+
+<script type="application/ld+json">
+{`
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Can I open a bank account with a Temporary Investor RUT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally, no. A Temporary RUT (RUT Provisorio) allows you to pay taxes and buy assets but does not grant access to the regular banking system. Most banks require a RUT Definitivo (tied to permanent residency) and 1–2 years of local tax history. The main exception is BancoEstado's CuentaRUT, but it has significant deposit limits."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Why am I being charged 19% tax on digital services (Netflix, AWS)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Since 2020, Chile applies a 19% VAT (IVA) to foreign digital services. If you are using a foreign credit card in Chile, this tax is often automatically applied. To be exempt, you must register as a VAT taxpayer with a business RUT and provide a valid invoice to the service provider."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Do I need a local Chilean sponsor (Mandatario) to get a RUT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If you are not a resident, you must appoint a legal representative (Mandatario) who is a Chilean resident or citizen to obtain an Investor RUT. This representative is legally responsible for your tax compliance in Chile."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Why is my passport number rejected on Chilean websites (Lider, Rappi)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chilean e-commerce systems often have a hard-coded validation for the 9-digit RUT algorithm (Modulo 11) and reject passport numbers. The only official solution to access these services is to obtain a Temporary RUT."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Is my RUT number private like a Social Security Number?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The Chilean RUT is public information used as a username for many services. Anyone can find a person's name and address using their RUT on public websites, which makes phishing a common security risk."
+      }
+    }]
+  }
+`}
+</script>
