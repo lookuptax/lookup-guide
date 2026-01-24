@@ -46,7 +46,7 @@ For entities, the identifier is 12 characters long, consisting of 3 letters foll
 This is the #1 pain point with **CFDI 4.0**. The SAT's validation engine requires the "Name" (Nombre/Razón Social) to match the **Constancia de Situación Fiscal** _exactly_—character for character, usually in ALL CAPS, and **without** the corporate regime (e.g., "SA DE CV").
 
 - **The Error**: `CFDI40145` ("El nombre del receptor no coincide...").
-- **The Fix**: Ensure your provider captures your name exactly as it appears in the SAT registry, not your commercial name. If you are a foreign entity, the name must match exactly how it was entered in the client's system for the generic RFC. <sup>[[1]](http://omawww.sat.gob.mx/tramitesyservicios/Paginas1/anexo_20_version3-3.htm)</sup>
+- **The Fix**: Ensure your provider captures your name exactly as it appears in the SAT registry, not your commercial name. If you are a foreign entity, the name must match exactly how it was entered in the client's system for the generic RFC. <sup>[[1]](http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20_version3-3.htm)</sup>
 
 ### Why is my client asking for a "Constancia de Situación Fiscal" if I'm a foreigner?
 
@@ -56,7 +56,7 @@ Mexican accounting norms (CFDI 4.0) force local companies to validate the "Zip C
   - **RFC**: `XEXX010101000`
   - **Regime**: `616` (Sin obligaciones fiscales)
   - **Zip Code**: Use the generic foreign zip code or the one the client's ERP defaults to.
-  - **Document**: Provide a **Tax Residency Certificate** from your home country (e.g., IRS Form 6166) instead of the Constancia. <sup>[[2]](https://www.sat.gob.mx/cs/cs/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1461174246960&ssbinary=true)</sup>
+  - **Document**: Provide a **Tax Residency Certificate** from your home country (e.g., IRS Form 6166) instead of the Constancia. <sup>[[2]](https://www.sat.gob.mx/normatividad/17392/miscelanea-fiscal)</sup>
 
 ### What are the "Carta Porte" risks for foreign logistics?
 

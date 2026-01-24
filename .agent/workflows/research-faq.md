@@ -35,21 +35,45 @@ Use the `search_web` or `browser_subagent` tools to independently discover real 
 
 Investigate diverse platforms where real users and businesses discuss their problems to uncover "messy" real-world issues. **Do not limit research to just one source.**
 
+### **The "Messy Reality" Checklist**
+
+You are looking for **friction**, not just facts. If you can't find a forum post or angry tweet about it, it might not be a "burning" problem. Look for:
+
+- **"My application was rejected"**: Search for specific rejection reasons.
+- **"I got a fine"**: Search for compliance traps.
+- **"My invoice was bounced"**: Search for validation/formatting errors in the real world.
+- **"It's been 3 months and..."**: Search for delays and blockers.
+
 - **Broaden Your Search**: Look beyond Reddit. You must consult:
   - **Specialized Forums**: Expat.com, Internations, or local equivalents (e.g., "LatamExpat", "Toytown Germany").
   - **Developer/Tech Communities**: StackOverflow, GitHub Issues (search for API integration errors like `"[Tax ID] regex validation failed"`).
-  - **Government/Official Forums**: Look for "Community" or "Help" sections on official tax portals (e.g., HMRC Community, DIAN PQRS public logs).
-  - **Social Media**: Twitter/X (search for recent complaints about platform downtime), LinkedIn (search for professional posts about tax compliance).
+  - **Government/Official Forums**: Look for "Community" or "Help" sections on official tax portals.
+  - **Social Media**: Twitter/X (search for recent complaints about platform downtime).
 - **Focus on B2B Pain Points**: Prioritize capturing business-to-business struggles over individual ones.
   - **Invoicing**: "Can I bill a foreign company without this ID?"
   - **Verification**: "How do I check if my B2B partner's ID is valid?"
   - **Cross-Border**: "Do I need to register for VAT if I sell SaaS to [Country]?"
   - **Withholding**: "Why is my client withholding 20% of my invoice?"
-- **Identify "Gotchas" & Rejection Reasons**: Search for specific rejection reasons (e.g., "why was my [ID] rejected").
-- **Find "Chicken and Egg" Problems**: Look for blockers (e.g., need ID to open bank account, but need bank account to get ID).
-- **Withholding & Compliance Traps**: Check if there are penalty taxes for _not_ having the ID.
 
-## 4. Cross-Border & Compliance Check (Advanced)
+## 4. Quality Control: The "Anti-Generic" Protocol
+
+**STOP.** Before selecting a question, ask: _"Is this just defining a term?"_
+If the answer is YES, **discard it**.
+
+### **BANNED Generic Patterns**
+
+- ❌ "What is [Tax ID]?" -> (User already knows this, they are on the page).
+- ❌ "How many digits is [Tax ID]?" -> (This belongs in the main content, not FAQ).
+- ❌ "Is [Tax ID] mandatory?" -> (Too vague. Ask "What happens if I invoice without [Tax ID]?").
+
+### **REQUIRED High-Value Patterns**
+
+- ✅ **The "Blocker"**: "I can't open a bank account because I don't have [ID], but I need a bank account to get [ID]. What do I do?"
+- ✅ **The "Conflict"**: "Vendor A says my ID is invalid, but Government B says it's active. Who is right?"
+- ✅ **The "Foreigner Trap"**: "I'm a non-resident selling digital goods. Do I really need to register for full VAT just for one invoice?"
+- ✅ **The "Technical Error"**: "Why does the checksum fail for new 2025 IDs?"
+
+## 5. Cross-Border & Compliance Check (Advanced)
 
 For tax ID pages, specifically check for international trade and digital economy implications.
 
@@ -90,7 +114,20 @@ All factual claims must be cited using the following format:
 - **Lookuptax Citations**: Permitted and encouraged as reputable secondary sources.
 - **Prohibited**: Do not cite forums (Reddit, Quora) or SEO-farm blogs as authority.
 
-## 6. Content Synthesis & Drafting
+## 6. Citation Verification Protocol (Strictly Enforced)
+
+Before finalizing any document, you MUST verify your citations:
+
+1.  **Liveness Check:**
+    - Use `read_url_content` or `curl -I` on EVERY citation URL.
+    - If a link returns 404/500, find a replacement immediately.
+    - **Do not assume** a link works just because it came from a search result.
+
+2.  **Accuracy Check:**
+    - Verify the page _actually_ supports the claim. (e.g., Does the page explicitly mention the "DBA Act enforcement date"?).
+    - If the page is a generic landing page, find a more specific deep link.
+
+## 7. Content Synthesis & Drafting
 
 Draft the answers using the gathered information.
 
@@ -98,7 +135,7 @@ Draft the answers using the gathered information.
 - **Tone**: Professional, direct, and actionable.
 - **Verification**: Ensure all content adheres to the **Fact-Checking Protocol** above.
 
-## 7. Implementation & Structured Data
+## 8. Implementation & Structured Data
 
 - Append a `## Frequently Asked Questions` section to the target markdown file.
 - **Generate JSON-LD**: Create a `<script type="application/ld+json">` block using the `FAQPage` schema.

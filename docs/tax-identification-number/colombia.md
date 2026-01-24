@@ -38,11 +38,11 @@ In all cases, the NIT additionally has a verification digit assigned by the info
 
 ### How can I verify a Colombia Tax ID (NIT)?
 
-To verify if a company is active and legally constituted, use the **RUES (Registro Único Empresarial y Social)** portal. By entering the NIT (without the verification digit), you can access its "Certificado de Existencia y Representación Legal." **Caution:** Be aware that the RUES platform often experiences downtime during renewal season (Jan-March), and businesses should be wary of phishing emails posing as registry updates. <sup>[[1]](https://www.rues.org.co/)</sup>
+To verify if a company is active and legally constituted, use the **RUES (Registro Único Empresarial y Social)** portal. By entering the NIT (without the verification digit), you can access its "Certificado de Existencia y Representación Legal." **Caution:** Be aware that the RUES platform often experiences downtime during renewal season (Jan-March), and businesses should be wary of phishing emails posing as registry updates. <sup>[[1]](https://www.rues.org.co/Expedientes)</sup>
 
 ### Do foreign companies need a NIT to sell digital services to Colombia?
 
-It depends. Under the new **Significant Economic Presence (SEP)** rules (Law 2277 of 2022), foreign entities with essentially digital interactions in Colombia generating over **31,300 UVT** in income must register in the RUT. However, many foreign SaaS providers opt for a **10% withholding tax** applied directly by their Colombian clients to avoid the complexity of full local registration and the 3% direct tax filing. <sup>[[2]](https://www.dian.gov.co/normatividad/Normatividad/Ley-2277-13-12-2022.pdf)</sup>
+It depends. Under the new **Significant Economic Presence (SEP)** rules (Law 2277 of 2022), foreign entities with essentially digital interactions in Colombia generating over **31,300 UVT** in income must register in the RUT. However, many foreign SaaS providers opt for a **10% withholding tax** applied directly by their Colombian clients to avoid the complexity of full local registration and the 3% direct tax filing. <sup>[[2]](https://www.dian.gov.co/impuestos/sociedades/Presencia-Economica-Significativa-PES/Paginas/Inicio.aspx)</sup>
 
 ### Can a Colombian company deduct invoices from foreign suppliers?
 
@@ -50,11 +50,11 @@ Yes, but since foreign suppliers cannot issue a Colombian "Factura Electrónica,
 
 ### Can I open a bank account with just a RUT and Passport?
 
-Generally, no. While the RUT is a requirement, it is not sufficient on its own. **DIAN Concepto 1046 (2023)** clarifies that a RUT does not replace a valid residency ID for financial linking. Most banks (Bancolombia, Davivienda) strictly adhere to **Superfinanciera** risk policies (SARLAFT) that mandate a **Cédula de Extranjería (CE)** for opening accounts, effectively blocking tourists and short-term visitors. <sup>[[4]](https://www.dian.gov.co/)</sup>
+Generally, no. While the RUT is a requirement, it is not sufficient on its own. **DIAN Concepto 1046 (2023)** clarifies that a RUT does not replace a valid residency ID for financial linking. Most banks (Bancolombia, Davivienda) strictly adhere to **Superfinanciera** risk policies (SARLAFT) that mandate a **Cédula de Extranjería (CE)** for opening accounts, effectively blocking tourists and short-term visitors. <sup>[[4]](https://www.superfinanciera.gov.co/jsp/10086885)</sup>
 
 ### Is the RUT enough for a B2B service contract?
 
-No. For B2B contracts, a RUT is just the tax ID. Companies will almost always require a **Certificate of Existence and Legal Representation** (issued by the Chamber of Commerce within the last 30 days) to prove who has the legal authority to sign. Without this, contracts are often considered legally voidable. <sup>[[5]](https://www.confecamaras.org.co/)</sup>
+No. For B2B contracts, a RUT is just the tax ID. Companies will almost always require a **Certificate of Existence and Legal Representation** (issued by the Chamber of Commerce within the last 30 days) to prove who has the legal authority to sign. Without this, contracts are often considered legally voidable. <sup>[[5]](https://www.ccb.org.co/Tramites-y-Consultas/Certificados-Electronicos/Certificados-de-Existencia-y-Representacion-Legal)</sup>
 
 ---
 
