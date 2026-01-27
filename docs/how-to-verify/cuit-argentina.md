@@ -17,12 +17,55 @@ tags:
 ---
 
 import AlsoAvailable from "@site/src/components/AlsoAvailable";
+import Head from "@docusaurus/Head";
+
+<Head>
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to verify CUIT Number in Argentina?",
+      "description": "Find out how to verify CUIT Number in Argentina. Use Lookuptax for hassle-free validation.",
+      "totalTime": "PT2M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Access the Tool",
+          "text": "Go to the AFIP CUIT Search page to verify the tax ID.",
+          "url": "https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do",
+          "image": "https://lookuptax.com/docs/img/verify/cuit_argentina.PNG"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Enter Details",
+          "text": "Input the CUIT number (Example: 30-71234315-6) in the search field."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Security Check",
+          "text": "Complete the Captcha challenge to prove you are human."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Verify Results",
+          "text": "Click verify to see the entity details. The system will return: Name of the business, Legal Form, Social Contract Date, Registered taxes & schemes, Activities, and Tax Address.",
+          "image": "https://lookuptax.com/docs/img/verify/cuit_active.PNG"
+        }
+      ]
+    })}
+  </script>
+</Head>
 
 <AlsoAvailable />
 
 ## CUIT verification on AFIP website
 
-CUIT number search option is available for free on the Argentina AFIP website. AFIP stands for "Administración Federal de Ingresos Públicos," which translates to the Federal Administration of Public Revenue in English. You can access the CUIT search [here](https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do). This search requires you to clear a captcha for successful CUIT validation.
+CUIT number search option is available for free on the Argentina AFIP website. AFIP stands for "Administración Federal de Ingresos Públicos," which translates to the Federal Administration of Public Revenue in English.
+
+1. **Access the Tool**: Go to the [AFIP CUIT Search](https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do).
+2. **Enter Details**: Input the CUIT number (Example: `30-71234315-6`).
+3. **Security Check**: Complete the **Captcha** challenge to prove you are human.
+4. **Verify Results**: Click verify to see the entity details.
 
 <table align="center" border="0px" border-color="#dedede"><tr><td>
   <img src="/docs/img/verify/cuit_argentina.PNG" alt="CUIT Verification" title="CUIT Verification"/>
@@ -54,6 +97,8 @@ A successful verification of the CUIT on the AFIP lookup tool will return the fo
   </td></tr>
   <tr><td align="center">Inactive CUIT</td></tr>
 </table>
+
+For more details on taxes in Argentina, see our [Argentina Tax ID Guide](/docs/tax-identification-number/Argentina-tax-id-guide).
 
 ---
 

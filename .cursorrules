@@ -1,0 +1,14 @@
+# Antigravity Rules & Constraints
+
+## 1. Research & FAQ Protocols (STRICT)
+- **No Generic FAQs**: Never include FAQs about basic definitions ("What is X?"), format length ("How many digits?"), or mandatory status. Focus ONLY on "messy" real-world friction (validation errors, banking issues, penalties, B2B rejections).
+- **Mandatory UGC Check**: You MUST verify pain points on forums (Reddit, Expat.com, Developer/API communities) before drafting.
+- **Strict Citation Liveness**: You MUST run `curl -I` or `read_url_content` on EVERY citation URL before adding it to a document. Never assume a link works.
+- **Primary Sources Only**: Citations must point to official government domains (e.g., `.gov.tr`, `.gob.mx`, `mevzuat.gov.tr`) or official legislation text. Third-party blogs warrant zero trust for citations.
+
+## 2. Validation & Quality
+- **Verify vs. Assume**: If a link lookup fails or returns a generic page, you MUST keep searching until a deep link to the specific law/regulation is found.
+- **JSON-LD Syntax**: Always wrap JSON-LD in JS template strings inside MDX files to prevent build errors.
+
+## 3. Workflow Adherence
+- **Stop & Read**: Before starting any task named in a workflow (e.g., "Research FAQ"), you MUST re-read the specific step-by-step instructions in `.agent/workflows/`.
