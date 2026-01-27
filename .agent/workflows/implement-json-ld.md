@@ -23,7 +23,9 @@ Follow this workflow strictly when adding or updating verification guides (e.g.,
 
 Check if a corresponding country guide exists in `docs/country/` OR `docs/tax-identification-number/` (e.g., if editing `abn.md`, check for `docs/country/australia.mdx` or `docs/tax-identification-number/australia.md`).
 
-- **Action**: If it exists, add a semantic link early in the content or near the verification steps.
+- **Action**: If it exists, check its frontmatter `id`.
+  - **Crucial**: The link MUST use the path defined in the `id` field (e.g., `/docs/tax-identification-number/Argentina-tax-id-guide`), NOT necessarily the filename.
+  - If no `id` is present, use the filename.
 - **Format**: "For more details on taxes in [Country], see our [Country Guide](link)."
 
 ## 3. Implement JSON-LD
@@ -42,6 +44,7 @@ Construct the `HowTo` schema.
 - **name**: Title of the guide (e.g., "How to verify Australia Business Number?").
 - **description**: Brief summary (1-2 sentences).
 - **step**: Array of `HowToStep`.
+  - **Method Selection**: If the guide lists multiple verification methods (e.g., "Official Portal" vs "Third Party"), implement the schema **ONLY** for the **Primary/Official** method. Do not create multiple `HowTo` objects.
   - **Strict 1:1 Mapping**: Create one schema step for each VISIBLE number/header in the guide.
   - **Rich Text**: In the `text` property, include the **Example Inputs** and **Result Details** you identified in Step 1.
     - _Bad_: "Search for the company."

@@ -13,9 +13,53 @@ import AlsoAvailable from "@site/src/components/AlsoAvailable";
 
 <AlsoAvailable />
 
+import Head from "@docusaurus/Head";
+
+<Head>
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to verify CNPJ in Brazil?",
+      "description": "Find out how to verify CNPJ in Brazil using the official REDESIM website.",
+      "totalTime": "PT2M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Access the Tool",
+          "text": "Go to the REDESIM CNPJ Search page.",
+          "url": "https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp",
+          "image": "https://lookuptax.com/docs/img/verify/cnpj-brazil.png"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Enter Details",
+          "text": "Enter the CNPJ number (Example: 06.990.590/0001-23) in the input field."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Security Check",
+          "text": "Complete the Captcha challenge."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Verify Results",
+          "text": "Click 'Consultar' to view details like Business Name, Status, and Activity Codes.",
+          "image": "https://lookuptax.com/docs/img/verify/cnpj-results.png"
+        }
+      ]
+    })}
+  </script>
+</Head>
+
 ## CNPJ check on REDESIM website
 
-CNPJ number search option is available for free on the Brazil REDESIM website. You can access the CNPJ search [here](https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp). This search requires you to clear a captcha for successful CNPJ validation.
+CNPJ number search option is available for free on the Brazil REDESIM website.
+
+1. **Access the Tool**: Go to the [REDESIM CNPJ Search](https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp).
+2. **Enter Details**: Enter the CNPJ number (Example: `06.990.590/0001-23`).
+3. **Security Check**: Complete the **Captcha** challenge to prove you are human.
+4. **Verify Results**: Click "Consultar" to view the registration status.
 
 REDESIM, short for "Rede Nacional para a Simplificação do Registro e da Legalização de Empresas e Negócios" in Portuguese, is a Brazilian government initiative aimed at simplifying the process of registering and legalizing businesses. It is the National Network for the Simplification of Business Registration and Legalization
 
@@ -105,6 +149,8 @@ A successful search of the CNPJ on the Transparency Portal CNPJ lookup tool will
   </td></tr>
   <tr><td align="center">Successful Entity Verification on Transparency Portal</td></tr>
 </table>
+
+For more details on taxes in Brazil, see our [Brazil Tax ID Guide](/docs/tax-identification-number/brazil-tax-id-guide).
 
 ---
 
