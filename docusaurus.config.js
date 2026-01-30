@@ -3,6 +3,52 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const fs = require('fs');
+const path = require('path');
+
+function getDraftRoutes() {
+  const ignorePatterns = [];
+  try {
+    const i18nDir = path.join(__dirname, 'i18n');
+    if (fs.existsSync(i18nDir)) {
+      const locales = fs.readdirSync(i18nDir);
+      locales.forEach(locale => {
+        const docsDir = path.join(i18nDir, locale, 'docusaurus-plugin-content-docs', 'current');
+        if (fs.existsSync(docsDir)) {
+          const walk = (dir, subdir = '') => {
+            const files = fs.readdirSync(dir);
+            files.forEach(file => {
+              const fullPath = path.join(dir, file);
+              const relativePath = path.join(subdir, file);
+              if (fs.statSync(fullPath).isDirectory()) {
+                walk(fullPath, relativePath);
+              } else if (file.endsWith('.md') || file.endsWith('.mdx')) {
+                const content = fs.readFileSync(fullPath, 'utf8');
+                if (/^draft:\s*true/m.test(content)) {
+                  const ext = path.extname(file);
+                  let routePath = relativePath.slice(0, -ext.length).replace(/\\/g, '/');
+                  if (routePath.endsWith('/index')) routePath = routePath.slice(0, -6);
+                  if (routePath === 'index') routePath = ''; 
+                  
+                  // BaseURL is /docs/
+                  // URL structure: /docs/<locale>/<routePath>
+                  const pattern = `/docs/${locale}/${routePath}`;
+                  ignorePatterns.push(pattern);
+                  ignorePatterns.push(pattern + '/');
+                }
+              }
+            });
+          };
+          walk(docsDir);
+        }
+      });
+    }
+  } catch (e) {
+    console.warn('Error generating sitemap ignore patterns:', e);
+  }
+  return ignorePatterns;
+}
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -79,6 +125,7 @@ const config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
+          ignorePatterns: getDraftRoutes(),
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
