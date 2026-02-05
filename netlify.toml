@@ -148,6 +148,428 @@
   status = 301
   force = true
 
+# Portuguese URL with Chinese path -> redirect to Portuguese home
+[[redirects]]
+  from = "/docs/pt/zh-Hans/*"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+# German URL with Spanish path -> redirect to German home
+[[redirects]]
+  from = "/docs/de/es/*"
+  to = "/docs/de/"
+  status = 301
+  force = true
+
+# ============================================
+# ENGLISH SLUGS IN NON-ENGLISH LOCALES
+# These pages use English URL patterns but don't have translations
+# ============================================
+
+# Tax ID guide pages with English slugs
+[[redirects]]
+  from = "/docs/es/tax-identification-number/*-tax-id-guide"
+  to = "/docs/tax-identification-number/:splat-tax-id-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/tax-identification-number/*-tax-id-guide"
+  to = "/docs/tax-identification-number/:splat-tax-id-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/tax-identification-number/*-tax-id-guide"
+  to = "/docs/tax-identification-number/:splat-tax-id-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/tax-identification-number/*-tax-id-guide"
+  to = "/docs/tax-identification-number/:splat-tax-id-guide"
+  status = 301
+  force = true
+
+# How-to-verify pages with English slugs -> English version
+[[redirects]]
+  from = "/docs/es/how-to-verify/*"
+  to = "/docs/how-to-verify/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/how-to-verify/*"
+  to = "/docs/how-to-verify/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/how-to-verify/*"
+  to = "/docs/how-to-verify/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/how-to-verify/*"
+  to = "/docs/how-to-verify/:splat"
+  status = 301
+  force = true
+
+# Explainers pages with English slugs -> English version
+[[redirects]]
+  from = "/docs/es/explainers/*"
+  to = "/docs/explainers/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/explainers/*"
+  to = "/docs/explainers/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/explainers/*"
+  to = "/docs/explainers/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/explainers/*"
+  to = "/docs/explainers/:splat"
+  status = 301
+  force = true
+
+# Einvoicing pages with English slugs -> English version
+[[redirects]]
+  from = "/docs/es/einvoicing/*"
+  to = "/docs/einvoicing/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/einvoicing/*"
+  to = "/docs/einvoicing/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/einvoicing/*"
+  to = "/docs/einvoicing/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/einvoicing/*"
+  to = "/docs/einvoicing/:splat"
+  status = 301
+  force = true
+
+# Glossary pages with English slugs -> English version
+[[redirects]]
+  from = "/docs/es/glossary/*"
+  to = "/docs/glossary/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/glossary/*"
+  to = "/docs/glossary/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/glossary/*"
+  to = "/docs/glossary/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/glossary/*"
+  to = "/docs/glossary/:splat"
+  status = 301
+  force = true
+
+# Sales-tax pages with English slugs -> English version
+[[redirects]]
+  from = "/docs/pt/sales-tax/*"
+  to = "/docs/sales-tax/:splat"
+  status = 301
+  force = true
+
+# VAT country pages with English slugs -> English version
+[[redirects]]
+  from = "/docs/es/vat/*"
+  to = "/docs/vat/:splat"
+  status = 301
+  force = true
+
+# Doc country pages -> English version
+[[redirects]]
+  from = "/docs/es/docs/country/*"
+  to = "/docs/country/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/docs/country/*"
+  to = "/docs/country/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/docs/country/*"
+  to = "/docs/country/:splat"
+  status = 301
+  force = true
+
+# einvoicing-status-networks page -> English version
+[[redirects]]
+  from = "/docs/de/einvoicing-status-networks"
+  to = "/docs/einvoicing-status-networks"
+  status = 301
+  force = true
+
+# ============================================
+# ROOT-LEVEL TRANSLATED SLUGS (no locale prefix)
+# These are translated slugs that appeared without locale
+# ============================================
+
+# Spanish slugs at root -> Spanish version
+[[redirects]]
+  from = "/docs/como-verificar/*"
+  to = "/docs/es/como-verificar/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/numero-identificacion-fiscal/*"
+  to = "/docs/es/numero-identificacion-fiscal/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/explicadores/*"
+  to = "/docs/es/explicadores/:splat"
+  status = 301
+  force = true
+
+# Chinese slugs at root -> Chinese version
+[[redirects]]
+  from = "/docs/shuiwu-shibie-haoma/*"
+  to = "/docs/zh-Hans/shuiwu-shibie-haoma/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/ruhe-yanzheng/*"
+  to = "/docs/zh-Hans/ruhe-yanzheng/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/jieshipage/*"
+  to = "/docs/zh-Hans/jieshipage/:splat"
+  status = 301
+  force = true
+
+# German slugs at root -> German version
+[[redirects]]
+  from = "/docs/erklaerung/*"
+  to = "/docs/de/erklaerung/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/wie-man-ueberprueft/*"
+  to = "/docs/de/wie-man-ueberprueft/:splat"
+  status = 301
+  force = true
+
+# ============================================
+# CROSS-LOCALE SLUG MIXING (locale A with locale B slugs)
+# ============================================
+
+# German locale with Spanish slugs -> German home
+[[redirects]]
+  from = "/docs/de/como-verificar/*"
+  to = "/docs/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/numero-identificacion-fiscal/*"
+  to = "/docs/de/"
+  status = 301
+  force = true
+
+# Portuguese locale with Spanish slugs -> Portuguese home
+[[redirects]]
+  from = "/docs/pt/como-verificar/*"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/numero-identificacion-fiscal/*"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/explicadores/*"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+# Chinese locale with Spanish slugs -> Chinese home
+[[redirects]]
+  from = "/docs/zh-Hans/como-verificar/*"
+  to = "/docs/zh-Hans/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/numero-identificacion-fiscal/*"
+  to = "/docs/zh-Hans/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/explicadores/*"
+  to = "/docs/zh-Hans/"
+  status = 301
+  force = true
+
+# German locale with Chinese slugs -> German home
+[[redirects]]
+  from = "/docs/de/ruhe-yanzheng/*"
+  to = "/docs/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/shuiwu-shibie-haoma/*"
+  to = "/docs/de/"
+  status = 301
+  force = true
+
+# Portuguese locale with Chinese slugs -> Portuguese home
+[[redirects]]
+  from = "/docs/pt/jieshipage/*"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/shuiwu-shibie-haoma/*"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+# Spanish locale with Chinese slugs -> Spanish home
+[[redirects]]
+  from = "/docs/es/jieshipage/*"
+  to = "/docs/es/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/es/shuiwu-shibie-haoma/*"
+  to = "/docs/es/"
+  status = 301
+  force = true
+
+# Portuguese locale with German slugs -> Portuguese home
+[[redirects]]
+  from = "/docs/pt/erklaerung/*"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+# Chinese locale with German slugs -> Chinese home
+[[redirects]]
+  from = "/docs/zh-Hans/erklaerung/*"
+  to = "/docs/zh-Hans/"
+  status = 301
+  force = true
+
+# Spanish locale with German slugs -> Spanish home
+[[redirects]]
+  from = "/docs/es/umsatzsteuer-identifikationsnummer-pruefen"
+  to = "/docs/es/"
+  status = 301
+  force = true
+
+# German locale with localized slugs from other locales
+[[redirects]]
+  from = "/docs/de/wie-man-ueberprueft/*"
+  to = "/docs/de/"
+  status = 301
+  force = true
+
+# ============================================
+# MALFORMED DOUBLE-DOCS PATHS
+# ============================================
+
+# Double slash paths
+[[redirects]]
+  from = "/docs//docs/*"
+  to = "/docs/:splat"
+  status = 301
+  force = true
+
+# Locale + /docs/intro patterns
+[[redirects]]
+  from = "/docs/pt/docs/intro"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/docs/intro"
+  to = "/docs/zh-Hans/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs//docs/intro"
+  to = "/docs/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs//docs/es"
+  to = "/docs/es/"
+  status = 301
+  force = true
+
+# Intro without content
+[[redirects]]
+  from = "/docs/intro"
+  to = "/docs/"
+  status = 301
+  force = true
+
+# ============================================
+# EXTERNAL FILES AND PAGES
+# ============================================
+
+# llm.txt -> main site
+[[redirects]]
+  from = "/llm.txt"
+  to = "https://lookuptax.com/llm.txt"
+  status = 301
+  force = true
+
+# Tags at root level (without locale)
+[[redirects]]
+  from = "/docs/tags/*"
+  to = "/docs/tags/:splat"
+  status = 200
+
 # ============================================
 # LOCALE-SPECIFIC 404 PAGES
 # ============================================
