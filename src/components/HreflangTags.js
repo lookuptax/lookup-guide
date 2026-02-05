@@ -22,7 +22,10 @@ export default function HreflangTags() {
   const currentLocale = i18n.currentLocale;
   const defaultLocale = i18n.defaultLocale;
   const siteUrl = siteConfig.url; // https://lookuptax.com
-  const baseUrl = siteConfig.baseUrl; // /docs/
+  
+  // Use fixed base URL to avoid double-nested locale paths
+  // siteConfig.baseUrl can be /docs/es/ on locale pages, causing /docs/es/de/ issues
+  const baseUrl = '/docs/';
   
   // Get the current path relative to baseUrl (without locale prefix)
   let relativePath = location.pathname;
