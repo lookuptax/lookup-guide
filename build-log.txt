@@ -1,0 +1,344 @@
+﻿
+> lookupapp@0.0.0 build
+> node scripts/prepare-i18n.js && docusaurus build && node scripts/cleanup-es-blog.js
+
+Preparing i18n locales...
+
+[es] Created 0 draft placeholders for untranslated docs
+[zh-Hans] Created 0 draft placeholders for untranslated docs
+[de] Created 0 draft placeholders for untranslated docs
+[pt] Created 0 draft placeholders for untranslated docs
+
+Done! Untranslated docs are now marked as drafts.
+[INFO] Website will be built for all these locales: 
+- en
+- es
+- zh-Hans
+- de
+- pt
+[INFO] [en] Creating an optimized production build...
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Server: Compiled successfully in 3.92s
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Client: Compiled successfully in 8.56s
+[exclude-blog-for-locales] outDir: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\es\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\de\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\pt\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\zh-Hans\blog
+[exclude-blog-for-locales] Completed blog cleanup for all locales.
+node.exe : [WARNING] @docu
+saurus/plugin-client-redir
+ects: some redirects 
+would override existing 
+paths, and will be 
+ignored:
+At C:\Program 
+Files\nodejs\npm.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo        
+      : NotSpe    cified: 
+([WARNIN    G] 
+@docu...ill b    e 
+ignored::Strin    g) [], 
+RemoteExc    eption
+    + FullyQualified    
+ErrorId : Native    
+CommandError
+ 
+- {"from":"/404.html","to"
+:"/404"}
+[SUCCESS] Generated static files in "build".
+[INFO] [es] Creating an optimized production build...
+[WARNING] Tags [DAC7, UE, 
+Plataformas digitales] 
+used in 
+explainers/dac7.md are 
+not defined in tags.yml
+[WARNING] Tags [IOSS, UE, 
+IVA] used in 
+explainers/ioss.md are 
+not defined in tags.yml
+[WARNING] Tags [OSS, IVA, 
+UE, Comercio 
+electr├│nico] used in 
+explainers/oss.md are not 
+defined in tags.yml
+[WARNING] Tags 
+[Inversi├│n sujeto 
+pasivo, IVA, UE] used in e
+xplainers/reverse-charge.m
+d are not defined in 
+tags.yml
+[WARNING] Tags [VIES, 
+INTRASTAT, UE, IVA] used 
+in explainers/vies-intrast
+at.md are not defined in 
+tags.yml
+[WARNING] Tags [Brasil, 
+CNPJ] used in how-to-verif
+y/cnpj-brazil.md are not 
+defined in tags.yml
+[WARNING] Tags [CURP, 
+M├⌐xico, SAT] used in how-
+to-verify/crup-mexico.md 
+are not defined in 
+tags.yml
+[WARNING] Tags [CUIT, 
+Argentina, AFIP] used in h
+ow-to-verify/cuit-argentin
+a.md are not defined in 
+tags.yml
+[WARNING] Tags [CPF, 
+Brasil] used in how-to-ver
+ify/cpf-brazil.md are not 
+defined in tags.yml
+[WARNING] Tags [United 
+States, EIN] used in how-t
+o-verify/ein-united-states
+.md are not defined in 
+tags.yml
+[WARNING] Tags [DNI, 
+Argentina, AFIP] used in h
+ow-to-verify/dni-argentina
+.md are not defined in 
+tags.yml
+[WARNING] Tags [NIF, 
+Espa├▒a] used in how-to-ve
+rify/nif-spain.md are not 
+defined in tags.yml
+[WARNING] Tags [Chile, 
+RUT, SII] used in how-to-v
+erify/rut-chile.md are 
+not defined in tags.yml
+[WARNING] Tags [VIES, 
+IVA, UE] used in 
+how-to-verify/vat-eu.md 
+are not defined in 
+tags.yml
+[WARNING] Tags 
+[Argentina, CUIT, AFIP] 
+used in tax-identification
+-number/argentina.md are 
+not defined in tags.yml
+[WARNING] Tags [Brasil, 
+CNPJ, CPF] used in tax-ide
+ntification-number/brazil.
+md are not defined in 
+tags.yml
+[WARNING] Tags [Chile, 
+RUT, SII] used in tax-iden
+tification-number/chile.md
+ are not defined in 
+tags.yml
+[WARNING] Tags [Colombia, 
+NIT, DIAN, RUT] used in ta
+x-identification-number/co
+lombia.md are not defined 
+in tags.yml
+[WARNING] Tags [Ecuador, 
+RUC, SRI] used in tax-iden
+tification-number/ecuador.
+md are not defined in 
+tags.yml
+[WARNING] Tags [Francia, 
+TIN, NIF, SIREN] used in t
+ax-identification-number/f
+rance.md are not defined 
+in tags.yml
+[WARNING] Tags [Alemania, 
+TIN, IVA] used in tax-iden
+tification-number/germany.
+md are not defined in 
+tags.yml
+[WARNING] Tags [Italia, 
+TIN] used in tax-identific
+ation-number/italy.md are 
+not defined in tags.yml
+[WARNING] Tags [M├⌐xico, 
+RFC, SAT] used in tax-iden
+tification-number/mexico.m
+d are not defined in 
+tags.yml
+[WARNING] Tags [Per├║, 
+RUC, SUNAT] used in tax-id
+entification-number/peru.m
+d are not defined in 
+tags.yml
+[WARNING] Tags [Estados 
+Unidos, SSN, ITIN, EIN] 
+used in tax-identification
+-number/united-states.mdx 
+are not defined in 
+tags.yml
+[WARNING] Tags [Reino 
+Unido, N├║mero IVA] used 
+in tax-identification-numb
+er/united-kingdom.md are 
+not defined in tags.yml
+[WARNING] Tags [Uruguay, 
+RUT, DGI] used in tax-iden
+tification-number/uruguay.
+md are not defined in 
+tags.yml
+[WARNING] Tags 
+[Venezuela, RIF, SENIAT] 
+used in tax-identification
+-number/venezuela.md are 
+not defined in tags.yml
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Server: Compiled successfully in 1.80s
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Client: Compiled successfully in 4.35s
+[exclude-blog-for-locales] outDir: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\es\
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\es\es\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\es\de\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\es\pt\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\es\zh-Hans\blog
+[exclude-blog-for-locales] Completed blog cleanup for all locales.
+[WARNING] @docusaurus/plug
+in-client-redirects: some 
+redirects would override 
+existing paths, and will 
+be ignored:
+- {"from":"/404.html","to"
+:"/404"}
+[SUCCESS] Generated static files in "build\es".
+[INFO] [zh-Hans] Creating an optimized production build...
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Server: Compiled successfully in 2.05s
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Client: Compiled successfully in 3.85s
+[exclude-blog-for-locales] outDir: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\zh-Hans\
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\zh-Hans\es\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\zh-Hans\de\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\zh-Hans\pt\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\zh-Hans\zh-Hans\blog
+[exclude-blog-for-locales] Completed blog cleanup for all locales.
+[WARNING] @docusaurus/plug
+in-client-redirects: some 
+redirects would override 
+existing paths, and will 
+be ignored:
+- {"from":"/404.html","to"
+:"/404"}
+[SUCCESS] Generated static files in "build\zh-Hans".
+[INFO] [de] Creating an optimized production build...
+[WARNING] Tags [USt-IdNr 
+Suche, GSTIN Suche, ABN 
+Lookup, USt-IdNr Lookup] 
+used in 
+check-vat-number.md are 
+not defined in tags.yml
+[WARNING] Tags [GoBD, 
+Compliance] used in 
+explainers/gobd.md are 
+not defined in tags.yml
+[WARNING] Tags [Schweiz, 
+UID, Mehrwertsteuer] used 
+in how-to-verify/uid-switz
+erland.md are not defined 
+in tags.yml
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Server: Compiled successfully in 1.65s
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Client: Compiled successfully in 3.62s
+[exclude-blog-for-locales] outDir: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\de\
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\de\es\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\de\de\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\de\pt\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\de\zh-Hans\blog
+[exclude-blog-for-locales] Completed blog cleanup for all locales.
+[WARNING] @docusaurus/plug
+in-client-redirects: some 
+redirects would override 
+existing paths, and will 
+be ignored:
+- {"from":"/404.html","to"
+:"/404"}
+[SUCCESS] Generated static files in "build\de".
+[INFO] [pt] Creating an optimized production build...
+[WARNING] Tags [Pesquisa 
+de ID de IVA, Pesquisa 
+GSTIN, Pesquisa ABN, 
+Pesquisa de N├║mero de 
+IVA] used in 
+check-vat-number.md are 
+not defined in tags.yml
+[WARNING] Tags [Reverse 
+Charge, RCM, Invers├úo do 
+Sujeito Passivo] used in e
+xplainers/reverse-charge.m
+d are not defined in 
+tags.yml
+[WARNING] Tags 
+[Austr├ília, ACN] used in 
+how-to-verify/acn.md are 
+not defined in tags.yml
+[WARNING] Tags [CURP] 
+used in how-to-verify/crup
+-mexico.md are not 
+defined in tags.yml
+[WARNING] Tags [CUIT] 
+used in how-to-verify/cuit
+-argentina.md are not 
+defined in tags.yml
+[WARNING] Tags [EIN] used 
+in how-to-verify/ein-unite
+d-states.md are not 
+defined in tags.yml
+[WARNING] Tags [RUT] used 
+in how-to-verify/rut-chile
+.md are not defined in 
+tags.yml
+[WARNING] Tags [SSN, 
+ITIN, EIN] used in tax-ide
+ntification-number/united-
+states.mdx are not 
+defined in tags.yml
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36mΓä╣[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Server: Compiled successfully in 1.33s
+[90m[[90mwebpackbar[90m][39m [32mΓ£ö[39m Client: Compiled successfully in 3.26s
+[exclude-blog-for-locales] outDir: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\pt\
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\pt\es\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\pt\de\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\pt\pt\blog
+[exclude-blog-for-locales] Checking: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\pt\zh-Hans\blog
+[exclude-blog-for-locales] Completed blog cleanup for all locales.
+[WARNING] @docusaurus/plug
+in-client-redirects: some 
+redirects would override 
+existing paths, and will 
+be ignored:
+- {"from":"/404.html","to"
+:"/404"}
+[SUCCESS] Generated static files in "build\pt".
+[INFO] Use `npm run serve` command to test your build locally.
+[cleanup-es-blog] Starting cleanup...
+[cleanup-es-blog] Processing Spanish blog directory: C:\Users\abhil\OneDrive\Documents\GitHub\lookupapp\build\es\blog
+  Removed blog post: about-lookuptax-open-source-tax
+  Removed blog post: about-lookuptax-open-source-tax.htm
+  Removed blog post: about-lookuptax-open-source-tax.html
+  Removed blog post: archive.htm
+  Removed blog post: archive.html
+  Removed blog post: authors
+  Removed blog post: authors.htm
+  Removed blog post: authors.html
+  Removed blog post: free-vat-number-check
+  Removed blog post: free-vat-number-check.htm
+  Removed blog post: free-vat-number-check.html
+  Removed blog post: guide-to-vat-vies-vat-validation
+  Removed blog post: guide-to-vat-vies-vat-validation.htm
+  Removed blog post: guide-to-vat-vies-vat-validation.html
+  Removed blog post: tags.htm
+  Removed blog post: tags.html
+  Removed blog post: vat-number-check-api
+  Removed blog post: vat-number-check-api.htm
+  Removed blog post: vat-number-check-api.html
+  Created redirect for /es/blog/ -> /docs/es/
+[cleanup-es-blog] Cleanup complete!

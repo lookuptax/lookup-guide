@@ -97,6 +97,22 @@ export default function HreflangTags() {
     );
   }
   
+  // Add German if available
+  if (translations.de) {
+    const germanUrl = `${siteUrl}${baseUrl}de/${translations.de.replace(/^\//, '')}`.replace(/\/$/, '');
+    hreflangLinks.push(
+      <link key="de" rel="alternate" hreflang="de" href={germanUrl} />
+    );
+  }
+  
+  // Add Portuguese if available
+  if (translations.pt) {
+    const portugueseUrl = `${siteUrl}${baseUrl}pt/${translations.pt.replace(/^\//, '')}`.replace(/\/$/, '');
+    hreflangLinks.push(
+      <link key="pt" rel="alternate" hreflang="pt" href={portugueseUrl} />
+    );
+  }
+  
   // Add x-default pointing to English
   hreflangLinks.push(
     <link key="x-default" rel="alternate" hreflang="x-default" href={englishUrl} />

@@ -125,7 +125,14 @@ const config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: getDraftRoutes(),
+          ignorePatterns: [
+            ...getDraftRoutes(),
+            // Exclude blog from all non-English locales (no translations exist)
+            '/docs/es/blog/**',
+            '/docs/de/blog/**',
+            '/docs/pt/blog/**',
+            '/docs/zh-Hans/blog/**',
+          ],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -251,7 +258,7 @@ const config = {
     }),
 
   plugins: [
-    './plugins/exclude-blog-spanish.js',
+    // Blog cleanup is now handled by scripts/cleanup-locale-blogs.js after the build
     [
       '@docusaurus/plugin-client-redirects',
       {

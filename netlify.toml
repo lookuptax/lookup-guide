@@ -2,11 +2,178 @@
   publish = "build"
   command = "npm run build"
 
-# Serve locale-specific 404 pages
+# ============================================
+# BLOG REDIRECTS - Redirect non-existent locale blogs to English blog
+# ============================================
+
+# Spanish blog posts -> English blog
+[[redirects]]
+  from = "/docs/es/blog/*"
+  to = "/docs/blog/:splat"
+  status = 301
+  force = false
+
+# German blog posts -> English blog
+[[redirects]]
+  from = "/docs/de/blog/*"
+  to = "/docs/blog/:splat"
+  status = 301
+  force = false
+
+# Portuguese blog posts -> English blog
+[[redirects]]
+  from = "/docs/pt/blog/*"
+  to = "/docs/blog/:splat"
+  status = 301
+  force = false
+
+# Chinese blog posts -> English blog
+[[redirects]]
+  from = "/docs/zh-Hans/blog/*"
+  to = "/docs/blog/:splat"
+  status = 301
+  force = false
+
+# ============================================
+# EXTERNAL PAGE REDIRECTS - Pages outside /docs/
+# ============================================
+
+# Validator pages -> main lookuptax.com site
+[[redirects]]
+  from = "/validate/*"
+  to = "https://lookuptax.com/validate/:splat"
+  status = 301
+  force = true
+
+# Industries pages -> main lookuptax.com site
+[[redirects]]
+  from = "/industries/*"
+  to = "https://lookuptax.com/industries/:splat"
+  status = 301
+  force = true
+
+# Use cases pages -> main lookuptax.com site
+[[redirects]]
+  from = "/use-cases/*"
+  to = "https://lookuptax.com/use-cases/:splat"
+  status = 301
+  force = true
+
+# Demo page -> main lookuptax.com site
+[[redirects]]
+  from = "/demo"
+  to = "https://lookuptax.com/demo"
+  status = 301
+  force = true
+
+# Tag pages without /docs/ prefix
+[[redirects]]
+  from = "/tag/*"
+  to = "/docs/tags/:splat"
+  status = 301
+  force = true
+
+# ============================================
+# DOUBLE PATH FIXES - Fix malformed URLs
+# ============================================
+
+# Fix double locale paths (e.g., /docs/zh-Hans/zh-Hans/...)
+[[redirects]]
+  from = "/docs/zh-Hans/zh-Hans/*"
+  to = "/docs/zh-Hans/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/es/es/*"
+  to = "/docs/es/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/de/*"
+  to = "/docs/de/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/pt/*"
+  to = "/docs/pt/:splat"
+  status = 301
+  force = true
+
+# Fix double /docs/ paths
+[[redirects]]
+  from = "/docs/*/docs/*"
+  to = "/docs/:splat"
+  status = 301
+  force = true
+
+# Fix double /tags/ paths
+[[redirects]]
+  from = "/docs/*/tags/tags/*"
+  to = "/docs/:splat/tags/:splat"
+  status = 301
+  force = true
+
+# ============================================
+# CROSS-LOCALE PATH FIXES
+# ============================================
+
+# Portuguese URL with Spanish path -> redirect to Portuguese home
+[[redirects]]
+  from = "/docs/pt/es/*"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+# Chinese URL with Spanish path -> redirect to Chinese home
+[[redirects]]
+  from = "/docs/zh-Hans/es/*"
+  to = "/docs/zh-Hans/"
+  status = 301
+  force = true
+
+# Spanish URL with Chinese path -> redirect to Spanish home
+[[redirects]]
+  from = "/docs/es/zh-Hans/*"
+  to = "/docs/es/"
+  status = 301
+  force = true
+
+# German URL with Chinese path -> redirect to German home
+[[redirects]]
+  from = "/docs/de/zh-Hans/*"
+  to = "/docs/de/"
+  status = 301
+  force = true
+
+# ============================================
+# LOCALE-SPECIFIC 404 PAGES
+# ============================================
+
 # Spanish locale - serve Spanish 404 for missing /es/ pages
 [[redirects]]
   from = "/docs/es/*"
   to = "/docs/es/404.html"
+  status = 404
+
+# German locale - serve German 404 for missing /de/ pages
+[[redirects]]
+  from = "/docs/de/*"
+  to = "/docs/de/404.html"
+  status = 404
+
+# Portuguese locale - serve Portuguese 404 for missing /pt/ pages
+[[redirects]]
+  from = "/docs/pt/*"
+  to = "/docs/pt/404.html"
+  status = 404
+
+# Chinese locale - serve Chinese 404 for missing /zh-Hans/ pages
+[[redirects]]
+  from = "/docs/zh-Hans/*"
+  to = "/docs/zh-Hans/404.html"
   status = 404
 
 # Default English 404 for missing pages in root
@@ -15,7 +182,10 @@
   to = "/docs/404.html"
   status = 404
 
-# General headers for security and caching
+# ============================================
+# SECURITY HEADERS
+# ============================================
+
 [[headers]]
   for = "/*"
   [headers.values]
