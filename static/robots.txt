@@ -1,2 +1,12 @@
+# robots.txt for LookupTax documentation
+# https://lookuptax.com/docs/
+
 User-agent: *
-Disallow: 
+Allow: /
+
+# Sitemap locations
+Sitemap: https://lookuptax.com/docs/sitemap.xml
+Sitemap: https://lookuptax.com/docs/es/sitemap.xml
+Sitemap: https://lookuptax.com/docs/de/sitemap.xml
+Sitemap: https://lookuptax.com/docs/pt/sitemap.xml
+Sitemap: https://lookuptax.com/docs/zh-Hans/sitemap.xml
