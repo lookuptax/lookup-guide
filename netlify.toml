@@ -4,35 +4,232 @@
 
 # ============================================
 # BLOG REDIRECTS - Redirect non-existent locale blogs to English blog
+# MUST use force = true to override any existing files
 # ============================================
+
+# Blog archive pages -> English blog archive
+[[redirects]]
+  from = "/docs/es/blog/archive"
+  to = "/docs/blog/archive"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/blog/archive"
+  to = "/docs/blog/archive"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/blog/archive"
+  to = "/docs/blog/archive"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/blog/archive"
+  to = "/docs/blog/archive"
+  status = 301
+  force = true
+
+# Blog tag pages -> English blog
+[[redirects]]
+  from = "/docs/es/blog/tags/*"
+  to = "/docs/blog/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/blog/tags/*"
+  to = "/docs/blog/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/blog/tags/*"
+  to = "/docs/blog/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/blog/tags/*"
+  to = "/docs/blog/tags/:splat"
+  status = 301
+  force = true
+
+# Blog author pages -> English blog
+[[redirects]]
+  from = "/docs/es/blog/authors/*"
+  to = "/docs/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/blog/authors/*"
+  to = "/docs/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/blog/authors/*"
+  to = "/docs/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/blog/authors/*"
+  to = "/docs/blog/"
+  status = 301
+  force = true
+
+# Blog pagination pages -> English blog
+[[redirects]]
+  from = "/docs/es/blog/page/*"
+  to = "/docs/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/blog/page/*"
+  to = "/docs/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/blog/page/*"
+  to = "/docs/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/blog/page/*"
+  to = "/docs/blog/"
+  status = 301
+  force = true
 
 # Spanish blog posts -> English blog
 [[redirects]]
   from = "/docs/es/blog/*"
   to = "/docs/blog/:splat"
   status = 301
-  force = false
+  force = true
 
 # German blog posts -> English blog
 [[redirects]]
   from = "/docs/de/blog/*"
   to = "/docs/blog/:splat"
   status = 301
-  force = false
+  force = true
 
 # Portuguese blog posts -> English blog
 [[redirects]]
   from = "/docs/pt/blog/*"
   to = "/docs/blog/:splat"
   status = 301
-  force = false
+  force = true
 
 # Chinese blog posts -> English blog
 [[redirects]]
   from = "/docs/zh-Hans/blog/*"
   to = "/docs/blog/:splat"
   status = 301
-  force = false
+  force = true
+
+# ============================================
+# TAGS IN LOCALES - Redirect locale tags to English tags
+# ============================================
+
+[[redirects]]
+  from = "/docs/es/tags/*"
+  to = "/docs/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/tags/*"
+  to = "/docs/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/tags/*"
+  to = "/docs/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/tags/*"
+  to = "/docs/tags/:splat"
+  status = 301
+  force = true
+
+# ============================================
+# CATEGORY PAGES IN LOCALES - Redirect to English category
+# ============================================
+
+[[redirects]]
+  from = "/docs/es/category/*"
+  to = "/docs/category/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/category/*"
+  to = "/docs/category/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/category/*"
+  to = "/docs/category/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/category/*"
+  to = "/docs/category/:splat"
+  status = 301
+  force = true
+
+# ============================================
+# SPECIAL PAGES IN LOCALES - Missing pages redirect to home
+# ============================================
+
+# Country VAT name pages
+[[redirects]]
+  from = "/docs/es/country-vat-name"
+  to = "/docs/es/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/de/country-vat-name"
+  to = "/docs/de/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pt/country-vat-name"
+  to = "/docs/pt/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/zh-Hans/country-vat-name"
+  to = "/docs/zh-Hans/"
+  status = 301
+  force = true
+
+# ============================================
+# ROOT-LEVEL EXTERNAL PAGES - Redirect to main site
+# ============================================
+
+# Blog posts at root level (outside /docs/)
+[[redirects]]
+  from = "/business-tax-compliance-guide-2026"
+  to = "https://lookuptax.com/docs/blog/business-tax-compliance-guide-2026"
+  status = 301
+  force = true
 
 # ============================================
 # EXTERNAL PAGE REDIRECTS - Pages outside /docs/
