@@ -299,17 +299,53 @@
   status = 301
   force = true
 
-# Fix double /docs/ paths
+# Fix /docs/ appearing in path (e.g., /es/docs/something)
 [[redirects]]
-  from = "/*/docs/*"
-  to = "/:splat"
+  from = "/es/docs/*"
+  to = "/es/:splat"
   status = 301
   force = true
 
-# Fix double /tags/ paths
 [[redirects]]
-  from = "/*/tags/tags/*"
-  to = "/:splat/tags/:splat"
+  from = "/de/docs/*"
+  to = "/de/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/docs/*"
+  to = "/pt/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/docs/*"
+  to = "/zh-Hans/:splat"
+  status = 301
+  force = true
+
+# Fix double /tags/ paths (e.g., /de/tags/tags/espanha)
+[[redirects]]
+  from = "/es/tags/tags/*"
+  to = "/es/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/tags/tags/*"
+  to = "/de/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/tags/tags/*"
+  to = "/pt/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/tags/tags/*"
+  to = "/zh-Hans/tags/:splat"
   status = 301
   force = true
 
@@ -364,28 +400,28 @@
 # These pages use English URL patterns but don't have translations
 # ============================================
 
-# Tax ID guide pages with English slugs
+# Tax ID guide pages with English slugs -> redirect to English version
 [[redirects]]
-  from = "/es/tax-identification-number/*-tax-id-guide"
-  to = "/tax-identification-number/:splat-tax-id-guide"
+  from = "/es/tax-identification-number/*"
+  to = "/tax-identification-number/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/de/tax-identification-number/*-tax-id-guide"
-  to = "/tax-identification-number/:splat-tax-id-guide"
+  from = "/de/tax-identification-number/*"
+  to = "/tax-identification-number/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/pt/tax-identification-number/*-tax-id-guide"
-  to = "/tax-identification-number/:splat-tax-id-guide"
+  from = "/pt/tax-identification-number/*"
+  to = "/tax-identification-number/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/zh-Hans/tax-identification-number/*-tax-id-guide"
-  to = "/tax-identification-number/:splat-tax-id-guide"
+  from = "/zh-Hans/tax-identification-number/*"
+  to = "/tax-identification-number/:splat"
   status = 301
   force = true
 
