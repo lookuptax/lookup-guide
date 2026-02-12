@@ -9,129 +9,129 @@
 
 # Blog archive pages -> English blog archive
 [[redirects]]
-  from = "/docs/es/blog/archive"
-  to = "/docs/blog/archive"
+  from = "/es/blog/archive"
+  to = "/blog/archive"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/blog/archive"
-  to = "/docs/blog/archive"
+  from = "/de/blog/archive"
+  to = "/blog/archive"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/blog/archive"
-  to = "/docs/blog/archive"
+  from = "/pt/blog/archive"
+  to = "/blog/archive"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/blog/archive"
-  to = "/docs/blog/archive"
+  from = "/zh-Hans/blog/archive"
+  to = "/blog/archive"
   status = 301
   force = true
 
 # Blog tag pages -> English blog
 [[redirects]]
-  from = "/docs/es/blog/tags/*"
-  to = "/docs/blog/tags/:splat"
+  from = "/es/blog/tags/*"
+  to = "/blog/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/blog/tags/*"
-  to = "/docs/blog/tags/:splat"
+  from = "/de/blog/tags/*"
+  to = "/blog/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/blog/tags/*"
-  to = "/docs/blog/tags/:splat"
+  from = "/pt/blog/tags/*"
+  to = "/blog/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/blog/tags/*"
-  to = "/docs/blog/tags/:splat"
+  from = "/zh-Hans/blog/tags/*"
+  to = "/blog/tags/:splat"
   status = 301
   force = true
 
 # Blog author pages -> English blog
 [[redirects]]
-  from = "/docs/es/blog/authors/*"
-  to = "/docs/blog/"
+  from = "/es/blog/authors/*"
+  to = "/blog/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/blog/authors/*"
-  to = "/docs/blog/"
+  from = "/de/blog/authors/*"
+  to = "/blog/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/blog/authors/*"
-  to = "/docs/blog/"
+  from = "/pt/blog/authors/*"
+  to = "/blog/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/blog/authors/*"
-  to = "/docs/blog/"
+  from = "/zh-Hans/blog/authors/*"
+  to = "/blog/"
   status = 301
   force = true
 
 # Blog pagination pages -> English blog
 [[redirects]]
-  from = "/docs/es/blog/page/*"
-  to = "/docs/blog/"
+  from = "/es/blog/page/*"
+  to = "/blog/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/blog/page/*"
-  to = "/docs/blog/"
+  from = "/de/blog/page/*"
+  to = "/blog/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/blog/page/*"
-  to = "/docs/blog/"
+  from = "/pt/blog/page/*"
+  to = "/blog/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/blog/page/*"
-  to = "/docs/blog/"
+  from = "/zh-Hans/blog/page/*"
+  to = "/blog/"
   status = 301
   force = true
 
 # Spanish blog posts -> English blog
 [[redirects]]
-  from = "/docs/es/blog/*"
-  to = "/docs/blog/:splat"
+  from = "/es/blog/*"
+  to = "/blog/:splat"
   status = 301
   force = true
 
 # German blog posts -> English blog
 [[redirects]]
-  from = "/docs/de/blog/*"
-  to = "/docs/blog/:splat"
+  from = "/de/blog/*"
+  to = "/blog/:splat"
   status = 301
   force = true
 
 # Portuguese blog posts -> English blog
 [[redirects]]
-  from = "/docs/pt/blog/*"
-  to = "/docs/blog/:splat"
+  from = "/pt/blog/*"
+  to = "/blog/:splat"
   status = 301
   force = true
 
 # Chinese blog posts -> English blog
 [[redirects]]
-  from = "/docs/zh-Hans/blog/*"
-  to = "/docs/blog/:splat"
+  from = "/zh-Hans/blog/*"
+  to = "/blog/:splat"
   status = 301
   force = true
 
@@ -140,26 +140,26 @@
 # ============================================
 
 [[redirects]]
-  from = "/docs/es/tags/*"
-  to = "/docs/tags/:splat"
+  from = "/es/tags/*"
+  to = "/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/tags/*"
-  to = "/docs/tags/:splat"
+  from = "/de/tags/*"
+  to = "/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/tags/*"
-  to = "/docs/tags/:splat"
+  from = "/pt/tags/*"
+  to = "/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/tags/*"
-  to = "/docs/tags/:splat"
+  from = "/zh-Hans/tags/*"
+  to = "/tags/:splat"
   status = 301
   force = true
 
@@ -168,26 +168,26 @@
 # ============================================
 
 [[redirects]]
-  from = "/docs/es/category/*"
-  to = "/docs/category/:splat"
+  from = "/es/category/*"
+  to = "/category/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/category/*"
-  to = "/docs/category/:splat"
+  from = "/de/category/*"
+  to = "/category/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/category/*"
-  to = "/docs/category/:splat"
+  from = "/pt/category/*"
+  to = "/category/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/category/*"
-  to = "/docs/category/:splat"
+  from = "/zh-Hans/category/*"
+  to = "/category/:splat"
   status = 301
   force = true
 
@@ -197,26 +197,26 @@
 
 # Country VAT name pages
 [[redirects]]
-  from = "/docs/es/country-vat-name"
-  to = "/docs/es/"
+  from = "/es/country-vat-name"
+  to = "/es/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/country-vat-name"
-  to = "/docs/de/"
+  from = "/de/country-vat-name"
+  to = "/de/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/country-vat-name"
-  to = "/docs/pt/"
+  from = "/pt/country-vat-name"
+  to = "/pt/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/country-vat-name"
-  to = "/docs/zh-Hans/"
+  from = "/zh-Hans/country-vat-name"
+  to = "/zh-Hans/"
   status = 301
   force = true
 
@@ -266,7 +266,7 @@
 # Tag pages without /docs/ prefix
 [[redirects]]
   from = "/tag/*"
-  to = "/docs/tags/:splat"
+  to = "/tags/:splat"
   status = 301
   force = true
 
@@ -276,40 +276,40 @@
 
 # Fix double locale paths (e.g., /docs/zh-Hans/zh-Hans/...)
 [[redirects]]
-  from = "/docs/zh-Hans/zh-Hans/*"
-  to = "/docs/zh-Hans/:splat"
+  from = "/zh-Hans/zh-Hans/*"
+  to = "/zh-Hans/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/es/es/*"
-  to = "/docs/es/:splat"
+  from = "/es/es/*"
+  to = "/es/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/de/*"
-  to = "/docs/de/:splat"
+  from = "/de/de/*"
+  to = "/de/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/pt/*"
-  to = "/docs/pt/:splat"
+  from = "/pt/pt/*"
+  to = "/pt/:splat"
   status = 301
   force = true
 
 # Fix double /docs/ paths
 [[redirects]]
-  from = "/docs/*/docs/*"
-  to = "/docs/:splat"
+  from = "/*/docs/*"
+  to = "/:splat"
   status = 301
   force = true
 
 # Fix double /tags/ paths
 [[redirects]]
-  from = "/docs/*/tags/tags/*"
-  to = "/docs/:splat/tags/:splat"
+  from = "/*/tags/tags/*"
+  to = "/:splat/tags/:splat"
   status = 301
   force = true
 
@@ -319,43 +319,43 @@
 
 # Portuguese URL with Spanish path -> redirect to Portuguese home
 [[redirects]]
-  from = "/docs/pt/es/*"
-  to = "/docs/pt/"
+  from = "/pt/es/*"
+  to = "/pt/"
   status = 301
   force = true
 
 # Chinese URL with Spanish path -> redirect to Chinese home
 [[redirects]]
-  from = "/docs/zh-Hans/es/*"
-  to = "/docs/zh-Hans/"
+  from = "/zh-Hans/es/*"
+  to = "/zh-Hans/"
   status = 301
   force = true
 
 # Spanish URL with Chinese path -> redirect to Spanish home
 [[redirects]]
-  from = "/docs/es/zh-Hans/*"
-  to = "/docs/es/"
+  from = "/es/zh-Hans/*"
+  to = "/es/"
   status = 301
   force = true
 
 # German URL with Chinese path -> redirect to German home
 [[redirects]]
-  from = "/docs/de/zh-Hans/*"
-  to = "/docs/de/"
+  from = "/de/zh-Hans/*"
+  to = "/de/"
   status = 301
   force = true
 
 # Portuguese URL with Chinese path -> redirect to Portuguese home
 [[redirects]]
-  from = "/docs/pt/zh-Hans/*"
-  to = "/docs/pt/"
+  from = "/pt/zh-Hans/*"
+  to = "/pt/"
   status = 301
   force = true
 
 # German URL with Spanish path -> redirect to German home
 [[redirects]]
-  from = "/docs/de/es/*"
-  to = "/docs/de/"
+  from = "/de/es/*"
+  to = "/de/"
   status = 301
   force = true
 
@@ -366,166 +366,247 @@
 
 # Tax ID guide pages with English slugs
 [[redirects]]
-  from = "/docs/es/tax-identification-number/*-tax-id-guide"
-  to = "/docs/tax-identification-number/:splat-tax-id-guide"
+  from = "/es/tax-identification-number/*-tax-id-guide"
+  to = "/tax-identification-number/:splat-tax-id-guide"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/tax-identification-number/*-tax-id-guide"
-  to = "/docs/tax-identification-number/:splat-tax-id-guide"
+  from = "/de/tax-identification-number/*-tax-id-guide"
+  to = "/tax-identification-number/:splat-tax-id-guide"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/tax-identification-number/*-tax-id-guide"
-  to = "/docs/tax-identification-number/:splat-tax-id-guide"
+  from = "/pt/tax-identification-number/*-tax-id-guide"
+  to = "/tax-identification-number/:splat-tax-id-guide"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/tax-identification-number/*-tax-id-guide"
-  to = "/docs/tax-identification-number/:splat-tax-id-guide"
+  from = "/zh-Hans/tax-identification-number/*-tax-id-guide"
+  to = "/tax-identification-number/:splat-tax-id-guide"
   status = 301
   force = true
 
 # How-to-verify pages with English slugs -> English version
 [[redirects]]
-  from = "/docs/es/how-to-verify/*"
-  to = "/docs/how-to-verify/:splat"
+  from = "/es/how-to-verify/*"
+  to = "/how-to-verify/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/how-to-verify/*"
-  to = "/docs/how-to-verify/:splat"
+  from = "/de/how-to-verify/*"
+  to = "/how-to-verify/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/how-to-verify/*"
-  to = "/docs/how-to-verify/:splat"
+  from = "/pt/how-to-verify/*"
+  to = "/how-to-verify/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/how-to-verify/*"
-  to = "/docs/how-to-verify/:splat"
+  from = "/zh-Hans/how-to-verify/*"
+  to = "/how-to-verify/:splat"
   status = 301
   force = true
 
 # Explainers pages with English slugs -> English version
 [[redirects]]
-  from = "/docs/es/explainers/*"
-  to = "/docs/explainers/:splat"
+  from = "/es/explainers/*"
+  to = "/explainers/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/explainers/*"
-  to = "/docs/explainers/:splat"
+  from = "/de/explainers/*"
+  to = "/explainers/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/explainers/*"
-  to = "/docs/explainers/:splat"
+  from = "/pt/explainers/*"
+  to = "/explainers/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/explainers/*"
-  to = "/docs/explainers/:splat"
+  from = "/zh-Hans/explainers/*"
+  to = "/explainers/:splat"
   status = 301
   force = true
 
 # Einvoicing pages with English slugs -> English version
 [[redirects]]
-  from = "/docs/es/einvoicing/*"
-  to = "/docs/einvoicing/:splat"
+  from = "/es/einvoicing/*"
+  to = "/einvoicing/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/einvoicing/*"
-  to = "/docs/einvoicing/:splat"
+  from = "/de/einvoicing/*"
+  to = "/einvoicing/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/einvoicing/*"
-  to = "/docs/einvoicing/:splat"
+  from = "/pt/einvoicing/*"
+  to = "/einvoicing/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/einvoicing/*"
-  to = "/docs/einvoicing/:splat"
+  from = "/zh-Hans/einvoicing/*"
+  to = "/einvoicing/:splat"
   status = 301
   force = true
 
 # Glossary pages with English slugs -> English version
 [[redirects]]
-  from = "/docs/es/glossary/*"
-  to = "/docs/glossary/:splat"
+  from = "/es/glossary/*"
+  to = "/glossary/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/glossary/*"
-  to = "/docs/glossary/:splat"
+  from = "/de/glossary/*"
+  to = "/glossary/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/glossary/*"
-  to = "/docs/glossary/:splat"
+  from = "/pt/glossary/*"
+  to = "/glossary/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/glossary/*"
-  to = "/docs/glossary/:splat"
+  from = "/zh-Hans/glossary/*"
+  to = "/glossary/:splat"
   status = 301
   force = true
 
 # Sales-tax pages with English slugs -> English version
 [[redirects]]
-  from = "/docs/pt/sales-tax/*"
-  to = "/docs/sales-tax/:splat"
+  from = "/pt/sales-tax/*"
+  to = "/sales-tax/:splat"
   status = 301
   force = true
 
 # VAT country pages with English slugs -> English version
 [[redirects]]
-  from = "/docs/es/vat/*"
-  to = "/docs/vat/:splat"
+  from = "/es/vat/*"
+  to = "/vat/:splat"
   status = 301
   force = true
 
 # Doc country pages -> English version
 [[redirects]]
-  from = "/docs/es/docs/country/*"
-  to = "/docs/country/:splat"
+  from = "/es/docs/country/*"
+  to = "/country/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/docs/country/*"
-  to = "/docs/country/:splat"
+  from = "/pt/docs/country/*"
+  to = "/country/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/docs/country/*"
-  to = "/docs/country/:splat"
+  from = "/zh-Hans/docs/country/*"
+  to = "/country/:splat"
   status = 301
   force = true
 
-# einvoicing-status-networks page -> English version
+# einvoicing-status-networks page -> English version (all locales)
 [[redirects]]
-  from = "/docs/de/einvoicing-status-networks"
-  to = "/docs/einvoicing-status-networks"
+  from = "/es/einvoicing-status-networks"
+  to = "/einvoicing-status-networks"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/einvoicing-status-networks"
+  to = "/einvoicing-status-networks"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/einvoicing-status-networks"
+  to = "/einvoicing-status-networks"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/einvoicing-status-networks"
+  to = "/einvoicing-status-networks"
+  status = 301
+  force = true
+
+# check-vat-number page -> English version (all locales)
+[[redirects]]
+  from = "/es/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  status = 301
+  force = true
+
+# contact-us page -> English version (all locales)
+[[redirects]]
+  from = "/es/contact-us"
+  to = "/contact-us"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/contact-us"
+  to = "/contact-us"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/contact-us"
+  to = "/contact-us"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/contact-us"
+  to = "/contact-us"
+  status = 301
+  force = true
+
+# External pages - integrations, blog at root
+[[redirects]]
+  from = "/integrations/*"
+  to = "https://lookuptax.com/integrations/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://lookuptax.com/docs/blog/:splat"
   status = 301
   force = true
 
@@ -536,52 +617,52 @@
 
 # Spanish slugs at root -> Spanish version
 [[redirects]]
-  from = "/docs/como-verificar/*"
-  to = "/docs/es/como-verificar/:splat"
+  from = "/como-verificar/*"
+  to = "/es/como-verificar/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/numero-identificacion-fiscal/*"
-  to = "/docs/es/numero-identificacion-fiscal/:splat"
+  from = "/numero-identificacion-fiscal/*"
+  to = "/es/numero-identificacion-fiscal/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/explicadores/*"
-  to = "/docs/es/explicadores/:splat"
+  from = "/explicadores/*"
+  to = "/es/explicadores/:splat"
   status = 301
   force = true
 
 # Chinese slugs at root -> Chinese version
 [[redirects]]
-  from = "/docs/shuiwu-shibie-haoma/*"
-  to = "/docs/zh-Hans/shuiwu-shibie-haoma/:splat"
+  from = "/shuiwu-shibie-haoma/*"
+  to = "/zh-Hans/shuiwu-shibie-haoma/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/ruhe-yanzheng/*"
-  to = "/docs/zh-Hans/ruhe-yanzheng/:splat"
+  from = "/ruhe-yanzheng/*"
+  to = "/zh-Hans/ruhe-yanzheng/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/jieshipage/*"
-  to = "/docs/zh-Hans/jieshipage/:splat"
+  from = "/jieshipage/*"
+  to = "/zh-Hans/jieshipage/:splat"
   status = 301
   force = true
 
 # German slugs at root -> German version
 [[redirects]]
-  from = "/docs/erklaerung/*"
-  to = "/docs/de/erklaerung/:splat"
+  from = "/erklaerung/*"
+  to = "/de/erklaerung/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/wie-man-ueberprueft/*"
-  to = "/docs/de/wie-man-ueberprueft/:splat"
+  from = "/wie-man-ueberprueft/*"
+  to = "/de/wie-man-ueberprueft/:splat"
   status = 301
   force = true
 
@@ -591,119 +672,119 @@
 
 # German locale with Spanish slugs -> German home
 [[redirects]]
-  from = "/docs/de/como-verificar/*"
-  to = "/docs/de/"
+  from = "/de/como-verificar/*"
+  to = "/de/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/numero-identificacion-fiscal/*"
-  to = "/docs/de/"
+  from = "/de/numero-identificacion-fiscal/*"
+  to = "/de/"
   status = 301
   force = true
 
 # Portuguese locale with Spanish slugs -> Portuguese home
 [[redirects]]
-  from = "/docs/pt/como-verificar/*"
-  to = "/docs/pt/"
+  from = "/pt/como-verificar/*"
+  to = "/pt/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/numero-identificacion-fiscal/*"
-  to = "/docs/pt/"
+  from = "/pt/numero-identificacion-fiscal/*"
+  to = "/pt/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/explicadores/*"
-  to = "/docs/pt/"
+  from = "/pt/explicadores/*"
+  to = "/pt/"
   status = 301
   force = true
 
 # Chinese locale with Spanish slugs -> Chinese home
 [[redirects]]
-  from = "/docs/zh-Hans/como-verificar/*"
-  to = "/docs/zh-Hans/"
+  from = "/zh-Hans/como-verificar/*"
+  to = "/zh-Hans/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/numero-identificacion-fiscal/*"
-  to = "/docs/zh-Hans/"
+  from = "/zh-Hans/numero-identificacion-fiscal/*"
+  to = "/zh-Hans/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/explicadores/*"
-  to = "/docs/zh-Hans/"
+  from = "/zh-Hans/explicadores/*"
+  to = "/zh-Hans/"
   status = 301
   force = true
 
 # German locale with Chinese slugs -> German home
 [[redirects]]
-  from = "/docs/de/ruhe-yanzheng/*"
-  to = "/docs/de/"
+  from = "/de/ruhe-yanzheng/*"
+  to = "/de/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/de/shuiwu-shibie-haoma/*"
-  to = "/docs/de/"
+  from = "/de/shuiwu-shibie-haoma/*"
+  to = "/de/"
   status = 301
   force = true
 
 # Portuguese locale with Chinese slugs -> Portuguese home
 [[redirects]]
-  from = "/docs/pt/jieshipage/*"
-  to = "/docs/pt/"
+  from = "/pt/jieshipage/*"
+  to = "/pt/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/pt/shuiwu-shibie-haoma/*"
-  to = "/docs/pt/"
+  from = "/pt/shuiwu-shibie-haoma/*"
+  to = "/pt/"
   status = 301
   force = true
 
 # Spanish locale with Chinese slugs -> Spanish home
 [[redirects]]
-  from = "/docs/es/jieshipage/*"
-  to = "/docs/es/"
+  from = "/es/jieshipage/*"
+  to = "/es/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/es/shuiwu-shibie-haoma/*"
-  to = "/docs/es/"
+  from = "/es/shuiwu-shibie-haoma/*"
+  to = "/es/"
   status = 301
   force = true
 
 # Portuguese locale with German slugs -> Portuguese home
 [[redirects]]
-  from = "/docs/pt/erklaerung/*"
-  to = "/docs/pt/"
+  from = "/pt/erklaerung/*"
+  to = "/pt/"
   status = 301
   force = true
 
 # Chinese locale with German slugs -> Chinese home
 [[redirects]]
-  from = "/docs/zh-Hans/erklaerung/*"
-  to = "/docs/zh-Hans/"
+  from = "/zh-Hans/erklaerung/*"
+  to = "/zh-Hans/"
   status = 301
   force = true
 
 # Spanish locale with German slugs -> Spanish home
 [[redirects]]
-  from = "/docs/es/umsatzsteuer-identifikationsnummer-pruefen"
-  to = "/docs/es/"
+  from = "/es/umsatzsteuer-identifikationsnummer-pruefen"
+  to = "/es/"
   status = 301
   force = true
 
 # German locale with localized slugs from other locales
 [[redirects]]
-  from = "/docs/de/wie-man-ueberprueft/*"
-  to = "/docs/de/"
+  from = "/de/wie-man-ueberprueft/*"
+  to = "/de/"
   status = 301
   force = true
 
@@ -713,40 +794,40 @@
 
 # Double slash paths
 [[redirects]]
-  from = "/docs//docs/*"
-  to = "/docs/:splat"
+  from = "//docs/*"
+  to = "/:splat"
   status = 301
   force = true
 
 # Locale + /docs/intro patterns
 [[redirects]]
-  from = "/docs/pt/docs/intro"
-  to = "/docs/pt/"
+  from = "/pt/docs/intro"
+  to = "/pt/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/zh-Hans/docs/intro"
-  to = "/docs/zh-Hans/"
+  from = "/zh-Hans/docs/intro"
+  to = "/zh-Hans/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs//docs/intro"
-  to = "/docs/"
+  from = "//docs/intro"
+  to = "/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs//docs/es"
-  to = "/docs/es/"
+  from = "//docs/es"
+  to = "/es/"
   status = 301
   force = true
 
 # Intro without content
 [[redirects]]
-  from = "/docs/intro"
-  to = "/docs/"
+  from = "/intro"
+  to = "/"
   status = 301
   force = true
 
@@ -763,8 +844,8 @@
 
 # Tags at root level (without locale)
 [[redirects]]
-  from = "/docs/tags/*"
-  to = "/docs/tags/:splat"
+  from = "/tags/*"
+  to = "/tags/:splat"
   status = 200
 
 # ============================================
@@ -773,32 +854,32 @@
 
 # Spanish locale - serve Spanish 404 for missing /es/ pages
 [[redirects]]
-  from = "/docs/es/*"
-  to = "/docs/es/404.html"
+  from = "/es/*"
+  to = "/es/404.html"
   status = 404
 
 # German locale - serve German 404 for missing /de/ pages
 [[redirects]]
-  from = "/docs/de/*"
-  to = "/docs/de/404.html"
+  from = "/de/*"
+  to = "/de/404.html"
   status = 404
 
 # Portuguese locale - serve Portuguese 404 for missing /pt/ pages
 [[redirects]]
-  from = "/docs/pt/*"
-  to = "/docs/pt/404.html"
+  from = "/pt/*"
+  to = "/pt/404.html"
   status = 404
 
 # Chinese locale - serve Chinese 404 for missing /zh-Hans/ pages
 [[redirects]]
-  from = "/docs/zh-Hans/*"
-  to = "/docs/zh-Hans/404.html"
+  from = "/zh-Hans/*"
+  to = "/zh-Hans/404.html"
   status = 404
 
 # Default English 404 for missing pages in root
 [[redirects]]
-  from = "/docs/*"
-  to = "/docs/404.html"
+  from = "/*"
+  to = "/404.html"
   status = 404
 
 # ============================================
