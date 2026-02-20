@@ -10,128 +10,141 @@
 # Blog archive pages -> English blog archive
 [[redirects]]
   from = "/es/blog/archive"
-  to = "https://lookuptax.com/docs/blog/archive"
+  to = "https://lookuptax.com/blog/archive"
   status = 301
   force = true
 
 [[redirects]]
   from = "/de/blog/archive"
-  to = "https://lookuptax.com/docs/blog/archive"
+  to = "https://lookuptax.com/blog/archive"
   status = 301
   force = true
 
 [[redirects]]
   from = "/pt/blog/archive"
-  to = "https://lookuptax.com/docs/blog/archive"
+  to = "https://lookuptax.com/blog/archive"
   status = 301
   force = true
 
 [[redirects]]
   from = "/zh-Hans/blog/archive"
-  to = "https://lookuptax.com/docs/blog/archive"
+  to = "https://lookuptax.com/blog/archive"
   status = 301
   force = true
 
 # Blog tag pages -> English blog
 [[redirects]]
   from = "/es/blog/tags/*"
-  to = "https://lookuptax.com/docs/blog/tags/:splat"
+  to = "https://lookuptax.com/blog/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "/de/blog/tags/*"
-  to = "https://lookuptax.com/docs/blog/tags/:splat"
+  to = "https://lookuptax.com/blog/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "/pt/blog/tags/*"
-  to = "https://lookuptax.com/docs/blog/tags/:splat"
+  to = "https://lookuptax.com/blog/tags/:splat"
   status = 301
   force = true
 
 [[redirects]]
   from = "/zh-Hans/blog/tags/*"
-  to = "https://lookuptax.com/docs/blog/tags/:splat"
+  to = "https://lookuptax.com/blog/tags/:splat"
   status = 301
   force = true
 
 # Blog author pages -> English blog
 [[redirects]]
   from = "/es/blog/authors/*"
-  to = "https://lookuptax.com/docs/blog/"
+  to = "https://lookuptax.com/blog/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/de/blog/authors/*"
-  to = "https://lookuptax.com/docs/blog/"
+  to = "https://lookuptax.com/blog/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/pt/blog/authors/*"
-  to = "https://lookuptax.com/docs/blog/"
+  to = "https://lookuptax.com/blog/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/zh-Hans/blog/authors/*"
-  to = "https://lookuptax.com/docs/blog/"
+  to = "https://lookuptax.com/blog/"
   status = 301
   force = true
 
 # Blog pagination pages -> English blog
 [[redirects]]
   from = "/es/blog/page/*"
-  to = "https://lookuptax.com/docs/blog/"
+  to = "https://lookuptax.com/blog/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/de/blog/page/*"
-  to = "https://lookuptax.com/docs/blog/"
+  to = "https://lookuptax.com/blog/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/pt/blog/page/*"
-  to = "https://lookuptax.com/docs/blog/"
+  to = "https://lookuptax.com/blog/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/zh-Hans/blog/page/*"
-  to = "https://lookuptax.com/docs/blog/"
+  to = "https://lookuptax.com/blog/"
   status = 301
   force = true
 
 # Spanish blog posts -> English blog
 [[redirects]]
   from = "/es/blog/*"
-  to = "https://lookuptax.com/docs/blog/:splat"
+  to = "https://lookuptax.com/blog/:splat"
   status = 301
   force = true
 
 # German blog posts -> English blog
 [[redirects]]
   from = "/de/blog/*"
-  to = "https://lookuptax.com/docs/blog/:splat"
+  to = "https://lookuptax.com/blog/:splat"
   status = 301
   force = true
 
 # Portuguese blog posts -> English blog
 [[redirects]]
   from = "/pt/blog/*"
-  to = "https://lookuptax.com/docs/blog/:splat"
+  to = "https://lookuptax.com/blog/:splat"
   status = 301
   force = true
 
 # Chinese blog posts -> English blog
 [[redirects]]
   from = "/zh-Hans/blog/*"
-  to = "https://lookuptax.com/docs/blog/:splat"
+  to = "https://lookuptax.com/blog/:splat"
+  status = 301
+  force = true
+
+# English blog catch-all -> main site blog (blog moved to /blog on Astro)
+[[redirects]]
+  from = "/blog/*"
+  to = "https://lookuptax.com/blog/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog"
+  to = "https://lookuptax.com/blog"
   status = 301
   force = true
 
@@ -885,32 +898,58 @@
   status = 200
 
 # ============================================
-# LOCALE-SPECIFIC 404 PAGES
+# CATCH-ALL LOCALE REDIRECTS
+# Any unmatched locale path -> English equivalent (301)
+# These MUST come after all specific redirect rules
+# No force=true: real translated pages (static files) served normally
 # ============================================
 
-# Spanish locale - serve Spanish 404 for missing /es/ pages
+# Translated slugs appearing at root without locale prefix
+[[redirects]]
+  from = "/steuerliche-identifikationsnummer/*"
+  to = "https://lookuptax.com/docs/de/steuerliche-identifikationsnummer/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/shuiwu-shibie-haoma/*"
+  to = "https://lookuptax.com/docs/zh-Hans/shuiwu-shibie-haoma/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/ruhe-yanzheng/*"
+  to = "https://lookuptax.com/docs/zh-Hans/ruhe-yanzheng/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/jieshipage/*"
+  to = "https://lookuptax.com/docs/zh-Hans/jieshipage/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/wie-man-ueberprueft/*"
+  to = "https://lookuptax.com/docs/de/wie-man-ueberprueft/:splat"
+  status = 301
+
+# Locale catch-alls: redirect unmatched locale paths to English
 [[redirects]]
   from = "/es/*"
-  to = "/es/404.html"
-  status = 404
+  to = "https://lookuptax.com/docs/:splat"
+  status = 301
 
-# German locale - serve German 404 for missing /de/ pages
 [[redirects]]
   from = "/de/*"
-  to = "/de/404.html"
-  status = 404
+  to = "https://lookuptax.com/docs/:splat"
+  status = 301
 
-# Portuguese locale - serve Portuguese 404 for missing /pt/ pages
 [[redirects]]
   from = "/pt/*"
-  to = "/pt/404.html"
-  status = 404
+  to = "https://lookuptax.com/docs/:splat"
+  status = 301
 
-# Chinese locale - serve Chinese 404 for missing /zh-Hans/ pages
 [[redirects]]
   from = "/zh-Hans/*"
-  to = "/zh-Hans/404.html"
-  status = 404
+  to = "https://lookuptax.com/docs/:splat"
+  status = 301
 
 # Default English 404 for missing pages in root
 [[redirects]]

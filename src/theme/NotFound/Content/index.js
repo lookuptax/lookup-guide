@@ -35,7 +35,7 @@ export default function NotFoundContent({ className }) {
     {
       title: '📝 Blog',
       description: 'Latest tax compliance insights',
-      url: `${baseUrl}blog`,
+      url: 'https://lookuptax.com/blog',
     },
   ];
 

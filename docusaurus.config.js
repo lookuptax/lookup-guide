@@ -241,7 +241,7 @@ const config = {
               },
               {
                 label: "Blog",
-                to: "/blog",
+                to: "https://lookuptax.com/blog",
               },
             ],
           },
