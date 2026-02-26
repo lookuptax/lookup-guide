@@ -7,6 +7,54 @@
 # MUST use force = true to override any existing files
 # ============================================
 
+# Blog posts/tags that don't exist on Astro -> blog homepage (MUST be before generic blog rules)
+[[redirects]]
+  from = "/es/blog/tags/lookupapp"
+  to = "https://lookuptax.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/blog/tags/lookupapp"
+  to = "https://lookuptax.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/blog/tags/lookupapp"
+  to = "https://lookuptax.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/blog/tags/lookupapp"
+  to = "https://lookuptax.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/blog/guide-to-vat-vies-vat-validation"
+  to = "https://lookuptax.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/blog/guide-to-vat-vies-vat-validation"
+  to = "https://lookuptax.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/blog/guide-to-vat-vies-vat-validation"
+  to = "https://lookuptax.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/blog/guide-to-vat-vies-vat-validation"
+  to = "https://lookuptax.com/blog"
+  status = 301
+  force = true
 # Blog archive pages -> English blog archive
 [[redirects]]
   from = "/es/blog/archive"
@@ -896,6 +944,108 @@
   from = "/tags/*"
   to = "/tags/:splat"
   status = 200
+
+# ============================================
+# TRANSLATED SLUG FIXES — redirect to correct locale (not English)
+# These translated slugs don't exist in English, so catch-all would 404
+# ============================================
+
+# chaxun-zengzhishui-hao (ZH slug for check-vat-number) at root -> Chinese
+[[redirects]]
+  from = "/chaxun-zengzhishui-hao"
+  to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
+  status = 301
+  force = true
+
+# chaxun-zengzhishui-hao in wrong locales -> Chinese
+[[redirects]]
+  from = "/es/chaxun-zengzhishui-hao"
+  to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/chaxun-zengzhishui-hao"
+  to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/chaxun-zengzhishui-hao"
+  to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
+  status = 301
+  force = true
+
+# umsatzsteuer-identifikationsnummer-pruefen (DE slug) in wrong locales -> German
+[[redirects]]
+  from = "/pt/umsatzsteuer-identifikationsnummer-pruefen"
+  to = "https://lookuptax.com/docs/de/umsatzsteuer-identifikationsnummer-pruefen"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/umsatzsteuer-identifikationsnummer-pruefen"
+  to = "https://lookuptax.com/docs/de/umsatzsteuer-identifikationsnummer-pruefen"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/umsatzsteuer-identifikationsnummer-pruefen"
+  to = "https://lookuptax.com/docs/de/umsatzsteuer-identifikationsnummer-pruefen"
+  status = 301
+  force = true
+
+# numero-identificacao-fiscal (PT slug) in wrong locales -> Portuguese
+[[redirects]]
+  from = "/es/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
+  status = 301
+  force = true
+
+# numero-identificacao-fiscal at root -> Portuguese
+[[redirects]]
+  from = "/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
+  status = 301
+  force = true
+
+# France country page with special character (é) -> English
+[[redirects]]
+  from = "/de/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutee-TVA"
+  to = "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutee-TVA"
+  to = "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutee-TVA"
+  to = "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutee-TVA"
+  to = "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA"
+  status = 301
+  force = true
+
 
 # ============================================
 # CATCH-ALL LOCALE REDIRECTS
