@@ -8,6 +8,8 @@ tags:
   - Argentina
   - CUIT
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
@@ -67,9 +69,7 @@ A CUIT may be blocked due to missing tax filings (affidavits), inconsistent addr
 
 [<img src="/docs/img/posters/signup-taxid-validation4.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
 
-<script type="application/ld+json">
-{`
-{
+<JsonLd>{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
@@ -108,6 +108,4 @@ A CUIT may be blocked due to missing tax filings (affidavits), inconsistent addr
       "text": "A CUIT may be blocked due to missing tax filings (affidavits), inconsistent address data, or expired 'Clave Fiscal' security levels. It is often required to visit an AFIP office or update data online with a high-level security key to reactivate it."
     }
   }]
-}
-`}
-</script>
+}`}</JsonLd>

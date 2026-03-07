@@ -8,6 +8,8 @@ tags:
   - Andorra
   - NRT
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 ## Número d’Identificació Administrativa (NRT)
 
@@ -72,9 +74,7 @@ While you receive an NRT quickly upon business incorporation, local Andorran ban
 
 [<img src="/docs/img/posters/signup-taxid-validation2.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
 
-<script type="application/ld+json">
-{`
-{
+<JsonLd>{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -127,6 +127,4 @@ While you receive an NRT quickly upon business incorporation, local Andorran ban
       }
     }
   ]
-}
-`}
-</script>
+}`}</JsonLd>

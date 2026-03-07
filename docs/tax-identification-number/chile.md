@@ -9,6 +9,8 @@ tags:
   - TIN
   - RUT
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
@@ -72,9 +74,7 @@ No. Unlike the US SSN, the Chilean RUT is public information. It is used as a us
 
 [<img src="/docs/img/posters/signup-taxid-validation20.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
 
-<script type="application/ld+json">
-{`
-  {
+<JsonLd>{`{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [{
@@ -113,6 +113,4 @@ No. Unlike the US SSN, the Chilean RUT is public information. It is used as a us
         "text": "No. The Chilean RUT is public information used as a username for many services. Anyone can find a person's name and address using their RUT on public websites, which makes phishing a common security risk."
       }
     }]
-  }
-`}
-</script>
+  }`}</JsonLd>

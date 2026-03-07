@@ -9,6 +9,8 @@ tags:
   - TIN
   - NIT
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
@@ -64,9 +66,7 @@ No. For B2B contracts, a RUT is just the tax ID. Companies will almost always re
 
 [<img src="/docs/img/posters/signup-taxid-validation22.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
 
-<script type="application/ld+json">
-{`
-  {
+<JsonLd>{`{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [{
@@ -105,6 +105,4 @@ No. For B2B contracts, a RUT is just the tax ID. Companies will almost always re
         "text": "No. For B2B contracts, a RUT is just the tax ID. Companies will almost always require a Certificate of Existence and Legal Representation (issued by the Chamber of Commerce within the last 30 days) to prove who has the legal authority to sign."
       }
     }]
-  }
-`}
-</script>
+  }`}</JsonLd>

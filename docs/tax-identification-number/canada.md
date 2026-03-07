@@ -9,6 +9,8 @@ tags:
   - TIN
   - BN
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 ## Business Number (BN)
 
@@ -138,9 +140,7 @@ You can find your BN on your:
 
 [<img src="/docs/img/posters/signup-taxid-validation19.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
 
-<script type="application/ld+json">
-{`
-  {
+<JsonLd>{`{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
@@ -177,6 +177,4 @@ You can find your BN on your:
         }
       }
     ]
-  }
-`}
-</script>
+  }`}</JsonLd>

@@ -8,6 +8,8 @@ tags:
   - Mexico
   - TIN
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
@@ -85,9 +87,7 @@ Payments to foreign residents for technical assistance, royalties, or digital se
 - **Myth**: "I only need to register if I sell more than X amount."
 - **Fact**: There is **no minimum threshold**. If you sell B2C or B2B digital services, you are obligated to register. The SAT publishes a specific list of _Prestadores de Servicios Digitales Inscritos_ every two months. <sup>[[6]](https://www.sat.gob.mx/minisitio/PlataformasTecnologicas/PlataformasTecnologicas_ServiciosDigitales/pt_sd_inicio.html)</sup>
 
-<script type="application/ld+json">
-{`
-{
+<JsonLd>{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -140,6 +140,4 @@ Payments to foreign residents for technical assistance, royalties, or digital se
       }
     }
   ]
-}
-`}
-</script>
+}`}</JsonLd>

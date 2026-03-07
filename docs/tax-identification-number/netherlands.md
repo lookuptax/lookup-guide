@@ -8,6 +8,8 @@ tags:
   - Netherlands
   - TIN
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 ## Citizen service number (BSN)(Burgerservicenummer)
 
@@ -124,9 +126,7 @@ Be careful. While the KOR (Kleineondernemersregeling) exempts you from charging 
 - **The Cost:** You **cannot reclaim VAT** on your business expenses (laptops, software, stock). If you have high startup costs, you lose 21% of that money immediately.
 - **The B2B Issue:** Corporate clients cannot reclaim VAT from you (since you didn't charge it), which disrupts their standard accounting invoices. Many B2B suppliers prefer standard VAT invoices. <sup>[[5]](https://business.gov.nl/doing-business-in-the-netherlands/tax-in-the-netherlands/vat-for-foreign-companies/small-businesses-scheme-kor/)</sup>
 
-<script type="application/ld+json">
-{`
-{
+<JsonLd>{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -171,6 +171,4 @@ Be careful. While the KOR (Kleineondernemersregeling) exempts you from charging 
       }
     }
   ]
-}
-`}
-</script>
+}`}</JsonLd>

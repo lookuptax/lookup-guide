@@ -8,6 +8,8 @@ tags:
   - Türkiye
   - VKN
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 ## National Identification Number
 
@@ -87,9 +89,7 @@ You can verify if a tax number is active and registered via the official **Inter
 - Select "Doğrulamalar" (Verifications) -> "Vergi Kimlik Numarası Doğrulama".
 - Enter the 10-digit VKN to check the title and taxation status.
 
-<script type="application/ld+json">
-{`
-{
+<JsonLd>{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
@@ -135,9 +135,7 @@ You can verify if a tax number is active and registered via the official **Inter
       "text": "Legally yes, but practically difficult. Many banks refuse 'Potential' numbers without a Residence Permit (Ikamet) due to internal compliance policies, despite the tax number being valid."
     }
   }]
-}
-`}
-</script>
+}`}</JsonLd>
 
 ---
 

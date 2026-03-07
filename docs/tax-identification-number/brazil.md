@@ -8,6 +8,8 @@ tags:
   - Brazil
   - CNPJ
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 import AlsoAvailable from '@site/src/components/AlsoAvailable';
 
@@ -90,9 +92,7 @@ You cannot receive PIX payments directly into a foreign bank account. To accept 
 
 [<img src="/docs/img/posters/signup-taxid-validation16.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
 
-<script type="application/ld+json">
-{`
-  {
+<JsonLd>{`{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
@@ -169,6 +169,4 @@ You cannot receive PIX payments directly into a foreign bank account. To accept 
         }
       }
     ]
-  }
-`}
-</script>
+  }`}</JsonLd>

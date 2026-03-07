@@ -8,6 +8,8 @@ tags:
   - Australia
   - ABN
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 ## Australian Business Number(ABN)
 
@@ -65,9 +67,7 @@ If a supplier does not provide an ABN and the transaction is for business purpos
 
 [<img src="/docs/img/posters/signup-taxid-validation7.png" alt="Sign up on Lookuptax for taxid validation"/>](https://lookuptax.com/)
 
-<script type="application/ld+json">
-{`
-{
+<JsonLd>{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [{
@@ -99,6 +99,4 @@ If a supplier does not provide an ABN and the transaction is for business purpos
       "text": "Sham contracting is when an employer illegitimately tells a worker they are an independent contractor (requiring an ABN) to avoid paying employee entitlements like superannuation, when they are lawfully an employee."
     }
   }]
-}
-`}
-</script>
+}`}</JsonLd>

@@ -8,6 +8,8 @@ tags:
   - Albania
   - TIN
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
 
 ## Tax Identification Number (TIN) (NUIS)
 
@@ -117,9 +119,7 @@ Yes, a physical local office is not required for the NIPT itself, but appointing
 
 [<img src="/docs/img/posters/signup-taxid-validation.png" alt="Sign up on Lookuptax for taxid validation"/>](https://platform.lookuptax.com/auth?page=register)
 
-<script type="application/ld+json">
-{`
-{
+<JsonLd>{`{
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
@@ -220,6 +220,4 @@ Yes, a physical local office is not required for the NIPT itself, but appointing
       }
     }
   ]
-}
-`}
-</script>
+}`}</JsonLd>
