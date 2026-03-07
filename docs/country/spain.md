@@ -1,6 +1,6 @@
 ---
-id: Spain
-title: Spain VAT guidelines 
+id: spain
+title: Spain VAT guidelines
 keywords: [Spain, VAT]
 sidebar_label: Spain
 tags:
@@ -34,10 +34,10 @@ tags:
 
 In Spain, sales taxes are known as value-added tax (VAT) and are levied on most goods and services sold in the country. VAT is a consumption tax, which means that it is paid by the end consumer and is generally included in the price of the goods or services.
 The current VAT rates in Spain are as follows:
-* General rate: 21%
-* Reduced rate: 10%
-* Super reduced rate: 4%
 
+- General rate: 21%
+- Reduced rate: 10%
+- Super reduced rate: 4%
 
 The general rate applies to most goods and services, including food, clothing, and electronics. The reduced rate applies to certain goods and services, such as books, newspapers, and public transport. The super reduced rate applies to a limited range of goods and services, such as basic food products and certain medical services.
 Businesses registered for VAT in Spain are required to charge VAT on the goods and services they sell and to collect the tax on behalf of the government. They are also required to file VAT returns on a regular basis and to pay the VAT they have collected to the tax authorities.
@@ -71,4 +71,3 @@ Another important aspect of the Spanish VAT system is the option for small busin
 ## Reference links
 
 -->
-

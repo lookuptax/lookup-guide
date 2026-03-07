@@ -10,7 +10,7 @@
 
 export const translatedPages = {
   // Check VAT Number - Core page with all translations
-  '/check-vat-number-free-links-to-official-national-database-search-VAT-number': {
+  '/check-vat-number-free-links-to-official-national-database-search-vat-number': {
     de: '/umsatzsteuer-identifikationsnummer-pruefen',
     es: '/comprobar-numero-iva',
     pt: '/verificar-numero-iva',
@@ -21,7 +21,7 @@ export const translatedPages = {
   '/tax-identification-number/mexico-tax-id-guide': {
     es: '/numero-identificacion-fiscal/guia-rfc-mexico',
   },
-  '/tax-identification-number/Argentina-tax-id-guide': {
+  '/tax-identification-number/argentina-tax-id-guide': {
     es: '/numero-identificacion-fiscal/guia-cuit-argentina',
   },
   '/tax-identification-number/colombia-tax-id-guide': {
@@ -39,7 +39,7 @@ export const translatedPages = {
   '/tax-identification-number/venezuela-tax-id-guide': {
     es: '/numero-identificacion-fiscal/guia-rif-venezuela',
   },
-  '/tax-identification-number/Uruguay-tax-id-guide': {
+  '/tax-identification-number/uruguay-tax-id-guide': {
     es: '/numero-identificacion-fiscal/guia-rut-uruguay',
   },
   '/tax-identification-number/italy-tax-id-guide': {
@@ -110,11 +110,7 @@ export const translatedPages = {
     'zh-Hans': '/jieshipage/ioss-ouzhou-jinkou-yizhanshi',
   },
 
-  '/tax-identification-number/portugal-tax-id-guide': {
-    pt: '/numero-identificacao-fiscal/guia-nif-portugal',
-  },
-
-  '/country/Spain': {
+  '/country/spain': {
     pt: '/numero-identificacao-fiscal/guia-nif-espanha',
   },
   // Verification Pages
@@ -206,7 +202,7 @@ export const translatedPages = {
   },
 
   // Check VAT Number Page
- // '/check-vat-number-free-links-to-official-national-database-search-VAT-number': {
+ // '/check-vat-number-free-links-to-official-national-database-search-vat-number': {
    // es: '/comprobar-numero-iva',
    // 'zh-Hans': '/chaxun-zengzhishui-hao',
    // de: '/umsatzsteuer-identifikationsnummer-pruefen',

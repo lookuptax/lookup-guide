@@ -1,5 +1,5 @@
 ---
-id: Argentina-tax-id-guide
+id: argentina-tax-id-guide
 slug: /numero-identificacion-fiscal/guia-cuit-argentina
 title: Guía del CUIT en Argentina - Clave Única de Identificación Tributaria
 keywords:

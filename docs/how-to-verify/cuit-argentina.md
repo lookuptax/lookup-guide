@@ -98,7 +98,7 @@ A successful verification of the CUIT on the AFIP lookup tool will return the fo
   <tr><td align="center">Inactive CUIT</td></tr>
 </table>
 
-For more details on taxes in Argentina, see our [Argentina Tax ID Guide](/docs/tax-identification-number/Argentina-tax-id-guide).
+For more details on taxes in Argentina, see our [Argentina Tax ID Guide](/docs/tax-identification-number/argentina-tax-id-guide).
 
 ---
 

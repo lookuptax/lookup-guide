@@ -1,5 +1,5 @@
 ---
-id: Uruguay-tax-id-guide
+id: uruguay-tax-id-guide
 title: Uruguay RUT number guide
 keywords: [TIN, RUT, Tax ID, Uruguay, Find RUT]
 sidebar_label: Uruguay

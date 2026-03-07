@@ -202,27 +202,23 @@
 
 [[redirects]]
   from = "/es/tags/*"
-  to = "https://lookuptax.com/docs/tags/:splat"
+  to = "https://lookuptax.com/docs/es/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/de/tags/*"
-  to = "https://lookuptax.com/docs/tags/:splat"
+  to = "https://lookuptax.com/docs/de/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/pt/tags/*"
-  to = "https://lookuptax.com/docs/tags/:splat"
+  to = "https://lookuptax.com/docs/pt/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/zh-Hans/tags/*"
-  to = "https://lookuptax.com/docs/tags/:splat"
+  to = "https://lookuptax.com/docs/zh-Hans/"
   status = 301
-  force = true
 
 # ============================================
 # CATEGORY PAGES IN LOCALES - Redirect to English category
@@ -230,27 +226,23 @@
 
 [[redirects]]
   from = "/es/category/*"
-  to = "https://lookuptax.com/docs/category/:splat"
+  to = "https://lookuptax.com/docs/es/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/de/category/*"
-  to = "https://lookuptax.com/docs/category/:splat"
+  to = "https://lookuptax.com/docs/de/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/pt/category/*"
-  to = "https://lookuptax.com/docs/category/:splat"
+  to = "https://lookuptax.com/docs/pt/"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/zh-Hans/category/*"
-  to = "https://lookuptax.com/docs/category/:splat"
+  to = "https://lookuptax.com/docs/zh-Hans/"
   status = 301
-  force = true
 
 # ============================================
 # SPECIAL PAGES IN LOCALES - Missing pages redirect to home
@@ -457,493 +449,169 @@
   force = true
 
 # ============================================
-# ENGLISH SLUGS IN NON-ENGLISH LOCALES
-# These pages use English URL patterns but don't have translations
+# LEGACY UPPERCASE REDIRECTS - Preserve SEO for renamed lowercase IDs
 # ============================================
 
-# Tax ID guide pages with English slugs -> redirect to English version
 [[redirects]]
-  from = "/es/tax-identification-number/*"
-  to = "https://lookuptax.com/docs/tax-identification-number/:splat"
+  from = "/tax-identification-number/Uruguay-tax-id-guide"
+  to = "https://lookuptax.com/docs/tax-identification-number/uruguay-tax-id-guide"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/de/tax-identification-number/*"
-  to = "https://lookuptax.com/docs/tax-identification-number/:splat"
+  from = "/tax-identification-number/Belgium-tax-id-guide"
+  to = "https://lookuptax.com/docs/tax-identification-number/belgium-tax-id-guide"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/pt/tax-identification-number/*"
-  to = "https://lookuptax.com/docs/tax-identification-number/:splat"
+  from = "/tax-identification-number/Austria-tax-id-guide"
+  to = "https://lookuptax.com/docs/tax-identification-number/austria-tax-id-guide"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/zh-Hans/tax-identification-number/*"
-  to = "https://lookuptax.com/docs/tax-identification-number/:splat"
+  from = "/tax-identification-number/Australia-tax-id-guide"
+  to = "https://lookuptax.com/docs/tax-identification-number/australia-tax-id-guide"
   status = 301
   force = true
 
-# How-to-verify pages with English slugs -> English version
 [[redirects]]
-  from = "/es/how-to-verify/*"
-  to = "https://lookuptax.com/docs/how-to-verify/:splat"
+  from = "/tax-identification-number/Argentina-tax-id-guide"
+  to = "https://lookuptax.com/docs/tax-identification-number/argentina-tax-id-guide"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/de/how-to-verify/*"
-  to = "https://lookuptax.com/docs/how-to-verify/:splat"
+  from = "/how-to-verify/vat-verification-Bosnia"
+  to = "https://lookuptax.com/docs/how-to-verify/vat-verification-bosnia"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/pt/how-to-verify/*"
-  to = "https://lookuptax.com/docs/how-to-verify/:splat"
+  from = "/how-to-verify/SIRET-verification-france"
+  to = "https://lookuptax.com/docs/how-to-verify/siret-verification-france"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/zh-Hans/how-to-verify/*"
-  to = "https://lookuptax.com/docs/how-to-verify/:splat"
+  from = "/how-to-verify/qcci-membership-verification-Qatar"
+  to = "https://lookuptax.com/docs/how-to-verify/qcci-membership-verification-qatar"
   status = 301
   force = true
 
-# Explainers pages with English slugs -> English version
 [[redirects]]
-  from = "/es/explainers/*"
-  to = "https://lookuptax.com/docs/explainers/:splat"
+  from = "/how-to-verify/PST-verification-canada"
+  to = "https://lookuptax.com/docs/how-to-verify/pst-verification-canada"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/de/explainers/*"
-  to = "https://lookuptax.com/docs/explainers/:splat"
+  from = "/how-to-verify/australia-drivers-License-format"
+  to = "https://lookuptax.com/docs/how-to-verify/australia-drivers-license-format"
   status = 301
   force = true
 
+# --- Batch 2: Explainers legacy uppercase ---
 [[redirects]]
-  from = "/pt/explainers/*"
-  to = "https://lookuptax.com/docs/explainers/:splat"
+  from = "/explainers/SEZ-in-India"
+  to = "https://lookuptax.com/docs/explainers/sez-in-india"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/zh-Hans/explainers/*"
-  to = "https://lookuptax.com/docs/explainers/:splat"
+  from = "/explainers/explaining-OIDAR-services-and-GST-Compliance-for-Suppliers-in-India"
+  to = "https://lookuptax.com/docs/explainers/explaining-oidar-services-and-gst-compliance-for-suppliers-in-india"
   status = 301
   force = true
 
-# Einvoicing pages with English slugs -> English version
 [[redirects]]
-  from = "/es/einvoicing/*"
-  to = "https://lookuptax.com/docs/einvoicing/:splat"
+  from = "/explainers/VAT-Listings-explained"
+  to = "https://lookuptax.com/docs/explainers/vat-listings-explained"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/de/einvoicing/*"
-  to = "https://lookuptax.com/docs/einvoicing/:splat"
+  from = "/explainers/Finnish-Reference-number-Finland"
+  to = "https://lookuptax.com/docs/explainers/finnish-reference-number-finland"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/pt/einvoicing/*"
-  to = "https://lookuptax.com/docs/einvoicing/:splat"
+  from = "/explainers/KID-number-Norway-kundeidentifikasjon"
+  to = "https://lookuptax.com/docs/explainers/kid-number-norway-kundeidentifikasjon"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/zh-Hans/einvoicing/*"
-  to = "https://lookuptax.com/docs/einvoicing/:splat"
+  from = "/explainers/OCR-number-Sweden"
+  to = "https://lookuptax.com/docs/explainers/ocr-number-sweden"
   status = 301
   force = true
 
-# Glossary pages with English slugs -> English version
 [[redirects]]
-  from = "/es/glossary/*"
-  to = "https://lookuptax.com/docs/glossary/:splat"
+  from = "/explainers/FIK-number-Denmark"
+  to = "https://lookuptax.com/docs/explainers/fik-number-denmark"
   status = 301
   force = true
 
+# --- Batch 2: Einvoicing legacy uppercase ---
 [[redirects]]
-  from = "/de/glossary/*"
-  to = "https://lookuptax.com/docs/glossary/:splat"
+  from = "/einvoicing/Zatca-fatoora-Saudi-Arabia-einvoicing-zakat-tax-and-customs-authority"
+  to = "https://lookuptax.com/docs/einvoicing/zatca-fatoora-saudi-arabia-einvoicing-zakat-tax-and-customs-authority"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/pt/glossary/*"
-  to = "https://lookuptax.com/docs/glossary/:splat"
+  from = "/einvoicing/KSeF-einvoicing-poland"
+  to = "https://lookuptax.com/docs/einvoicing/ksef-einvoicing-poland"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/zh-Hans/glossary/*"
-  to = "https://lookuptax.com/docs/glossary/:splat"
+  from = "/einvoicing/XRechnung-ZUGFeRD-e-invoicing-germany"
+  to = "https://lookuptax.com/docs/einvoicing/xrechnung-zugferd-e-invoicing-germany"
   status = 301
   force = true
 
-# Sales-tax pages with English slugs -> English version
 [[redirects]]
-  from = "/pt/sales-tax/*"
-  to = "https://lookuptax.com/docs/sales-tax/:splat"
+  from = "/einvoicing/Chorus-Pro-einvoicing-france"
+  to = "https://lookuptax.com/docs/einvoicing/chorus-pro-einvoicing-france"
   status = 301
   force = true
 
-# VAT country pages with English slugs -> English version
 [[redirects]]
-  from = "/es/vat/*"
-  to = "https://lookuptax.com/docs/vat/:splat"
+  from = "/einvoicing/SDI-Einvoicing-Sistema-di-Interscambio-italy"
+  to = "https://lookuptax.com/docs/einvoicing/sdi-einvoicing-sistema-di-interscambio-italy"
   status = 301
   force = true
 
-# Doc country pages -> English version
+# --- Batch 2: Country legacy uppercase ---
 [[redirects]]
-  from = "/es/docs/country/*"
-  to = "https://lookuptax.com/docs/country/:splat"
+  from = "/country/Spain"
+  to = "https://lookuptax.com/docs/country/spain"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/pt/docs/country/*"
-  to = "https://lookuptax.com/docs/country/:splat"
+  from = "/country/germany-vat-guidelines-Umsatzsteuergesetz"
+  to = "https://lookuptax.com/docs/country/germany-vat-guidelines-umsatzsteuergesetz"
   status = 301
   force = true
 
+# --- Batch 2: Check VAT legacy uppercase ---
 [[redirects]]
-  from = "/zh-Hans/docs/country/*"
-  to = "https://lookuptax.com/docs/country/:splat"
+  from = "/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-vat-number"
   status = 301
   force = true
 
-# einvoicing-status-networks page -> English version (all locales)
+# --- Batch 3: Additional legacy from pending URLs ---
 [[redirects]]
-  from = "/es/einvoicing-status-networks"
-  to = "https://lookuptax.com/docs/einvoicing-status-networks"
+  from = "/tax-identification-number/Croatia-tax-id-guide"
+  to = "https://lookuptax.com/docs/tax-identification-number/croatia-tax-id-guide"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/de/einvoicing-status-networks"
-  to = "https://lookuptax.com/docs/einvoicing-status-networks"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/pt/einvoicing-status-networks"
-  to = "https://lookuptax.com/docs/einvoicing-status-networks"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/zh-Hans/einvoicing-status-networks"
-  to = "https://lookuptax.com/docs/einvoicing-status-networks"
-  status = 301
-  force = true
-
-# check-vat-number page -> English version (all locales)
-[[redirects]]
-  from = "/es/check-vat-number-free-links-to-official-national-database-search-VAT-number"
-  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/de/check-vat-number-free-links-to-official-national-database-search-VAT-number"
-  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/pt/check-vat-number-free-links-to-official-national-database-search-VAT-number"
-  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/zh-Hans/check-vat-number-free-links-to-official-national-database-search-VAT-number"
-  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number"
-  status = 301
-  force = true
-
-# contact-us page -> English version (all locales)
-[[redirects]]
-  from = "/es/contact-us"
-  to = "https://lookuptax.com/docs/contact-us"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/de/contact-us"
-  to = "https://lookuptax.com/docs/contact-us"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/pt/contact-us"
-  to = "https://lookuptax.com/docs/contact-us"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/zh-Hans/contact-us"
-  to = "https://lookuptax.com/docs/contact-us"
-  status = 301
-  force = true
-
-# External pages - integrations, blog at root
-[[redirects]]
-  from = "/integrations/*"
-  to = "https://lookuptax.com/integrations/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/blog/*"
-  to = "https://lookuptax.com/docs/blog/:splat"
-  status = 301
-  force = true
-
-# ============================================
-# ROOT-LEVEL TRANSLATED SLUGS (no locale prefix)
-# These are translated slugs that appeared without locale
-# ============================================
-
-# Spanish slugs at root -> Spanish version
-[[redirects]]
-  from = "/como-verificar/*"
-  to = "https://lookuptax.com/docs/es/como-verificar/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/numero-identificacion-fiscal/*"
-  to = "https://lookuptax.com/docs/es/numero-identificacion-fiscal/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/explicadores/*"
-  to = "https://lookuptax.com/docs/es/explicadores/:splat"
-  status = 301
-  force = true
-
-# Chinese slugs at root -> Chinese version
-[[redirects]]
-  from = "/shuiwu-shibie-haoma/*"
-  to = "https://lookuptax.com/docs/zh-Hans/shuiwu-shibie-haoma/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/ruhe-yanzheng/*"
-  to = "https://lookuptax.com/docs/zh-Hans/ruhe-yanzheng/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/jieshipage/*"
-  to = "https://lookuptax.com/docs/zh-Hans/jieshipage/:splat"
-  status = 301
-  force = true
-
-# German slugs at root -> German version
-[[redirects]]
-  from = "/erklaerung/*"
-  to = "https://lookuptax.com/docs/de/erklaerung/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wie-man-ueberprueft/*"
-  to = "https://lookuptax.com/docs/de/wie-man-ueberprueft/:splat"
-  status = 301
-  force = true
-
-# ============================================
-# CROSS-LOCALE SLUG MIXING (locale A with locale B slugs)
-# ============================================
-
-# German locale with Spanish slugs -> German home
-[[redirects]]
-  from = "/de/como-verificar/*"
-  to = "https://lookuptax.com/docs/de/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/de/numero-identificacion-fiscal/*"
-  to = "https://lookuptax.com/docs/de/"
-  status = 301
-  force = true
-
-# Portuguese locale with Spanish slugs -> Portuguese home
-[[redirects]]
-  from = "/pt/como-verificar/*"
-  to = "https://lookuptax.com/docs/pt/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/pt/numero-identificacion-fiscal/*"
-  to = "https://lookuptax.com/docs/pt/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/pt/explicadores/*"
-  to = "https://lookuptax.com/docs/pt/"
-  status = 301
-  force = true
-
-# Chinese locale with Spanish slugs -> Chinese home
-[[redirects]]
-  from = "/zh-Hans/como-verificar/*"
-  to = "https://lookuptax.com/docs/zh-Hans/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/zh-Hans/numero-identificacion-fiscal/*"
-  to = "https://lookuptax.com/docs/zh-Hans/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/zh-Hans/explicadores/*"
-  to = "https://lookuptax.com/docs/zh-Hans/"
-  status = 301
-  force = true
-
-# German locale with Chinese slugs -> German home
-[[redirects]]
-  from = "/de/ruhe-yanzheng/*"
-  to = "https://lookuptax.com/docs/de/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/de/shuiwu-shibie-haoma/*"
-  to = "https://lookuptax.com/docs/de/"
-  status = 301
-  force = true
-
-# Portuguese locale with Chinese slugs -> Portuguese home
-[[redirects]]
-  from = "/pt/jieshipage/*"
-  to = "https://lookuptax.com/docs/pt/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/pt/shuiwu-shibie-haoma/*"
-  to = "https://lookuptax.com/docs/pt/"
-  status = 301
-  force = true
-
-# Spanish locale with Chinese slugs -> Spanish home
-[[redirects]]
-  from = "/es/jieshipage/*"
-  to = "https://lookuptax.com/docs/es/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/es/shuiwu-shibie-haoma/*"
-  to = "https://lookuptax.com/docs/es/"
-  status = 301
-  force = true
-
-# Portuguese locale with German slugs -> Portuguese home
-[[redirects]]
-  from = "/pt/erklaerung/*"
-  to = "https://lookuptax.com/docs/pt/"
-  status = 301
-  force = true
-
-# Chinese locale with German slugs -> Chinese home
-[[redirects]]
-  from = "/zh-Hans/erklaerung/*"
-  to = "https://lookuptax.com/docs/zh-Hans/"
-  status = 301
-  force = true
-
-# Spanish locale with German slugs -> Spanish home
-[[redirects]]
-  from = "/es/umsatzsteuer-identifikationsnummer-pruefen"
-  to = "https://lookuptax.com/docs/es/"
-  status = 301
-  force = true
-
-# German locale with localized slugs from other locales
-[[redirects]]
-  from = "/de/wie-man-ueberprueft/*"
-  to = "https://lookuptax.com/docs/de/"
-  status = 301
-  force = true
-
-# ============================================
-# MALFORMED DOUBLE-DOCS PATHS
-# ============================================
-
-# Double slash paths
-[[redirects]]
-  from = "//docs/*"
-  to = "https://lookuptax.com/docs/:splat"
-  status = 301
-  force = true
-
-# Locale + /docs/intro patterns
-[[redirects]]
-  from = "/pt/docs/intro"
-  to = "https://lookuptax.com/docs/pt/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/zh-Hans/docs/intro"
-  to = "https://lookuptax.com/docs/zh-Hans/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "//docs/intro"
-  to = "https://lookuptax.com/docs/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "//docs/es"
-  to = "https://lookuptax.com/docs/es/"
-  status = 301
-  force = true
-
-# Intro without content
-[[redirects]]
-  from = "/intro"
-  to = "https://lookuptax.com/docs/"
-  status = 301
-  force = true
-
-# ============================================
-# EXTERNAL FILES AND PAGES
-# ============================================
-
-# llm.txt -> main site
-[[redirects]]
-  from = "/llm.txt"
-  to = "https://lookuptax.com/llm.txt"
-  status = 301
-  force = true
-
-# Tags at root level (without locale)
-[[redirects]]
-  from = "/tags/*"
-  to = "/tags/:splat"
-  status = 200
 
 # ============================================
 # TRANSLATED SLUG FIXES — redirect to correct locale (not English)
@@ -955,97 +623,406 @@
   from = "/chaxun-zengzhishui-hao"
   to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
   status = 301
-  force = true
-
 # chaxun-zengzhishui-hao in wrong locales -> Chinese
 [[redirects]]
   from = "/es/chaxun-zengzhishui-hao"
   to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/de/chaxun-zengzhishui-hao"
   to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/pt/chaxun-zengzhishui-hao"
   to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
   status = 301
-  force = true
-
 # umsatzsteuer-identifikationsnummer-pruefen (DE slug) in wrong locales -> German
 [[redirects]]
   from = "/pt/umsatzsteuer-identifikationsnummer-pruefen"
   to = "https://lookuptax.com/docs/de/umsatzsteuer-identifikationsnummer-pruefen"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/es/umsatzsteuer-identifikationsnummer-pruefen"
   to = "https://lookuptax.com/docs/de/umsatzsteuer-identifikationsnummer-pruefen"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/zh-Hans/umsatzsteuer-identifikationsnummer-pruefen"
   to = "https://lookuptax.com/docs/de/umsatzsteuer-identifikationsnummer-pruefen"
   status = 301
-  force = true
-
 # numero-identificacao-fiscal (PT slug) in wrong locales -> Portuguese
 [[redirects]]
   from = "/es/numero-identificacao-fiscal/*"
   to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/de/numero-identificacao-fiscal/*"
   to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/zh-Hans/numero-identificacao-fiscal/*"
   to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
   status = 301
-  force = true
-
 # numero-identificacao-fiscal at root -> Portuguese
 [[redirects]]
   from = "/numero-identificacao-fiscal/*"
   to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
   status = 301
-  force = true
-
 # France country page with special character (é) -> English
 [[redirects]]
   from = "/de/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutee-TVA"
   to = "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/es/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutee-TVA"
   to = "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/pt/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutee-TVA"
   to = "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA"
   status = 301
-  force = true
-
 [[redirects]]
   from = "/zh-Hans/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutee-TVA"
   to = "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajout%C3%A9e-TVA"
   status = 301
-  force = true
+# ============================================
+# ENGLISH SLUGS IN NON-ENGLISH LOCALES
+# These pages use English URL patterns but don't have translations
+# ============================================
 
+# Tax ID guide pages with English slugs -> redirect to English version
+[[redirects]]
+  from = "/es/tax-identification-number/*"
+  to = "https://lookuptax.com/docs/tax-identification-number/:splat"
+  status = 301
+[[redirects]]
+  from = "/de/tax-identification-number/*"
+  to = "https://lookuptax.com/docs/tax-identification-number/:splat"
+  status = 301
+[[redirects]]
+  from = "/pt/tax-identification-number/*"
+  to = "https://lookuptax.com/docs/tax-identification-number/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/tax-identification-number/*"
+  to = "https://lookuptax.com/docs/tax-identification-number/:splat"
+  status = 301
+# How-to-verify pages with English slugs -> English version
+[[redirects]]
+  from = "/es/how-to-verify/*"
+  to = "https://lookuptax.com/docs/how-to-verify/:splat"
+  status = 301
+[[redirects]]
+  from = "/de/how-to-verify/*"
+  to = "https://lookuptax.com/docs/how-to-verify/:splat"
+  status = 301
+[[redirects]]
+  from = "/pt/how-to-verify/*"
+  to = "https://lookuptax.com/docs/how-to-verify/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/how-to-verify/*"
+  to = "https://lookuptax.com/docs/how-to-verify/:splat"
+  status = 301
+# Explainers pages with English slugs -> English version
+[[redirects]]
+  from = "/es/explainers/*"
+  to = "https://lookuptax.com/docs/explainers/:splat"
+  status = 301
+[[redirects]]
+  from = "/de/explainers/*"
+  to = "https://lookuptax.com/docs/explainers/:splat"
+  status = 301
+[[redirects]]
+  from = "/pt/explainers/*"
+  to = "https://lookuptax.com/docs/explainers/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/explainers/*"
+  to = "https://lookuptax.com/docs/explainers/:splat"
+  status = 301
+# Einvoicing pages with English slugs -> English version
+[[redirects]]
+  from = "/es/einvoicing/*"
+  to = "https://lookuptax.com/docs/einvoicing/:splat"
+  status = 301
+[[redirects]]
+  from = "/de/einvoicing/*"
+  to = "https://lookuptax.com/docs/einvoicing/:splat"
+  status = 301
+[[redirects]]
+  from = "/pt/einvoicing/*"
+  to = "https://lookuptax.com/docs/einvoicing/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/einvoicing/*"
+  to = "https://lookuptax.com/docs/einvoicing/:splat"
+  status = 301
+# Glossary pages with English slugs -> English version
+[[redirects]]
+  from = "/es/glossary/*"
+  to = "https://lookuptax.com/docs/glossary/:splat"
+  status = 301
+[[redirects]]
+  from = "/de/glossary/*"
+  to = "https://lookuptax.com/docs/glossary/:splat"
+  status = 301
+[[redirects]]
+  from = "/pt/glossary/*"
+  to = "https://lookuptax.com/docs/glossary/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/glossary/*"
+  to = "https://lookuptax.com/docs/glossary/:splat"
+  status = 301
+# Sales-tax pages with English slugs -> English version
+[[redirects]]
+  from = "/pt/sales-tax/*"
+  to = "https://lookuptax.com/docs/sales-tax/:splat"
+  status = 301
+# VAT country pages with English slugs -> English version
+[[redirects]]
+  from = "/es/vat/*"
+  to = "https://lookuptax.com/docs/vat/:splat"
+  status = 301
+# Doc country pages -> English version
+[[redirects]]
+  from = "/es/docs/country/*"
+  to = "https://lookuptax.com/docs/country/:splat"
+  status = 301
+[[redirects]]
+  from = "/pt/docs/country/*"
+  to = "https://lookuptax.com/docs/country/:splat"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/docs/country/*"
+  to = "https://lookuptax.com/docs/country/:splat"
+  status = 301
+# einvoicing-status-networks page -> English version (all locales)
+[[redirects]]
+  from = "/es/einvoicing-status-networks"
+  to = "https://lookuptax.com/docs/einvoicing-status-networks"
+  status = 301
+[[redirects]]
+  from = "/de/einvoicing-status-networks"
+  to = "https://lookuptax.com/docs/einvoicing-status-networks"
+  status = 301
+[[redirects]]
+  from = "/pt/einvoicing-status-networks"
+  to = "https://lookuptax.com/docs/einvoicing-status-networks"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/einvoicing-status-networks"
+  to = "https://lookuptax.com/docs/einvoicing-status-networks"
+  status = 301
+# check-vat-number page -> English version (all locales)
+[[redirects]]
+  from = "/es/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  status = 301
+[[redirects]]
+  from = "/de/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  status = 301
+[[redirects]]
+  from = "/pt/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-VAT-number"
+  status = 301
+# contact-us page -> English version (all locales)
+[[redirects]]
+  from = "/es/contact-us"
+  to = "https://lookuptax.com/docs/contact-us"
+  status = 301
+[[redirects]]
+  from = "/de/contact-us"
+  to = "https://lookuptax.com/docs/contact-us"
+  status = 301
+[[redirects]]
+  from = "/pt/contact-us"
+  to = "https://lookuptax.com/docs/contact-us"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/contact-us"
+  to = "https://lookuptax.com/docs/contact-us"
+  status = 301
+# External pages - integrations, blog at root
+[[redirects]]
+  from = "/integrations/*"
+  to = "https://lookuptax.com/integrations/:splat"
+  status = 301
+[[redirects]]
+  from = "/blog/*"
+  to = "https://lookuptax.com/blog/:splat"
+  status = 301
+# ============================================
+# ROOT-LEVEL TRANSLATED SLUGS (no locale prefix)
+# These are translated slugs that appeared without locale
+# ============================================
+
+# Spanish slugs at root -> Spanish version
+[[redirects]]
+  from = "/como-verificar/*"
+  to = "https://lookuptax.com/docs/es/como-verificar/:splat"
+  status = 301
+[[redirects]]
+  from = "/numero-identificacion-fiscal/*"
+  to = "https://lookuptax.com/docs/es/numero-identificacion-fiscal/:splat"
+  status = 301
+[[redirects]]
+  from = "/explicadores/*"
+  to = "https://lookuptax.com/docs/es/explicadores/:splat"
+  status = 301
+# Chinese slugs at root -> Chinese version
+[[redirects]]
+  from = "/shuiwu-shibie-haoma/*"
+  to = "https://lookuptax.com/docs/zh-Hans/shuiwu-shibie-haoma/:splat"
+  status = 301
+[[redirects]]
+  from = "/ruhe-yanzheng/*"
+  to = "https://lookuptax.com/docs/zh-Hans/ruhe-yanzheng/:splat"
+  status = 301
+[[redirects]]
+  from = "/jieshipage/*"
+  to = "https://lookuptax.com/docs/zh-Hans/jieshipage/:splat"
+  status = 301
+# German slugs at root -> German version
+[[redirects]]
+  from = "/erklaerung/*"
+  to = "https://lookuptax.com/docs/de/erklaerung/:splat"
+  status = 301
+[[redirects]]
+  from = "/wie-man-ueberprueft/*"
+  to = "https://lookuptax.com/docs/de/wie-man-ueberprueft/:splat"
+  status = 301
+# ============================================
+# CROSS-LOCALE SLUG MIXING (locale A with locale B slugs)
+# ============================================
+
+# German locale with Spanish slugs -> German home
+[[redirects]]
+  from = "/de/como-verificar/*"
+  to = "https://lookuptax.com/docs/de/"
+  status = 301
+[[redirects]]
+  from = "/de/numero-identificacion-fiscal/*"
+  to = "https://lookuptax.com/docs/de/"
+  status = 301
+# Portuguese locale with Spanish slugs -> Portuguese home
+[[redirects]]
+  from = "/pt/como-verificar/*"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+[[redirects]]
+  from = "/pt/numero-identificacion-fiscal/*"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+[[redirects]]
+  from = "/pt/explicadores/*"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+# Chinese locale with Spanish slugs -> Chinese home
+[[redirects]]
+  from = "/zh-Hans/como-verificar/*"
+  to = "https://lookuptax.com/docs/zh-Hans/"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/numero-identificacion-fiscal/*"
+  to = "https://lookuptax.com/docs/zh-Hans/"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/explicadores/*"
+  to = "https://lookuptax.com/docs/zh-Hans/"
+  status = 301
+# German locale with Chinese slugs -> German home
+[[redirects]]
+  from = "/de/ruhe-yanzheng/*"
+  to = "https://lookuptax.com/docs/de/"
+  status = 301
+[[redirects]]
+  from = "/de/shuiwu-shibie-haoma/*"
+  to = "https://lookuptax.com/docs/de/"
+  status = 301
+# Portuguese locale with Chinese slugs -> Portuguese home
+[[redirects]]
+  from = "/pt/jieshipage/*"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+[[redirects]]
+  from = "/pt/shuiwu-shibie-haoma/*"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+# Spanish locale with Chinese slugs -> Spanish home
+[[redirects]]
+  from = "/es/jieshipage/*"
+  to = "https://lookuptax.com/docs/es/"
+  status = 301
+[[redirects]]
+  from = "/es/shuiwu-shibie-haoma/*"
+  to = "https://lookuptax.com/docs/es/"
+  status = 301
+# Portuguese locale with German slugs -> Portuguese home
+[[redirects]]
+  from = "/pt/erklaerung/*"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+# Chinese locale with German slugs -> Chinese home
+[[redirects]]
+  from = "/zh-Hans/erklaerung/*"
+  to = "https://lookuptax.com/docs/zh-Hans/"
+  status = 301
+# Spanish locale with German slugs -> Spanish home
+[[redirects]]
+  from = "/es/umsatzsteuer-identifikationsnummer-pruefen"
+  to = "https://lookuptax.com/docs/es/"
+  status = 301
+# ============================================
+# MALFORMED DOUBLE-DOCS PATHS
+# ============================================
+
+# Double slash paths
+[[redirects]]
+  from = "//docs/*"
+  to = "https://lookuptax.com/docs/:splat"
+  status = 301
+# Locale + /docs/intro patterns
+[[redirects]]
+  from = "/pt/docs/intro"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+[[redirects]]
+  from = "/zh-Hans/docs/intro"
+  to = "https://lookuptax.com/docs/zh-Hans/"
+  status = 301
+[[redirects]]
+  from = "//docs/intro"
+  to = "https://lookuptax.com/docs/"
+  status = 301
+[[redirects]]
+  from = "//docs/es"
+  to = "https://lookuptax.com/docs/es/"
+  status = 301
+# Intro without content
+[[redirects]]
+  from = "/intro"
+  to = "https://lookuptax.com/docs/"
+  status = 301
+# ============================================
+# EXTERNAL FILES AND PAGES
+# ============================================
+
+# llm.txt -> main site
+[[redirects]]
+  from = "/llm.txt"
+  to = "https://lookuptax.com/llm.txt"
+  status = 301
+# Tags at root level (without locale)
+[[redirects]]
+  from = "/tags/*"
+  to = "/tags/:splat"
+  status = 200
 
 # ============================================
 # CATCH-ALL LOCALE REDIRECTS
@@ -1053,32 +1030,6 @@
 # These MUST come after all specific redirect rules
 # No force=true: real translated pages (static files) served normally
 # ============================================
-
-# Translated slugs appearing at root without locale prefix
-[[redirects]]
-  from = "/steuerliche-identifikationsnummer/*"
-  to = "https://lookuptax.com/docs/de/steuerliche-identifikationsnummer/:splat"
-  status = 301
-
-[[redirects]]
-  from = "/shuiwu-shibie-haoma/*"
-  to = "https://lookuptax.com/docs/zh-Hans/shuiwu-shibie-haoma/:splat"
-  status = 301
-
-[[redirects]]
-  from = "/ruhe-yanzheng/*"
-  to = "https://lookuptax.com/docs/zh-Hans/ruhe-yanzheng/:splat"
-  status = 301
-
-[[redirects]]
-  from = "/jieshipage/*"
-  to = "https://lookuptax.com/docs/zh-Hans/jieshipage/:splat"
-  status = 301
-
-[[redirects]]
-  from = "/wie-man-ueberprueft/*"
-  to = "https://lookuptax.com/docs/de/wie-man-ueberprueft/:splat"
-  status = 301
 
 # Locale catch-alls: redirect unmatched locale paths to English
 [[redirects]]

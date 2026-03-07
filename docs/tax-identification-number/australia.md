@@ -1,5 +1,5 @@
 ---
-id: Australia-tax-id-guide
+id: australia-tax-id-guide
 title: Australia ABN number guide
 keywords: [TIN, ABN, Tax ID, Australia, find ABN]
 sidebar_label: Australia

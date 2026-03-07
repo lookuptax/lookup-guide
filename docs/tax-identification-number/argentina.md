@@ -1,5 +1,5 @@
 ---
-id: Argentina-tax-id-guide
+id: argentina-tax-id-guide
 title: Argentina TIN number guide
 keywords: [TIN, CUIT, Tax ID, Argentina, find CUIT]
 sidebar_label: Argentina

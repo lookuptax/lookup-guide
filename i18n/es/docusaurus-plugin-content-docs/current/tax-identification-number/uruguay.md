@@ -1,5 +1,5 @@
 ---
-id: Uruguay-tax-id-guide
+id: uruguay-tax-id-guide
 slug: /numero-identificacion-fiscal/guia-rut-uruguay
 title: Guía del RUT en Uruguay - Registro Único Tributario
 keywords:
