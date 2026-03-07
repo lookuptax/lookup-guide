@@ -893,6 +893,11 @@
   from = "/erklaerung/*"
   to = "https://lookuptax.com/docs/de/erklaerung/:splat"
   status = 301
+# Portuguese slugs at root -> Portuguese version
+[[redirects]]
+  from = "/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
+  status = 301
 [[redirects]]
   from = "/wie-man-ueberprueft/*"
   to = "https://lookuptax.com/docs/de/wie-man-ueberprueft/:splat"
@@ -976,6 +981,33 @@
 # Spanish locale with German slugs -> Spanish home
 [[redirects]]
   from = "/es/umsatzsteuer-identifikationsnummer-pruefen"
+  to = "https://lookuptax.com/docs/es/"
+  status = 301
+# German locale with ES explicadores -> German home
+[[redirects]]
+  from = "/de/explicadores/*"
+  to = "https://lookuptax.com/docs/de/"
+  status = 301
+# ZH/DE/ES with Portuguese numero-identificacao-fiscal -> locale home
+[[redirects]]
+  from = "/zh-Hans/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/zh-Hans/"
+  status = 301
+[[redirects]]
+  from = "/de/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/de/"
+  status = 301
+[[redirects]]
+  from = "/es/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/es/"
+  status = 301
+# PT/ES with Chinese ruhe-yanzheng -> locale home
+[[redirects]]
+  from = "/pt/ruhe-yanzheng/*"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+[[redirects]]
+  from = "/es/ruhe-yanzheng/*"
   to = "https://lookuptax.com/docs/es/"
   status = 301
 # ============================================
