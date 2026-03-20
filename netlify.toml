@@ -783,7 +783,12 @@
   to = "https://lookuptax.com/docs/de/umsatzsteuer-identifikationsnummer-pruefen"
   status = 301
   force = true
-# numero-identificacao-fiscal (PT slug) in wrong locales -> Portuguese
+# numero-identificacao-fiscal (PT slug) - correct locale first, then wrong locales
+[[redirects]]
+  from = "/pt/numero-identificacao-fiscal/*"
+  to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
+  status = 301
+  force = true
 [[redirects]]
   from = "/es/numero-identificacao-fiscal/*"
   to = "https://lookuptax.com/docs/pt/numero-identificacao-fiscal/:splat"
@@ -1205,6 +1210,67 @@
   status = 301
   force = true
 # ============================================
+# CORRECT-LOCALE TRANSLATED SLUGS
+# These translated slugs in their OWN correct locale must redirect
+# to the proper /docs/{locale}/... URL (before catch-all fires)
+# ============================================
+
+# Spanish translated slugs in Spanish locale -> correct Spanish docs
+[[redirects]]
+  from = "/es/numero-identificacion-fiscal/*"
+  to = "https://lookuptax.com/docs/es/numero-identificacion-fiscal/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/es/como-verificar/*"
+  to = "https://lookuptax.com/docs/es/como-verificar/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/es/explicadores/*"
+  to = "https://lookuptax.com/docs/es/explicadores/:splat"
+  status = 301
+  force = true
+# Portuguese translated slugs in Portuguese locale -> correct PT docs
+[[redirects]]
+  from = "/pt/explicacao/*"
+  to = "https://lookuptax.com/docs/pt/explicacao/:splat"
+  status = 301
+  force = true
+# German translated slugs in German locale -> correct DE docs
+[[redirects]]
+  from = "/de/erklaerung/*"
+  to = "https://lookuptax.com/docs/de/erklaerung/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/de/wie-man-ueberprueft/*"
+  to = "https://lookuptax.com/docs/de/wie-man-ueberprueft/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/de/umsatzsteuer-identifikationsnummer-pruefen"
+  to = "https://lookuptax.com/docs/de/umsatzsteuer-identifikationsnummer-pruefen"
+  status = 301
+  force = true
+# Chinese translated slugs in Chinese locale -> correct ZH docs
+[[redirects]]
+  from = "/zh-Hans/shuiwu-shibie-haoma/*"
+  to = "https://lookuptax.com/docs/zh-Hans/shuiwu-shibie-haoma/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/zh-Hans/ruhe-yanzheng/*"
+  to = "https://lookuptax.com/docs/zh-Hans/ruhe-yanzheng/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/zh-Hans/chaxun-zengzhishui-hao"
+  to = "https://lookuptax.com/docs/zh-Hans/chaxun-zengzhishui-hao"
+  status = 301
+  force = true
+
+# ============================================
 # ROOT-LEVEL TRANSLATED SLUGS (no locale prefix)
 # These are translated slugs that appeared without locale
 # ============================================
@@ -1255,6 +1321,18 @@
 [[redirects]]
   from = "/steuerliche-identifikationsnummer/*"
   to = "https://lookuptax.com/docs/de/steuerliche-identifikationsnummer/:splat"
+  status = 301
+  force = true
+# German steuerliche-identifikationsnummer in correct locale -> serve correctly
+[[redirects]]
+  from = "/de/steuerliche-identifikationsnummer/*"
+  to = "https://lookuptax.com/docs/de/steuerliche-identifikationsnummer/:splat"
+  status = 301
+  force = true
+# German steuernummer in correct locale -> serve correctly
+[[redirects]]
+  from = "/de/steuernummer/*"
+  to = "https://lookuptax.com/docs/de/steuernummer/:splat"
   status = 301
   force = true
 [[redirects]]
