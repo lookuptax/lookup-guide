@@ -197,9 +197,43 @@
   force = true
 
 # ============================================
-# TAGS IN LOCALES - Redirect locale tags to English tags
+# TAGS IN LOCALES
 # ============================================
 
+# Fix double /tags/ paths FIRST (e.g., /de/tags/tags/espanha)
+# These must come BEFORE the general /locale/tags/* rules
+[[redirects]]
+  from = "/es/tags/tags/*"
+  to = "https://lookuptax.com/docs/es/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/de/tags/tags/*"
+  to = "https://lookuptax.com/docs/de/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pt/tags/tags/*"
+  to = "https://lookuptax.com/docs/pt/tags/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/zh-Hans/tags/tags/*"
+  to = "https://lookuptax.com/docs/zh-Hans/tags/:splat"
+  status = 301
+  force = true
+
+# English /tags/tags/* double path fix
+[[redirects]]
+  from = "/tags/tags/*"
+  to = "https://lookuptax.com/docs/tags/:splat"
+  status = 301
+  force = true
+
+# General locale tags -> locale home (for tags without translated pages)
 [[redirects]]
   from = "/es/tags/*"
   to = "https://lookuptax.com/docs/es/"
@@ -277,10 +311,22 @@
 # ROOT-LEVEL EXTERNAL PAGES - Redirect to main site
 # ============================================
 
-# Blog posts at root level (outside /docs/)
+# Blog/content posts at root level (outside /docs/) -> Astro blog
 [[redirects]]
   from = "/business-tax-compliance-guide-2026"
-  to = "https://lookuptax.com/docs/blog/business-tax-compliance-guide-2026"
+  to = "https://lookuptax.com/blog/business-tax-compliance-guide-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/automate-vat-number-validation-through-apis"
+  to = "https://lookuptax.com/blog/automate-vat-number-validation-through-apis"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/handling-api-downtimes-tax-validation"
+  to = "https://lookuptax.com/blog/handling-api-downtimes-tax-validation"
   status = 301
   force = true
 
@@ -377,30 +423,7 @@
   status = 301
   force = true
 
-# Fix double /tags/ paths (e.g., /de/tags/tags/espanha)
-[[redirects]]
-  from = "/es/tags/tags/*"
-  to = "https://lookuptax.com/docs/es/tags/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/de/tags/tags/*"
-  to = "https://lookuptax.com/docs/de/tags/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/pt/tags/tags/*"
-  to = "https://lookuptax.com/docs/pt/tags/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/zh-Hans/tags/tags/*"
-  to = "https://lookuptax.com/docs/zh-Hans/tags/:splat"
-  status = 301
-  force = true
+# (tags/tags double path rules moved to TAGS IN LOCALES section above)
 
 # ============================================
 # CROSS-LOCALE PATH FIXES
@@ -445,6 +468,48 @@
 [[redirects]]
   from = "/de/es/*"
   to = "https://lookuptax.com/docs/de/"
+  status = 301
+  force = true
+
+# Spanish URL with German path -> redirect to Spanish home
+[[redirects]]
+  from = "/es/de/*"
+  to = "https://lookuptax.com/docs/es/"
+  status = 301
+  force = true
+
+# Spanish URL with Portuguese path -> redirect to Spanish home
+[[redirects]]
+  from = "/es/pt/*"
+  to = "https://lookuptax.com/docs/es/"
+  status = 301
+  force = true
+
+# German URL with Portuguese path -> redirect to German home
+[[redirects]]
+  from = "/de/pt/*"
+  to = "https://lookuptax.com/docs/de/"
+  status = 301
+  force = true
+
+# Portuguese URL with German path -> redirect to Portuguese home
+[[redirects]]
+  from = "/pt/de/*"
+  to = "https://lookuptax.com/docs/pt/"
+  status = 301
+  force = true
+
+# Chinese URL with German path -> redirect to Chinese home
+[[redirects]]
+  from = "/zh-Hans/de/*"
+  to = "https://lookuptax.com/docs/zh-Hans/"
+  status = 301
+  force = true
+
+# Chinese URL with Portuguese path -> redirect to Chinese home
+[[redirects]]
+  from = "/zh-Hans/pt/*"
+  to = "https://lookuptax.com/docs/zh-Hans/"
   status = 301
   force = true
 
