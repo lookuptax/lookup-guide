@@ -333,12 +333,11 @@
   status = 301
   force = true
 
-# English category pages at root
+# English category pages at root — NO force=true so real category pages are served
 [[redirects]]
   from = "/category/*"
   to = "https://lookuptax.com/docs/"
   status = 301
-  force = true
 
 # ============================================
 # SPECIAL PAGES IN LOCALES - Missing pages redirect to home
@@ -1645,68 +1644,59 @@
   to = "https://lookuptax.com/llm.txt"
   status = 301
   force = true
-# Tags at root level (without locale) -> serve from docs
+# Tags at root level (without locale)
+# NO force=true — real static files must be served; these are fallbacks only
 [[redirects]]
   from = "/tags/*"
   to = "https://lookuptax.com/docs/tags/:splat"
   status = 301
-  force = true
 
-# English base paths that may not exist in build -> redirect to docs home
+# English base paths — NO force=true to avoid redirect loops
+# (Astro proxies /docs/* to Netlify, so force=true would loop)
 [[redirects]]
   from = "/sales-tax/*"
   to = "https://lookuptax.com/docs/sales-tax/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/glossary/*"
   to = "https://lookuptax.com/docs/glossary/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/check-vat-number"
   to = "https://lookuptax.com/docs/check-vat-number-free-links-to-official-national-database-search-vat-number"
   status = 301
-  force = true
 
-# Root-level English content paths -> redirect to docs equivalent
 [[redirects]]
   from = "/vat/*"
   to = "https://lookuptax.com/docs/vat/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/einvoicing/*"
   to = "https://lookuptax.com/docs/einvoicing/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/explainers/*"
   to = "https://lookuptax.com/docs/explainers/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/how-to-verify/*"
   to = "https://lookuptax.com/docs/how-to-verify/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/tax-identification-number/*"
   to = "https://lookuptax.com/docs/tax-identification-number/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/country/*"
   to = "https://lookuptax.com/docs/country/:splat"
   status = 301
-  force = true
 
 # ============================================
 # CATCH-ALL LOCALE REDIRECTS
