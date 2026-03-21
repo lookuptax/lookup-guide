@@ -1,12 +1,37 @@
 ---
 id: germany-vat-guidelines-umsatzsteuergesetz
 title: The Value Added Tax Act in Germany - An In-Depth Explanation
-keywords: [Germany VAT]
+keywords: [Germany VAT, Umsatzsteuergesetz, German VAT, USt-IdNr]
 sidebar_label: Germany
-description: Learn about the VAT rules and guidelines in France
+description: Learn about the VAT rules and guidelines in Germany
+tags:
   - Germany
   - VAT
 ---
+
+import JsonLd from '@site/src/components/JsonLd';
+
+<JsonLd>
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Value Added Tax (Umsatzsteuergesetz) in Germany",
+  "description": "VAT rules and guidelines in Germany covering scope, registration, tax rates (19% standard, 7% reduced), input tax deduction, invoicing requirements, special schemes, and anti-avoidance measures.",
+  "serviceType": "Tax Administration",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Bundeszentralamt für Steuern (Federal Central Tax Office)",
+    "url": "https://www.bzst.de/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "url": "https://lookuptax.com/docs/country/germany-vat-guidelines-umsatzsteuergesetz"
+}
+`}
+</JsonLd>
 
 The Value Added Tax Act (Umsatzsteuergesetz) serves as the legal foundation for levying and administering value added tax (VAT) in Germany. First enacted in 1979, it establishes important elements like taxable transactions, VAT rates, rules for calculation of tax liability and input tax credit, invoicing requirements, filing of returns and payment procedures. The law aims to ensure neutrality of taxation along the production-distribution chain and achieve broad coverage of consumption taxes on goods and services.
 

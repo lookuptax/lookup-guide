@@ -10,6 +10,30 @@ tags:
   - United Kingdom
 ---
 
+import JsonLd from '@site/src/components/JsonLd';
+
+<JsonLd>
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Value Added Tax (VAT) in the United Kingdom",
+  "description": "VAT rules and guidelines in the United Kingdom for businesses, covering registration thresholds (£85,000), tax rates (20% standard, 5% reduced, 0% zero), invoicing requirements, reverse charges, digital services, and Making Tax Digital compliance.",
+  "serviceType": "Tax Administration",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "HM Revenue & Customs",
+    "url": "https://www.gov.uk/government/organisations/hm-revenue-customs"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "url": "https://lookuptax.com/docs/country/uk-vat-guidelines-sales-tax-indirect-tax-united-kingdom"
+}
+`}
+</JsonLd>
+
 <table>
   <thead>
     <tr>

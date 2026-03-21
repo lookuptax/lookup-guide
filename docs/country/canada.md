@@ -10,6 +10,30 @@ tags:
   - HST
 ---
 
+import JsonLd from '@site/src/components/JsonLd';
+
+<JsonLd>
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Goods and Services Tax (GST) and Harmonized Sales Tax (HST) in Canada",
+  "description": "GST and HST rules and guidelines in Canada for businesses, covering registration, provincial tax rates, PST, QST, and filing returns for compliance with Canadian tax laws.",
+  "serviceType": "Tax Administration",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Canada Revenue Agency",
+    "url": "https://www.canada.ca/en/revenue-agency.html"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Canada"
+  },
+  "url": "https://lookuptax.com/docs/country/canada-gst-hst-guidelines-sales-tax-indirect-tax"
+}
+`}
+</JsonLd>
+
 <table>
   <thead>
     <tr>

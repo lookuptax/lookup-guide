@@ -8,6 +8,30 @@ tags:
   - VAT
 ---
 
+import JsonLd from '@site/src/components/JsonLd';
+
+<JsonLd>
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Impuesto sobre el Valor Añadido (IVA) in Spain",
+  "description": "VAT rules and guidelines in Spain for businesses, covering general rate (21%), reduced rate (10%), super reduced rate (4%), intra-Community supplies, and the simplified VAT scheme for small businesses.",
+  "serviceType": "Tax Administration",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Agencia Estatal de Administración Tributaria (AEAT)",
+    "url": "https://sede.agenciatributaria.gob.es/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Spain"
+  },
+  "url": "https://lookuptax.com/docs/country/spain"
+}
+`}
+</JsonLd>
+
 <table>
   <thead>
     <tr>

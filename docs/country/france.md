@@ -9,6 +9,30 @@ description: Learn about the VAT rules and guidelines in France
   - TVA
 ---
 
+import JsonLd from '@site/src/components/JsonLd';
+
+<JsonLd>
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Taxe sur la valeur ajoutée (TVA) in France",
+  "description": "VAT rules and guidelines in France for businesses, covering registration thresholds, tax rates, intra-community transactions, invoicing requirements, e-invoicing, and record keeping obligations.",
+  "serviceType": "Tax Administration",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Direction générale des Finances publiques",
+    "url": "https://www.impots.gouv.fr/accueil"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "France"
+  },
+  "url": "https://lookuptax.com/docs/country/france-vat-guidelines-taxe-sur-la-valeur-ajoutée-tva"
+}
+`}
+</JsonLd>
+
 <table>
   <thead>
     <tr>
