@@ -44,7 +44,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Can a foreigner get an Armenian TIN with just a passport?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, but with conditions. Foreign nationals can obtain a TIN by visiting an SRC (State Revenue Committee) tax office or applying online via the National Services Gateway (Hartak). A valid passport is sufficient — no Armenian residency is required. However, if you plan to stay long-term, obtaining a Social Security Number (SSN) first is more practical, as the SSN is widely used for banking and government transactions in Armenia."
+        "text": "Yes, but with conditions. Foreign nationals can obtain a TIN by visiting an SRC (State Revenue Committee) tax office or applying online via the National Services Gateway (Hartak). A valid passport is sufficient — no Armenian residency is required. However, if you plan to stay long-term, obtaining a Social Security Number (SSN) first is more practical, as the SSN is widely used for banking and government transactions in Armenia. (Source: National Services Gateway (Hartak), english.hartak.am; State Revenue Committee, src.am) (Source: State Revenue Committee of Armenia, petekamutner.am)"
       }
     },
     {
@@ -52,7 +52,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What is the difference between an Armenian TIN and SSN?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The TIN (Taxpayer Identification Number / INN) is an 8-digit number issued by the State Revenue Committee specifically for tax purposes. The SSN (Social Security Number) is a separate identifier used for social security, healthcare, and general government services. Armenian citizens and long-term residents typically have both. For foreign nationals not registering as entrepreneurs, you may need to obtain an SSN before a TIN can be issued."
+        "text": "The TIN (Taxpayer Identification Number / INN) is an 8-digit number issued by the State Revenue Committee specifically for tax purposes. The SSN (Social Security Number) is a separate identifier used for social security, healthcare, and general government services. Armenian citizens and long-term residents typically have both. For foreign nationals not registering as entrepreneurs, you may need to obtain an SSN before a TIN can be issued. (Source: OECD Armenia TIN, oecd.org; State Revenue Committee, src.am) (Source: OECD Automatic Exchange of Information, oecd.org)"
       }
     },
     {
@@ -60,7 +60,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What happens if my invoice doesn't include the recipient's Armenian TIN?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Under Armenian tax law, if a contract or invoice does not include the individual's TIN, passport data, and domicile, the tax agent must withhold income tax at a flat rate of 20%. This is a common trap for freelancers and foreign contractors — always ensure your Armenian TIN is documented on all payment contracts to avoid unexpected withholding."
+        "text": "Under Armenian tax law, if a contract or invoice does not include the individual's TIN, passport data, and domicile, the tax agent must withhold income tax at a flat rate of 20%. This is a common trap for freelancers and foreign contractors — always ensure your Armenian TIN is documented on all payment contracts to avoid unexpected withholding. (Source: State Revenue Committee of Armenia, src.am) (Source: State Revenue Committee of Armenia, petekamutner.am)"
       }
     },
     {
@@ -68,7 +68,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Can I register an Individual Entrepreneur (IE) in Armenia as a foreigner?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. When a foreign citizen registers as an Individual Entrepreneur in Armenia, they automatically receive a TIN. The registration can be done at the SRC office or online, and processing is typically same-day. You will need your passport and, in some cases, a notarized power of attorney if someone else is filing on your behalf."
+        "text": "Yes. When a foreign citizen registers as an Individual Entrepreneur in Armenia, they automatically receive a TIN. The registration can be done at the SRC office or online, and processing is typically same-day. You will need your passport and, in some cases, a notarized power of attorney if someone else is filing on your behalf. (Source: Electronic Register of Armenia, e-register.am; State Revenue Committee, src.am) (Source: Electronic Register of Armenia, e-register.am)"
       }
     },
     {
@@ -76,7 +76,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "How do I verify an Armenian TIN online?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Armenia does not have a publicly accessible online verification portal like the EU VIES system. To verify an Armenian TIN, you can check through the State Revenue Committee's official systems or use a third-party verification service like LookupTax. Direct verification may require contacting the SRC office."
+        "text": "Armenia does not have a publicly accessible online verification portal like the EU VIES system. To verify an Armenian TIN, you can check through the State Revenue Committee's official systems or use a third-party verification service like LookupTax. Direct verification may require contacting the SRC office. (Source: State Revenue Committee, src.am) (Source: State Revenue Committee of Armenia, petekamutner.am)"
       }
     }
   ]
@@ -98,19 +98,19 @@ Official database - [Search TIN](https://www.src.am/en/taxpayerSearchSystemPage/
 ## Frequently Asked Questions
 
 ### Can a foreigner get an Armenian TIN with just a passport?
-Yes, but with conditions. Foreign nationals can obtain a TIN by visiting an SRC (State Revenue Committee) tax office or applying online via the National Services Gateway (Hartak). A valid passport is sufficient — no Armenian residency is required. However, if you plan to stay long-term, obtaining a Social Security Number (SSN) first is more practical, as the SSN is widely used for banking and government transactions in Armenia.
+Yes, but with conditions. Foreign nationals can obtain a TIN by visiting an SRC (State Revenue Committee) tax office or applying online via the National Services Gateway (Hartak). A valid passport is sufficient — no Armenian residency is required. However, if you plan to stay long-term, obtaining a Social Security Number (SSN) first is more practical, as the SSN is widely used for banking and government transactions in Armenia. ([National Services Gateway (Hartak)](https://english.hartak.am/services/396dfefe-b568-4fd2-a7f7-534a22bd2354/online/)) ([State Revenue Committee](https://src.am/en/getNews/467)) ([State Revenue Committee of Armenia](https://www.petekamutner.am/DefaultEn.aspx))
 
 ### What is the difference between an Armenian TIN and SSN?
-The **TIN** (Taxpayer Identification Number / INN) is an 8-digit number issued by the State Revenue Committee specifically for tax purposes. The **SSN** (Social Security Number) is a separate identifier used for social security, healthcare, and general government services. Armenian citizens and long-term residents typically have both. For foreign nationals not registering as entrepreneurs, you may need to obtain an SSN before a TIN can be issued.
+The **TIN** (Taxpayer Identification Number / INN) is an 8-digit number issued by the State Revenue Committee specifically for tax purposes. The **SSN** (Social Security Number) is a separate identifier used for social security, healthcare, and general government services. Armenian citizens and long-term residents typically have both. For foreign nationals not registering as entrepreneurs, you may need to obtain an SSN before a TIN can be issued. ([OECD Armenia TIN](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/armenia-tin.pdf)) ([State Revenue Committee](https://src.am/en/getNews/467)) ([OECD - Armenia TIN](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/armenia-tin.pdf))
 
 ### What happens if my invoice doesn't include the recipient's Armenian TIN?
-Under Armenian tax law, if a contract or invoice does not include the individual's TIN, passport data, and domicile, the tax agent must withhold income tax at a flat rate of 20%. This is a common trap for freelancers and foreign contractors — always ensure your Armenian TIN is documented on all payment contracts to avoid unexpected withholding.
+Under Armenian tax law, if a contract or invoice does not include the individual's TIN, passport data, and domicile, the tax agent must withhold income tax at a flat rate of 20%. This is a common trap for freelancers and foreign contractors — always ensure your Armenian TIN is documented on all payment contracts to avoid unexpected withholding. ([State Revenue Committee of Armenia](https://src.am/en/getNews/467)) ([State Revenue Committee of Armenia](https://www.petekamutner.am/DefaultEn.aspx))
 
 ### Can I register an Individual Entrepreneur (IE) in Armenia as a foreigner?
-Yes. When a foreign citizen registers as an Individual Entrepreneur in Armenia, they automatically receive a TIN. The registration can be done at the SRC office or online, and processing is typically same-day. You will need your passport and, in some cases, a notarized power of attorney if someone else is filing on your behalf.
+Yes. When a foreign citizen registers as an Individual Entrepreneur in Armenia, they automatically receive a TIN. The registration can be done at the SRC office or online, and processing is typically same-day. You will need your passport and, in some cases, a notarized power of attorney if someone else is filing on your behalf. ([Electronic Register of Armenia](https://www.e-register.am/en/search)) ([State Revenue Committee](https://src.am/en/getNews/467)) ([Electronic Register of Armenia](https://www.e-register.am/en/search))
 
 ### How do I verify an Armenian TIN online?
-Armenia does not have a publicly accessible online verification portal like the EU VIES system. To verify an Armenian TIN, you can check through the State Revenue Committee's official systems or use a third-party verification service like LookupTax. Direct verification may require contacting the SRC office.
+Armenia does not have a publicly accessible online verification portal like the EU VIES system. To verify an Armenian TIN, you can check through the State Revenue Committee's official systems or use a third-party verification service like LookupTax. Direct verification may require contacting the SRC office. ([State Revenue Committee](https://src.am/en/getNews/467)) ([State Revenue Committee of Armenia](https://www.petekamutner.am/DefaultEn.aspx))
 
 ----
 **How [Lookuptax](https://lookuptax.com/) can help you ?**

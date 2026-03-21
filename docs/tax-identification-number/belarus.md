@@ -45,7 +45,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Is the UNP the same as the VAT number in Belarus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. In Belarus, the UNP (Учетный номер плательщика) serves as both the general taxpayer identification number and the VAT identification number. There is no separate VAT registration. The standard VAT rate in Belarus is 20%, and all VAT-related filings use the UNP."
+        "text": "Yes. In Belarus, the UNP (Учетный номер плательщика) serves as both the general taxpayer identification number and the VAT identification number. There is no separate VAT registration. The standard VAT rate in Belarus is 20%, and all VAT-related filings use the UNP. (Source: Ministry of Taxes and Duties, nalog.gov.by)"
       }
     },
     {
@@ -53,7 +53,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Can I verify a Belarusian UNP on the EU VIES system?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Belarus is not an EU member state, so its tax numbers are not available in the VIES database. To verify a UNP, use the official portal of the Ministry of Taxes and Duties of Belarus or check the Unified State Register of Legal Entities and Individual Entrepreneurs (EGR). Third-party services like LookupTax also provide verification."
+        "text": "No. Belarus is not an EU member state, so its tax numbers are not available in the VIES database. To verify a UNP, use the official portal of the Ministry of Taxes and Duties of Belarus or check the Unified State Register of Legal Entities and Individual Entrepreneurs (EGR). Third-party services like LookupTax also provide verification. (Source: Ministry of Taxes and Duties, nalog.gov.by)"
       }
     },
     {
@@ -61,7 +61,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "How can a foreign company register for a UNP in Belarus?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Foreign companies can register electronically via the Central Electronic Services Portal (nces.by) — the process is free. This is primarily required for VAT collection on electronic services sold to Belarusian customers. The Ministry of Taxes provides an online self-assessment test to determine whether registration is required based on your business activities."
+        "text": "Foreign companies can register electronically via the Central Electronic Services Portal (nces.by) — the process is free. This is primarily required for VAT collection on electronic services sold to Belarusian customers. The Ministry of Taxes provides an online self-assessment test to determine whether registration is required based on your business activities. (Source: Ministry of Taxes and Duties, nalog.gov.by)"
       }
     },
     {
@@ -69,7 +69,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What does the UNP format tell you about the entity?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The UNP is a 9-digit number where the first digits encode regional information. For example, UNP numbers starting with specific codes indicate the Brest, Minsk, or Mogilev regions. Individual entrepreneurs may have UNP numbers with letter prefixes (e.g., MA1953684). The last digit is a check digit for validation purposes."
+        "text": "The UNP is a 9-digit number where the first digits encode regional information. For example, UNP numbers starting with specific codes indicate the Brest, Minsk, or Mogilev regions. Individual entrepreneurs may have UNP numbers with letter prefixes (e.g., MA1953684). The last digit is a check digit for validation purposes. (Source: OECD Automatic Exchange of Information, oecd.org)"
       }
     },
     {
@@ -77,7 +77,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What are the risks of dealing with Belarusian counterparties without verifying their UNP?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Given the international sanctions environment, verifying a UNP is critical for due diligence. You must ensure that the UNP belongs to an active entity in the EGR and that the entity is not subject to sanctions. An invalid or sanctioned UNP can void contracts, block payments, and expose your company to compliance risks."
+        "text": "Given the international sanctions environment, verifying a UNP is critical for due diligence. You must ensure that the UNP belongs to an active entity in the EGR and that the entity is not subject to sanctions. An invalid or sanctioned UNP can void contracts, block payments, and expose your company to compliance risks. (Source: Ministry of Taxes and Duties, nalog.gov.by)"
       }
     }
   ]
@@ -93,19 +93,19 @@ Offical Database - [Website](https://egr.gov.by/egrn/index.jsp?content=Find)
 ## Frequently Asked Questions
 
 ### Is the UNP the same as the VAT number in Belarus?
-Yes. In Belarus, the UNP (Учетный номер плательщика) serves as both the general taxpayer identification number and the VAT identification number. There is no separate VAT registration. The standard VAT rate in Belarus is 20%, and all VAT-related filings use the UNP.
+Yes. In Belarus, the UNP (Учетный номер плательщика) serves as both the general taxpayer identification number and the VAT identification number. There is no separate VAT registration. The standard VAT rate in Belarus is 20%, and all VAT-related filings use the UNP. ([Ministry of Taxes and Duties of Belarus](https://nalog.gov.by))
 
 ### Can I verify a Belarusian UNP on the EU VIES system?
-No. Belarus is not an EU member state, so its tax numbers are not available in the VIES database. To verify a UNP, use the official portal of the Ministry of Taxes and Duties of Belarus or check the Unified State Register of Legal Entities and Individual Entrepreneurs (EGR). Third-party services like LookupTax also provide verification.
+No. Belarus is not an EU member state, so its tax numbers are not available in the VIES database. To verify a UNP, use the official portal of the Ministry of Taxes and Duties of Belarus or check the Unified State Register of Legal Entities and Individual Entrepreneurs (EGR). Third-party services like LookupTax also provide verification. ([Ministry of Taxes and Duties - Portal](https://www.portal.nalog.gov.by))
 
 ### How can a foreign company register for a UNP in Belarus?
-Foreign companies can register electronically via the Central Electronic Services Portal (nces.by) — the process is free. This is primarily required for VAT collection on electronic services sold to Belarusian customers. The Ministry of Taxes provides an online self-assessment test to determine whether registration is required based on your business activities.
+Foreign companies can register electronically via the Central Electronic Services Portal (nces.by) — the process is free. This is primarily required for VAT collection on electronic services sold to Belarusian customers. The Ministry of Taxes provides an online self-assessment test to determine whether registration is required based on your business activities. ([Ministry of Taxes and Duties of Belarus](https://nalog.gov.by))
 
 ### What does the UNP format tell you about the entity?
-The UNP is a 9-digit number where the first digits encode regional information. For example, UNP numbers starting with specific codes indicate the Brest, Minsk, or Mogilev regions. Individual entrepreneurs may have UNP numbers with letter prefixes (e.g., MA1953684). The last digit is a check digit for validation purposes.
+The UNP is a 9-digit number where the first digits encode regional information. For example, UNP numbers starting with specific codes indicate the Brest, Minsk, or Mogilev regions. Individual entrepreneurs may have UNP numbers with letter prefixes (e.g., MA1953684). The last digit is a check digit for validation purposes. ([OECD - Belarus TIN](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/belarus-tin.pdf))
 
 ### What are the risks of dealing with Belarusian counterparties without verifying their UNP?
-Given the international sanctions environment, verifying a UNP is critical for due diligence. You must ensure that the UNP belongs to an active entity in the EGR and that the entity is not subject to sanctions. An invalid or sanctioned UNP can void contracts, block payments, and expose your company to compliance risks.
+Given the international sanctions environment, verifying a UNP is critical for due diligence. You must ensure that the UNP belongs to an active entity in the EGR and that the entity is not subject to sanctions. An invalid or sanctioned UNP can void contracts, block payments, and expose your company to compliance risks. ([Ministry of Taxes and Duties - Portal](https://www.portal.nalog.gov.by))
 
 ----
 **How [Lookuptax](https://lookuptax.com/) can help you ?**

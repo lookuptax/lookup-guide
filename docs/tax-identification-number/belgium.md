@@ -45,7 +45,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What is the difference between the Numéro National (NN) and the Ondernemingsnummer in Belgium?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Numéro National (NN) or Rijksregisternummer is an 11-digit personal identifier (format: YY.MM.DD-XXX.CC) issued to individuals registered in Belgium's National Register. The Ondernemingsnummer (Enterprise Number) is a 10-digit business identifier starting with 0 or 1, issued by the Crossroads Bank for Enterprises (KBO/BCE). Individuals use the NN for personal tax matters; businesses use the Ondernemingsnummer for all commercial and VAT activities."
+        "text": "The Numéro National (NN) or Rijksregisternummer is an 11-digit personal identifier (format: YY.MM.DD-XXX.CC) issued to individuals registered in Belgium's National Register. The Ondernemingsnummer (Enterprise Number) is a 10-digit business identifier starting with 0 or 1, issued by the Crossroads Bank for Enterprises (KBO/BCE). Individuals use the NN for personal tax matters; businesses use the Ondernemingsnummer for all commercial and VAT activities. (Source: Crossroads Bank for Enterprises (KBO/BCE), economie.fgov.be)"
       }
     },
     {
@@ -53,7 +53,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "How does a foreign national get a tax number in Belgium if they don't have a Numéro National?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Foreign nationals not in the National Register receive a BIS number (bisnummer/numéro Bis) — an 11-digit identifier similar to the NN but with a modified month code (+20 or +40). This is issued by the Crossroads Bank of Social Security and serves as the tax identifier for non-residents. You can obtain it through your employer, the local municipality, or the tax administration when filing a Belgian tax return."
+        "text": "Foreign nationals not in the National Register receive a BIS number (bisnummer/numéro Bis) — an 11-digit identifier similar to the NN but with a modified month code (+20 or +40). This is issued by the Crossroads Bank of Social Security and serves as the tax identifier for non-residents. You can obtain it through your employer, the local municipality, or the tax administration when filing a Belgian tax return. (Source: Belgian Federal Public Service Finance, finance.belgium.be)"
       }
     },
     {
@@ -61,7 +61,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "My Belgian enterprise number has 9 digits — is it still valid?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Older enterprise numbers were 9 digits. The current format is 10 digits starting with 0 or 1. If you have a 9-digit number, simply add a leading zero to convert it to the 10-digit format. This is a common source of validation errors when entering the number into EU systems or filing documents — always use the full 10-digit format with the leading zero."
+        "text": "Older enterprise numbers were 9 digits. The current format is 10 digits starting with 0 or 1. If you have a 9-digit number, simply add a leading zero to convert it to the 10-digit format. This is a common source of validation errors when entering the number into EU systems or filing documents — always use the full 10-digit format with the leading zero. (Source: Crossroads Bank for Enterprises (KBO/BCE), economie.fgov.be)"
       }
     },
     {
@@ -69,7 +69,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Is the Belgian Ondernemingsnummer the same as the VAT number?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, they are the same number with a different prefix. The Ondernemingsnummer (e.g., 0123.456.789) becomes the VAT number when prefixed with \"BE\" (e.g., BE0123.456.789). On Belgian documents, you may see it labeled as \"Numéro de TVA\" (French), \"BTW nummer\" (Dutch), or \"Enterprise Number\" — these all refer to the same identifier. This can confuse foreign companies dealing with multiple Belgian document formats."
+        "text": "Yes, they are the same number with a different prefix. The Ondernemingsnummer (e.g., 0123.456.789) becomes the VAT number when prefixed with \"BE\" (e.g., BE0123.456.789). On Belgian documents, you may see it labeled as \"Numéro de TVA\" (French), \"BTW nummer\" (Dutch), or \"Enterprise Number\" — these all refer to the same identifier. This can confuse foreign companies dealing with multiple Belgian document formats. (Source: Belgian Federal Public Service Finance, finance.belgium.be)"
       }
     },
     {
@@ -77,7 +77,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Can I look up a Belgian company's enterprise number online?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. The Crossroads Bank for Enterprises (KBO/BCE) maintains a publicly searchable database at kbo.economie.fgov.be. You can search by company name, address, or number to verify registration status, legal form, and VAT registration. This is the official source for verifying Belgian business identifiers and is free to use."
+        "text": "Yes. The Crossroads Bank for Enterprises (KBO/BCE) maintains a publicly searchable database at kbo.economie.fgov.be. You can search by company name, address, or number to verify registration status, legal form, and VAT registration. This is the official source for verifying Belgian business identifiers and is free to use. (Source: KBO Public Search, economie.fgov.be)"
       }
     }
   ]
@@ -112,19 +112,19 @@ Examples: BE0999999999, BE1999999999
 ## Frequently Asked Questions
 
 ### What is the difference between the Numéro National (NN) and the Ondernemingsnummer in Belgium?
-The **Numéro National (NN)** or Rijksregisternummer is an 11-digit personal identifier (format: YY.MM.DD-XXX.CC) issued to individuals registered in Belgium's National Register. The **Ondernemingsnummer** (Enterprise Number) is a 10-digit business identifier starting with 0 or 1, issued by the Crossroads Bank for Enterprises (KBO/BCE). Individuals use the NN for personal tax matters; businesses use the Ondernemingsnummer for all commercial and VAT activities.
+The **Numéro National (NN)** or Rijksregisternummer is an 11-digit personal identifier (format: YY.MM.DD-XXX.CC) issued to individuals registered in Belgium's National Register. The **Ondernemingsnummer** (Enterprise Number) is a 10-digit business identifier starting with 0 or 1, issued by the Crossroads Bank for Enterprises (KBO/BCE). Individuals use the NN for personal tax matters; businesses use the Ondernemingsnummer for all commercial and VAT activities. ([Crossroads Bank for Enterprises](https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html?lang=en))
 
 ### How does a foreign national get a tax number in Belgium if they don't have a Numéro National?
-Foreign nationals not in the National Register receive a **BIS number** (bisnummer/numéro Bis) — an 11-digit identifier similar to the NN but with a modified month code (+20 or +40). This is issued by the Crossroads Bank of Social Security and serves as the tax identifier for non-residents. You can obtain it through your employer, the local municipality, or the tax administration when filing a Belgian tax return.
+Foreign nationals not in the National Register receive a **BIS number** (bisnummer/numéro Bis) — an 11-digit identifier similar to the NN but with a modified month code (+20 or +40). This is issued by the Crossroads Bank of Social Security and serves as the tax identifier for non-residents. You can obtain it through your employer, the local municipality, or the tax administration when filing a Belgian tax return. ([Belgian Federal Public Service Finance](https://finance.belgium.be/en))
 
 ### My Belgian enterprise number has 9 digits — is it still valid?
-Older enterprise numbers were 9 digits. The current format is 10 digits starting with 0 or 1. If you have a 9-digit number, simply add a leading zero to convert it to the 10-digit format. This is a common source of validation errors when entering the number into EU systems or filing documents — always use the full 10-digit format with the leading zero.
+Older enterprise numbers were 9 digits. The current format is 10 digits starting with 0 or 1. If you have a 9-digit number, simply add a leading zero to convert it to the 10-digit format. This is a common source of validation errors when entering the number into EU systems or filing documents — always use the full 10-digit format with the leading zero. ([Crossroads Bank for Enterprises](https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html?lang=en))
 
 ### Is the Belgian Ondernemingsnummer the same as the VAT number?
-Yes, they are the same number with a different prefix. The Ondernemingsnummer (e.g., 0123.456.789) becomes the VAT number when prefixed with "BE" (e.g., BE0123.456.789). On Belgian documents, you may see it labeled as "Numéro de TVA" (French), "BTW nummer" (Dutch), or "Enterprise Number" — these all refer to the same identifier. This can confuse foreign companies dealing with multiple Belgian document formats.
+Yes, they are the same number with a different prefix. The Ondernemingsnummer (e.g., 0123.456.789) becomes the VAT number when prefixed with "BE" (e.g., BE0123.456.789). On Belgian documents, you may see it labeled as "Numéro de TVA" (French), "BTW nummer" (Dutch), or "Enterprise Number" — these all refer to the same identifier. This can confuse foreign companies dealing with multiple Belgian document formats. ([Belgian Federal Public Service Finance](https://finance.belgium.be/en))
 
 ### Can I look up a Belgian company's enterprise number online?
-Yes. The Crossroads Bank for Enterprises (KBO/BCE) maintains a publicly searchable database at kbo.economie.fgov.be. You can search by company name, address, or number to verify registration status, legal form, and VAT registration. This is the official source for verifying Belgian business identifiers and is free to use.
+Yes. The Crossroads Bank for Enterprises (KBO/BCE) maintains a publicly searchable database at kbo.economie.fgov.be. You can search by company name, address, or number to verify registration status, legal form, and VAT registration. This is the official source for verifying Belgian business identifiers and is free to use. ([KBO Public Search](https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html?lang=en))
 
 ---
 
