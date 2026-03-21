@@ -1582,6 +1582,14 @@
   status = 301
   force = true
 # ============================================
+# LITERAL :SPLAT PATH (malformed URL from crawlers/bookmarks)
+# ============================================
+[[redirects]]
+  from = "/:splat"
+  to = "https://lookuptax.com/docs/"
+  status = 301
+  force = true
+
 # MALFORMED DOUBLE-DOCS PATHS
 # ============================================
 
