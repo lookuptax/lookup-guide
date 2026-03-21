@@ -45,7 +45,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "How do I register for a TIN in Barbados?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Registration is done online via the Tax Administration Management Information System (TAMIS) at tamis.bra.gov.bb. After submitting your application, you'll receive either a 13-digit TIN immediately or a Registration Case Reference number (REG) if manual vetting is required by a BRA officer. All TINs start with '1' and contain only digits — no letters, symbols, or dashes."
+        "text": "Registration is done online via the Tax Administration Management Information System (TAMIS) at tamis.bra.gov.bb. After submitting your application, you'll receive either a 13-digit TIN immediately or a Registration Case Reference number (REG) if manual vetting is required by a BRA officer. All TINs start with '1' and contain only digits — no letters, symbols, or dashes. (Source: Barbados Revenue Authority, bra.gov.bb)"
       }
     },
     {
@@ -53,7 +53,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Can a foreign company get a Barbados TIN?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Foreign companies can register, but must first obtain the appropriate business visa or work permit. Registration is done through TAMIS by an authorized person or agent. Note that entities are not automatically issued a TIN — you must have a tax obligation (to pay tax or file returns) before one is issued. Contact the Barbados Revenue Authority directly for specific foreign entity requirements."
+        "text": "Foreign companies can register, but must first obtain the appropriate business visa or work permit. Registration is done through TAMIS by an authorized person or agent. Note that entities are not automatically issued a TIN — you must have a tax obligation (to pay tax or file returns) before one is issued. Contact the Barbados Revenue Authority directly for specific foreign entity requirements. (Source: Barbados Revenue Authority, bra.gov.bb)"
       }
     },
     {
@@ -61,7 +61,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Is the Barbados TIN the same as the VAT number?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. In Barbados, the 13-digit TIN also serves as the VAT registration number for businesses. The same number is used when filing VAT returns and for all VAT-related transactions, simplifying the identification process."
+        "text": "Yes. In Barbados, the 13-digit TIN also serves as the VAT registration number for businesses. The same number is used when filing VAT returns and for all VAT-related transactions, simplifying the identification process. (Source: Barbados Revenue Authority, bra.gov.bb)"
       }
     },
     {
@@ -69,7 +69,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "How can I verify a Barbados TIN?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The BRA does not currently provide a publicly available online verification tool. To verify a TIN, you must request that the taxpayer provide an official document from the Barbados Revenue Authority, such as a Letter Confirmation of Registration. Third-party verification services like LookupTax can also assist."
+        "text": "The BRA does not currently provide a publicly available online verification tool. To verify a TIN, you must request that the taxpayer provide an official document from the Barbados Revenue Authority, such as a Letter Confirmation of Registration. Third-party verification services like LookupTax can also assist. (Source: Barbados Revenue Authority, bra.gov.bb)"
       }
     },
     {
@@ -77,7 +77,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What is the difference between getting a TIN immediately vs. receiving a REG number?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "When you submit your TAMIS application, straightforward registrations receive a TIN immediately (e.g., 1000122133144). More complex cases receive a Registration Case Reference number (e.g., REG101364), meaning a BRA officer must manually review and vet your application before issuing the TIN. This typically applies to foreign entities, companies with complex structures, or cases where documentation needs verification."
+        "text": "When you submit your TAMIS application, straightforward registrations receive a TIN immediately (e.g., 1000122133144). More complex cases receive a Registration Case Reference number (e.g., REG101364), meaning a BRA officer must manually review and vet your application before issuing the TIN. This typically applies to foreign entities, companies with complex structures, or cases where documentation needs verification. (Source: Barbados Revenue Authority, bra.gov.bb)"
       }
     }
   ]
@@ -102,19 +102,19 @@ To verify a TIN the third party must request that the taxpayer provide one of th
 ## Frequently Asked Questions
 
 ### How do I register for a TIN in Barbados?
-Registration is done online via the Tax Administration Management Information System (TAMIS) at tamis.bra.gov.bb. After submitting your application, you'll receive either a 13-digit TIN immediately or a Registration Case Reference number (REG) if manual vetting is required by a BRA officer. All TINs start with "1" and contain only digits — no letters, symbols, or dashes.
+Registration is done online via the Tax Administration Management Information System (TAMIS) at tamis.bra.gov.bb. After submitting your application, you'll receive either a 13-digit TIN immediately or a Registration Case Reference number (REG) if manual vetting is required by a BRA officer. All TINs start with "1" and contain only digits — no letters, symbols, or dashes. ([Barbados Revenue Authority - TIN Registration](https://bra.gov.bb/Popular-Topics/Registration/Register-for-Taxpayer-Identificati)) ([TAMIS Portal](https://tamis.bra.gov.bb)) ([Barbados Revenue Authority - TAMIS](https://tamis.bra.gov.bb))
 
 ### Can a foreign company get a Barbados TIN?
-Foreign companies can register, but must first obtain the appropriate business visa or work permit. Registration is done through TAMIS by an authorized person or agent. Note that entities are not automatically issued a TIN — you must have a tax obligation (to pay tax or file returns) before one is issued. Contact the Barbados Revenue Authority directly for specific foreign entity requirements.
+Foreign companies can register, but must first obtain the appropriate business visa or work permit. Registration is done through TAMIS by an authorized person or agent. Note that entities are not automatically issued a TIN — you must have a tax obligation (to pay tax or file returns) before one is issued. Contact the Barbados Revenue Authority directly for specific foreign entity requirements. ([Barbados Revenue Authority](https://bra.gov.bb/)) ([Barbados Revenue Authority](https://www.bra.gov.bb))
 
 ### Is the Barbados TIN the same as the VAT number?
-Yes. In Barbados, the 13-digit TIN also serves as the VAT registration number for businesses. The same number is used when filing VAT returns and for all VAT-related transactions, simplifying the identification process.
+Yes. In Barbados, the 13-digit TIN also serves as the VAT registration number for businesses. The same number is used when filing VAT returns and for all VAT-related transactions, simplifying the identification process. ([Barbados Revenue Authority - TIN](https://bra.gov.bb/Popular-Topics/Employed-Retired-Persons/TIN)) ([Barbados Revenue Authority](https://www.bra.gov.bb))
 
 ### How can I verify a Barbados TIN?
-The BRA does not currently provide a publicly available online verification tool. To verify a TIN, you must request that the taxpayer provide an official document from the Barbados Revenue Authority, such as a Letter Confirmation of Registration. Third-party verification services like LookupTax can also assist.
+The BRA does not currently provide a publicly available online verification tool. To verify a TIN, you must request that the taxpayer provide an official document from the Barbados Revenue Authority, such as a Letter Confirmation of Registration. Third-party verification services like LookupTax can also assist. ([Barbados Revenue Authority](https://bra.gov.bb/)) ([Barbados Revenue Authority](https://www.bra.gov.bb))
 
 ### What is the difference between getting a TIN immediately vs. receiving a REG number?
-When you submit your TAMIS application, straightforward registrations receive a TIN immediately (e.g., 1000122133144). More complex cases receive a Registration Case Reference number (e.g., REG101364), meaning a BRA officer must manually review and vet your application before issuing the TIN. This typically applies to foreign entities, companies with complex structures, or cases where documentation needs verification.
+When you submit your TAMIS application, straightforward registrations receive a TIN immediately (e.g., 1000122133144). More complex cases receive a Registration Case Reference number (e.g., REG101364), meaning a BRA officer must manually review and vet your application before issuing the TIN. This typically applies to foreign entities, companies with complex structures, or cases where documentation needs verification. ([BRA Registration](https://bra.gov.bb/Popular-Topics/Registration/Register-for-Taxpayer-Identificati)) ([Barbados Revenue Authority - TAMIS](https://tamis.bra.gov.bb))
 
 ----
 **How [Lookuptax](https://lookuptax.com/) can help you ?**

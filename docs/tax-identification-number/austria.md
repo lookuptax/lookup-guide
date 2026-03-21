@@ -44,7 +44,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What is the difference between Steuernummer, Abgabenkontonummer, and UID in Austria?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Steuernummer (tax number) is a 9-digit identifier assigned by the local tax office (Finanzamt) for income tax purposes. The Abgabenkontonummer is your tax account number used for payments. The UID-Nummer (Umsatzsteuer-Identifikationsnummer), formatted as ATU followed by 8 digits, is specifically for VAT in business transactions within the EU. A sole proprietor may have all three, while employees typically only need a Steuernummer."
+        "text": "The Steuernummer (tax number) is a 9-digit identifier assigned by the local tax office (Finanzamt) for income tax purposes. The Abgabenkontonummer is your tax account number used for payments. The UID-Nummer (Umsatzsteuer-Identifikationsnummer), formatted as ATU followed by 8 digits, is specifically for VAT in business transactions within the EU. A sole proprietor may have all three, while employees typically only need a Steuernummer. (Source: Austrian Federal Ministry of Finance (BMF), bmf.gv.at; FinanzOnline, finanzonline.bmf.gv.at)"
       }
     },
     {
@@ -52,7 +52,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "I can't register on FinanzOnline without an existing tax number — how do I get started?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This is a known catch-22 for new residents and Austrian citizens returning from abroad. If the FinanzOnline portal errors out because you have no Steuernummer yet, you must visit your local Finanzamt in person with a valid ID to get your initial tax number assigned. Once you have it, you can then register on FinanzOnline. An ID Austria digital identity may also be required for full portal access."
+        "text": "This is a known catch-22 for new residents and Austrian citizens returning from abroad. If the FinanzOnline portal errors out because you have no Steuernummer yet, you must visit your local Finanzamt in person with a valid ID to get your initial tax number assigned. Once you have it, you can then register on FinanzOnline. An ID Austria digital identity may also be required for full portal access. (Source: BMF FinanzOnline Info for Citizens, bmf.gv.at; BMF ID Austria, bmf.gv.at/id-austria)"
       }
     },
     {
@@ -60,7 +60,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Can a foreign company get an Austrian UID number without a local office?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, but only if the company is making taxable supplies in Austria. A non-established business can register for VAT and receive a UID by applying to the Finanzamt Graz-Stadt, which handles all non-resident VAT registrations. You will need a fiscal representative in certain cases. The process can take several weeks, and the UID may not appear in the VIES database immediately after issuance."
+        "text": "Yes, but only if the company is making taxable supplies in Austria. A non-established business can register for VAT and receive a UID by applying to the Finanzamt Graz-Stadt, which handles all non-resident VAT registrations. You will need a fiscal representative in certain cases. The process can take several weeks, and the UID may not appear in the VIES database immediately after issuance. (Source: Austrian Federal Ministry of Finance, bmf.gv.at)"
       }
     },
     {
@@ -68,7 +68,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "My Austrian UID number doesn't appear in the EU VIES system — what should I do?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Newly issued UID numbers may take several business days to propagate to the EU's VIES verification database. If your number still doesn't appear after a week, contact your Finanzamt directly. Using an inactive or unverifiable UID on invoices can result in denied input-tax deductions for your customers and potential penalties during a tax audit."
+        "text": "Newly issued UID numbers may take several business days to propagate to the EU's VIES verification database. If your number still doesn't appear after a week, contact your Finanzamt directly. Using an inactive or unverifiable UID on invoices can result in denied input-tax deductions for your customers and potential penalties during a tax audit. (Source: EU VIES VAT Validation, ec.europa.eu/taxation_customs/vies; Austrian Federal Ministry of Finance, bmf.gv.at)"
       }
     },
     {
@@ -76,7 +76,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Does my Steuernummer change if I move to a different Austrian state?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Once assigned, your Steuernummer stays with you for life regardless of address changes, marriage, or employment changes. However, your responsible Finanzamt may change when you move, so you should notify the tax office of your new address."
+        "text": "No. Once assigned, your Steuernummer stays with you for life regardless of address changes, marriage, or employment changes. However, your responsible Finanzamt may change when you move, so you should notify the tax office of your new address. (Source: OECD Austria TIN, oecd.org)"
       }
     }
   ]
@@ -121,19 +121,19 @@ In Austria, "Gemeindenummer" translates to "municipality number" in English. The
 ## Frequently Asked Questions
 
 ### What is the difference between Steuernummer, Abgabenkontonummer, and UID in Austria?
-The **Steuernummer** (tax number) is a 9-digit identifier assigned by the local tax office (Finanzamt) for income tax purposes. The **Abgabenkontonummer** is your tax account number used for payments. The **UID-Nummer** (Umsatzsteuer-Identifikationsnummer), formatted as ATU followed by 8 digits, is specifically for VAT in business transactions within the EU. A sole proprietor may have all three, while employees typically only need a Steuernummer.
+The **Steuernummer** (tax number) is a 9-digit identifier assigned by the local tax office (Finanzamt) for income tax purposes. The **Abgabenkontonummer** is your tax account number used for payments. The **UID-Nummer** (Umsatzsteuer-Identifikationsnummer), formatted as ATU followed by 8 digits, is specifically for VAT in business transactions within the EU. A sole proprietor may have all three, while employees typically only need a Steuernummer. ([Austrian Federal Ministry of Finance (BMF)](https://www.bmf.gv.at/en.html) and [FinanzOnline](https://finanzonline.bmf.gv.at/fon/))
 
 ### I can't register on FinanzOnline without an existing tax number — how do I get started?
-This is a known catch-22 for new residents and Austrian citizens returning from abroad. If the FinanzOnline portal errors out because you have no Steuernummer yet, you must visit your local Finanzamt in person with a valid ID to get your initial tax number assigned. Once you have it, you can then register on FinanzOnline. An ID Austria digital identity may also be required for full portal access.
+This is a known catch-22 for new residents and Austrian citizens returning from abroad. If the FinanzOnline portal errors out because you have no Steuernummer yet, you must visit your local Finanzamt in person with a valid ID to get your initial tax number assigned. Once you have it, you can then register on FinanzOnline. An ID Austria digital identity may also be required for full portal access. ([BMF FinanzOnline Info for Citizens](https://www.bmf.gv.at/services/finanzonline/informationen-fuer-buerger/einstiegsinformationen.html) and [BMF ID Austria](https://www.bmf.gv.at/id-austria))
 
 ### Can a foreign company get an Austrian UID number without a local office?
-Yes, but only if the company is making taxable supplies in Austria. A non-established business can register for VAT and receive a UID by applying to the Finanzamt Graz-Stadt, which handles all non-resident VAT registrations. You will need a fiscal representative in certain cases. The process can take several weeks, and the UID may not appear in the VIES database immediately after issuance.
+Yes, but only if the company is making taxable supplies in Austria. A non-established business can register for VAT and receive a UID by applying to the Finanzamt Graz-Stadt, which handles all non-resident VAT registrations. You will need a fiscal representative in certain cases. The process can take several weeks, and the UID may not appear in the VIES database immediately after issuance. ([Austrian Federal Ministry of Finance](https://www.bmf.gv.at/en.html))
 
 ### My Austrian UID number doesn't appear in the EU VIES system — what should I do?
-Newly issued UID numbers may take several business days to propagate to the EU's VIES verification database. If your number still doesn't appear after a week, contact your Finanzamt directly. Using an inactive or unverifiable UID on invoices can result in denied input-tax deductions for your customers and potential penalties during a tax audit.
+Newly issued UID numbers may take several business days to propagate to the EU's VIES verification database. If your number still doesn't appear after a week, contact your Finanzamt directly. Using an inactive or unverifiable UID on invoices can result in denied input-tax deductions for your customers and potential penalties during a tax audit. ([EU VIES VAT Validation](https://ec.europa.eu/taxation_customs/vies/) and [Austrian Federal Ministry of Finance](https://www.bmf.gv.at/en.html))
 
 ### Does my Steuernummer change if I move to a different Austrian state?
-No. Once assigned, your Steuernummer stays with you for life regardless of address changes, marriage, or employment changes. However, your responsible Finanzamt may change when you move, so you should notify the tax office of your new address.
+No. Once assigned, your Steuernummer stays with you for life regardless of address changes, marriage, or employment changes. However, your responsible Finanzamt may change when you move, so you should notify the tax office of your new address. ([OECD Austria TIN](https://www.oecd.org/tax/automatic-exchange/crs-implementation-and-assistance/tax-identification-numbers/Austria-TIN.pdf))
 
 ---
 
