@@ -44,7 +44,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Can a foreign citizen get a VOEN in Azerbaijan without a residence permit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Unlike some countries, Azerbaijan requires foreign nationals to hold a valid temporary or permanent residence permit issued by the State Migration Service before they can obtain a VOEN. A passport alone is not sufficient. This is a critical requirement for foreign businesses planning to register — secure the residence permit first before attempting tax registration."
+        "text": "No. Unlike some countries, Azerbaijan requires foreign nationals to hold a valid temporary or permanent residence permit issued by the State Migration Service before they can obtain a VOEN. A passport alone is not sufficient. This is a critical requirement for foreign businesses planning to register — secure the residence permit first before attempting tax registration. (Source: State Tax Service of Azerbaijan, taxes.gov.az)"
       }
     },
     {
@@ -52,7 +52,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What do the digits in an Azerbaijani VOEN mean?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The VOEN is a 10-digit code where the first two digits represent the administrative-territorial region code, digits 3-8 form a serial number, the 9th digit is a check digit calculated by software algorithm, and the 10th digit indicates the legal status: 1 for legal entities and 2 for individuals. This structure means you can identify whether a VOEN belongs to a company or an individual from the last digit alone."
+        "text": "The VOEN is a 10-digit code where the first two digits represent the administrative-territorial region code, digits 3-8 form a serial number, the 9th digit is a check digit calculated by software algorithm, and the 10th digit indicates the legal status: 1 for legal entities and 2 for individuals. This structure means you can identify whether a VOEN belongs to a company or an individual from the last digit alone. (Source: OECD Automatic Exchange of Information, oecd.org)"
       }
     },
     {
@@ -60,7 +60,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Is the VOEN the same as the VAT number in Azerbaijan?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. In Azerbaijan, the VOEN serves as both the general tax identification number and the VAT identification number. There is no separate VAT registration number. Businesses registered for VAT use their VOEN for all VAT-related activities, and the standard VAT rate is 18%."
+        "text": "Yes. In Azerbaijan, the VOEN serves as both the general tax identification number and the VAT identification number. There is no separate VAT registration number. Businesses registered for VAT use their VOEN for all VAT-related activities, and the standard VAT rate is 18%. (Source: State Tax Service of Azerbaijan, taxes.gov.az)"
       }
     },
     {
@@ -68,7 +68,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What happens if I operate in Azerbaijan without a VOEN?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Operating without a VOEN can lead to substantial fines and legal consequences. Even if you have no income, you must submit a null (zero) declaration to the tax authorities. Failure to do so may result in financial sanctions. Additionally, from January 2026, digital service providers selling B2C to Azerbaijani customers must register and charge 18% VAT from the first sale."
+        "text": "Operating without a VOEN can lead to substantial fines and legal consequences. Even if you have no income, you must submit a null (zero) declaration to the tax authorities. Failure to do so may result in financial sanctions. Additionally, from January 2026, digital service providers selling B2C to Azerbaijani customers must register and charge 18% VAT from the first sale. (Source: State Tax Service of Azerbaijan, taxes.gov.az)"
       }
     },
     {
@@ -76,7 +76,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "How can I verify an Azerbaijani VOEN online?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "You can verify a VOEN for free on the official Ministry of Taxes e-taxes portal at e-taxes.gov.az. The portal allows you to check whether a VOEN is active and retrieve basic information about the registered entity. This is particularly important for B2B transactions to ensure your counterparty is a legitimate, active taxpayer."
+        "text": "You can verify a VOEN for free on the official Ministry of Taxes e-taxes portal at e-taxes.gov.az. The portal allows you to check whether a VOEN is active and retrieve basic information about the registered entity. This is particularly important for B2B transactions to ensure your counterparty is a legitimate, active taxpayer. (Source: e-Taxes Portal, e-taxes.gov.az)"
       }
     }
   ]
@@ -125,19 +125,19 @@ Official database - [TIN search](https://www.e-taxes.gov.az/ebyn/payerOrVoenChec
 ## Frequently Asked Questions
 
 ### Can a foreign citizen get a VOEN in Azerbaijan without a residence permit?
-No. Unlike some countries, Azerbaijan requires foreign nationals to hold a valid temporary or permanent residence permit issued by the State Migration Service before they can obtain a VOEN. A passport alone is not sufficient. This is a critical requirement for foreign businesses planning to register — secure the residence permit first before attempting tax registration.
+No. Unlike some countries, Azerbaijan requires foreign nationals to hold a valid temporary or permanent residence permit issued by the State Migration Service before they can obtain a VOEN. A passport alone is not sufficient. This is a critical requirement for foreign businesses planning to register — secure the residence permit first before attempting tax registration. ([State Tax Service of Azerbaijan](https://www.taxes.gov.az/en))
 
 ### What do the digits in an Azerbaijani VOEN mean?
-The VOEN is a 10-digit code where the first two digits represent the administrative-territorial region code, digits 3-8 form a serial number, the 9th digit is a check digit calculated by software algorithm, and the 10th digit indicates the legal status: "1" for legal entities and "2" for individuals. This structure means you can identify whether a VOEN belongs to a company or an individual from the last digit alone.
+The VOEN is a 10-digit code where the first two digits represent the administrative-territorial region code, digits 3-8 form a serial number, the 9th digit is a check digit calculated by software algorithm, and the 10th digit indicates the legal status: "1" for legal entities and "2" for individuals. This structure means you can identify whether a VOEN belongs to a company or an individual from the last digit alone. ([OECD - Azerbaijan TIN](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/azerbaijan-tin.pdf))
 
 ### Is the VOEN the same as the VAT number in Azerbaijan?
-Yes. In Azerbaijan, the VOEN serves as both the general tax identification number and the VAT identification number. There is no separate VAT registration number. Businesses registered for VAT use their VOEN for all VAT-related activities, and the standard VAT rate is 18%.
+Yes. In Azerbaijan, the VOEN serves as both the general tax identification number and the VAT identification number. There is no separate VAT registration number. Businesses registered for VAT use their VOEN for all VAT-related activities, and the standard VAT rate is 18%. ([State Tax Service of Azerbaijan](https://www.taxes.gov.az/en))
 
 ### What happens if I operate in Azerbaijan without a VOEN?
-Operating without a VOEN can lead to substantial fines and legal consequences. Even if you have no income, you must submit a "null" (zero) declaration to the tax authorities. Failure to do so may result in financial sanctions. Additionally, from January 2026, digital service providers selling B2C to Azerbaijani customers must register and charge 18% VAT from the first sale.
+Operating without a VOEN can lead to substantial fines and legal consequences. Even if you have no income, you must submit a "null" (zero) declaration to the tax authorities. Failure to do so may result in financial sanctions. Additionally, from January 2026, digital service providers selling B2C to Azerbaijani customers must register and charge 18% VAT from the first sale. ([State Tax Service of Azerbaijan](https://www.taxes.gov.az/en))
 
 ### How can I verify an Azerbaijani VOEN online?
-You can verify a VOEN for free on the official Ministry of Taxes e-taxes portal at e-taxes.gov.az. The portal allows you to check whether a VOEN is active and retrieve basic information about the registered entity. This is particularly important for B2B transactions to ensure your counterparty is a legitimate, active taxpayer.
+You can verify a VOEN for free on the official Ministry of Taxes e-taxes portal at e-taxes.gov.az. The portal allows you to check whether a VOEN is active and retrieve basic information about the registered entity. This is particularly important for B2B transactions to ensure your counterparty is a legitimate, active taxpayer. ([e-Taxes Portal](https://www.e-taxes.gov.az))
 
 ----
 **How [Lookuptax](https://lookuptax.com/) can help you in VAT validation?**

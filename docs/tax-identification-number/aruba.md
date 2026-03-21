@@ -44,7 +44,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "What is the Persoonsnummer in Aruba and how is it used?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Persoonsnummer is Aruba's Tax Identification Number (TIN) — an 8-digit numerical code assigned by the Departamento di Impuesto (DIMP), Aruba's tax department. Unlike many countries, Aruba does not issue a separate VAT number; the Persoonsnummer serves as the single identifier for all tax types, including turnover tax (BBO) and income tax."
+        "text": "The Persoonsnummer is Aruba's Tax Identification Number (TIN) — an 8-digit numerical code assigned by the Departamento di Impuesto (DIMP), Aruba's tax department. Unlike many countries, Aruba does not issue a separate VAT number; the Persoonsnummer serves as the single identifier for all tax types, including turnover tax (BBO) and income tax. (Source: OECD Automatic Exchange of Information, oecd.org)"
       }
     },
     {
@@ -52,7 +52,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "How do I get a Persoonsnummer as an expat in Aruba?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Visit the Departamento di Impuesto (DIMP) office at Camacuri 2, Oranjestad (phone: +297 5227423). You'll need to provide civil status information, a valid identity document (passport), proof of correspondence address, and bank and contact details. You must also first register in the population registry (Censo/DBSB). There is no online registration option — it must be done in person."
+        "text": "Visit the Departamento di Impuesto (DIMP) office at Camacuri 2, Oranjestad (phone: +297 5227423). You'll need to provide civil status information, a valid identity document (passport), proof of correspondence address, and bank and contact details. You must also first register in the population registry (Censo/DBSB). There is no online registration option — it must be done in person. (Source: Departamento di Impuesto, impuesto.aw)"
       }
     },
     {
@@ -60,7 +60,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Can I verify an Aruba Persoonsnummer online?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Aruba does not currently offer a public online tool for Persoonsnummer verification. Individuals and entities must contact the DIMP directly for any verification needs. This can be a challenge for foreign businesses needing to validate counterparty tax numbers before transactions."
+        "text": "No. Aruba does not currently offer a public online tool for Persoonsnummer verification. Individuals and entities must contact the DIMP directly for any verification needs. This can be a challenge for foreign businesses needing to validate counterparty tax numbers before transactions. (Source: OECD Automatic Exchange of Information, oecd.org)"
       }
     },
     {
@@ -68,7 +68,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Is the Persoonsnummer required for importing household goods to Aruba?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. When importing goods (including household items when relocating), you must present your Persoonsnummer on the import declaration. Required documents include your passport, import declaration, original bill of lading, detailed inventory, Tax ID from the DIMP, and a certificate of registration from the Census Office (population register)."
+        "text": "Yes. When importing goods (including household items when relocating), you must present your Persoonsnummer on the import declaration. Required documents include your passport, import declaration, original bill of lading, detailed inventory, Tax ID from the DIMP, and a certificate of registration from the Census Office (population register). (Source: Departamento di Impuesto, impuesto.aw)"
       }
     },
     {
@@ -76,7 +76,7 @@ import JsonLd from '@site/src/components/JsonLd';
       "name": "Does the Persoonsnummer contain any encoded information?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. Unlike tax IDs in many other countries, the Aruba Persoonsnummer is a purely random 8-digit numerical code with no embedded information about entity type, region, or date. There is no checksum digit. This means the number cannot be validated algorithmically — verification must be done through the DIMP."
+        "text": "No. Unlike tax IDs in many other countries, the Aruba Persoonsnummer is a purely random 8-digit numerical code with no embedded information about entity type, region, or date. There is no checksum digit. This means the number cannot be validated algorithmically — verification must be done through the DIMP. (Source: OECD Automatic Exchange of Information, oecd.org)"
       }
     }
   ]
@@ -93,19 +93,19 @@ The TIN consists of 8 digits.
 ## Frequently Asked Questions
 
 ### What is the Persoonsnummer in Aruba and how is it used?
-The Persoonsnummer is Aruba's Tax Identification Number (TIN) — an 8-digit numerical code assigned by the Departamento di Impuesto (DIMP), Aruba's tax department. Unlike many countries, Aruba does not issue a separate VAT number; the Persoonsnummer serves as the single identifier for all tax types, including turnover tax (BBO) and income tax.
+The Persoonsnummer is Aruba's Tax Identification Number (TIN) — an 8-digit numerical code assigned by the Departamento di Impuesto (DIMP), Aruba's tax department. Unlike many countries, Aruba does not issue a separate VAT number; the Persoonsnummer serves as the single identifier for all tax types, including turnover tax (BBO) and income tax. ([OECD - Aruba TIN](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/aruba-tin.pdf))
 
 ### How do I get a Persoonsnummer as an expat in Aruba?
-Visit the Departamento di Impuesto (DIMP) office at Camacuri 2, Oranjestad (phone: +297 5227423). You'll need to provide civil status information, a valid identity document (passport), proof of correspondence address, and bank and contact details. You must also first register in the population registry (Censo/DBSB). There is no online registration option — it must be done in person.
+Visit the Departamento di Impuesto (DIMP) office at Camacuri 2, Oranjestad (phone: +297 5227423). You'll need to provide civil status information, a valid identity document (passport), proof of correspondence address, and bank and contact details. You must also first register in the population registry (Censo/DBSB). There is no online registration option — it must be done in person. ([Departamento di Impuesto](https://www.impuesto.aw))
 
 ### Can I verify an Aruba Persoonsnummer online?
-No. Aruba does not currently offer a public online tool for Persoonsnummer verification. Individuals and entities must contact the DIMP directly for any verification needs. This can be a challenge for foreign businesses needing to validate counterparty tax numbers before transactions.
+No. Aruba does not currently offer a public online tool for Persoonsnummer verification. Individuals and entities must contact the DIMP directly for any verification needs. This can be a challenge for foreign businesses needing to validate counterparty tax numbers before transactions. ([OECD - Aruba TIN](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/aruba-tin.pdf))
 
 ### Is the Persoonsnummer required for importing household goods to Aruba?
-Yes. When importing goods (including household items when relocating), you must present your Persoonsnummer on the import declaration. Required documents include your passport, import declaration, original bill of lading, detailed inventory, Tax ID from the DIMP, and a certificate of registration from the Census Office (population register).
+Yes. When importing goods (including household items when relocating), you must present your Persoonsnummer on the import declaration. Required documents include your passport, import declaration, original bill of lading, detailed inventory, Tax ID from the DIMP, and a certificate of registration from the Census Office (population register). ([Departamento di Impuesto](https://www.impuesto.aw))
 
 ### Does the Persoonsnummer contain any encoded information?
-No. Unlike tax IDs in many other countries, the Aruba Persoonsnummer is a purely random 8-digit numerical code with no embedded information about entity type, region, or date. There is no checksum digit. This means the number cannot be validated algorithmically — verification must be done through the DIMP.
+No. Unlike tax IDs in many other countries, the Aruba Persoonsnummer is a purely random 8-digit numerical code with no embedded information about entity type, region, or date. There is no checksum digit. This means the number cannot be validated algorithmically — verification must be done through the DIMP. ([OECD - Aruba TIN](https://www.oecd.org/content/dam/oecd/en/topics/policy-issue-focus/aeoi/aruba-tin.pdf))
 
 ----
 **How [Lookuptax](https://lookuptax.com/) can help you ?**
