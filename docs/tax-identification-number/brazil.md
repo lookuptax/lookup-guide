@@ -130,7 +130,7 @@ You cannot receive PIX payments directly into a foreign bank account. To accept 
       },
       {
         "@type": "Question",
-        "name": "Can a foreign company issue a Nota Fiscal in Brazil?",
+        "name": "Can a foreign company issue a \"Nota Fiscal\" (Invoice) in Brazil?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "No, a foreign company cannot directly issue a Brazilian Nota Fiscal without a local CNPJ and Digital Certificate."
@@ -138,7 +138,7 @@ You cannot receive PIX payments directly into a foreign bank account. To accept 
       },
       {
         "@type": "Question",
-        "name": "Why do Brazilian clients complain about Withholding Tax?",
+        "name": "Why do Brazilian clients complain about \"Withholding Tax\" on my invoice?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Local buyers must pay significant withholding taxes (IRRF, CIDE, PIS/COFINS, ISS) totaling over 40% when paying unregistered foreign entities, making the service much more expensive."
@@ -162,7 +162,7 @@ You cannot receive PIX payments directly into a foreign bank account. To accept 
       },
       {
         "@type": "Question",
-        "name": "My CPF status is Suspended. What does this mean?",
+        "name": "My CPF status is \"Suspended\". What does this mean?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "A Suspended status usually means there is a data discrepancy or issue with voting obligations. It must be regularized via the Receita Federal website."

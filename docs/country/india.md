@@ -9,6 +9,73 @@ tags:
   - GST
 ---
 
+import JsonLd from '@site/src/components/JsonLd';
+
+<JsonLd>
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Goods and Services Tax (GST) in India",
+  "description": "GST rules and guidelines in India for businesses, covering registration, GSTIN format, tax rates (0% to 28%), e-invoicing via IRP, invoice format requirements, offenses, and penalties.",
+  "serviceType": "Tax Administration",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Central Board of Indirect Taxes & Customs",
+    "url": "https://www.cbic.gov.in/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  },
+  "url": "https://lookuptax.com/docs/country/india-gst-guidelines-indirect-tax-sales-tax-india"
+}
+`}
+</JsonLd>
+
+<JsonLd>
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to add digital signature on the e-invoice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. As per the 14th amendment to CGST Rules, digital signatures are not necessary on a GST invoice if it is an e-invoice. The IRP (Invoice Registration Portal) digitally signs the invoice after receiving the details from the supplier, authenticating the genuineness of the invoice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to generate e-invoices for B2C sales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. IRN generation is not required for B2C invoices. However, businesses with turnover exceeding 500 crores must display a dynamic QR code on B2C invoices from 1st December 2020. This QR code enables scan-and-pay functionality but is separate from the B2B e-invoicing mandate. If B2C invoices are uploaded to IRP, they will be rejected."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I cancel an IRN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can cancel an IRN within 24 hours of its generation. IRN cannot be cancelled if a valid or active e-way bill exists for the same. Note that you cannot delete or modify an IRN or invoice — it can only be cancelled. You must then issue a credit note and generate a new invoice with a new IRN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is partial cancellation allowed on an IRN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. E-Invoice or IRN cannot be partially cancelled. It must be fully cancelled."
+      }
+    }
+  ]
+}
+`}
+</JsonLd>
+
 <table>
   <thead>
     <tr>

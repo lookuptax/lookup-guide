@@ -9,6 +9,30 @@ tags:
   - GST
 ---
 
+import JsonLd from '@site/src/components/JsonLd';
+
+<JsonLd>
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": "Goods and Services Tax (GST) in Australia",
+  "description": "GST rules and guidelines in Australia for businesses, covering registration, tax invoicing, filing returns, and compliance with Australian tax laws.",
+  "serviceType": "Tax Administration",
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": "Australian Taxation Office",
+    "url": "https://www.ato.gov.au/"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Australia"
+  },
+  "url": "https://lookuptax.com/docs/country/australia-gst-guidelines-sales-tax-indirect-tax"
+}
+`}
+</JsonLd>
+
 <table>
   <thead>
     <tr>
