@@ -1712,41 +1712,38 @@
 # CATCH-ALL LOCALE REDIRECTS
 # Any unmatched locale path -> English equivalent (301)
 # These MUST come after all specific redirect rules
-# No force=true: real translated pages (static files) served normally
+# !! NO force=true here !! Real translated pages (static files) must be served.
+# Only pages that DON'T exist as static files will trigger these redirects.
 # ============================================
 
 # Locale catch-alls: redirect unmatched locale paths to English
-# force=true ensures broken Docusaurus fallback files don't override
+# NO force=true — real translated Docusaurus pages must be served, not redirected
 [[redirects]]
   from = "/es/*"
   to = "https://lookuptax.com/docs/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/de/*"
   to = "https://lookuptax.com/docs/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/pt/*"
   to = "https://lookuptax.com/docs/:splat"
   status = 301
-  force = true
 
 [[redirects]]
   from = "/zh-Hans/*"
   to = "https://lookuptax.com/docs/:splat"
   status = 301
-  force = true
 
 # Default English 404 for missing pages in root
+# NO force=true — real static files must be served normally
 [[redirects]]
   from = "/*"
   to = "/404.html"
   status = 404
-  force = true
 
 # ============================================
 # SECURITY HEADERS
